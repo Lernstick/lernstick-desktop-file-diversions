@@ -210,6 +210,7 @@ Keywords=Accounting;Stats;OpenDocument Spreadsheet;Chart;Microsoft Excel;Microso
 InitialPreference=5
 StartupWMClass=libreoffice-calc
 X-KDE-Protocols=file,http,ftp,webdav
+NoDisplay=true
 
 Actions=NewDocument;
 [Desktop Action NewDocument]
