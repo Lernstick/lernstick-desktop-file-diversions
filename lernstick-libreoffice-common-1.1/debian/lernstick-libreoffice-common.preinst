@@ -19,6 +19,10 @@ case "$1" in
         dpkg-divert --add --package lernstick-libreoffice-common --rename --divert \
             /usr/lib/libreoffice/share/xdg/startcenter.desktop.orig \
             /usr/lib/libreoffice/share/xdg/startcenter.desktop
+
+        dpkg-divert --add --package lernstick-libreoffice-common --rename --divert \
+            /usr/lib/libreoffice/share/xdg/xsltfilter.desktop.orig \
+            /usr/lib/libreoffice/share/xdg/xsltfilter.desktop
     ;;
 
     abort-upgrade)

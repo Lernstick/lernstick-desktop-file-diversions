@@ -27,6 +27,10 @@ case "$1" in
         dpkg-divert --remove --package lernstick-libreoffice-common --rename --divert \
             /usr/lib/libreoffice/share/xdg/startcenter.desktop.orig \
             /usr/lib/libreoffice/share/xdg/startcenter.desktop
+
+        dpkg-divert --remove --package lernstick-libreoffice-common --rename --divert \
+            /usr/lib/libreoffice/share/xdg/xsltfilter.desktop.orig \
+            /usr/lib/libreoffice/share/xdg/xsltfilter.desktop
     ;;
 
     *)
