@@ -1,0 +1,11 @@
+lernstick-evince-common (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 29 May 2015 22:50:19 +0200
+
+lernstick-evince-common (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 20:56:24 +0200

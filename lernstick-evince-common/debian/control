@@ -1,0 +1,12 @@
+Source: lernstick-evince-common
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-evince-common
+Architecture: all
+Depends: evince
+Description: Hides evince in KDE
+ We hide the desktop entry of evince in KDE.
