@@ -1,4 +1,4 @@
-lernstick-libreoffice-common (1.1-1) unstable; urgency=medium
+lernstick-libreoffice-common (1.1-1) lernstick-8; urgency=medium
 
   * added diversion for xsltfilter 
 
