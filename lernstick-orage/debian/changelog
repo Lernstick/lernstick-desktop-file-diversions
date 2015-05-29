@@ -1,0 +1,11 @@
+lernstick-orage (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 29 May 2015 22:37:58 +0200
+
+lernstick-orage (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 14 Jan 2013 19:31:26 +0100
