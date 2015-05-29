@@ -1,0 +1,13 @@
+Source: lernstick-calibre
+Section: text
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-calibre
+Architecture: all
+Depends: calibre
+Description: Changes the menu entry of calibre
+ We hide the standalone ebook viewer because it is also available from within
+ calibre.
