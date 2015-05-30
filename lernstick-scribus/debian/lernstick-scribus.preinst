@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-scribus-wheezy
+# preinst script for lernstick-scribus
 #
 # see: dh_installdeb(1)
 
@@ -16,10 +16,10 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-scribus-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-scribus --rename --divert \
             /usr/share/applications/scribus.desktop.orig \
             /usr/share/applications/scribus.desktop
-        dpkg-divert --add --package lernstick-scribus-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-scribus --rename --divert \
             /usr/share/mimelnk/application/vnd.scribus.desktop.orig \
             /usr/share/mimelnk/application/vnd.scribus.desktop
     ;;
