@@ -1,0 +1,13 @@
+Source: lernstick-systemsettings
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-systemsettings
+Architecture: all
+Depends: systemsettings
+Description: Hides the menu entry of systemsettings
+ We hide the menu entry of systemsettings. It is available
+ in the system tab of the kickoff menu.
