@@ -1,0 +1,12 @@
+Source: lernstick-pymol
+Section: science
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-pymol
+Architecture: all
+Depends: pymol
+Description: Changes the menu entry of pymol
+ We add some L10n to the pymol desktop file

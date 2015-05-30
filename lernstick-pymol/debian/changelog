@@ -1,0 +1,17 @@
+lernstick-pymol (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 21:09:18 +0200
+
+lernstick-pymol (1.1-1) unstable; urgency=low
+
+  * fixed name in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 08 Sep 2012 18:48:32 +0200
+
+lernstick-pymol (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 08 Sep 2012 18:43:58 +0200
