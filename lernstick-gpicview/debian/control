@@ -1,0 +1,12 @@
+Source: lernstick-gpicview
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gpicview
+Architecture: all
+Depends: gpicview
+Description: Shows gpicview only when running LXDE
+ We show gpicview only when running an LXDE session.
