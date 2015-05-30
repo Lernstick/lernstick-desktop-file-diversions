@@ -1,0 +1,24 @@
+lernstick-hugin (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 20:57:30 +0200
+
+lernstick-hugin (1.2-1) unstable; urgency=low
+
+  * synced GenericName entry of lens calibration tool with original
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 23 Nov 2011 12:05:18 +0100
+
+lernstick-hugin (1.1-1) unstable; urgency=low
+
+  * added Russian translation for lens calibration tool
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 23 Nov 2011 11:52:54 +0100
+
+lernstick-hugin (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
