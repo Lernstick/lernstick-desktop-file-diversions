@@ -1,0 +1,12 @@
+Source: lernstick-arandr
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-arandr
+Architecture: all
+Depends: arandr
+Description: Do not show arandr in KDE
+ We hide arandr in KDE. It is not needed there.
