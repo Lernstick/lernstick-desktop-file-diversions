@@ -1,0 +1,12 @@
+Source: lernstick-mate-terminal
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-mate-terminal
+Architecture: all
+Depends: mate-terminal
+Description: Shows mate-terminal only when running MATE
+ We show mate-terminal only when running a MATE session.
