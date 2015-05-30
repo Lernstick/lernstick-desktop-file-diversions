@@ -1,0 +1,12 @@
+Source: lernstick-mypaint
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-mypaint
+Architecture: all
+Depends: mypaint
+Description: Added German L10n to desktop file.
+ We added a German translation to the desktop file.
