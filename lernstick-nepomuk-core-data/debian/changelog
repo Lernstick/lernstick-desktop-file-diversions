@@ -1,3 +1,9 @@
+lernstick-nepomuk-core-data (4) lernstick-8; urgency=medium
+
+  * actually hide nepomuk backup
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 15:29:14 +0200
+
 lernstick-nepomuk-core-data (3) lernstick-8; urgency=medium
 
   * also divert nepomukbackup desktop file

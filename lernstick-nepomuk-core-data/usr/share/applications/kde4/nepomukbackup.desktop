@@ -52,3 +52,4 @@ Exec=nepomukbackup
 Icon=nepomuk
 Type=Application
 Categories=Qt;KDE;System;Utility;Archiving;
+NoDisplay=true
