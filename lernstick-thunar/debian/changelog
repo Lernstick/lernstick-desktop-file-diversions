@@ -1,0 +1,23 @@
+lernstick-thunar (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 14:12:37 +0200
+
+lernstick-thunar (1.2-1) unstable; urgency=low
+
+  * hide thunar bulk rename in KDE (we have krename for that)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 29 May 2013 14:39:18 +0200
+
+lernstick-thunar (1.1-1) unstable; urgency=low
+
+  * show thunar and its settings only when running XFCE4
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 14 Jan 2013 20:10:57 +0100
+
+lernstick-thunar (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 14 Jan 2013 19:31:26 +0100

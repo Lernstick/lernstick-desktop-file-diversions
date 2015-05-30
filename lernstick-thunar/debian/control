@@ -1,0 +1,15 @@
+Source: lernstick-thunar
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-thunar
+Architecture: all
+Depends: thunar
+Description: Changes the menu entries of thunar
+ We show Thunar and its settings only in XFCE as we have different file
+ managers in other desktop environments.
+ We hide Thunar Bulk rename in KDE as we have Krename there.
+ We fix the German translation of the bulk rename desktop file.
