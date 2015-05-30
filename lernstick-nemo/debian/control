@@ -1,0 +1,12 @@
+Source: lernstick-nemo
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-nemo
+Architecture: all
+Depends: nemo
+Description: Shows nemo only when running Cinnamon
+ We show nemo only when running a Cinnamon session.
