@@ -1,0 +1,12 @@
+Source: lernstick-nautilus
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-nautilus
+Architecture: all
+Depends: nautilus
+Description: Shows nautilus only when running GNOME
+ We show nautilus only when running a GNOME session.
