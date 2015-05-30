@@ -1,12 +1,13 @@
-Source: lernstick-hamster-applet-wheezy
+Source: lernstick-hamster-applet
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
-Package: lernstick-hamster-applet-wheezy
+Package: lernstick-hamster-applet
 Architecture: all
 Depends: hamster-applet
 Description: Changes the menu entry of hamster-applet
- We show the hamster applet only it in GNOME and hide the overview.
+ We show the hamster applet only in GNOME and hide the overview because it can
+ be called directly from the applet.

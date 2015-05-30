@@ -89,4 +89,4 @@ Comment[zh_TW]=hamster 時間追蹤程式的概覽視窗
 Icon=hamster-applet
 Exec=/usr/bin/hamster-time-tracker overview
 Categories=GNOME;GTK;Utility;
-OnlyShowIn=GNOME;
+NoDisplay=true
