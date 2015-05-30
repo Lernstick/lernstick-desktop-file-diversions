@@ -1,0 +1,12 @@
+Source: lernstick-pcmanfm
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-pcmanfm
+Architecture: all
+Depends: pcmanfm
+Description: Shows pcmanfm only when running LXDE
+ We show pcmanfm only when running an LXDE session.
