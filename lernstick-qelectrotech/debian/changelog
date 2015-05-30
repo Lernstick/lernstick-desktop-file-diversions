@@ -1,0 +1,11 @@
+lernstick-qelectrotech (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 21:03:25 +0200
+
+lernstick-qelectrotech (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 08 Sep 2012 20:37:25 +0200
