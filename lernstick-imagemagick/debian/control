@@ -1,0 +1,12 @@
+Source: lernstick-imagemagick
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-imagemagick
+Architecture: all
+Depends: imagemagick
+Description: Changes the menu entry of imagemagick
+ We hide the display.im6 desktop file.
