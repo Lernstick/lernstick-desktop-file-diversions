@@ -1,0 +1,11 @@
+lernstick-kcalc (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 23:39:46 +0200
+
+lernstick-kcalc-wheezy (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 23 Apr 2013 16:16:39 +0200
