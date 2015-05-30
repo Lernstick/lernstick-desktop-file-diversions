@@ -1,0 +1,17 @@
+lernstick-gedit (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 16:29:10 +0200
+
+lernstick-gedit (1.1-1) unstable; urgency=low
+
+  * updated to Debian 7
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 31 Mar 2013 17:41:18 +0200
+
+lernstick-gedit (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 04 Feb 2010 18:11:29 +0100
