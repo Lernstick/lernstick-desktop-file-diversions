@@ -1,0 +1,12 @@
+Source: lernstick-ghex
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-ghex
+Architecture: all
+Depends: ghex
+Description: Hides ghex in KDE
+ We hide ghex in KDE as we have octeta there.
