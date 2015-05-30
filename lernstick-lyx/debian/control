@@ -1,0 +1,12 @@
+Source: lernstick-lyx
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-lyx
+Architecture: all
+Depends: lyx
+Description: Changes the menu entry of lyx
+ We add a German translation of the menu entry
