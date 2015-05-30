@@ -1,0 +1,12 @@
+Source: lernstick-eog
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-eog
+Architecture: any
+Depends: eog
+Description: Hides eog in KDE
+ We hide eog in KDE as we have gwenview there.
