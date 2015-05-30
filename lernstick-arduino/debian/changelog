@@ -1,0 +1,11 @@
+lernstick-arduino (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 19:53:31 +0200
+
+lernstick-arduino (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 30 Mar 2013 15:20:40 +0100

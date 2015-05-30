@@ -1,0 +1,12 @@
+Source: lernstick-arduino
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-arduino
+Architecture: all
+Depends: arduino
+Description: Fixes the generic description of Arduino.
+ We fix the desktop file of Arduino.
