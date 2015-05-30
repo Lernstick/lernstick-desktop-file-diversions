@@ -1,0 +1,12 @@
+Source: lernstick-r-base-core
+Section: gnu-r
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-r-base-core
+Architecture: all
+Depends: r-base-core
+Description: Changes the menu entry of r-base-core
+ We hide the R desktop file, we supply cantor as the preferred GUI instead.
