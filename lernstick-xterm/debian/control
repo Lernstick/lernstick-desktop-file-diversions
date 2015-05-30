@@ -1,0 +1,12 @@
+Source: lernstick-xterm
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xterm
+Architecture: all
+Depends: xterm
+Description: Changes the menu entry of xterm
+ Hides the start menu entries of xterm.
