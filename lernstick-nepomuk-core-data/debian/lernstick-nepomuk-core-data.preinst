@@ -17,6 +17,9 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-nepomuk-core-data --rename --divert \
+            /usr/share/applications/kde4/nepomukbackup.desktop.orig \
+            /usr/share/applications/kde4/nepomukbackup.desktop
+        dpkg-divert --add --package lernstick-nepomuk-core-data --rename --divert \
             /usr/share/applications/kde4/nepomukcleaner.desktop.orig \
             /usr/share/applications/kde4/nepomukcleaner.desktop
     ;;
