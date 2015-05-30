@@ -1,0 +1,12 @@
+Source: lernstick-icedtea-netx
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-icedtea-netx
+Architecture: amd64
+Depends: icedtea-netx
+Description: Enforces antialiased fonts in control panel
+ We enforce the usage of antialiased fonts in the IcedTea Web Control Panel.
