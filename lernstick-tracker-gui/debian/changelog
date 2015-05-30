@@ -1,0 +1,11 @@
+lernstick-tracker-gui (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 14:54:47 +0200
+
+lernstick-tracker-gui (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 19 Dec 2012 17:13:47 +0100

@@ -1,0 +1,12 @@
+Source: lernstick-tracker-gui
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-tracker-gui
+Architecture: all
+Depends: tracker-gui
+Description: Shows tracker-gui only when running GNOME
+ We show tracker-gui only when running an GNOME session.
