@@ -219,3 +219,4 @@ X-GNOME-Bugzilla-Product=nautilus
 X-GNOME-Bugzilla-Component=general
 X-GNOME-Bugzilla-Version=3.14.1
 X-GNOME-UsesNotifications=true
+OnlyShowIn=GNOME;

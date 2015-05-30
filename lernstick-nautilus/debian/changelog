@@ -1,3 +1,9 @@
+lernstick-nautilus (2) lernstick-8; urgency=medium
+
+  * actually hide nautilus
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 14:37:21 +0200
+
 lernstick-nautilus (1) lernstick-8; urgency=low
 
   * Initial release
