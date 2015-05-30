@@ -19,6 +19,9 @@ case "$1" in
         dpkg-divert --add --package lernstick-calibre --rename --divert \
             /usr/share/applications/ebook-viewer.desktop.orig \
             /usr/share/applications/ebook-viewer.desktop
+        dpkg-divert --add --package lernstick-calibre --rename --divert \
+            /usr/share/applications/lrfviewer.desktop.orig \
+            /usr/share/applications/lrfviewer.desktop
     ;;
 
     abort-upgrade)
