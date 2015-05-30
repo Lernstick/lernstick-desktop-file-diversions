@@ -1,0 +1,11 @@
+lernstick-leafpad (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 15:07:11 +0200
+
+lernstick-leafpad (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 19 Dec 2012 17:13:47 +0100

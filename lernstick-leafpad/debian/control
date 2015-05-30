@@ -1,0 +1,12 @@
+Source: lernstick-leafpad
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-leafpad
+Architecture: all
+Depends: leafpad
+Description: Shows leafpad only when running LXDE
+ We show leafpad only when running an LXDE session.
