@@ -1,0 +1,12 @@
+Source: lernstick-galculator
+Section: math
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-galculator
+Architecture: all
+Depends: galculator
+Description: Shows galculator only when running LXDE
+ We show galculator only when running an LXDE session.
