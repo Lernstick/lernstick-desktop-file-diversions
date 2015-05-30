@@ -1,0 +1,13 @@
+Source: lernstick-vim-common
+Section: editors
+Priority: important
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-vim-common
+Architecture: any
+Depends: vim-common
+Description: Changes the vim desktop file
+ We hide vim from the start menus. It is a terminal application and should stay
+ there.
