@@ -1,0 +1,18 @@
+lernstick-software-properties-gtk (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 19:28:10 +0200
+
+lernstick-software-properties-gtk (1.0-2) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 14:45:44 +0200
+
+lernstick-software-properties-gtk (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

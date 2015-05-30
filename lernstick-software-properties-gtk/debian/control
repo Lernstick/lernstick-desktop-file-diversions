@@ -1,0 +1,13 @@
+Source: lernstick-software-properties-gtk
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-software-properties-gtk
+Architecture: any
+Depends: software-properties-gtk
+Description: Hides the software-properties-gtk menu entry.
+ We hide the software-properties-gtk menu entry.
+ It is available via synaptic.
