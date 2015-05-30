@@ -1,0 +1,12 @@
+Source: lernstick-gnome-calculator
+Section: math
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-calculator
+Architecture: all
+Depends: gnome-calculator
+Description: Shows gnome-calculator only when running GNOME
+ We show gnome-calculator only when running a GNOME session.
