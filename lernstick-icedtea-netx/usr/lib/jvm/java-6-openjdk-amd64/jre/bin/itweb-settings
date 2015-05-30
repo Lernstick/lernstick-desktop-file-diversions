@@ -2,7 +2,7 @@
 
 JAVA=/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java
 LAUNCHER_BOOTCLASSPATH=-Xbootclasspath/a:/usr/share/icedtea-web/netx.jar:
-LAUNCHER_FLAGS="-Xms8m -Dawt.useSystemAAFontSettings=on"
+LAUNCHER_FLAGS=-Xms8m
 CLASSNAME=net.sourceforge.jnlp.controlpanel.CommandLine
 BINARY_LOCATION=/usr/bin/itweb-settings
 SPLASH_LOCATION=/usr/share/icedtea-web/javaws_splash.png
@@ -89,6 +89,8 @@ k=$((k+1))
 COMMAND[k]="-Djava.security.manager"
 k=$((k+1))
 COMMAND[k]="-Djava.security.policy=/etc/icedtea-web/javaws.policy"
+k=$((k+1))
+COMMAND[k]="-Dawt.useSystemAAFontSettings=on"
 k=$((k+1))
 COMMAND[k]="${CLASSNAME}"
 k=$((k+1))
