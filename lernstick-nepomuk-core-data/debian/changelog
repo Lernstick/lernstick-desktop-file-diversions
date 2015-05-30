@@ -1,0 +1,17 @@
+lernstick-nepomuk-core-data (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 15:18:01 +0200
+
+lernstick-nepomuk-core-data (1.0-2) unstable; urgency=low
+
+  * fixed file diversion 
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 29 May 2013 14:59:28 +0200
+
+lernstick-nepomuk-core-data (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 29 May 2013 14:53:40 +0200

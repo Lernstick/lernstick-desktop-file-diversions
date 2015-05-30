@@ -1,0 +1,13 @@
+Source: lernstick-nepomuk-core-data
+Section: libs
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-nepomuk-core-data
+Architecture: any
+Depends: nepomuk-core-data
+Description: Hides the nepomuk cleaner menu entry
+ We hide the nepomuk cleaner menu entry because we have
+ nepomuk disabled by default.
