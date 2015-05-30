@@ -1,0 +1,18 @@
+lernstick-gnome-system-tools (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 18:38:59 +0200
+
+lernstick-gnome-system-tools (1.1-1) unstable; urgency=low
+
+  * removed network entry from system category
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 23 Sep 2011 11:50:43 +0200
+
+lernstick-gnome-system-tools (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

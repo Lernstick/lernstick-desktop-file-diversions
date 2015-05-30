@@ -1,0 +1,12 @@
+Source: lernstick-gnome-system-tools
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-system-tools
+Architecture: any
+Depends: gnome-system-tools
+Description: Changes the visibility of some GNOME system tools
+ We only show the network tool in KDE.
