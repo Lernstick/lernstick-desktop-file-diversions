@@ -1,0 +1,11 @@
+lernstick-xfce4-taskmanager (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 16:10:48 +0200
+
+lernstick-xfce4-taskmanager (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 14 Jan 2013 19:58:22 +0100

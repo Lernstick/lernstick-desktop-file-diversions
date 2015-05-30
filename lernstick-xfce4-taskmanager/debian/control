@@ -1,0 +1,12 @@
+Source: lernstick-xfce4-taskmanager
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xfce4-taskmanager
+Architecture: all
+Depends: xfce4-taskmanager
+Description: Shows xfce4-taskmanager only when running XFCE
+ We show xfce4-taskmanager only when running an XFCE session.
