@@ -25,6 +25,9 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-software-properties-gtk --rename --divert \
+            /usr/share/applications/software-properties-gnome.desktop.orig \
+            /usr/share/applications/software-properties-gnome.desktop
+        dpkg-divert --remove --package lernstick-software-properties-gtk --rename --divert \
             /usr/share/applications/software-properties-gtk.desktop.orig \
             /usr/share/applications/software-properties-gtk.desktop
     ;;

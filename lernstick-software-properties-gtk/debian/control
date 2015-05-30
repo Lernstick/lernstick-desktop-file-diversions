@@ -8,6 +8,5 @@ Standards-Version: 3.7.3
 Package: lernstick-software-properties-gtk
 Architecture: any
 Depends: software-properties-gtk
-Description: Hides the software-properties-gtk menu entry.
- We hide the software-properties-gtk menu entry.
- It is available via synaptic.
+Description: Hides the menu entries.
+ We hide the menu entries. They are available via synaptic.
