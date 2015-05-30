@@ -1,0 +1,13 @@
+Source: lernstick-speedcrunch
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-speedcrunch
+Architecture: all
+Depends: speedcrunch
+Description: Changes the menu entry of speedcrunch
+ We move the menu entry of speedcrunch to a better place and add a German
+ translation of the generic description.

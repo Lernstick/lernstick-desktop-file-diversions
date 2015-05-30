@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SpeedCrunch
+Comment=High precision calculator
+Exec=speedcrunch
+Icon=speedcrunch
+GenericName=Calculator
+GenericName[de]=Taschenrechner
+Terminal=false
+Type=Application
+Categories=Qt;Education;Math;

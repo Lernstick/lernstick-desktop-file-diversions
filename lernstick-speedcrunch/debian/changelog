@@ -1,0 +1,17 @@
+lernstick-speedcrunch (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 30 May 2015 23:31:54 +0200
+
+lernstick-speedcrunch (1.1-1) unstable; urgency=low
+
+  * removed Comment entry from desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:46:25 +0200
+
+lernstick-speedcrunch (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 17 Nov 2010 16:07:15 +0100
