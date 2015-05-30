@@ -1,0 +1,12 @@
+Source: lernstick-openjdk-7-jre
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-openjdk-7-jre
+Architecture: any
+Depends: openjdk-7-jre
+Description: Hides the policytool menu entry
+ We hide the policytool menu entry (nobody ever uses this).
