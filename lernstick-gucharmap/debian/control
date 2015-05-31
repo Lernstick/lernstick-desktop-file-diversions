@@ -1,0 +1,12 @@
+Source: lernstick-gucharmap
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gucharmap
+Architecture: all
+Depends: gucharmap
+Description: Changes the menu entry of gucharmap
+ We hide gucharmap in KDE. Whe have kcharselect there.
