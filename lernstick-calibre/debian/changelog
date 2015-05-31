@@ -1,3 +1,9 @@
+lernstick-calibre (4) lernstick-8; urgency=medium
+
+  * fixed translation in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 12:23:30 +0200
+
 lernstick-calibre (3) lernstick-8; urgency=medium
 
   * added divert for lrfviewer
