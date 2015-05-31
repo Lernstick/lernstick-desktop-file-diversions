@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=FSlint
+GenericName=File system clean-up toolkit
+GenericName[de]=Werkzeuge zum Aufräumen des Dateisystems
+Comment=File system clean-up toolkit
+Comment[de]=Werkzeuge zum Aufräumen des Dateisystems
+Exec=fslint-gui
+Terminal=false
+Type=Application
+Icon=fslint_icon
+Categories=System;Filesystem;GTK;;Utility;
+X-Ubuntu-Gettext-Domain=fslint

@@ -1,0 +1,12 @@
+Source: lernstick-fslint
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fslint
+Architecture: all
+Depends: fslint
+Description: Improve L10n of desktop file.
+ We improve the desktop file translation.
