@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Exec=krename -caption "%c" %i %m %U
+Icon=krename.png
+DocPath=krename/index.html
+Comment=A batch renamer
+Comment[de]=Ein Batch Umbenenner
+Terminal=false
+Name=KRename
+GenericName=A batch renamer
+GenericName[de]=Mehrere Dateien umbenennen
+Categories=Qt;KDE;Utility;
