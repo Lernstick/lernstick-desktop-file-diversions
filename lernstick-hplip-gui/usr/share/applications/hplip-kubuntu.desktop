@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=HPLIP Toolbox
+GenericName=HP Printer Toolbox
+GenericName[de]=HP-Drucker-Verwaltung
+Comment=HP Printing System Control Center
+Exec=/usr/bin/hp-toolbox
+Icon=/usr/share/hplip/data/images/256x256/hp_logo.png
+Categories=Application;Settings;
+Terminal=false
+Type=Application
+StartupNotify=false
+OnlyShowIn=KDE;

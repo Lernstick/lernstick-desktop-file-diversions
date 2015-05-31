@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=HP System Tray Service
+GenericName=HP Printer Status Applet
+GenericName[de]=HP-Drucker-Statusapplet
+Exec=hp-systray -x
+Icon=/usr/share/hplip/data/images/256x256/hp_logo.png
+Categories=Application;Settings;
+StartupNotify=false

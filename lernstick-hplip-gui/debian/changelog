@@ -1,0 +1,37 @@
+lernstick-hplip-gui (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 10:47:41 +0200
+
+lernstick-hplip-gui (1.2-1) unstable; urgency=low
+
+  * moved sytray entry from autostart to applications
+  * fixed HP icon
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 01 Apr 2013 14:13:09 +0200
+
+lernstick-hplip-gui (1.1-1) unstable; urgency=low
+
+  * added menu entry for hp-setup with administrator rights
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 21 Jun 2011 11:10:19 +0200
+
+lernstick-hplip-gui (1.0-3) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 14:22:45 +0200
+
+lernstick-hplip-gui (1.0-2) unstable; urgency=low
+
+  * Fixed diversions
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 07 Jul 2009 11:03:08 +0200
+
+lernstick-hplip-gui (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
