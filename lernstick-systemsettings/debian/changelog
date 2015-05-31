@@ -1,3 +1,9 @@
+lernstick-systemsettings (3) lernstick-8; urgency=medium
+
+  * removed "wheezy" from maintainer scripts 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 12:55:05 +0200
+
 lernstick-systemsettings (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

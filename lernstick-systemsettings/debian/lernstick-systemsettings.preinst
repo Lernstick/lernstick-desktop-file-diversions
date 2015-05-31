@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-systemsettings-wheezy
+# preinst script for lernstick-systemsettings
 #
 # see: dh_installdeb(1)
 
@@ -16,10 +16,10 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-systemsettings-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-systemsettings --rename --divert \
             /usr/share/applications/kde4/systemsettings.desktop.orig \
             /usr/share/applications/kde4/systemsettings.desktop
-        dpkg-divert --add --package lernstick-systemsettings-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-systemsettings --rename --divert \
             /usr/share/applications/kde4/kdesystemsettings.desktop.orig \
             /usr/share/applications/kde4/kdesystemsettings.desktop
     ;;

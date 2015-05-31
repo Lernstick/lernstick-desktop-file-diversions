@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for lernstick-systemsettings-wheezy
+# postrm script for lernstick-systemsettings
 #
 # see: dh_installdeb(1)
 
@@ -24,10 +24,10 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package lernstick-systemsettings-wheezy --rename --divert \
+        dpkg-divert --remove --package lernstick-systemsettings --rename --divert \
             /usr/share/applications/kde4/systemsettings.desktop.orig \
             /usr/share/applications/kde4/systemsettings.desktop
-        dpkg-divert --remove --package lernstick-systemsettings-wheezy --rename --divert \
+        dpkg-divert --remove --package lernstick-systemsettings --rename --divert \
             /usr/share/applications/kde4/kdesystemsettings.desktop.orig \
             /usr/share/applications/kde4/kdesystemsettings.desktop
     ;;
