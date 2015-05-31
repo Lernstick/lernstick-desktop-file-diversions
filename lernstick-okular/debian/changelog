@@ -1,0 +1,11 @@
+lernstick-okular (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 14:02:33 +0200
+
+lernstick-okular (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 18:38:46 +0100

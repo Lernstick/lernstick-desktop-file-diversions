@@ -1,0 +1,13 @@
+Source: lernstick-okular
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-okular
+Architecture: any
+Depends: okular
+Description: Changes the menu entry of okular
+ We remove the okular menu entry from the graphics category. It is enough to
+ have it in the office category.
