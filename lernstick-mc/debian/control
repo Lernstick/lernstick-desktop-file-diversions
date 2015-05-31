@@ -1,0 +1,12 @@
+Source: lernstick-mc
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-mc
+Architecture: all
+Depends: mc
+Description: Hides the menu entry of mc
+ We hide the menu entry of mc.
