@@ -1,0 +1,30 @@
+lernstick-tuxpaint (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 14:18:28 +0200
+
+lernstick-tuxpaint (1.2-2) unstable; urgency=low
+
+  * [d087] fixed architecture in control file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 30 Oct 2014 17:51:36 +0100
+
+lernstick-tuxpaint (1.2-1) unstable; urgency=low
+
+  * synced with new upstream release 0.9.22
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 30 Oct 2014 17:31:59 +0100
+
+lernstick-tuxpaint (1.1-1) unstable; urgency=low
+
+  * disabled printing (because it is horribly broken)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 13 Jan 2012 12:18:05 +0100
+
+lernstick-tuxpaint (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

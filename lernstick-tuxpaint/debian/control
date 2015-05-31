@@ -1,0 +1,14 @@
+Source: lernstick-tuxpaint
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-tuxpaint
+Architecture: all
+Depends: tuxpaint
+Description: Changes the menu entry of tuxpaint
+ We move tuxpaint from the menu category "Education" to "Graphics", start
+ tuxpaint fullscreen, disable printing (because it is horribly broken)
+ and save the pictures in ~/Bilder/TuxPaint.
