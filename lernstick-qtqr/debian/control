@@ -1,0 +1,12 @@
+Source: lernstick-qtqr
+Section: python
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-qtqr
+Architecture: all
+Depends: qtqr
+Description: Add a generic description to desktop file.
+ We add a generic description to the qtqr desktop file.
