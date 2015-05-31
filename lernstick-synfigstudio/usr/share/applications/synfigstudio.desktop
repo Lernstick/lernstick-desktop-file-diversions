@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Synfig Studio
+GenericName=Vector-based 2D animation package
+GenericName[de]=Vektorbasiertes 2D-Animationspaket
+Comment=Create and edit 2D animations and compositions
+Comment[es]=Crea y edita composiciones y animaciones 2D
+Comment[fr]=Créer et éditer des animations et compositions 2D
+Comment[ru]=Создание двухмерной анимации
+Exec=synfigstudio %F
+Terminal=false
+Type=Application
+Icon=synfig_icon
+Categories=GTK;Graphics;2DGraphics;VectorGraphics;
+StartupNotify=true
+MimeType=application/x-sif;
