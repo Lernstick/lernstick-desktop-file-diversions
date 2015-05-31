@@ -1,0 +1,12 @@
+Source: lernstick-kturtle
+Section: devel
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kturtle
+Architecture: any
+Depends: kturtle
+Description: Changes the menu entry of kturtle
+ We move the kturtle menu entry from the edu to the development category.
