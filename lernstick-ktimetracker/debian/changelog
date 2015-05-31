@@ -1,0 +1,17 @@
+lernstick-ktimetracker (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 11:21:50 +0200
+
+lernstick-ktimetracker (1.0-2) unstable; urgency=low
+
+  * fixed desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 30 Nov 2010 12:19:38 +0100
+
+lernstick-ktimetracker (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 18:38:46 +0100
