@@ -1,0 +1,12 @@
+Source: lernstick-kvkbd
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kvkbd
+Architecture: all
+Depends: kvkbd
+Description: Adds German translations to the desktop file
+ We add a German translation of the desktop file

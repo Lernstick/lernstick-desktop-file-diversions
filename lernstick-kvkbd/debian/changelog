@@ -1,0 +1,29 @@
+lernstick-kvkbd (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 11:49:45 +0200
+
+lernstick-kvkbd (1.3-1) unstable; urgency=low
+
+  * disabled startup notify
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Apr 2013 14:15:51 +0200
+
+lernstick-kvkbd (1.2-1) unstable; urgency=low
+
+  * revert last change, because gok sucks so much we also use kvkbd in GNOME
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 21:25:40 +0200
+
+lernstick-kvkbd (1.1-1) unstable; urgency=low
+
+  * only show in KDE
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 09:55:51 +0200
+
+lernstick-kvkbd (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 17 Nov 2010 16:07:15 +0100
