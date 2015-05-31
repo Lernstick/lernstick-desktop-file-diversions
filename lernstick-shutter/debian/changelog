@@ -1,0 +1,18 @@
+lernstick-shutter (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 11:07:37 +0200
+
+lernstick-shutter (1.1-1) unstable; urgency=low
+
+  * removed Comment entry from desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:12:21 +0200
+
+lernstick-shutter (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

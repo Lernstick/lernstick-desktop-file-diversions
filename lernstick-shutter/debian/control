@@ -1,0 +1,13 @@
+Source: lernstick-shutter
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-shutter
+Architecture: all
+Depends: shutter
+Description: Changes the menu entry of shutter
+ We move the menu entry from utilities to graphics, add
+ a generic name and a German translation.
