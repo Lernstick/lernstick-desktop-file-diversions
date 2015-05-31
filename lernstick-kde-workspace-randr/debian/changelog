@@ -1,0 +1,18 @@
+lernstick-kde-workspace-randr (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 13:17:13 +0200
+
+lernstick-kdebase-workspace-bin (1.1-1) unstable; urgency=low
+
+  * also start kcmshell in addition to krandrtray
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 08 Sep 2011 12:28:53 +0200
+
+lernstick-kdebase-workspace-bin (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
