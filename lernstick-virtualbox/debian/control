@@ -1,0 +1,14 @@
+Source: lernstick-virtualbox
+Section: misc
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-virtualbox
+Architecture: any
+Depends: virtualbox
+Description: Changes the menu entry of virtualbox
+ We remove virtualbox from the menu category "System" (it is also
+ available in emulators). We also add a small script to easily
+ start VirtualBox instances from harddrive.
