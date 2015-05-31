@@ -2,7 +2,7 @@
 Type=Application
 Name=Xournal
 GenericName=Notetaking, sketching and journal keeping
-GenericName[de]=Notizen, Skizzieren und Protokolle
+GenericName[de]=Notizen, Skizzen und Protokolle
 Comment=Take handwritten notes
 Comment[de]=Notizen, Skizzen und Protokolle
 Comment[ca]=Preneu notes a mà
@@ -11,4 +11,4 @@ Exec=xournal %f
 StartupNotify=true
 MimeType=application/x-xoj;application/pdf;
 Icon=xournal
-Categories=GNOME;GTK;Office;TextEditor;
+Categories=GNOME;GTK;Office;
