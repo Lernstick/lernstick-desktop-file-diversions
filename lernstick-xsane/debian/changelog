@@ -1,0 +1,18 @@
+lernstick-xsane (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 14:57:07 +0200
+
+lernstick-xsane (1.1-1) unstable; urgency=low
+
+  * added German translation of Comment field in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:22:25 +0200
+
+lernstick-xsane (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

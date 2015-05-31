@@ -1,0 +1,13 @@
+Source: lernstick-xsane
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xsane
+Architecture: all
+Depends: xsane
+Description: Changes the menu entry of xsane
+ We change the name to just XSane and add a GenericName for
+ some locales.
