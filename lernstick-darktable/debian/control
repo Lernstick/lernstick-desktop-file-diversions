@@ -1,0 +1,13 @@
+Source: lernstick-darktable
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-darktable
+Architecture: all
+Depends: darktable
+Description: Change German translation of GenericName.
+ We change the German translation of the GenericName so that it matches digikam and
+ rawtherapee.
