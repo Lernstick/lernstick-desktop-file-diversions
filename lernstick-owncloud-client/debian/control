@@ -1,0 +1,12 @@
+Source: lernstick-owncloud-client
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-owncloud-client
+Architecture: all
+Depends: owncloud-client
+Description: Improve L10n of desktop file
+ We improve the translation of the desktop file.

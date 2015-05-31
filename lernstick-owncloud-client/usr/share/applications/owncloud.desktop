@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Utility;X-SuSE-SyncUtility;
+Type=Application
+Exec=owncloud
+Name=ownCloud desktop client 
+Name[de]=ownCloud-Desktop-Client 
+GenericName=Folder Sync
+GenericName[de]=Verzeichnis-Synchronisierung
+Icon=owncloud
+Keywords=ownCloud;syncing;file;sharing;
