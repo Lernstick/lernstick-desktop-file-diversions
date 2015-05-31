@@ -1,3 +1,9 @@
+lernstick-ktimetracker (3) lernstick-8; urgency=medium
+
+  * removed more categories
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 31 May 2015 11:27:43 +0200
+
 lernstick-ktimetracker (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
