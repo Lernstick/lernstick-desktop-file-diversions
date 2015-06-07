@@ -1,0 +1,12 @@
+Source: lernstick-pdfshuffler
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-pdfshuffler
+Architecture: all
+Depends: pdfshuffler
+Description: Add a GenericName field to desktop file.
+ We add a GenericName field to the dekstop file.
