@@ -1,0 +1,12 @@
+Source: lernstick-fritzing
+Section: electronics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fritzing
+Architecture: all
+Depends: fritzing
+Description: Add a German translation of the GenericName desktop file entry
+ We add a German translation of the GenericName desktop file entry.
