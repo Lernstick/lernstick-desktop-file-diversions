@@ -1,0 +1,12 @@
+Source: lernstick-x11vnc
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-x11vnc
+Architecture: any
+Depends: x11vnc
+Description: Hides the menu entry of x11vnc
+ We hide the menu entry of x11vnc.
