@@ -1,0 +1,13 @@
+Source: lernstick-digikam
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-digikam
+Architecture: any
+Depends: digikam
+Description: Changes the menu entry of digikam
+ We change the GenericDescription of digikam to match with darktable and
+ rawtherapee.
