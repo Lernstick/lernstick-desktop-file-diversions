@@ -1,0 +1,23 @@
+lernstick-bluedevil (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 07 Jun 2015 15:28:56 +0200
+
+lernstick-bluedevil (1.2-1) unstable; urgency=low
+
+  * only show in KDE
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 03 Apr 2012 21:38:18 +0200
+
+lernstick-bluedevil (1.1-1) unstable; urgency=low
+
+  * added GenericName entries to desktop file 
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 09 Sep 2011 18:00:18 +0200
+
+lernstick-bluedevil (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 18:38:46 +0100
