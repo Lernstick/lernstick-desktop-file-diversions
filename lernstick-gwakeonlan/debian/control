@@ -1,0 +1,12 @@
+Source: lernstick-gwakeonlan
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gwakeonlan
+Architecture: all
+Depends: gwakeonlan
+Description: Add a GenericName to the desktop file
+ We add a GenericName to the desktop file.
