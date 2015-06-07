@@ -1,0 +1,13 @@
+Source: lernstick-gimp
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gimp
+Architecture: all
+Depends: gimp
+Description: Change German translation of GenericName desktop file field
+ We change the German translation of the GenericName desktop file field
+ to match it with Pinta.
