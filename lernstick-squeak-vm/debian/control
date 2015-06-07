@@ -1,0 +1,14 @@
+Source: lernstick-squeak-vm
+Section: interpreters
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-squeak-vm
+Architecture: all
+Depends: squeak-vm
+Description: Removes the squeak-vm menu entry
+ We do not need the squeak-vm menu entry.
+ See http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=496559
+ This package removes it.
