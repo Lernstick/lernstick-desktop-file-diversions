@@ -1,0 +1,13 @@
+Source: lernstick-pavucontrol
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-pavucontrol
+Architecture: all
+Depends: pavucontrol
+Description: Hides pavucontrol in KDE and GNOME
+ We hide pavucontrol in KDE and GNOME as these desktops
+ have their own audio mixers and setup tools.
