@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=XDrawChem
+GenericName=Chemistry Structure Editor
+GenericName[de]=Strukturformeleditor
+Type=Application
+Exec=xdrawchem
+Icon=/usr/share/xdrawchem2/xdrawchem-icon.png
+Categories=Science;Chemistry;Education;

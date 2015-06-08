@@ -1,0 +1,12 @@
+Source: lernstick-xdrawchem
+Section: science
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xdrawchem
+Architecture: all
+Depends: xdrawchem
+Description: Adds a desktop file for xdrawchem
+ We add a desktop file for xdrawchem
