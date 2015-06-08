@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=wxMaxima
+Comment=Perform symbolic and numeric calculations using Maxima
+Comment[de]=Symbolische und Numerische Berechnungen mit Maxima durchführen
+Exec=wxmaxima %f
+Icon=/usr/share/wxMaxima/wxmaxima.png
+Terminal=false
+Type=Application
+Categories=Education;Math;X-Red-Hat-Base;X-Red-Hat-Base-Only;
+MimeType=text/x-wxmaxima-batch;

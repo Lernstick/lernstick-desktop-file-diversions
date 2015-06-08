@@ -1,0 +1,13 @@
+Source: lernstick-wxmaxima
+Section: math
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-wxmaxima
+Architecture: all
+Depends: wxmaxima
+Description: Changes the menu entry of wxmaxima
+ We fix http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=466997
+ and add a link to wxMaxima course material.
