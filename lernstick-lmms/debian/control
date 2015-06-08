@@ -1,0 +1,13 @@
+Source: lernstick-lmms
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-lmms
+Architecture: all
+Depends: lmms
+Description: Change GenericName in desktop file
+ We change the GenericName in the desktop file to match with Ardour,
+ Rosegarden, etc.

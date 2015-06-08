@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=LMMS
+GenericName=Digital audio workstation
+GenericName[de]=Digital Audio Workstation
+Comment=easy music production for everyone!
+Comment[ca]=Producció fàcil de música per a tothom!
+Icon=lmms
+Exec=env QT_X11_NO_NATIVE_MENUBAR=1 lmms %f
+Terminal=false
+Type=Application
+Categories=Qt;AudioVideo;Audio;Midi;
+MimeType=application/x-lmms-project;
