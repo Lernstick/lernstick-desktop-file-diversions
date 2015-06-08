@@ -1,0 +1,12 @@
+Source: lernstick-arista
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-arista
+Architecture: all
+Depends: arista
+Description: Fixes the generic description of Arista.
+ We fix the desktop file of Arista.
