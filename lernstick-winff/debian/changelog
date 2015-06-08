@@ -1,0 +1,11 @@
+lernstick-winff (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 08 Jun 2015 17:23:08 +0200
+
+lernstick-winff (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 30 Mar 2013 15:20:40 +0100

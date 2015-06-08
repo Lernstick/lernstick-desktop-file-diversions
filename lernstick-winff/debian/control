@@ -1,0 +1,12 @@
+Source: lernstick-winff
+Section: video
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-winff
+Architecture: all
+Depends: winff
+Description: Fixes the generic description of WinFF.
+ We fix the desktop file of WinFF.
