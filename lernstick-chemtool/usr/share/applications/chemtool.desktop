@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Chemtool
+GenericName=Chemistry Structure Editor
+GenericName[de]=Strukturformeleditor
+Comment=Draw and make calculations on chemical structures
+Type=Application
+Exec=chemtool
+Icon=chemtool
+MimeType=application/x-chemtool;
+Categories=Science;Chemistry;Education;
