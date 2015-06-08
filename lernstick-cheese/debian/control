@@ -1,0 +1,12 @@
+Source: lernstick-cheese
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-cheese
+Architecture: any
+Depends: cheese
+Description: Changes the menu entry of Cheese
+ We add a translated GenericName to the Cheese desktop file.
