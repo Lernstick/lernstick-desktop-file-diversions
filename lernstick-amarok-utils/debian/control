@@ -1,0 +1,12 @@
+Source: lernstick-amarok-utils
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-amarok-utils
+Architecture: any
+Depends: amarok-utils
+Description: Hides the menu entry for AMZ Downloader
+ We hide the menu entry for the AMZ Downloader. We just dont need it.
