@@ -1,0 +1,12 @@
+Source: lernstick-openshot
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-openshot
+Architecture: all
+Depends: openshot
+Description: Changes the menu entry of OpenShot
+ We add a translated GenericName to the OpenShot desktop file.
