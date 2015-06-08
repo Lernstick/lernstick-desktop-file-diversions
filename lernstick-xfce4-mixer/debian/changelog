@@ -1,0 +1,11 @@
+lernstick-xfce4-mixer (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 08 Jun 2015 16:40:23 +0200
+
+lernstick-xfce4-mixer (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 14 Jan 2013 19:58:22 +0100
