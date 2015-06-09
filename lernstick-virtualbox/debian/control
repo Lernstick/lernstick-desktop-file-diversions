@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-virtualbox
-Architecture: any
+Architecture: all
 Depends: virtualbox
 Description: Changes the menu entry of virtualbox
  We remove virtualbox from the menu category "System" (it is also
