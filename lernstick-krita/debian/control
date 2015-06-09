@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-krita
-Architecture: any
+Architecture: all
 Depends: krita
 Description: Changes the XCF file association of krita
  We lower the preference of krita for XCF so that GIMP stays the default.
