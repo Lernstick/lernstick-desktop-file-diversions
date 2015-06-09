@@ -9,4 +9,5 @@ Package: lernstick-qelectrotech
 Architecture: all
 Depends: qelectrotech
 Description: Changes the menu entry of qelectrotech
- We add some L10n to the qelectrotech desktop file
+ We add some L10n to the qelectrotech desktop file and remove it from the
+ science category (it is already in the graphics category).
