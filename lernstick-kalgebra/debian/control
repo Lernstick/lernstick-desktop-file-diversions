@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-kalgebra
-Architecture: any
+Architecture: all
 Depends: kalgebra
 Description: Changes the menu entry of kalgebra
  We remove kalgebra from the Science category. It is already in the Math
