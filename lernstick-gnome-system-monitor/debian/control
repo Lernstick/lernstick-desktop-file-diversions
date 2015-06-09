@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-system-monitor
-Architecture: any
+Architecture: all
 Depends: gnome-system-monitor
 Description: Hide gnome-system-monitor in KDE
  This package hides the gnome-system-monitor in KDE.
