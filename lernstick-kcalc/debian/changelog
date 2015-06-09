@@ -1,3 +1,9 @@
+lernstick-kcalc (3) lernstick-8; urgency=medium
+
+  * fixed architecture
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 18:03:32 +0200
+
 lernstick-kcalc (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
