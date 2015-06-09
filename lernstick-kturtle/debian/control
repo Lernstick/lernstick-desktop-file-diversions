@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-kturtle
-Architecture: any
+Architecture: all
 Depends: kturtle
 Description: Changes the menu entry of kturtle
  We move the kturtle menu entry from the edu to the development category.
