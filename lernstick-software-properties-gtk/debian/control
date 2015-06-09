@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-software-properties-gtk
-Architecture: any
+Architecture: all
 Depends: software-properties-gtk
 Description: Hides the menu entries.
  We hide the menu entries. They are available via synaptic.
