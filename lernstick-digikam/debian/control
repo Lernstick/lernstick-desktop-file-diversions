@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-digikam
-Architecture: any
+Architecture: all
 Depends: digikam
 Description: Changes the menu entry of digikam
  We change the GenericDescription of digikam to match with darktable and
