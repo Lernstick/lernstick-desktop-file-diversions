@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-nepomuk-core-data
-Architecture: any
+Architecture: all
 Depends: nepomuk-core-data
 Description: Hides the nepomuk cleaner menu entry
  We hide the nepomuk cleaner menu entry because we have
