@@ -1,0 +1,17 @@
+lernstick-gcompris (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 18:47:14 +0200
+
+lernstick-gcompris (1.1-1) unstable; urgency=low
+
+  * fixed L10n
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 23:38:21 +0200
+
+lernstick-gcompris (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200

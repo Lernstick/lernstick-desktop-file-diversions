@@ -1,0 +1,12 @@
+Source: lernstick-gcompris
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gcompris
+Architecture: all
+Depends: gcompris
+Description: Starts gcompris fullscreen
+ This package enforces gcompris to start fullscreen.
