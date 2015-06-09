@@ -1,3 +1,9 @@
+lernstick-eog (3) lernstick-8; urgency=medium
+
+  * fixed architecture
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 18:01:54 +0200
+
 lernstick-eog (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-eog
-Architecture: any
+Architecture: all
 Depends: eog
 Description: Hides eog in KDE
  We hide eog in KDE as we have gwenview there.
