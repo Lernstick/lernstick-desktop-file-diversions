@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-vmpk
-Architecture: any
+Architecture: all
 Depends: vmpk
 Description: Changes the menu entry of vmpk
  We remove vmpk from the education category.
