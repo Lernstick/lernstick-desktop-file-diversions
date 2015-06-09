@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-mplayer
-Architecture: any
+Architecture: all
 Depends: gnome-mplayer
 Description: Hides the menu entry of gnome-mplayer
  We install gnome-mplayer because it is a dependency of gecko-mediaplayer
