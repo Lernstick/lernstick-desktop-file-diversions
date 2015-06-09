@@ -1,0 +1,13 @@
+Source: lernstick-gksu
+Section: admin
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gksu
+Architecture: all
+Depends: gksu
+Description: Removes the gksu menu entry
+ We do not need the gksu menu entry.
+ This package removes it.

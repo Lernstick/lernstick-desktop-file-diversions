@@ -1,0 +1,18 @@
+lernstick-gksu (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 21:10:16 +0200
+
+lernstick-gksu (1.0-2) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 14:20:36 +0200
+
+lernstick-gksu (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
