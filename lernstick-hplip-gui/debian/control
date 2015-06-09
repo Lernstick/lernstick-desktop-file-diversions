@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-hplip-gui
-Architecture: any
+Architecture: all
 Depends: hplip-gui
 Description: Removes some of the hplip-gui menu entries
  We do not need all hplip-gui menu entries.
