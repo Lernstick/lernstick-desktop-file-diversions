@@ -1,3 +1,9 @@
+lernstick-krename (2) lernstick-8; urgency=medium
+
+  * fixed architecture
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 18:04:59 +0200
+
 lernstick-krename (1) lernstick-8; urgency=low
 
   * Initial release

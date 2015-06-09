@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-krename
-Architecture: any
+Architecture: all
 Depends: krename
 Description: Improves L10n of the menu entry of krename
  We improve the translation of the krename desktop file.
