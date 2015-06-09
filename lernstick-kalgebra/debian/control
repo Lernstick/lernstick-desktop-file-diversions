@@ -1,0 +1,13 @@
+Source: lernstick-kalgebra
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kalgebra
+Architecture: any
+Depends: kalgebra
+Description: Changes the menu entry of kalgebra
+ We remove kalgebra from the Science category. It is already in the Math
+ category and this should be enough.
