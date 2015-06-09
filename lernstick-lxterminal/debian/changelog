@@ -1,0 +1,11 @@
+lernstick-lxterminal (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 21:24:03 +0200
+
+lernstick-lxterminal (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 19 Dec 2012 17:13:47 +0100
