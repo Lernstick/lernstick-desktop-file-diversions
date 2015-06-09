@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-x11vnc
-Architecture: any
+Architecture: all
 Depends: x11vnc
 Description: Hides the menu entry of x11vnc
  We hide the menu entry of x11vnc.
