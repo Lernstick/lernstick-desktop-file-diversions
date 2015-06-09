@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-hugin
-Architecture: any
+Architecture: all
 Depends: hugin
 Description: Changes the menu entries of Hugin
  We hide the batch tool and fix the translation of the lens calibration tool.
