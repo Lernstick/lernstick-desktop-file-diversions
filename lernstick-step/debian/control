@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-step
-Architecture: any
+Architecture: all
 Depends: step
 Description: Changes the menu entry of step
  We move the menu entry of step to a better place.
