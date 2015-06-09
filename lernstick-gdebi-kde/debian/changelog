@@ -1,0 +1,17 @@
+lernstick-gdebi-kde (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8 (start with kdesudo no longer required)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 20:45:57 +0200
+
+lernstick-gdebi-kde (1.1-1) unstable; urgency=low
+
+  * start with kdesudo
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 30 Jul 2013 13:55:57 +0200
+
+lernstick-gdebi-kde (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 22 May 2012 20:22:02 +0200

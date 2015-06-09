@@ -1,0 +1,13 @@
+Source: lernstick-gdebi-kde
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gdebi-kde
+Architecture: all
+Depends: gdebi-kde
+Description: Hides the menu entry of gdebi-kde
+ We hide the start menu entry of gdebi-kde. It does nothing more than throwing
+ an error message...
