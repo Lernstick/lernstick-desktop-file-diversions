@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-system-config-printer
-Architecture: any
+Architecture: all
 Depends: system-config-printer
 Description: Changes the menu entry of system-config-printer
  We remove the menu entry from the system category (it is
