@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-kde-workspace-randr
-Architecture: any
+Architecture: all
 Depends: kde-workspace-randr
 Description: Moves the menu entry of krandrtray
  Moves the menu entry of krandrtray from system to settings and starts the gui
