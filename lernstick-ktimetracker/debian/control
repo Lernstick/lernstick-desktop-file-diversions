@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-ktimetracker
-Architecture: any
+Architecture: all
 Depends: ktimetracker
 Description: Changes the menu entry of ktimetracker
  We remove ktimetracker from the utility desktop category. It is already in
