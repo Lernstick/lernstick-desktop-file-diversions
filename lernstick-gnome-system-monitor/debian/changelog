@@ -1,0 +1,11 @@
+lernstick-gnome-system-monitor (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 20:27:11 +0200
+
+lernstick-gnome-system-monitor (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 19 Feb 2010 13:00:30 +0100
