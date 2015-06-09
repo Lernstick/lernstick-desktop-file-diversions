@@ -8,5 +8,5 @@ Exec=fslint-gui
 Terminal=false
 Type=Application
 Icon=fslint_icon
-Categories=System;Filesystem;GTK;;Utility;
+Categories=Filesystem;GTK;Utility;
 X-Ubuntu-Gettext-Domain=fslint

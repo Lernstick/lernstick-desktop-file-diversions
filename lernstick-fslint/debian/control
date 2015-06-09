@@ -9,4 +9,5 @@ Package: lernstick-fslint
 Architecture: all
 Depends: fslint
 Description: Improve L10n of desktop file.
- We improve the desktop file translation.
+ We improve the desktop file translation and remove fslint from the system
+ category (it is already in the utility category and this is sufficient).
