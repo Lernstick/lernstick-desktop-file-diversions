@@ -1,0 +1,12 @@
+lernstick-system-config-printer (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 09 Jun 2015 20:14:39 +0200
+
+lernstick-system-config-printer (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
