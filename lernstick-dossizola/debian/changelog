@@ -1,0 +1,17 @@
+lernstick-dossizola-wheezy (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Jun 2015 17:18:06 +0200
+
+lernstick-dossizola-wheezy (1.0-2) unstable; urgency=low
+
+  * added divert
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 22 May 2012 19:22:07 +0200
+
+lernstick-dossizola-wheezy (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 22 May 2012 19:17:01 +0200

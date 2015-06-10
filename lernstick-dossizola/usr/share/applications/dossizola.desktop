@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Game;StrategyGame;
+Comment=Isola game with nice graphics
+Exec=dossizola -f
+Icon=dossizola
+Name=Do'SSi Zo'la
+Type=Application
