@@ -1,0 +1,12 @@
+Source: live-resolution
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+
+Package: live-resolution
+Architecture: all
+Depends: x11-utils
+Description: A helper script to detect the current screen resolution
+ A helper script to detect the current screen resolution
