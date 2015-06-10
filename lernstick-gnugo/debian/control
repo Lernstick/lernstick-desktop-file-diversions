@@ -1,0 +1,13 @@
+Source: lernstick-gnugo
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnugo
+Architecture: all
+Depends: gnugo
+Description: Hide gnugo in the desktop menu.
+ We hide gnugo in the desktop menu. It is a console program used as a backend
+ for Go GUIs like Kigo.
