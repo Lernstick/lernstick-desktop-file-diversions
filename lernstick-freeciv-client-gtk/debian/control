@@ -8,5 +8,5 @@ Standards-Version: 3.7.3
 Package: lernstick-freeciv-client-gtk
 Architecture: all
 Depends: freeciv-client-gtk
-Description: Hides the experimental GTK3 version of the Freeciv client
- We hide the experimental GTK3 version of the Freeciv client
+Description: Removes the GTK version from the program name
+ Removes the GTK version from the program name.
