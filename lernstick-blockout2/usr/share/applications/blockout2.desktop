@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=BlockOut II
+Comment=Play a 3D Tetris game
+Comment[de]=Ein 3D-Tetris-Spiel
+Icon=/usr/share/games/blockout2/icon.xpm
+Exec=blockout2
+Terminal=false
+Categories=Game;ArcadeGame;
