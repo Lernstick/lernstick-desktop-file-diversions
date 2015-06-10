@@ -1,0 +1,7 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+Replace "geometry=.*" "geometry=${_RESOLUTION_X}x${_RESOLUTION_Y}" ~/.foobillardrc
+
+foobillardplus ${@}
