@@ -1,0 +1,24 @@
+live-armagetronad2 (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Jun 2015 15:24:33 +0200
+
+live-armagetronad2 (1.1-1) unstable; urgency=low
+
+  * added German Comment translation
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 14:27:35 +0200
+
+live-armagetronad2 (1.0-2) unstable; urgency=low
+
+  * fixed dependencies
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 01 Dec 2010 09:27:37 +0100
+
+live-armagetronad2 (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

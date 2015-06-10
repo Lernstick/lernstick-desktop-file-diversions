@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Armagetron Advanced
+Exec=live_armagetronad
+Comment=3d light cycle game
+Comment[de]=dreidimensionales Lichtradspiel
+Icon=armagetronad
+Terminal=false
+Path=/usr/bin
+Categories=Game;ArcadeGame;
+StartupNotify=false
+MimeType=application/x-armagetronad;
+Keywords=tron-like;light;cycle;3D;multiplayer;networked;server;
