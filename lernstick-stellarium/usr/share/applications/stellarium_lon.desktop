@@ -1,0 +1,6 @@
+[Desktop Entry]
+Categories=X-lernstick-Astronomy;
+Exec=iceweasel http://www.lehrer-online.de/stellarium.php
+Icon=konqueror
+Name=Stellarium-Unterrichtsmaterial
+Type=Application

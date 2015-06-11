@@ -1,0 +1,42 @@
+lernstick-stellarium (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 20:02:33 +0200
+
+lernstick-stellarium (1.4-1) unstable; urgency=low
+
+  * fixed GenericName entry in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 15 Sep 2011 15:08:17 +0200
+
+lernstick-stellarium (1.3-1) unstable; urgency=low
+
+  * removed generic name from desktop file (needed for squeeze)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 24 Nov 2010 15:09:14 +0100
+
+lernstick-stellarium (1.2-1) unstable; urgency=low
+
+  * added links to course material
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 11 Jul 2009 11:51:10 +0200
+
+lernstick-stellarium (1.1-1) unstable; urgency=low
+
+  * added some scripts
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 10 Jul 2009 13:58:35 +0200
+
+lernstick-stellarium (1.0-2) unstable; urgency=low
+
+  * fixed desktop file category
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 09 Jul 2009 15:58:15 +0200
+
+lernstick-stellarium (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

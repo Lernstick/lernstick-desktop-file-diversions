@@ -1,0 +1,135 @@
+# Solar eclipse August 11th, 1999 in Niefern, Germany
+# A stellarium script
+# by Stefan Hittler
+# http://www.stefan-hittler.de
+#
+# You may use and modify this script for personal or educational purpose
+#
+########################################################################
+
+# Intro: "Solar eclipse 1999 in Germany"
+image action load filename "sh1999se01.png" name pic01 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 7
+image action drop name pic01
+
+# "Imagine travelling into time and space"
+image action load filename "sh1999se02.png" name pic02 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 5
+image action drop name pic02
+
+# "The destiny of our journey is Germany"
+image action load filename "sh1999se03.png" name pic03 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 5
+image action drop name pic03
+
+# Set "normal" state
+clear state natural
+flag moon_scaled false
+
+# Move to Niefern, Germany (Niefern is a small city, spelled like the german words for "never faraway")
+moveto lat 48.916641 lon 8.784449 alt 250 duration 0
+
+# "Our local date is..."
+image action load filename "sh1999se04.png" name pic04 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 5
+image action drop name pic04
+
+# Set date and time to the beginning of the solar eclipse
+date utc 1999:08:11T09:15:01
+
+# display a view of 72 degrees
+zoom fov 72
+
+# move to the sun
+select planet Sun pointer 0
+flag track_object 1
+wait duration 2
+
+# put sun in the upper part of the window and deselect it
+flag track_object 0
+look delta_az 0.5
+look delta_alt -0.25
+select
+
+### start eclpise
+flag fog 0
+
+# "speeding up time..."
+image action load filename "sh1999se05.png" name pic05 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 200
+wait duration 21.77
+
+image action drop name pic05
+
+# "slowing down..."
+image action load filename "sh1999se06.png" name pic06 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 50
+wait duration 18.76
+
+image action drop name pic06
+
+# "speeding up time..."
+image action load filename "sh1999se05.png" name pic05 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 200
+wait duration 22.50
+timerate rate 1
+
+image action drop name pic05
+
+# "Let's look through a telescope"
+image action load filename "sh1999se07.png" name pic07 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 5
+image action drop name pic07
+
+# Set date and time to the beginning of the solar eclipse
+date utc 1999:08:11T09:15:01
+
+# move to the sun
+select planet Sun pointer 0 duration 4
+flag track_object 1
+flag show_selected_object_info 0
+
+# display a view of 1 degrees
+zoom fov 0.8 duration 4
+
+# "speeding up time..."
+image action load filename "sh1999se05.png" name pic05 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 1
+wait duration 4
+
+# start eclpise
+timerate rate 200
+wait duration 21.77
+
+image action drop name pic05
+
+# "slowing down..."
+image action load filename "sh1999se06.png" name pic06 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 50
+wait duration 18.76
+
+image action drop name pic06
+
+# "speeding up time..."
+image action load filename "sh1999se05.png" name pic05 alpha 1 scale 0.3 xpos -0.7 ypos -0.7 duration 0
+
+timerate rate 200
+wait duration 22.50
+timerate rate 1
+
+image action drop name pic05
+
+# "End of solar eclipse..."
+image action load filename "sh1999se08.png" name pic08 alpha 1 scale 0.4 xpos 0 ypos 0 duration 3
+wait duration 7
+image action drop name pic08
+
+date load current
+
+clear state natural
+clear state natural
