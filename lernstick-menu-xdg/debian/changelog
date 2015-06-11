@@ -1,3 +1,9 @@
+lernstick-menu-xdg (4) lernstick-8; urgency=medium
+
+  * adde menu to dependencies
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 11 Jun 2015 13:07:26 +0200
+
 lernstick-menu-xdg (3) lernstick-8; urgency=medium
 
   * fixed naming of maintainer scripts
