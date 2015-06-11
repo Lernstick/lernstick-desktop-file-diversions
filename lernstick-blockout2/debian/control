@@ -1,0 +1,12 @@
+Source: lernstick-blockout2
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-blockout2
+Architecture: all
+Depends: blockout2
+Description: Changes the menu entry of blockout2
+ We add some L10n to the blockout2 desktop file and fixes the category.

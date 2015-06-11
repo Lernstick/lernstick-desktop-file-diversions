@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+Replace "ARMAGETRON_SCREENMODE .*" "ARMAGETRON_SCREENMODE -1" ~/.armagetronad/var/user.cfg
+Replace "ARMAGETRON_SCREENMODE_W .*" "ARMAGETRON_SCREENMODE_W ${_RESOLUTION_X}" ~/.armagetronad/var/user.cfg
+Replace "ARMAGETRON_SCREENMODE_H .*" "ARMAGETRON_SCREENMODE_H ${_RESOLUTION_Y}" ~/.armagetronad/var/user.cfg
+
+exec /usr/games/armagetronad ${@}

@@ -1,0 +1,12 @@
+live-foobillardplus (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Jun 2015 15:44:50 +0200
+
+live-foobillardplus (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 03 Sep 2013 18:31:49 +0200
+

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Qxw
+Icon=qxw
+GenericName=Crossword editor
+GenericName[de]=Erstellung von Kreuzworträtseln
+Comment=Construct crossword puzzles
+Exec=/usr/games/qxw
+Terminal=false
+Categories=Game;LogicGame;
+Keywords=puzzle;grid;construction;wordgame;word;

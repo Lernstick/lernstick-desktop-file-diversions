@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Exec=morris
+Icon=morris
+Type=Application
+Categories=Game;LogicGame;
+Name=Morris
+GenericName[de]=Mühle
+GenericName[es]=Molino
+Comment=Nine Men's Morris Game
+Comment[es]=Juego del Molino

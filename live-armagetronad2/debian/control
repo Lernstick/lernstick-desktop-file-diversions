@@ -1,0 +1,16 @@
+Source: live-armagetronad2
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-armagetronad2
+Architecture: all
+Depends: armagetronad, live-resolution
+Description: Starts armagetronad with the current screen resolution
+ This package enforces armagetronad to start with the current screen resolution
+ instead of the configured value. This way armagetronad can easily be used on
+ live systems without reconfiguration before every start.
+ We also fix the category in the desktop file (ArcadeGame instead of
+ Actiongame, which does not seem to exist).

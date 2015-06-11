@@ -1,0 +1,18 @@
+lernstick-hex-a-hop (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Jun 2015 17:05:03 +0200
+
+lernstick-hex-a-hop (1.1-1) unstable; urgency=low
+
+  * add high-resolution icons
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 28 Sep 2013 22:46:09 +0200
+
+lernstick-hex-a-hop (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

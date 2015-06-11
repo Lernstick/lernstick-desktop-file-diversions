@@ -1,0 +1,13 @@
+Source: lernstick-crack-attack
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-crack-attack
+Architecture: all
+Depends: crack-attack
+Description: Changes the menu entry of crack-attack
+ We move the menu entry of crack-attack into the arcade games category,
+ add a German translation of the comment field and add a nicer icon.

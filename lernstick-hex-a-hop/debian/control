@@ -1,0 +1,13 @@
+Source: lernstick-hex-a-hop
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hex-a-hop
+Architecture: all
+Depends: hex-a-hop
+Description: Changes the menu entry of hex-a-hop
+ We move the game to the logic game category and add some high resolution
+ icons.

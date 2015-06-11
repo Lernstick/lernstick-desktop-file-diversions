@@ -1,0 +1,12 @@
+Source: lernstick-freeciv-client-gtk
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-freeciv-client-gtk
+Architecture: all
+Depends: freeciv-client-gtk
+Description: Removes the GTK version from the program name
+ Removes the GTK version from the program name.

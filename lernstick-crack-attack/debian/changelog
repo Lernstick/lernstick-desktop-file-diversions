@@ -1,0 +1,30 @@
+lernstick-crack-attack (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 10 Jun 2015 16:00:35 +0200
+
+lernstick-crack-attack (1.2-1) unstable; urgency=low
+
+  * use higher resolution icon
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 16 May 2013 00:00:35 +0200
+
+lernstick-crack-attack (1.1-1) unstable; urgency=low
+
+  * add German Comment translation
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 14:36:07 +0200
+
+lernstick-crack-attack (1.0-2) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 13:30:30 +0200
+
+lernstick-crack-attack (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
