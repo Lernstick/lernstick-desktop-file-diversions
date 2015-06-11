@@ -1,0 +1,11 @@
+lernstick-konsole (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 11 Jun 2015 13:27:29 +0200
+
+lernstick-konsole-wheezy (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 15 Jan 2013 18:45:54 +0100
