@@ -4,7 +4,7 @@ Icon=denemo
 StartupNotify=true
 Terminal=false
 Type=Application
-Categories=GNOME;Music;Education;
+Categories=GNOME;Music;
 Keywords=music;notation;compose;transcribe;Education;
 
 Name=GNU Denemo
