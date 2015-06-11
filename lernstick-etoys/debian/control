@@ -1,0 +1,12 @@
+Source: lernstick-etoys
+Section: non-free/games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-etoys
+Architecture: all
+Depends: etoys
+Description: Changes the etoys desktop file
+ We change the Name and Category in the desktop file and add a svg icon.
