@@ -9,4 +9,5 @@ Package: lernstick-vmpk
 Architecture: all
 Depends: vmpk
 Description: Changes the menu entry of vmpk
- We remove vmpk from the education category.
+ We remove vmpk from the "Education" and "Music" category. It is already in
+ the "Audio" category and this should be sufficient.

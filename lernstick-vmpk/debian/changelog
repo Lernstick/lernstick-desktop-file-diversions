@@ -1,3 +1,9 @@
+lernstick-vmpk (4) lernstick-8; urgency=medium
+
+  * removed from the category "Music"
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 18:16:51 +0200
+
 lernstick-vmpk (3) lernstick-8; urgency=medium
 
   * fixed architecture
