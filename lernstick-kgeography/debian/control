@@ -1,0 +1,14 @@
+Source: lernstick-kgeography
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kgeography
+Architecture: any
+Depends: kgeography
+Description: Changes the menu entry of kgeography
+ We remove the kgeography menu entry from the education category. 
+ This way it doesn't end up in the misc section. It is already in the Geography
+ section.
