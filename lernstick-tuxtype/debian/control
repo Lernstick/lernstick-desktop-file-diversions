@@ -1,0 +1,12 @@
+Source: lernstick-tuxtype
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-tuxtype
+Architecture: all
+Depends: tuxtype
+Description: Changes the menu entry of tuxtype
+ We move tuxtype to the menu category "TypeWriting".

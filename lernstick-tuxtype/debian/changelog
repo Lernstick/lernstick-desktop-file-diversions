@@ -1,0 +1,18 @@
+lernstick-tuxtype (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 19:34:36 +0200
+
+lernstick-tuxtype-squeeze (1.1-1) unstable; urgency=low
+
+  * added German translation
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 11:22:12 +0100
+
+lernstick-tuxtype-squeeze (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
