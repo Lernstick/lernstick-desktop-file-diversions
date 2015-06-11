@@ -1,0 +1,12 @@
+Source: lernstick-openttd
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-openttd
+Architecture: all
+Depends: openttd
+Description: Changes the menu entry of openttd
+ We add openttd to the stragety games category
