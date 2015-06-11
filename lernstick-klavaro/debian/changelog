@@ -1,0 +1,24 @@
+lernstick-klavaro (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 19:18:19 +0200
+
+lernstick-klavaro (1.2-1) unstable; urgency=low
+
+  * added more GenericName translations
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 23:13:05 +0200
+
+lernstick-klavaro (1.1-1) unstable; urgency=low
+
+  * fixed German L10n 
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 23:05:15 +0200
+
+lernstick-klavaro (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 11:50:28 +0100
+
