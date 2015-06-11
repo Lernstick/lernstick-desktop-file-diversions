@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-synaptic
-Architecture: any
+Architecture: all
 Depends: synaptic
 Description: Changes the menu entry of synaptic
  We remove synaptic from the category "System". It is already in the category
