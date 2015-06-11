@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-marble
-Architecture: any
+Architecture: all
 Depends: marble-data
 Description: Changes the menu entry of marble
  We limit the marble category to "geography".
