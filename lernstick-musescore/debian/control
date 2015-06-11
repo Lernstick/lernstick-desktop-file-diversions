@@ -1,0 +1,13 @@
+Source: lernstick-musescore
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-musescore
+Architecture: all
+Depends: musescore
+Description: Changes the menu entry of Musescore
+ We remove "Music" from the Categories. Otherwise it also ends up in the Music
+ education category where we don't want to have it.
