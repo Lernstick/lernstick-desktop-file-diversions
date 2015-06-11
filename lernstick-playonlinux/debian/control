@@ -1,0 +1,12 @@
+Source: lernstick-playonlinux
+Section: contrib/otherosfs
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-playonlinux
+Architecture: all
+Depends: playonlinux
+Description: Changes the menu entry of playonlinux
+ We move PlayOnLinux to the compatibility section.
