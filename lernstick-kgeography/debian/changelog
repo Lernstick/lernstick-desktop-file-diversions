@@ -1,3 +1,9 @@
+lernstick-kgeography (3) lernstick-8; urgency=medium
+
+  * fixed architecture
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 19:45:47 +0200
+
 lernstick-kgeography (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
