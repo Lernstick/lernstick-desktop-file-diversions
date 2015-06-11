@@ -1,0 +1,18 @@
+lernstick-marble (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 19:40:06 +0200
+
+lernstick-marble (1.1-1) unstable; urgency=low
+
+  * updated for squeeze
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 03 Aug 2012 14:51:30 +0200
+
+lernstick-marble (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 11:50:28 +0100
+
