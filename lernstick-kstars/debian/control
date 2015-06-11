@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-kstars
-Architecture: any
+Architecture: all
 Depends: kstars
 Description: Changes the menu entry of kstars
  We remove kstars from the menu category "science". It is already available
