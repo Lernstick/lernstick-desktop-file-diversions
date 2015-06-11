@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# measure boottime
+LOCK_FILE=/tmp/lernstick_boottime.lck
+if [ ! -e ${LOCK_FILE} ]
+then
+	echo "$(date +'%Y-%m-%d %H:%M:%S'):    $(cat /proc/uptime | awk '{print $1}') sec" >> ~/.lernstick_boottimes
+	touch ${LOCK_FILE}
+fi

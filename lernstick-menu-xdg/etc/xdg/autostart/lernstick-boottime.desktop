@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Version=1.0
+Name=Lernstick boot time measuring
+Name[de_DE]=Lernstick-Bootzeitmessung
+Exec=lernstick_boottime
+X-GNOME-Autostart-enabled=true

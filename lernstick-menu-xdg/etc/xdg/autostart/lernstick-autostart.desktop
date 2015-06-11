@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Version=1.0
+Name=Lernstick startscript
+Name[de_DE]=Lernstick-Startscript
+Exec=lernstick_autostart
+X-GNOME-Autostart-enabled=true

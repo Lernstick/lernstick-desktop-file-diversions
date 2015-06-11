@@ -1,0 +1,16 @@
+Source: lernstick-menu-xdg
+Section: admin
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-menu-xdg
+Architecture: all
+Depends: menu-xdg, kde-runtime, gettext
+Description: Removes the Debian menu from the start menu
+ The Debian menu is one of the worst ideas in Debian. Who on earth thinks
+ that a second main level menu structure is something users understand?
+ This package removes the Debian menu from the start menu.
+ We also add some new desktop directories for educational programs and
+ some autostart applications.

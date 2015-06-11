@@ -1,0 +1,10 @@
+#!/bin/sh
+
+CONFIG_FILE="/etc/lernstickWelcome"
+
+# lock KDE plasma desktop
+if grep -q "LockKDE=true" ${CONFIG_FILE}
+then
+	echo "lock KDE plasma desktop"
+	chmod 444 /home/user/.kde/share/config/plasma-desktop-appletsrc
+fi

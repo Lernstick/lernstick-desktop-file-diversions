@@ -1,0 +1,18 @@
+Initialisierung
+---------------
+mkdir -p po/de
+xgettext -L Shell --add-comments=## usr/bin/lernstick_autostart
+vi messages.po #header richtig füllen
+cp messages.po po/de_CH/lernstick_autostart.po
+vi po/de_CH/lernstick_autostart.po # erste Übersetzung
+cd po; for i in *; do cd $i; msgfmt -o lernstick_autostart.mo lernstick_autostart.po; cd ..; done; cd ..
+cd po; for i in *; do cd $i; MDIR="../../usr/share/locale/$i/LC_MESSAGES/"; mkdir -p ${MDIR}; rm -f ${MDIR}/lernstick_autostart.mo; cp lernstick_autostart.mo ${MDIR}; cd ..; done; cd ..
+
+Update:
+-------
+xgettext -L Shell --add-comments=## usr/bin/lernstick_autostart
+cd po; for i in *; do cd $i; msgmerge -U lernstick_autostart.po ../../messages.po; cd ..; done; cd ..
+vi po/*/lernstick_autostart.po
+cd po; for i in *; do cd $i; msgfmt -o lernstick_autostart.mo lernstick_autostart.po; cd ..; done; cd ..
+cd po; for i in *; do cd $i; MDIR="../../usr/share/locale/$i/LC_MESSAGES/"; mkdir -p ${MDIR}; rm -f ${MDIR}/lernstick_autostart.mo; cp lernstick_autostart.mo ${MDIR}; cd ..; done; cd ..
+

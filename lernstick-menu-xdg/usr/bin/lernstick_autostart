@@ -1,0 +1,109 @@
+#!/bin/sh
+
+# gettext support
+. gettext.sh
+export TEXTDOMAIN=lernstick_autostart
+
+show_dialog ()
+{
+	TEXT="$1"
+
+	# always use kdialog as long as zenity is so fucked up as it is now
+	kdialog --msgbox "${TEXT}"
+
+#	if [ "$KDE_FULL_SESSION" ]
+#	then
+#		kdialog --msgbox "${TEXT}"
+#	else
+#		# zenity's HTML interpreter is so dumb, it doesn't even understand <br>...
+#		# we need to replace it with "\\n"
+#		ZENITY_TEXT="$(echo ${TEXT} | sed 's/<br>/\\n/g')"
+#		echo "ZENITY_TEXT=\"${ZENITY_TEXT}\""
+#		# zenity's layout engine is so dumb that it can't display messages with many words
+#		# see https://bugzilla.gnome.org/show_bug.cgi?id=673643
+#		zenity --info --text "${ZENITY_TEXT}"
+#	fi
+}
+
+CONFIG_FILE="/etc/lernstickWelcome"
+
+# start installer or welcome program
+COW=$(grep /lib/live/mount/persistence /proc/mounts | grep -v ^tmpfs | grep -v ^aufs)
+echo "COW: \"${COW}\""
+
+if echo "${COW}" | grep -q "rw,"
+then
+	echo "data partition is in read-write mode -> try starting lernstickWelcome..."
+	if [ -e ${CONFIG_FILE} ]
+	then
+		if grep -q "ShowWelcome=true" ${CONFIG_FILE}
+		then
+			echo "user selected lernstickWelcome startup"
+			START="true"
+		elif grep -q "ShowWelcome=false" ${CONFIG_FILE}
+		then
+			echo "user disabled lernstickWelcome start in config file"
+		else
+			echo "no ShowWelcome key in lernstickWelcome config file -> default start"
+			START="true"
+		fi
+	else
+		echo "no lernstickWelcome config file -> default start"
+		START="true"
+	fi
+
+	DESKTOP_FILE="/usr/share/applications/lernstickWelcome.desktop"
+	if [ -n "${START}" ] && [ -e ${DESKTOP_FILE} ]
+	then
+		kioclient exec ${DESKTOP_FILE}
+	fi
+
+elif echo "${COW}" | grep -q "ro,"
+then
+	echo "data partition is in read-only mode -> try showing information dialog..."
+	if [ -e ${CONFIG_FILE} ]
+	then
+		if grep -q "ShowReadOnlyInfo=true" ${CONFIG_FILE}
+		then
+			echo "user selected information dialog startup"
+			START="true"
+		fi
+	else
+		echo "no lernstickWelcome config file -> default start"
+		START="true"
+	fi
+
+	if [ -n "${START}" ]
+	then
+		TEXT="$(gettext "The data partition is in <b>read-only mode</b>.<br><br>This means that all modifications you might have done previously<br>are visible but all modifications you will do now are <b>lost</b><br>when you shut down or restart the system.<br><br>(If you now change files and want to keep them, you need to<br>save them on the exchange partition or other <b>external media</b>.)")"
+		show_dialog "${TEXT}"
+	fi
+
+else
+	# data partition is not used, we can NOT install additional programs
+	# but we can copy the system
+	echo "data partition is NOT used"
+	if [ -e ${CONFIG_FILE} ]
+	then
+		if grep -q "ShowNotUsedInfo=true" ${CONFIG_FILE}
+		then
+			# show information dialog before starting copy program
+			TEXT="$(gettext "There is <b>no data partition in use</b>.<br><br>This means that all modifications you might have done previously<br>are now <b>invisible</b> and all modifications you will do now are <b>lost</b><br>when you shut down or restart the system.<br><br>(If you now change files and want to keep them, you need to<br>save them on the exchange partition or other <b>external media</b>.)")"
+			show_dialog "${TEXT}"
+		else
+			echo "info dialog not configured in config file"
+		fi
+
+		if grep -q "AutoStartInstaller=true" ${CONFIG_FILE}
+		then
+			echo "persistency disabled -> try starting dlcopy..."
+			# xdg-open unfortunately does not work on gnome...
+			#xdg-open /usr/share/applications/dlcopy.desktop
+			kioclient exec /usr/share/applications/dlcopy.desktop
+		else
+			echo "installer autostart not configured in config file"
+		fi
+	else
+		echo "no lernstickWelcome config file -> no dialog and autostart"
+	fi
+fi

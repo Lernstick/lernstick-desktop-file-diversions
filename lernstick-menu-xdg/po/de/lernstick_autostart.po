@@ -1,0 +1,51 @@
+# lernstick_autostart
+# Copyright (C) 2013
+# This file is distributed under the same license as the lernstick-menu-xdg package.
+# Ronny Standtke <ronny.standtke@gmx.net>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-11 10:29+0200\n"
+"PO-Revision-Date: 2013-04-24 13:41+0200\n"
+"Last-Translator: Ronny Standtke <ronny.standtke@gmx.net>\n"
+"Language-Team: DE <DE@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: usr/bin/lernstick_autostart:72
+msgid ""
+"The data partition is in <b>read-only mode</b>.<br><br>This means that all "
+"modifications you might have done previously<br>are visible but all "
+"modifications you will do now are <b>lost</b><br>when you shut down or "
+"restart the system.<br><br>(If you now change files and want to keep them, "
+"you need to<br>save them on the exchange partition or other <b>external "
+"media</b>.)"
+msgstr ""
+"Die Datenpartition wird <b>nur gelesen</b>.<br><br>Das bedeutet, dass alle "
+"Änderungen, die Sie früher vorgenommen haben, <br>jetzt zwar sichtbar sind, "
+"jedoch alle Änderungen, die Sie jetzt vornehmen,<br><b>verloren gehen</b>, "
+"sobald Sie das System neu starten oder herunterfahren.<br><br>(Wenn Sie "
+"jetzt Dateien bearbeiten und die Änderungen behalten wollen,<br>müssen Sie "
+"die Dateien auf der Austauschpartition oder einem anderen<br><b>externen "
+"Speichermedium</b> abspeichern.)"
+
+#: usr/bin/lernstick_autostart:81
+msgid ""
+"There is <b>no data partition in use</b>.<br><br>This means that all "
+"modifications you might have done previously<br>are now <b>invisible</b> and "
+"all modifications you will do now are <b>lost</b><br>when you shut down or "
+"restart the system.<br><br>(If you now change files and want to keep them, "
+"you need to<br>save them on the exchange partition or other <b>external "
+"media</b>.)"
+msgstr ""
+"Es wird <b>keine Datenpartition verwendet</b>.<br><br>Das bedeutet, dass "
+"alle Änderungen, die Sie früher vorgenommen haben,<br>jetzt <b>nicht "
+"sichtbar</b> sind und alle Änderungen, die Sie jetzt vornehmen,"
+"<br><b>verloren gehen</b>, sobald Sie das System neu starten oder "
+"herunterfahren.<br><br>(Wenn Sie jetzt Dateien bearbeiten und die Änderungen "
+"behalten wollen,<br>müssen Sie die Dateien auf der Austauschpartition oder "
+"einem anderen<br><b>externen Speichermedium</b> abspeichern.)"
