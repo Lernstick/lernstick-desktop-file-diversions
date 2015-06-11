@@ -1,0 +1,13 @@
+Source: lernstick-celestia-gnome
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-celestia-gnome
+Architecture: all
+Depends: celestia-gnome
+Description: Changes the menu entry of celestia-gnome
+ We rename the menu entry to just "Celestia", add translations to the
+ GenericName and change the Category.

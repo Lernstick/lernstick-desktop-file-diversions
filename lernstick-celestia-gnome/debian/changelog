@@ -1,0 +1,42 @@
+lernstick-celestia-gnome (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 18:23:54 +0200
+
+lernstick-celestia-gnome (1.4-1) unstable; urgency=low
+
+  * fixed desktop category (again)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 22 May 2012 19:35:13 +0200
+
+lernstick-celestia-gnome (1.3-1) unstable; urgency=low
+
+  * fix desktop category
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 21 May 2012 10:39:32 +0200
+
+lernstick-celestia-gnome (1.2-1) unstable; urgency=low
+
+  * no longer hide celestia gnome in KDE (because celestia KDE no longer exists)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 15 May 2012 11:06:46 +0200
+
+lernstick-celestia-gnome (1.1-1) unstable; urgency=low
+
+  * added German L10n to desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:34:42 +0200
+
+lernstick-celestia-gnome (1.0-2) unstable; urgency=low
+
+  * fixed rules file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 03 Apr 2012 19:31:28 +0200
+
+lernstick-celestia-gnome (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 03 Apr 2012 19:23:33 +0200
+
