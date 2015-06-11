@@ -1,0 +1,12 @@
+Source: lernstick-ktouch
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-ktouch
+Architecture: any
+Depends: ktouch
+Description: Changes the menu entry of ktouch
+ We move the menu entry of ktouch to a better place.

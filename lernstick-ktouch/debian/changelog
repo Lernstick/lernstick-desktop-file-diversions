@@ -1,0 +1,11 @@
+lernstick-ktouch (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 19:27:47 +0200
+
+lernstick-ktouch (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 23 Apr 2013 17:01:07 +0200
