@@ -1,0 +1,12 @@
+Source: lernstick-dolphin
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-dolphin
+Architecture: all
+Depends: dolphin
+Description: Adds a menu entry to start dolphin via kdesudo
+ Adds a menu entry to start dolphin via kdesudo

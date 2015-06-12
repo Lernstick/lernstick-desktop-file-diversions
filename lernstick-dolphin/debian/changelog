@@ -1,0 +1,32 @@
+lernstick-dolphin (3) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 12 Jun 2015 19:22:59 +0200
+
+lernstick-dolphin (2.2-1) unstable; urgency=low
+
+  * disabled StartupNotify
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 13 Feb 2015 12:58:18 +0100
+
+lernstick-dolphin (2.1-1) unstable; urgency=low
+
+  * removed mimetype and initial preference from desktop file
+    to prevent that the sudo version becomes the default handler
+    for opening directories
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 11 Feb 2015 08:50:58 +0100
+
+lernstick-dolphin (2.0-1) unstable; urgency=low
+
+  * adds a menu entry for starting dolphin via kdesudo
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 30 Jan 2015 13:39:43 +0100
+
+lernstick-dolphin (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
