@@ -1,0 +1,12 @@
+Source: lernstick-amarok
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-amarok
+Architecture: all
+Depends: amarok
+Description: Make Amarok the default midi player
+ We make Amarok the default midi player.
