@@ -1,0 +1,18 @@
+lernstick-dia-common (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 12 Jun 2015 19:17:43 +0200
+
+lernstick-dia-common (1.1-1) unstable; urgency=low
+
+  * enforce svg icon (for some unknown reason KDE otherwise uses the PNG icons)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 02 Oct 2014 14:58:42 +0200
+
+lernstick-dia-common (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
