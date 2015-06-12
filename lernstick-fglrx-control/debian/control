@@ -1,0 +1,13 @@
+Source: lernstick-fglrx-control
+Section: contrib/x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fglrx-control
+Architecture: all
+Depends: fglrx-control
+Description: starts the ATI Catalyst Control Center with root rights
+ We start the ATI Catalyst Control Center with root rights so that
+ all settings are available.
