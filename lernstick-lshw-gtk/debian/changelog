@@ -1,0 +1,29 @@
+lernstick-lshw-gtk (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 12 Jun 2015 19:42:54 +0200
+
+lernstick-lshw-gtk (1.2-1) unstable; urgency=low
+
+  * added German translation of Comment entry in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 05 Apr 2012 22:43:10 +0200
+
+lernstick-lshw-gtk (1.1-1) unstable; urgency=low
+
+  * use su-to-root instead of sudo
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 18 Nov 2010 18:55:38 +0100
+
+lernstick-lshw-gtk (1.0-2) unstable; urgency=low
+
+  * fixed dependencies
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 30 Mar 2010 11:43:00 +0200
+
+lernstick-lshw-gtk (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 30 Mar 2010 10:08:34 +0200

@@ -1,0 +1,13 @@
+Source: lernstick-lshw-gtk
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-lshw-gtk
+Architecture: all
+Depends: lshw-gtk
+Description: Changes the menu entry for lshw-gtk
+ Moves lshw-gtk to the systems category, adds German L10n and runs
+ lshw-gtk as root.
