@@ -2,7 +2,7 @@
 
 . /usr/share/live-resolution/resolution.sh
 
-XMOTO_CONFIG=~/.xmoto/config.dat
+XMOTO_CONFIG=~/.config/xmoto/config.dat
 
 Replace "DisplayWidth.*" "DisplayWidth\" value=\"${_RESOLUTION_X}\"\/\>" ${XMOTO_CONFIG}
 Replace "DisplayHeight.*" "DisplayHeight\" value=\"${_RESOLUTION_Y}\"\/\>" ${XMOTO_CONFIG}

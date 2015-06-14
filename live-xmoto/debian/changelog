@@ -1,3 +1,9 @@
+live-xmoto (3) lernstick-8; urgency=medium
+
+  * fixed startup script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jun 2015 22:42:31 +0200
+
 live-xmoto (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
