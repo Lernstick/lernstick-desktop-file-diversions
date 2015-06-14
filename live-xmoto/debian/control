@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: live-xmoto
-Architecture: any
+Architecture: all
 Depends: xmoto, live-resolution
 Description: Starts xmoto with the current screen resolution
  This package enforces xmoto to start with the current screen resolution
