@@ -1,0 +1,14 @@
+Source: live-enigma
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-enigma
+Architecture: all
+Depends: enigma, live-resolution
+Description: Starts enigma with the current screen resolution
+ This package enforces enigma to start with the current screen resolution
+ instead of the configured value. This way enigma can easily be used on
+ live systems without reconfiguration before every start.

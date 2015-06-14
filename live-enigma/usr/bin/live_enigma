@@ -1,0 +1,46 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+# fullscreen or window mode?
+_FULLSCREEN="0"
+if [ $((${_RESOLUTION_X}*3/4)) -eq ${_RESOLUTION_Y} ]
+then
+	# we have a 4:3 resolution
+	# we can go fullscreen
+	_FULLSCREEN="1"
+else
+	# no 4:3 resolution
+	# fullscreen would look horrible (round enigma ball would be elliptic)
+	# start in window mode
+
+	# leave some space for kicker and window decoration
+	_RESOLUTION_Y="$((${_RESOLUTION_Y}-76))"
+fi
+Replace "FullScreen\" value=\".*\"" "FullScreen\" value=\"${_FULLSCREEN}\"" ~/.enigmarc.xml
+
+# search for the largest possible resolution
+# supported game resolutions in enigma v1.20:
+# 	-  320x240:  "-10-0-"
+# 	-  640x480:     "-0-"
+# 	-  800x600:   "-2-0-"
+# 	-  960x720: "-4-2-0-"
+# 	- 1024x768: "-3-2-0-"
+_SCREEN_SIZE="-10-0-"
+if [ ${_RESOLUTION_X} -ge 640 ] && [ ${_RESOLUTION_Y} -ge 480 ]
+then
+	_SCREEN_SIZE="-0-"
+elif [ ${_RESOLUTION_X} -ge 800 ] && [ ${_RESOLUTION_Y} -ge 600 ]
+then
+	_SCREEN_SIZE="-2-0-"
+elif [ ${_RESOLUTION_X} -ge 960 ] && [ ${_RESOLUTION_Y} -ge 720 ]
+then
+	_SCREEN_SIZE="-4-2-0-"
+elif [ ${_RESOLUTION_X} -ge 1024 ] && [ ${_RESOLUTION_Y} -ge 768 ]
+then
+	_SCREEN_SIZE="-3-2-0-"
+fi
+Replace "VideoModesFullscreen\" value=\".*\"" "VideoModesFullscreen\" value=\"${_SCREEN_SIZE}\"" ~/.enigmarc.xml
+Replace "VideoModesWindow\" value=\".*\"" "VideoModesWindow\" value=\"${_SCREEN_SIZE}\"" ~/.enigmarc.xml
+
+exec /usr/games/enigma ${@}

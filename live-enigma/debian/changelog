@@ -1,0 +1,24 @@
+live-enigma (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jun 2015 21:03:22 +0200
+
+live-enigma2 (1.2-1) unstable; urgency=low
+
+  * added German L10n
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 05 Apr 2012 19:05:46 +0200
+
+live-enigma2 (1.1-1) unstable; urgency=low
+
+  * fixed desktop file category
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 20 Dec 2010 17:16:25 +0100
+
+live-enigma2 (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

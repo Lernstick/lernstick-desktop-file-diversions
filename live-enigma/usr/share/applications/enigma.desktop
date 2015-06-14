@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+
+Name=Enigma
+
+Comment=Uncover pairs of stones while navigating obstacles using a marble
+Comment[de]=Decke Steinpaare mit einer Kugel in einer Welt voller Hindernisse auf
+
+TryExec=enigma
+Exec=live_enigma
+Terminal=false
+Icon=enigma
+
+StartupNotify=false
+
+Type=Application
+Categories=Application;Game;LogicGame;
