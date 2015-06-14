@@ -1,0 +1,14 @@
+Source: live-xmoto
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-xmoto
+Architecture: any
+Depends: xmoto, live-resolution
+Description: Starts xmoto with the current screen resolution
+ This package enforces xmoto to start with the current screen resolution
+ instead of the configured value. This way xmoto can easily be used on
+ live systems without reconfiguration before every start.

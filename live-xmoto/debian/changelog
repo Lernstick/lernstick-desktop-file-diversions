@@ -1,0 +1,42 @@
+live-xmoto (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jun 2015 22:36:21 +0200
+
+live-xmoto (1.2-1) unstable; urgency=low
+
+  * added German translation of GenericName entry in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 16 Sep 2011 15:56:30 +0200
+
+live-xmoto (1.1-1) unstable; urgency=low
+
+  * fixed dependencies
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 01 Dec 2010 11:17:07 +0100
+
+live-xmoto (1.1-0) unstable; urgency=low
+
+  * removed fix for live_xmoto (now integrated in upstream)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 12 Feb 2010 17:57:55 +0100
+
+live-xmoto (1.0-3) unstable; urgency=low
+
+  * added a fix to live_xmoto (fullscreen was not set)
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 10 Jul 2009 21:49:15 +0200
+
+live-xmoto (1.0-2) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 14:58:26 +0200
+
+live-xmoto (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
