@@ -1,0 +1,8 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+Replace "^set x_resolution .*" "set x_resolution ${_RESOLUTION_X}" ~/.etracer/options
+Replace "^set y_resolution .*" "set y_resolution ${_RESOLUTION_Y}" ~/.etracer/options
+
+exec /usr/games/etracer ${@}
