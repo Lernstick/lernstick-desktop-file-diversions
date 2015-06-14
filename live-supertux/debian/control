@@ -1,0 +1,14 @@
+Source: live-supertux
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-supertux
+Architecture: all
+Depends: supertux, live-resolution
+Description: Starts supertux with the current screen resolution
+ This package enforces supertux to start with the current screen resolution
+ instead of the configured value. This way supertux can easily be used on
+ live systems without reconfiguration before every start.
