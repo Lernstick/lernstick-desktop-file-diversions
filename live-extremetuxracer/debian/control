@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: live-extremetuxracer
-Architecture: any
+Architecture: all
 Depends: extremetuxracer, live-resolution
 Description: Starts extremetuxracer with the current screen resolution
  This package enforces extremetuxracer to start with the current screen resolution
