@@ -1,0 +1,18 @@
+live-supertuxkart (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jun 2015 21:34:59 +0200
+
+live-supertuxkart (1.1-1) unstable; urgency=low
+
+  * fixed i18n/L10n of desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 05 Apr 2012 16:21:01 +0200
+
+live-supertuxkart (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

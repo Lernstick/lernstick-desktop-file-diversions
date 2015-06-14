@@ -1,0 +1,14 @@
+Source: live-supertuxkart
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-supertuxkart
+Architecture: all
+Depends: supertuxkart, live-resolution
+Description: Starts supertuxkart with the current screen resolution
+ This package enforces supertuxkart to start with the current screen resolution
+ instead of the configured value. This way supertuxkart can easily be used on
+ live systems without reconfiguration before every start.
