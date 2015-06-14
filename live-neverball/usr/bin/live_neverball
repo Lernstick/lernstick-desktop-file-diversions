@@ -1,0 +1,8 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+Replace "width .*" "width                ${_RESOLUTION_X}" ~/.neverball/neverballrc
+Replace "height .*" "height               ${_RESOLUTION_Y}" ~/.neverball/neverballrc
+
+exec /usr/games/neverball ${@}

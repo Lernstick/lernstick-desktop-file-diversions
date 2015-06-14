@@ -1,0 +1,14 @@
+Source: live-neverball
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-neverball
+Architecture: all
+Depends: neverball, live-resolution
+Description: Starts neverball with the current screen resolution
+ This package enforces neverball to start with the current screen resolution
+ instead of the configured value. This way neverball can easily be used on
+ live systems without reconfiguration before every start.
