@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Pathological
+GenericName=Puzzles with paths and marbles
+GenericName[de]=Rätselspiel mit Wegen und Murmeln
+Comment=Solve puzzles involving paths and marbles
+Comment[de]=Rätselspiel mit Wegen und Murmeln
+Icon=pathological
+Exec=live_pathological
+Categories=Game;LogicGame;
+Keywords=game;logic;marbles;puzzle;

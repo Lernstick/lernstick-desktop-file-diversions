@@ -1,0 +1,14 @@
+Source: live-pathological
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-pathological
+Architecture: all
+Depends: pathological, live-resolution
+Description: Changes desktop file of pathological
+ We add a GenericName to the desktop file and enforce pathological to start
+ fullscreen when the screen resolution is 4:3. This way pathological can
+ easily be used on live systems without reconfiguration before every start.

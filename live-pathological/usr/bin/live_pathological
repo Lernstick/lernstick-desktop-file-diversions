@@ -1,0 +1,16 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+# fullscreen or window?
+if [ $((${_RESOLUTION_X}*3/4)) -eq ${_RESOLUTION_Y} ]
+then
+	# we have a 4:3 resolution
+	# we can go fullscreen
+	exec /usr/games/pathological -f ${@}
+else
+	# no 4:3 resolution
+	# fullscreen would look horrible
+	# start in window mode
+	exec /usr/games/pathological ${@}
+fi
