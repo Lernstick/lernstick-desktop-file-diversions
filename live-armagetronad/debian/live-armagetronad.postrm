@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for live-armagetronad2
+# postrm script for live-armagetronad
 #
 # see: dh_installdeb(1)
 
@@ -24,7 +24,7 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package live-armagetronad2 --rename --divert \
+        dpkg-divert --remove --package live-armagetronad --rename --divert \
             /usr/share/applications/armagetronad.desktop.orig \
             /usr/share/applications/armagetronad.desktop
     ;;

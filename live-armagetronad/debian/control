@@ -1,11 +1,11 @@
-Source: live-armagetronad2
+Source: live-armagetronad
 Section: games
 Priority: extra
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
-Package: live-armagetronad2
+Package: live-armagetronad
 Architecture: all
 Depends: armagetronad, live-resolution
 Description: Starts armagetronad with the current screen resolution
