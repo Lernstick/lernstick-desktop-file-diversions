@@ -1,0 +1,14 @@
+Source: live-pingus
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-pingus
+Architecture: all
+Depends: pingus, live-resolution
+Description: Starts pingus with the current screen resolution
+ This package enforces pingus to start with the current screen resolution
+ instead of the configured value. This way pingus can easily be used on
+ live systems without reconfiguration before every start.

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+exec /usr/games/pingus -f --fullscreen-resolution=${_RESOLUTION_X}x${_RESOLUTION_Y}

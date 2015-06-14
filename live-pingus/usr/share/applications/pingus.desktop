@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pingus
+GenericName=Free Lemmings(TM) clone
+GenericName[de]=Freier Lemmings(TM)-Klon
+Comment=Guide a horde of penguins through various obstacles
+Comment[de]=Führe eine Pinguinkolonie durch verschiedene Hindernisse
+Exec=live_pingus
+Icon=pingus-icon
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
