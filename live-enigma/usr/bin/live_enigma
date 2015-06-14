@@ -2,20 +2,22 @@
 
 . /usr/share/live-resolution/resolution.sh
 
+echo "detected screen resolution: ${_RESOLUTION_X}x${_RESOLUTION_Y}"
+
 # fullscreen or window mode?
 _FULLSCREEN="0"
 if [ $((${_RESOLUTION_X}*3/4)) -eq ${_RESOLUTION_Y} ]
 then
-	# we have a 4:3 resolution
-	# we can go fullscreen
+	echo "we have a 4:3 resolution, we can go fullscreen"
 	_FULLSCREEN="1"
 else
-	# no 4:3 resolution
-	# fullscreen would look horrible (round enigma ball would be elliptic)
-	# start in window mode
+	echo "no 4:3 resolution"
+	echo "fullscreen would look horrible (round enigma ball would be elliptic)"
+	echo "start in window mode"
 
 	# leave some space for kicker and window decoration
 	_RESOLUTION_Y="$((${_RESOLUTION_Y}-76))"
+	echo "reduced screen resolution: ${_RESOLUTION_X}x${_RESOLUTION_Y}"
 fi
 Replace "FullScreen\" value=\".*\"" "FullScreen\" value=\"${_FULLSCREEN}\"" ~/.enigmarc.xml
 
@@ -29,15 +31,22 @@ Replace "FullScreen\" value=\".*\"" "FullScreen\" value=\"${_FULLSCREEN}\"" ~/.e
 _SCREEN_SIZE="-10-0-"
 if [ ${_RESOLUTION_X} -ge 640 ] && [ ${_RESOLUTION_Y} -ge 480 ]
 then
+	echo "game resolution of 640x480 would be possible"
 	_SCREEN_SIZE="-0-"
-elif [ ${_RESOLUTION_X} -ge 800 ] && [ ${_RESOLUTION_Y} -ge 600 ]
+fi
+if [ ${_RESOLUTION_X} -ge 800 ] && [ ${_RESOLUTION_Y} -ge 600 ]
 then
+	echo "game resolution of 800x600 would be possible"
 	_SCREEN_SIZE="-2-0-"
-elif [ ${_RESOLUTION_X} -ge 960 ] && [ ${_RESOLUTION_Y} -ge 720 ]
+fi
+if [ ${_RESOLUTION_X} -ge 960 ] && [ ${_RESOLUTION_Y} -ge 720 ]
 then
+	echo "game resolution of 960x720 would be possible"
 	_SCREEN_SIZE="-4-2-0-"
-elif [ ${_RESOLUTION_X} -ge 1024 ] && [ ${_RESOLUTION_Y} -ge 768 ]
+fi
+if [ ${_RESOLUTION_X} -ge 1024 ] && [ ${_RESOLUTION_Y} -ge 768 ]
 then
+	echo "game resolution of 1024x768 would be possible"
 	_SCREEN_SIZE="-3-2-0-"
 fi
 Replace "VideoModesFullscreen\" value=\".*\"" "VideoModesFullscreen\" value=\"${_SCREEN_SIZE}\"" ~/.enigmarc.xml

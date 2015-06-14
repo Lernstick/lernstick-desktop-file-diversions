@@ -1,3 +1,9 @@
+live-enigma (3) lernstick-8; urgency=medium
+
+  * fixed start script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jun 2015 21:18:05 +0200
+
 live-enigma (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
