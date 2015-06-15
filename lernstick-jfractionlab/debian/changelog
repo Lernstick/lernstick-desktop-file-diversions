@@ -1,0 +1,30 @@
+lernstick-jfractionlab (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 15 Jun 2015 14:51:58 +0200
+
+lernstick-jfractionlab (1.3-1) unstable; urgency=low
+
+  * use antialiased fonts
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Jul 2012 19:08:30 +0200
+
+lernstick-jfractionlab (1.2-1) unstable; urgency=low
+
+  * added German Comment to desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:43:02 +0200
+
+lernstick-jfractionlab (1.1-1) unstable; urgency=low
+
+  * changed German GenericName to match KBruch
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 15 Sep 2011 17:18:24 +0200
+
+lernstick-jfractionlab (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

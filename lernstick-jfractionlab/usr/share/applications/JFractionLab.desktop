@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=JFractionLab
+Comment=Calculate Fractions is fun!
+Comment[de]=Bruchrechnen macht Spaß!
+Comment[de_CH]=Bruchrechnen macht Spass!
+Comment[es]=¡Calcular con fracciones es divertido!
+Encoding=UTF-8
+Exec=JFractionLab
+GenericName=Fractions exercices
+GenericName[de]=Übungen zur Bruchrechnung
+GenericName[es]=Ejercicios de Fracciones
+Icon=/usr/share/jfractionlab/images/jfractionlab_icon.svg
+Type=Application
+X-KDE-SubstituteUID=false
+Categories=Application;Education;Math;

@@ -1,0 +1,13 @@
+Source: lernstick-jfractionlab
+Section: math
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-jfractionlab
+Architecture: all
+Depends: jfractionlab
+Description: Changes the menu entry of JFractionLab
+ We enforce the usage of antialiased fonts in the startup script and add a
+ translated GenericName to the JFractionLab desktop file.
