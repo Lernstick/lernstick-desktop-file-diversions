@@ -1,0 +1,13 @@
+Source: lernstick-fillets-ng
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fillets-ng
+Architecture: all
+Depends: fillets-ng
+Description: Changes the menu entry of fillets-ng
+ We move the menu entry of fillets-ng into the strategy games category and add
+ an svg icon.

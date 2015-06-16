@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Fish Fillets
+Name[bg]=Рибни филета
+Comment=Puzzle game about witty fish saving the world sokoban-style
+Comment[bg]=Логическа игра, в която духовити рибки спасяват света в стил Сокобан
+Comment[de]=Puzzlespiel mit witzigen Fischen, die die Welt im Sokoban-Stil retten
+Comment[ro]=Un puzzle cu un pește inteligent care salvează lumea în stil sokoban
+Exec=fillets fullscreen=true
+Icon=filletsng
+Terminal=false
+Type=Application
+Categories=Game;LogicGame;
+Keywords=sokoban;puzzle;
+Keywords[bg]=сокобан;ребус;

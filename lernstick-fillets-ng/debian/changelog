@@ -1,0 +1,42 @@
+lernstick-fillets-ng (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 16 Jun 2015 16:15:25 +0200
+
+lernstick-fillets-ng (1.3-1) unstable; urgency=low
+
+  * use SVG icon
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 29 May 2013 09:53:50 +0200
+
+lernstick-fillets-ng (1.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 18 Jun 2012 11:49:33 +0200
+
+lernstick-fillets-ng (1.1-1) unstable; urgency=low
+
+  * added German L10n of Comment entry in desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 05 Apr 2012 19:48:44 +0200
+
+lernstick-fillets-ng (1.0-3) unstable; urgency=low
+
+  * use fullscreen
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 10 May 2011 13:03:56 +0200
+
+lernstick-fillets-ng (1.0-2) unstable; urgency=low
+
+  * fixed postrm
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 08 Jul 2009 14:16:35 +0200
+
+lernstick-fillets-ng (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

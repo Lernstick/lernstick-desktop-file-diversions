@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="90"
+   height="90"
+   sodipodi:docname="Filletsng-logo.svg">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     id="namedview22"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.5371828"
+     inkscape:cx="135.62345"
+     inkscape:cy="-73.006544"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <circle
+     cx="46"
+     cy="46"
+     r="45"
+     id="circle4"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     sodipodi:cx="46"
+     sodipodi:cy="46"
+     sodipodi:rx="45"
+     sodipodi:ry="45"
+     style="fill:#111111"
+     transform="translate(-1,-1)" />
+  <circle
+     cx="46"
+     cy="46"
+     r="41"
+     id="circle6"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     sodipodi:cx="46"
+     sodipodi:cy="46"
+     sodipodi:rx="41"
+     sodipodi:ry="41"
+     style="stroke:#ffff00;stroke-width:4"
+     transform="translate(-1,-1)" />
+  <!-- the tail -->
+  <line
+     x1="55"
+     y1="45"
+     x2="71"
+     y2="31"
+     id="line8"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     style="stroke:#ffff00;stroke-width:5;stroke-linecap:round" />
+  <line
+     x1="71"
+     y1="31"
+     x2="71"
+     y2="59"
+     id="line10"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     style="stroke:#ffff00;stroke-width:5;stroke-linecap:round" />
+  <line
+     x1="71"
+     y1="59"
+     x2="55"
+     y2="45"
+     id="line12"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     style="stroke:#ffff00;stroke-width:5;stroke-linecap:round" />
+  <!-- body -->
+  <path
+     d="M 55,45 C 39,25 18,33 16,45"
+     id="path14"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ffff00;stroke-width:5" />
+  <path
+     d="M 55,45 C 39,65 18,57 16,45"
+     id="path16"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ffff00;stroke-width:5" />
+  <path
+     d="m 16.5,44 -0.7,1 0.7,1"
+     id="path18"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     inkscape:connector-curvature="0"
+     style="stroke:#ffff00;stroke-width:4;stroke-linecap:round" />
+  <!-- eye -->
+  <path
+     d="m 25,43 4,0 0,-3"
+     id="path20"
+     inkscape:export-filename="/home/ronny/Programme/lernstickWelcome/src/ch/fhnw/lernstickwelcome/icons/32x32/fillets.png"
+     inkscape:export-xdpi="32"
+     inkscape:export-ydpi="32"
+     inkscape:connector-curvature="0"
+     style="stroke:#ffff00;stroke-width:2" />
+  <!-- by kace-at-gotbsd-dot-net -->
+</svg>
