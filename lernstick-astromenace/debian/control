@@ -1,0 +1,12 @@
+Source: lernstick-astromenace
+Section: contrib/games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-astromenace
+Architecture: all
+Depends: astromenace
+Description: Fixes the generic description of Astromenace
+ We fix the icon and category in the desktop file of Astromenace.

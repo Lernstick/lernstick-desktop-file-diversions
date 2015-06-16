@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=AstroMenace
+Exec=/usr/games/AstroMenace
+Icon=astromenace
+Type=Application
+Categories=Game;ArcadeGame;
+Comment=hardcore 3D space shooter with spaceship upgrade possibilities
+Terminal=false
+Keywords=Game;Spaceship;Shooter;
