@@ -1,3 +1,9 @@
+lernstick-etoys (2) lernstick-8; urgency=medium
+
+  * added GenericName
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 16 Jun 2015 22:38:43 +0200
+
 lernstick-etoys (1) lernstick-8; urgency=low
 
   * Initial release

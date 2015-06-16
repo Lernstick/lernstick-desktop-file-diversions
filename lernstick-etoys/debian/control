@@ -9,4 +9,5 @@ Package: lernstick-etoys
 Architecture: all
 Depends: etoys
 Description: Changes the etoys desktop file
- We change the Name and Category in the desktop file and add a svg icon.
+ We change the Name and Category in the desktop file and add a GenericName and
+ svg icon.
