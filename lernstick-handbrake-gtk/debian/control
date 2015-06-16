@@ -1,0 +1,12 @@
+Source: lernstick-handbrake-gtk
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-handbrake-gtk
+Architecture: all
+Depends: handbrake-gtk
+Description: Changes the menu entry of handbrake-gtk
+ We fix the GenericName and add some L10n to the handbrake-gtk desktop file.

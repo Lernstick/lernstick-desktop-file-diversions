@@ -1,0 +1,23 @@
+lernstick-handbrake-gtk (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Tue, 16 Jun 2015 20:24:50 +0200
+
+lernstick-handbrake-gtk (1.2-1) unstable; urgency=low
+
+  * fixed generic description
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sat, 30 Mar 2013 21:14:28 +0100
+
+lernstick-handbrake-gtk (1.1-1) unstable; urgency=low
+
+  * added InitialPreference to desktop file to let VLC and Smplayer win over Handbrake
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 18 Nov 2012 16:00:38 +0100
+
+lernstick-handbrake-gtk (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 29 Jul 2012 18:16:49 +0200
