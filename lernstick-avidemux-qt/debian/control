@@ -1,0 +1,12 @@
+Source: lernstick-avidemux-qt
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-avidemux-qt
+Architecture: all
+Depends: avidemux-qt
+Description: Changes the menu entry of Avidemux (Qt)
+ We add a translated GenericName to the Avidemux (Qt) desktop file.
