@@ -1,3 +1,9 @@
+lernstick-apper (2) lernstick-8; urgency=medium
+
+  * hide apper in GNOME as we have gnome-software there
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 26 Jun 2015 12:14:13 +0200
+
 lernstick-apper (1) lernstick-8; urgency=low
 
   * Initial release

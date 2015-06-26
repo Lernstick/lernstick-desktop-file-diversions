@@ -131,3 +131,4 @@ Comment[zh_TW]=取得並管理軟體的應用程式
 Terminal=false
 Categories=Qt;KDE;PackageManager;
 InitialPreference=10
+NotShowIn=GNOME;

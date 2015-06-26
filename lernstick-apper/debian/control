@@ -10,4 +10,5 @@ Architecture: all
 Depends: apper
 Description: Changes the menu entry of apper
  We remove apper from the System and Settings category. It is already in the
- PackageManager category and this should be enough.
+ PackageManager category and this should be enough. We also hide it in GNOME
+ as we already have gnome-software there.
