@@ -1,3 +1,9 @@
+lernstick-synaptic (4) lernstick-8; urgency=medium
+
+  * synced with upstream version
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 26 Jun 2015 12:43:11 +0200
+
 lernstick-synaptic (3) lernstick-8; urgency=medium
 
   * fixed architecture
