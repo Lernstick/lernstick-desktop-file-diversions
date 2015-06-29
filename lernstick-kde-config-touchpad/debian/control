@@ -1,0 +1,12 @@
+Source: lernstick-kde-config-touchpad
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kde-config-touchpad
+Architecture: all
+Depends: kde-config-touchpad
+Description: Shows synaptiks desktop menu entry only in KDE
+ We show the synaptiks desktop menu entry only in KDE.

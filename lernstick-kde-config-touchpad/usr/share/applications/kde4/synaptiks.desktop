@@ -1,0 +1,19 @@
+[Desktop Entry]
+Exec=synaptiks
+Type=Application
+Terminal=false
+Icon=synaptiks
+Categories=Qt;KDE;Utility;HardwareSettings;
+
+X-DocPath=synaptiks/index.html
+
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=de.lunaryorn.synaptiks
+
+Name=synaptiks
+Name[de]=synaptiks
+
+GenericName=Touchpad management
+GenericName[de]=Touchpad-Verwaltung
+OnlyShowIn=KDE;
