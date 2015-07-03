@@ -4,6 +4,45 @@
 . gettext.sh
 export TEXTDOMAIN=lernstick_autostart
 
+# we can't configure the GNOME keyboard via live-config because
+# gsettings needs a running dbus session
+# this really sucks and therefore we have to configure the users
+# GNOME keyboard settings here...
+if [ -e /usr/bin/gsettings ]
+then
+	# Reading kernel command line
+	for _PARAMETER in $(cat /proc/cmdline)
+	do
+		case "${_PARAMETER}" in
+			live-config.keyboard-layouts=*|keyboard-layouts=*)
+				LIVE_KEYBOARD_LAYOUTS="${_PARAMETER#*keyboard-layouts=}"
+				;;
+
+			live-config.username=*|username=*)
+				LIVE_USERNAME="${_PARAMETER#*username=}"
+				;;
+		esac
+	done
+	GSETTINGS_STRING=""
+	IFS=" "
+	for i in $(echo "$LIVE_KEYBOARD_LAYOUTS" | sed "s/,/ /g")
+	do
+	        # GNOME has its own standard of keyboard layout definitions
+	        # here are some known mappings:
+	        if [ "$i" = "ch(fr)" ]
+	        then
+	                i="ch+fr"
+	        fi
+	        if [ -n "${GSETTINGS_STRING}" ]
+	        then
+	                GSETTINGS_STRING="${GSETTINGS_STRING}, "
+	        fi
+	        GSETTINGS_STRING="${GSETTINGS_STRING}('xkb', '$i')"
+	done
+	echo "GSETTINGS_STRING: \"${GSETTINGS_STRING}\""
+	gsettings set org.gnome.desktop.input-sources sources "[${GSETTINGS_STRING}]"
+fi
+
 show_dialog ()
 {
 	TEXT="$1"

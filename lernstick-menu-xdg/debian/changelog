@@ -1,6 +1,12 @@
+lernstick-menu-xdg (5) lernstick-8; urgency=medium
+
+  * added GNOME keyboard layout configuration to autostart script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 04 Jul 2015 01:14:15 +0200
+
 lernstick-menu-xdg (4) lernstick-8; urgency=medium
 
-  * adde menu to dependencies
+  * added menu to dependencies
 
  -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 11 Jun 2015 13:07:26 +0200
 
