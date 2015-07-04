@@ -4,10 +4,10 @@
 . gettext.sh
 export TEXTDOMAIN=lernstick_autostart
 
-# we can't configure the GNOME keyboard via live-config because
-# gsettings needs a running dbus session
-# this really sucks and therefore we have to configure the users
-# GNOME keyboard settings here...
+# We can't configure the keyboard for GNOME or Cinnamon via live-config because
+# gsettings needs a running dbus session.
+# This really sucks and therefore we have to configure the users
+# GNOME and Cinnamon keyboard settings here...
 if [ -e /usr/bin/gsettings ]
 then
 	# Reading kernel command line
@@ -23,23 +23,46 @@ then
 				;;
 		esac
 	done
-	GSETTINGS_STRING=""
+	GNOME_INPUT_SOURCES=""
+	GNOME_KEYBOARD_LAYOUTS=""
 	IFS=" "
 	for i in $(echo "$LIVE_KEYBOARD_LAYOUTS" | sed "s/,/ /g")
 	do
-	        # GNOME has its own standard of keyboard layout definitions
-	        # here are some known mappings:
+	        # GNOME has its own standard of keyboard layout definitions.
+		# Cinnamon (based on GNOME!) uses
+		# - a different gsettings key
+		# - even another standard for keyboard layout definitions
+	        # Here are some known mappings:
 	        if [ "$i" = "ch(fr)" ]
 	        then
-	                i="ch+fr"
+	                GNOME_INPUT_SOURCE="ch+fr"
+			GNOME_KEYBOARD_LAYOUT="ch\tfr"
+		else
+			GNOME_INPUT_SOURCE="$i"
+			GNOME_KEYBOARD_LAYOUT="$i"
 	        fi
-	        if [ -n "${GSETTINGS_STRING}" ]
+
+	        if [ -n "${GNOME_INPUT_SOURCES}" ]
 	        then
-	                GSETTINGS_STRING="${GSETTINGS_STRING}, "
+	                GNOME_INPUT_SOURCES="${GNOME_INPUT_SOURCES}, "
 	        fi
-	        GSETTINGS_STRING="${GSETTINGS_STRING}('xkb', '$i')"
+	        GNOME_INPUT_SOURCES="${GNOME_INPUT_SOURCES}('xkb', '${GNOME_INPUT_SOURCE}')"
+
+	        if [ -n "${GNOME_KEYBOARD_LAYOUTS}" ]
+	        then
+	                GNOME_KEYBOARD_LAYOUTS="${GNOME_KEYBOARD_LAYOUTS}, "
+	        fi
+	        GNOME_KEYBOARD_LAYOUTS="${GNOME_KEYBOARD_LAYOUTS}'${GNOME_KEYBOARD_LAYOUT}'"
 	done
-	gsettings set org.gnome.desktop.input-sources sources "[${GSETTINGS_STRING}]"
+
+	# configure GNOME
+	gsettings set org.gnome.desktop.input-sources sources "[${GNOME_INPUT_SOURCES}]"
+
+	# configure Cinnamon
+	# unfortunately, we are too late here for full configuration, Cinnamon already determined its default
+	# keyboard layout from the old list. We can still update the list but the default only changes
+	# after the next login...
+	gsettings set org.gnome.libgnomekbd.keyboard layouts "[${GNOME_KEYBOARD_LAYOUTS}]"
 fi
 
 show_dialog ()
