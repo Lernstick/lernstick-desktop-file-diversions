@@ -39,7 +39,6 @@ then
 	        fi
 	        GSETTINGS_STRING="${GSETTINGS_STRING}('xkb', '$i')"
 	done
-	echo "GSETTINGS_STRING: \"${GSETTINGS_STRING}\""
 	gsettings set org.gnome.desktop.input-sources sources "[${GSETTINGS_STRING}]"
 fi
 

@@ -1,3 +1,9 @@
+lernstick-menu-xdg (6) lernstick-8; urgency=medium
+
+  * removed debug output
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 04 Jul 2015 14:46:32 +0200
+
 lernstick-menu-xdg (5) lernstick-8; urgency=medium
 
   * added GNOME keyboard layout configuration to autostart script
