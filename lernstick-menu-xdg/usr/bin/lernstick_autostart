@@ -63,6 +63,12 @@ then
 	# keyboard layout from the old list. We can still update the list but the default only changes
 	# after the next login...
 	gsettings set org.gnome.libgnomekbd.keyboard layouts "[${GNOME_KEYBOARD_LAYOUTS}]"
+
+	# configure MATE
+	# unfortunately, we are too late here for full configuration, MATE already determined its default
+	# keyboard layout from the old list. We can still update the list but the default only changes
+	# after the next login...
+	gsettings set org.mate.peripherals-keyboard-xkb.kbd layouts "[${GNOME_KEYBOARD_LAYOUTS}]"
 fi
 
 show_dialog ()

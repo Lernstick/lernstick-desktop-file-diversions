@@ -1,3 +1,9 @@
+lernstick-menu-xdg (8) lernstick-8; urgency=medium
+
+  * added MATE keyboard layout configuration to autostart script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 05 Jul 2015 15:55:39 +0200
+
 lernstick-menu-xdg (7) lernstick-8; urgency=medium
 
   * added Cinnamon keyboard layout configuration to autostart script
