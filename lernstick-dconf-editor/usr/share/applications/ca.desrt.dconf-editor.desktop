@@ -174,4 +174,4 @@ X-GNOME-Bugzilla-Product=dconf
 X-GNOME-Bugzilla-Component=editor
 X-GNOME-Bugzilla-Version=0.22.0
 DBusActivatable=true
-OnlyShowIn=GNOME;
+OnlyShowIn=GNOME;Cinnamon;MATE;
