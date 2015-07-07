@@ -1,0 +1,12 @@
+Source: lernstick-terminology
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-terminology
+Architecture: all
+Depends: terminology
+Description: Changes the menu entry of terminology
+ We hide terminology in all desktop environments but Enlightenment.
