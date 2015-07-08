@@ -166,7 +166,7 @@ else
 			echo "persistency disabled -> try starting dlcopy..."
 			# xdg-open unfortunately does not work on gnome...
 			#xdg-open /usr/share/applications/dlcopy.desktop
-			kioclient exec /usr/share/applications/dlcopy.desktop
+			kioclient exec /usr/share/applications/ch-fhnw-dlcopy-dlcopy.desktop
 		else
 			echo "installer autostart not configured in config file"
 		fi
