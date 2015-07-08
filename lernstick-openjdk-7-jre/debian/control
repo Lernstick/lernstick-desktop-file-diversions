@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-openjdk-7-jre
-Architecture: any
+Architecture: all
 Depends: openjdk-7-jre
 Description: Hides the policytool menu entry
  We hide the policytool menu entry (nobody ever uses this).
