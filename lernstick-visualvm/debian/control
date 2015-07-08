@@ -1,0 +1,12 @@
+Source: lernstick-visualvm
+Section: java
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-visualvm
+Architecture: all
+Depends: visualvm
+Description: Changes the menu entry of visualvm
+ We enforce the usage of antialiased fonts.
