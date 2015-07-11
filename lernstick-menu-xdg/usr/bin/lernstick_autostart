@@ -119,7 +119,7 @@ then
 		START="true"
 	fi
 
-	DESKTOP_FILE="/usr/share/applications/lernstickWelcome.desktop"
+	DESKTOP_FILE="/usr/share/applications/ch-fhnw-lernstickwelcome-welcome.desktop"
 	if [ -n "${START}" ] && [ -e ${DESKTOP_FILE} ]
 	then
 		kioclient exec ${DESKTOP_FILE}
