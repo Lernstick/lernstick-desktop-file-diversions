@@ -1,0 +1,12 @@
+Source: lernstick-tipp10
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-tipp10
+Architecture: all
+Depends: tipp10
+Description: Changes the menu entry of tipp10
+ We move the tipp10 menu entry category to "typewriting".

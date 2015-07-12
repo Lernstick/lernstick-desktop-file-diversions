@@ -1,0 +1,18 @@
+lernstick-tipp10 (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 12 Jul 2015 15:13:02 +0200
+
+lernstick-tipp10 (1.1-1) unstable; urgency=low
+
+  * fixed L10n of desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 23:15:41 +0200
+
+lernstick-tipp10 (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 25 Nov 2010 11:50:28 +0100
+
