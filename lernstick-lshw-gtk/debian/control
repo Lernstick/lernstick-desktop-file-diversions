@@ -9,5 +9,5 @@ Package: lernstick-lshw-gtk
 Architecture: all
 Depends: lshw-gtk
 Description: Changes the menu entry for lshw-gtk
- Moves lshw-gtk to the systems category, adds German L10n and runs
- lshw-gtk as root.
+ Moves lshw-gtk to the systems category, adds German L10n, fixes the icon path
+ and runs lshw-gtk as root.

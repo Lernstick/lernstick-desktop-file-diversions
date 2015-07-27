@@ -19,6 +19,9 @@ case "$1" in
         dpkg-divert --add --package lernstick-lshw-gtk --rename --divert \
             /usr/share/applications/lshw-gtk.desktop.orig \
             /usr/share/applications/lshw-gtk.desktop
+        dpkg-divert --add --package lernstick-lshw-gtk --rename --divert \
+            /usr/share/icons/hicolor/scalable/apps/lshw-gtk.svg \
+            /usr/share/pixmaps/lshw-gtk.svg
     ;;
 
     abort-upgrade)
