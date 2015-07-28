@@ -1,0 +1,15 @@
+Source: lernstick-geogebra
+Section: education
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-geogebra
+Architecture: all
+Depends: geogebra5
+Provides: geogebra
+Description: Changes the desktop file of geogebra.
+ We remove the GenericDescription from the desktop file and add a desktop file
+ for the Geogebra Wiki. We also provide "geogebra" so that geogebra-kde and
+ geogebra-gnome can be installed alongside geogebra5.
