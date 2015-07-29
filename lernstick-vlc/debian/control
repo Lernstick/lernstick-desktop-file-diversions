@@ -1,0 +1,13 @@
+Source: lernstick-vlc
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-vlc
+Architecture: all
+Depends: vlc
+Description: Changes the menu entry of VLC
+ We set a high InitialPreference for VLC to become the standard applications
+ for opening videos instead of Handbrake (where we set a low InitialPreference).
