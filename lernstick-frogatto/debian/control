@@ -1,0 +1,12 @@
+Source: lernstick-frogatto
+Section: contrib/games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-frogatto
+Architecture: all
+Depends: frogatto
+Description: Starts frogatto in fullscreen mode
+ We start frogatto in fullscreen mode with the native screen resolution.
