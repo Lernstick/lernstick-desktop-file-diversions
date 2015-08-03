@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: live-trigger-rally
 Architecture: all
-Depends: trigger, live-resolution
+Depends: trigger-rally, live-resolution
 Description: Starts trigger-rally with the current screen resolution
  This package enforces trigger-rally to start with the current screen resolution
  instead of the configured value. This way trigger-rally can easily be used on

@@ -1,3 +1,9 @@
+live-trigger-rally (3) lernstick-8; urgency=medium
+
+  * fixed dependency on trigger-rally
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 03 Aug 2015 11:44:39 +0200
+
 live-trigger-rally (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
