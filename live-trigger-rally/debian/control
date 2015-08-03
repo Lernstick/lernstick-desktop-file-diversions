@@ -1,0 +1,17 @@
+Source: live-trigger-rally
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-trigger-rally
+Architecture: all
+Depends: trigger, live-resolution
+Description: Starts trigger-rally with the current screen resolution
+ This package enforces trigger-rally to start with the current screen resolution
+ instead of the configured value. This way trigger-rally can easily be used on
+ live systems without reconfiguration before every start.
+ We also change the category of the desktop file from "ActionGame" to
+ "ArcadeGame" because the latter seems to be a better fit and actually exists
+ in the current desktop environments.

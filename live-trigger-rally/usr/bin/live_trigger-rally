@@ -1,0 +1,10 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+TRIGGER_CONFIG=~/.trigger/trigger.config
+
+Replace "width=.*" "width=\"${_RESOLUTION_X}\"" ${TRIGGER_CONFIG}
+Replace "height=.*" "height=\"${_RESOLUTION_Y}\"" ${TRIGGER_CONFIG}
+
+exec /usr/games/trigger-rally ${@}

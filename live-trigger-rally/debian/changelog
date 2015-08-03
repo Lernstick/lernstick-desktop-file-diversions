@@ -1,0 +1,18 @@
+live-trigger-rally (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 03 Aug 2015 10:22:12 +0200
+
+live-trigger2 (1.0-2) unstable; urgency=low
+
+  * fixed maintainer scripts
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 01 Dec 2010 12:20:06 +0100
+
+live-trigger2 (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
