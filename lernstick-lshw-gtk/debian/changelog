@@ -1,3 +1,9 @@
+lernstick-lshw-gtk (3) lernstick-8; urgency=medium
+
+  * fix icon path
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 27 Jul 2015 20:51:07 +0200
+
 lernstick-lshw-gtk (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

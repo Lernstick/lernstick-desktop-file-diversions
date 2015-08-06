@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for lernstick-lshw-gtk
+# postrm script for live-frozen-bubble
 #
 # see: dh_installdeb(1)
 
@@ -24,12 +24,9 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package lernstick-lshw-gtk --rename --divert \
-            /usr/share/applications/lshw-gtk.desktop.orig \
-            /usr/share/applications/lshw-gtk.desktop
-        dpkg-divert --remove --package lernstick-lshw-gtk --rename --divert \
-            /usr/share/icons/hicolor/scalable/apps/lshw-gtk.svg \
-            /usr/share/pixmaps/lshw-gtk.svg
+        dpkg-divert --remove --package live-frozen-bubble --rename --divert \
+            /usr/share/applications/frozen-bubble.desktop.orig \
+            /usr/share/applications/frozen-bubble.desktop
     ;;
 
     *)

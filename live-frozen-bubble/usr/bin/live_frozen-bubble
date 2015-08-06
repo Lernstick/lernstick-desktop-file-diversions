@@ -1,0 +1,18 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+echo "detected screen resolution: ${_RESOLUTION_X}x${_RESOLUTION_Y}"
+
+# fullscreen or window mode?
+if [ $((${_RESOLUTION_X}*3/4)) -eq ${_RESOLUTION_Y} ]
+then
+	echo "we have a 4:3 resolution, we can go fullscreen"
+	_FULLSCREEN="--fullscreen"
+else
+	echo "no 4:3 resolution"
+	echo "fullscreen would look horrible (round balls would be elliptic)"
+	echo "start in window mode"
+	_FULLSCREEN="--no-fullscreen"
+fi
+frozen-bubble ${_FULLSCREEN} ${@}

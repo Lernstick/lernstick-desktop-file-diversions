@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-trigger-rally
+# preinst script for lernstick-vlc
 #
 # see: dh_installdeb(1)
 
@@ -16,9 +16,9 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-trigger-rally --rename --divert \
-            /usr/share/applications/trigger-rally.desktop.orig \
-            /usr/share/applications/trigger-rally.desktop
+        dpkg-divert --add --package lernstick-vlc --rename --divert \
+            /usr/share/applications/vlc.desktop.orig \
+            /usr/share/applications/vlc.desktop
     ;;
 
     abort-upgrade)

@@ -1,0 +1,30 @@
+lernstick-vlc (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 29 Jul 2015 18:27:58 +0200
+
+lernstick-vlc (1.2-1) unstable; urgency=low
+
+  * added InitialPreferece field to desktop file to win over Handbrake
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 18 Nov 2012 15:38:41 +0100
+
+lernstick-vlc (1.1-1) unstable; urgency=low
+
+  * add plugin path to exec call
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Mon, 19 Mar 2012 18:50:08 +0100
+
+lernstick-vlc (1.0-2) unstable; urgency=low
+
+  * fixed maintainer scripts
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 08 Sep 2011 15:03:31 +0200
+
+lernstick-vlc (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

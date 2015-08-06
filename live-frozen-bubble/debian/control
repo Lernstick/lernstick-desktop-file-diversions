@@ -1,0 +1,14 @@
+Source: live-frozen-bubble
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: live-frozen-bubble
+Architecture: all
+Depends: frozen-bubble, live-resolution
+Description: Starts frozen-bubble optionally in fullscreen mode
+ We start frozen-bubble in fullscreen mode if the current screen resolution has
+ a ration of 4:3. This way frozen-bubble can easily be used on live systems
+ without reconfiguration before every start.

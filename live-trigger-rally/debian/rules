@@ -9,7 +9,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-DESTDIR      = $(CURDIR)/debian/lernstick-trigger-rally
+DESTDIR      = $(CURDIR)/debian/live-trigger-rally
 
 configure: configure-stamp
 configure-stamp:
@@ -35,6 +35,7 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
+	# Add here commands to install the package into debian/live-neverball.
 	cp -r usr $(DESTDIR)
 
 # Build architecture-independent files here.

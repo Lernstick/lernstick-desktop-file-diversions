@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-lshw-gtk
+# preinst script for lernstick-geogebra
 #
 # see: dh_installdeb(1)
 
@@ -16,12 +16,9 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-lshw-gtk --rename --divert \
-            /usr/share/applications/lshw-gtk.desktop.orig \
-            /usr/share/applications/lshw-gtk.desktop
-        dpkg-divert --add --package lernstick-lshw-gtk --rename --divert \
-            /usr/share/icons/hicolor/scalable/apps/lshw-gtk.svg \
-            /usr/share/pixmaps/lshw-gtk.svg
+        dpkg-divert --add --package lernstick-geogebra --rename --divert \
+            /usr/share/applications/geogebra.desktop.orig \
+            /usr/share/applications/geogebra.desktop
     ;;
 
     abort-upgrade)
