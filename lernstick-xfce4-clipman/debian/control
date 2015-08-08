@@ -1,0 +1,12 @@
+Source: lernstick-xfce4-clipman
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xfce4-clipman
+Architecture: all
+Depends: xfce4-clipman
+Description: Shows xfce4-clipman only when running XFCE
+ We show xfce4-clipman only when running an XFCE session.
