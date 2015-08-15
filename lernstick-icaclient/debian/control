@@ -1,0 +1,13 @@
+Source: lernstick-icaclient
+Section: utils
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-icaclient
+Architecture: all
+Depends: icaclient
+Description: Fixes selfservice desktop file.
+ We fix an error in the selfservice desktop file (--icaroot instead of
+ -icaroot).
