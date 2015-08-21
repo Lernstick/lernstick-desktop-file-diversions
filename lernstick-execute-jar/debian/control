@@ -1,0 +1,13 @@
+Source: lernstick-execute-jar
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-execute-jar
+Architecture: all
+Depends: java-runtime
+Description: Adds a desktop file to execute JAR files
+ Most JAR files aren't simple archives but executable Java programs. Therefore
+ we add a desktop file to execute JAR files with the Java runtime.

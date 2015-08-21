@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Execute JAR file
+Name[de]=JAR-Datei ausführen
+Exec=java -jar %f
+Icon=javaws
+Type=Application
+Categories=Utility;
+MimeType=application/java-archive;application/x-java-archive;
+NoDisplay=true
