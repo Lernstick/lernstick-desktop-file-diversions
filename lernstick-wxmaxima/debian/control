@@ -1,7 +1,8 @@
 Source: lernstick-wxmaxima
 Section: math
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Lernstick Team <lernstick.ph@fhnw.ch>
+Uploaders: Ronny Standtke <ronny.standtke@fhnw.ch>, Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
