@@ -1,7 +1,8 @@
 Source: lernstick-geogebra
 Section: education
 Priority: extra
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Lernstick Team <lernstick.ph@fhnw.ch>
+Uploaders: Ronny Standtke <ronny.standtke@fhnw.ch>, Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
@@ -9,7 +10,21 @@ Package: lernstick-geogebra
 Architecture: all
 Depends: geogebra5
 Provides: geogebra
-Description: Changes the desktop file of geogebra.
+Conflicts: lernstick-geogebra-exam
+Description: Changes the desktop file of geogebra
  We remove the GenericDescription from the desktop file and add a desktop file
  for the Geogebra Wiki. We also provide "geogebra" so that geogebra-kde and
- geogebra-gnome can be installed alongside geogebra5.
+ geogebra-gnome can be installed alongside geogebra5.Package: lernstick-geogebra
+
+Package: lernstick-geogebra-exam
+Architecture: all
+Depends: geogebra5
+Provides: geogebra
+Conflicts: lernstick-geogebra
+Description: Changes the desktop file of geogebra (exam environment)
+ We remove the GenericDescription from the desktop file. We also provide
+ "geogebra" so that geogebra-kde and geogebra-gnome can be installed alongside
+ geogebra5.
+ .
+ This version for the exam environment does not install a desktop file for the
+ wiki.
