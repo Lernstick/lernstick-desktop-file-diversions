@@ -9,6 +9,17 @@ Standards-Version: 3.7.3
 Package: lernstick-wxmaxima
 Architecture: all
 Depends: wxmaxima
+Conflicts: lernstick-wxmaxima-exam
 Description: Changes the menu entry of wxmaxima
  We fix http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=466997
  and add a link to wxMaxima course material.
+
+Package: lernstick-wxmaxima-exam
+Architecture: all
+Depends: wxmaxima
+Conflicts: lernstick-wxmaxima
+Description: Changes the menu entry of wxmaxima (exam environment)
+ We fix http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=466997.
+ .
+ This package version for the exam environment does not install the
+ menu entry for the online course material.
