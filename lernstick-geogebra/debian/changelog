@@ -1,3 +1,9 @@
+lernstick-geogebra (3) lernstick-8; urgency=medium
+
+  * Add package for exam environment
+
+ -- Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>  Thu, 27 Aug 2015 16:59:23 +0200
+
 lernstick-geogebra (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
