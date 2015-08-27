@@ -14,7 +14,7 @@ Conflicts: lernstick-geogebra-exam
 Description: Changes the desktop file of geogebra
  We remove the GenericDescription from the desktop file and add a desktop file
  for the Geogebra Wiki. We also provide "geogebra" so that geogebra-kde and
- geogebra-gnome can be installed alongside geogebra5.Package: lernstick-geogebra
+ geogebra-gnome can be installed alongside geogebra5.
 
 Package: lernstick-geogebra-exam
 Architecture: all
