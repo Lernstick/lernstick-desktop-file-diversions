@@ -1,3 +1,10 @@
+lernstick-wxmaxima (4) lernstick-8; urgency=medium
+
+  * Add package for exam environment
+  * Update Maintainer fields
+
+ -- Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>  Thu, 27 Aug 2015 17:18:37 +0200
+
 lernstick-wxmaxima (3) lernstick-8; urgency=medium
 
   * synced with new upstream version 15.04
