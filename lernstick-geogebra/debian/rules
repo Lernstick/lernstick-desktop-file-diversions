@@ -10,7 +10,6 @@
 #export DH_VERBOSE=1
 
 DESTDIR      = $(CURDIR)/debian/lernstick-geogebra
-DESTDIR_EXAM = $(CURDIR)/debian/lernstick-geogebra-exam
 
 configure: configure-stamp
 configure-stamp:
@@ -37,8 +36,6 @@ install: build
 	dh_installdirs
 
 	cp -r usr $(DESTDIR)
-	mkdir -p $(DESTDIR_EXAM)/usr/share/applications
-	cp usr/share/applications/geogebra.desktop $(DESTDIR_EXAM)/usr/share/applications
 
 # Build architecture-independent files here.
 binary-indep: build install
