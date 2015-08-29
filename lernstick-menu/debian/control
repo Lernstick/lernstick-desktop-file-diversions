@@ -1,13 +1,13 @@
 Source: lernstick-menu
 Section: utils
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Lernstick Team <lernstick.ph@fhnw.ch>
+Uploaders: Ronny Standtke <ronny.standtke@fhnw.ch>, Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-menu
-Architecture: any
+Architecture: all
 Depends: menu
 Description: We fix the su-to-root script
- The upstream su-to-root package never worked for us. Therefore
- we fix it here.
+ The upstream su-to-root package never worked for us. Therefore we fix it here.
