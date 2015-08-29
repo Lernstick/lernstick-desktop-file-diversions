@@ -99,25 +99,12 @@ else
           SU_TO_ROOT_X=su-to-root
         fi
       else
-        # this is *NOT* a full KDE session
-        # gksu doesn't seem to work in exam environment, prefer gksudo
-        if which gksudo >/dev/null 2>&1 ; then
-          SU_TO_ROOT_X=gksudo
-        elif which gksu >/dev/null 2>&1 ; then
-          SU_TO_ROOT_X=gksu
-        elif which kdesudo >/dev/null 2>&1 ; then
-          SU_TO_ROOT_X=kdesudo
-        elif which kdesu >/dev/null 2>&1 ; then 
-          SU_TO_ROOT_X=kdesu
-        elif test -x /usr/lib/kde4/libexec/kdesu ; then
-          SU_TO_ROOT_X=kde4su
-        elif which ktsuss >/dev/null 2>&1 ; then
-          SU_TO_ROOT_X=ktsuss
-        elif which sux >/dev/null 2>&1 ; then 
-          SU_TO_ROOT_X=sux
-        else
-          SU_TO_ROOT_X=su-to-root
-        fi
+        # Because we use this package only in the exam environment this is
+        # (most probably) a GNOME session.
+        # For whatever reason gksu doesn't work in the exam environment.
+        # gksudo annoys with a hint dialog we didn't manage to disable.
+        # We give up with all this crap and just use plain old sudo.
+        SU_TO_ROOT_X=sudo
       fi
     fi
     case $SU_TO_ROOT_X in
@@ -129,6 +116,7 @@ else
       ktsuss) ktsuss -u "$PRIV" "$COMMAND";;
       sux) env SU_TO_ROOT_SU=sux \
         x-terminal-emulator -e su-to-root -p "$PRIV" -c "$COMMAND";;
+      sudo) sudo "$COMMAND";;
   # As a last resort, open a new x-terminal-emulator and prompt for the password
   # Do not use -X here!
       *) x-terminal-emulator -e su-to-root -p "$PRIV" -c "$COMMAND";;
