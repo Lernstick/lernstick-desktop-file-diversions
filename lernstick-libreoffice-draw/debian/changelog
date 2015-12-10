@@ -1,0 +1,11 @@
+lernstick-libreoffice-draw (2) lernstick-8; urgency=medium
+
+  * added workaround for https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=798591
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 12 Sep 2015 20:46:13 +0200
+
+lernstick-libreoffice-draw (1.0-1) lernstick-8; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 14 May 2015 20:08:58 +0200

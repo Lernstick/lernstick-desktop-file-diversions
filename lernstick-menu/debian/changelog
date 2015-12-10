@@ -1,0 +1,30 @@
+lernstick-menu (4) lernstick-8; urgency=medium
+
+  * plain old sudo needs a tty and does not work with desktop menus...
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 29 Aug 2015 22:25:46 +0200
+
+lernstick-menu (3) lernstick-8; urgency=medium
+
+  * use plain old sudo in a GNOME session
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 29 Aug 2015 20:39:43 +0200
+
+lernstick-menu (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 29 Aug 2015 13:42:19 +0200
+
+lernstick-menu (1.1-1) unstable; urgency=low
+
+  * fixed preference handling in KDE/non-KDE situations
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 09 Mar 2011 19:21:06 +0100
+
+lernstick-menu (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+

@@ -1,0 +1,219 @@
+#
+# This file is part of the LibreOffice project.
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# This file incorporates work covered by the following license notice:
+#
+#   Licensed to the Apache Software Foundation (ASF) under one or more
+#   contributor license agreements. See the NOTICE file distributed
+#   with this work for additional information regarding copyright
+#   ownership. The ASF licenses this file to you under the Apache
+#   License, Version 2.0 (the "License"); you may not use this file
+#   except in compliance with the License. You may obtain a copy of
+#   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+#
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=libreoffice-math
+Type=Application
+Categories=Office;Spreadsheet;Education;Science;Math;
+Exec=env OOO_FORCE_DESKTOP=gnome SAL_USE_VCLPLUGIN=gtk libreoffice --math %U
+MimeType=application/vnd.oasis.opendocument.formula;application/vnd.sun.xml.math;application/vnd.oasis.opendocument.formula-template;text/mathml;application/mathml+xml;
+Name=LibreOffice Math
+GenericName=Formula Editor
+GenericName[gl]=Editor de fórmulas
+GenericName[pl]=Edytor formuł
+GenericName[mn]=Formula Editor
+GenericName[fa]=ویرایش‌گر فرمول
+GenericName[ss]=Formula Editor
+GenericName[uk]=Редактор формул
+GenericName[oc]=Editor de formula
+GenericName[et]=Valemiredaktor
+GenericName[en_ZA]=Formula Editor
+GenericName[it]=Elaboratore di formule
+GenericName[tr]=Formül Düzenleyici
+GenericName[tn]=Formula Editor
+GenericName[bn]=সূত্র সম্পাদক
+GenericName[fr]=Éditeur de formule
+GenericName[eu]=Formula editorea
+GenericName[tg]=Formula Editor
+GenericName[fi]=Kaavaeditori
+GenericName[ga]=Eagarthóir Foirmlí
+GenericName[es]=Editor de fórmulas
+GenericName[ne]=सूत्र सम्पादक
+GenericName[id]=Penyunting Rumus
+GenericName[ca_valencia]=Editor de fórmules
+GenericName[ml]=ഫോര്‍മുലാ എഡിറ്റര്‍
+GenericName[nso]=Morulaganyi wa fomula
+GenericName[pt_BR]=Editor de fórmulas
+GenericName[en]=Formula Editor
+GenericName[de]=Formeleditor
+GenericName[he]=עורך נוסחאות
+GenericName[hu]=Képletszerkesztő
+GenericName[nl]=Formule-bewerker
+GenericName[br]=Embanner reollunioù
+GenericName[uz]=Formula tahrirchisi
+GenericName[cy]=Golygydd Fformiwla
+GenericName[mk]=Уредувач на формула
+GenericName[zh_CN]=公式编辑器
+GenericName[kmr_Latn]=Edîtorê Formulan
+GenericName[cs]=Editor vzorců
+GenericName[lv]=Formulu redaktors
+GenericName[ve]=Formula Editor
+GenericName[af]=Formule-redigeerder
+GenericName[gu]=સૂત્ર સંપાદક
+GenericName[sv]=Formelredigerare
+GenericName[as]=সূত্র সম্পাদক
+GenericName[nr]=Formula Editor
+GenericName[ar]=محرر الصيغة
+GenericName[eo]=Formuloredaktilo
+GenericName[dz]=Formula Editor
+GenericName[st]=Formula Editor
+GenericName[sl]=Urejevalnik formul
+GenericName[xh]=Formula Editor
+GenericName[te]=ఫార్ములా సరికూర్పరి
+GenericName[mr]=सूत्र संपादक
+GenericName[ta]=சூத்திரத் திருத்தி
+GenericName[sr]=Уређивач формуле
+GenericName[hi]=सूत्र संपादक
+GenericName[ka]=Formula Editor
+GenericName[be]=Рэдактар формул
+GenericName[da]=Formeleditor
+GenericName[nn]=Formelredigering
+GenericName[is]=Formúluritill
+GenericName[lt]=Formulių rengyklė
+GenericName[zu]=Formula Editor
+GenericName[en_GB]=Formula Editor
+GenericName[gd]=Deasaiche foirmle
+GenericName[th]=ตัวแก้ไขสูตร
+GenericName[bg]=Редактор на формули
+GenericName[ko]=수식 편집기
+GenericName[vi]=Trình soạn công thức 
+GenericName[ug]=فورمۇلا تەھرىرلىگۈچ
+GenericName[si]=සූත්‍ර සකසනය
+GenericName[rw]=Formula Editor
+GenericName[bs]=Editor za formule
+GenericName[ca]=Editor de fórmules
+GenericName[zh_TW]=公式編輯器
+GenericName[nb]=Formelredigering
+GenericName[pa_IN]=ਫਾਰਮੂਲਾ ਐਡੀਟਰ
+GenericName[el]=Επεξεργαστής τύπων
+GenericName[om]=Gulaalaa Foormulaa
+GenericName[or]=ସୂତ୍ର ସମ୍ପାଦକ
+GenericName[ru]=Редактор формул
+GenericName[ast]=Editor de fórmules
+GenericName[sk]=Editor vzorcov
+GenericName[ro]=Editor de formule
+GenericName[pt]=Editor de fórmulas
+GenericName[ja]=数式エディター
+GenericName[hr]=Uređivač matematičkih formula
+GenericName[kk]=Формулалар түзеткіші
+GenericName[ts]=Formula Editor
+GenericName[km]=កម្មវិធី​កែសម្រួល​រូបមន្ដ
+Comment=Create and edit scientific formulas and equations by using Math.
+Comment[ve]=Vhumbani na u lumalamisa dzifomuḽa dza sainthifiki na dziikhwesheni nga u shumisa Math.
+Comment[bs]=Kreiranje i uređivanje naučnih formula i jednačina koristeći Math.
+Comment[zh_CN]=使用 Math 创建并编辑科学公式和方程式。
+Comment[en_ZA]=Create and edit scientific formulae and equations by using Math.
+Comment[vi]=Tạo và sửa công thức và phương trình khoa học, dùng trình Math.
+Comment[he]=יצירה ועריכה של נוסחאות ומשוואות מדעיות באמצעות תוכנת הנוסחאות.
+Comment[nr]=Enza nokuhlela amafomula namakhotheyitjhini ngokusebenzisa i-Math.
+Comment[hr]=Stvorite i uredite znanstvene formule i jednadžbe.
+Comment[pt_BR]=Crie e edite fórmulas científicas e equações por meio do Math.
+Comment[cy]=Creu a golygu fformiwlâu gwyddonol a hafaliadau gan ddefnyddio Math.
+Comment[be]=Стварайце і рэдагуйце навуковыя формулы і ўраўненні з дапамогаю Math-а.
+Comment[gd]=Cruthaich is deasaich foirmlean is co-aontairean saidheansail le Math.
+Comment[id]=Mengolah rumus ilmiah maupun persamaannya menggunakan Math.
+Comment[ne]=गणितको प्रयोगद्वारा वैज्ञानिक सूत्रहरू र समीकरणहरू सिर्जना तथा सम्पादन गर्नुहोस् ।
+Comment[rw]=Kurema no guhindura inzira n'inganyagaciro bya gihanga ukoresheje Math.
+Comment[ro]=Creați și editați formule științifice și ecuații folosind Math.
+Comment[es]=Cree y edite fórmulas científicas y ecuaciones con Math.
+Comment[sr]=Направите и уређујте научне формуле и једначине у Математици.
+Comment[ga]=Cruthaigh foirmlí eolaíocha agus cothromóidí agus cuir iad in eagar le Math.
+Comment[ar]=إنشاء الصيغ العلمية والمعادلات وتحريرها باستخدام ماث.
+Comment[oc]=Math - Creacion e edicion de formulas scientificas e d'eqüacions.
+Comment[tg]=Бо ёрии Math формулаҳои илмӣ сохтан, онҳоро ислоҳ кардан мумкин аст.
+Comment[st]=Bopa le ho lokisa difomula tsa saense le diekweishene ka ho sebedisa Math.
+Comment[nso]=Hlama le go lokiša difomula tša saense le diekhoišene ka go diriša Math.
+Comment[ss]=Yakha u-edithe ngekwesayensi yemafomula nemakhweshini ngakusebentisa Math.
+Comment[ja]=Math を使用して、科学の公式や方程式を作成し、編集します。
+Comment[cs]=Math umožňuje vytvářet a upravovat vědecké vzorce a rovnice.
+Comment[el]=Δημιουργία και επεξεργασία επιστημονικών τύπων και εξισώσεων με τη χρήση του Math.
+Comment[kmr_Latn]=Wekhevîn û formulên zanistî bi Mathê çê bike û sererast bike.
+Comment[en]=Create and edit scientific formulas and equations by using Math.
+Comment[sv]=Skapa och redigera vetenskapliga formler och ekvationer med hjälp av Math.
+Comment[nn]=Med Math kan du laga og redigera vitskaplege formlar og likningar.
+Comment[mn]=Math ашиглан шинжлэх ухааны томьёо ба тэнцэтгэл биш үүсгэх болон засварлах.
+Comment[eu]=Formula zientifikoak eta ekuazioak sortu eta editatu Math erabiliz.
+Comment[ml]=കണക്ക് ഉപയോഗിച്ച് ശാസ്ത്രീയ സൂത്രവാക്യങ്ങളും  സമവാക്യങ്ങളും സൃഷ്ടിക്കുകയും എഡിറ്റു ചെയ്യുകയും ചെയ്യാം.
+Comment[ko]=Math를 사용하여 수식 및 공학용 수식을 만들고 편집합니다.
+Comment[om]=Math fayyadamuun foormulaawwan saayinsaawaa fi himoota qixxaatoo uumi, gulaali.
+Comment[zu]=Yenza futhi ulungise amafomula ezesayensi nama-ikhuweyjini ngokusebenzisa into yeziBalo.
+Comment[eo]=Krei kaj redakti sciencajn formulojn kaj ekvaciojn per Formulilo.
+Comment[ts]=Endla ni ku lulamisa Tifomula ta vutshila bya sayense ni tinhlayo hi ku tirhisa Math.
+Comment[de]=Wissenschaftliche Formeln setzen und bearbeiten - Math macht's möglich.
+Comment[fi]=Luo ja muokkaa tieteellisiä kaavioita ja yhtälöitä käyttämällä Math -ohjelmaa.
+Comment[uz]=Math yordamida ilmiy formulalarni tuzish va tahrirlash.
+Comment[hu]=Képletek és egyenletek létrehozása és szerkesztése a Math használatával.
+Comment[pt]=Criar e editar fórmulas e equações científicas com o Math.
+Comment[nb]=Opprett og rediger vitenskapelige formler og ligninger ved bruk av Math.
+Comment[ru]=Создание и редактирование научных формул и уравнений.
+Comment[km]=បង្កើត និង​កែ​សម្រួល​រូបមន្ត​វិទ្យាសាស្ត្រ និង​សមីការ​ដោយ​ប្រើ Math ។
+Comment[si]=Math භාවිතා කරමින් විද්‍යාත්මක සූත්‍ර සහ සමීකරණ සාදන්න සහ වෙනස් කරන්න.
+Comment[br]=Math. - Krouiñ hag embann reollunioù skiantel hag ataladoù.
+Comment[zh_TW]=使用 Math 可建立與編輯科學公式與方程式。
+Comment[te]=శాస్త్ర సూత్రములు మరియు   సమీకరణములను  మేథ్ తో నిర్మించి, సరిచేయుము
+Comment[ug]=Math ئىشلىتىپ ئىلىم-پەن فورمۇلاسى ۋە ئىپادىسى قۇرىدۇ، تەھرىرلەيدۇ.
+Comment[ta]=அறிவியல் சூத்திரங்களையும் சமன்பாடுகளையும் உருவாக்க, தொகுக்க மேத்தைப் பயன்படுத்து.
+Comment[gu]=ગણિત વડે વૈજ્ઞાનિક સુત્રો અને સમીકરણો બનાવો.
+Comment[pa_IN]=ਗਣਿਤ (Math) ਨਾਲ ਵਿਗਿਆਨਕ ਫਾਰਮੂਲੇ ਅਤੇ ਸਮੀਕਰਨ ਬਣਾਓ।
+Comment[mk]=Креирајте и уредувајте научни формули и равенки користејќи Math.
+Comment[fr]=Math - Création et édition de formules scientifiques et d'équations.
+Comment[mr]=Math चा वापर करून वैज्ञानिक सूत्रे व समीकरणे बनवा व संपादीत करा.
+Comment[fa]=با استفاده از ریاضی، فرمول‌ها و معادلات ریاضی ایجاد یا ویرایش کنید.
+Comment[et]=Math võimaldab luua ja redigeerida teaduslikke valemeid ning võrrandeid.
+Comment[gl]=Crear e editar fórmulas científicas e ecuacións con Math.
+Comment[da]=Opret og rediger videnskabelige formler ved brug af Math.
+Comment[nl]=Met Math kunt u wiskundige formules en vergelijkingen maken en bewerken.
+Comment[sk]=Vytvárajte a upravujte vedecké vzorce a výrazy s použitím Math.
+Comment[as]=Math ব্যৱহাৰ কৰি বৈজ্ঞানিক সূত্ৰ আৰু সমীকৰণবোৰ সৃষ্টি আৰু সম্পাদনা কৰক।
+Comment[ast]=Crear y editar fórmules científiques y ecuaciones emplegando Math.
+Comment[uk]=Створення та редагування наукових формул та рівнянь.
+Comment[xh]=Dala uze uhlele iindlela zokusebenzisa inzululwazi nongqinelaniso ngokusebenzisa u-Math.
+Comment[hi]=गणित के प्रयोग से वैज्ञानिक सूत्र बनाएं और संपादित करें.
+Comment[en_GB]=Create and edit scientific formulae and equations using Math.
+Comment[th]=สร้างและแก้ไขสูตรทางวิทยาศาสตร์และสมการโดยการใช้ Math
+Comment[ca_valencia]=Creeu i editeu fórmules científiques i equacions amb el Math.
+Comment[ca]=Creeu i editeu fórmules científiques i equacions amb el Math.
+Comment[pl]=Twórz i edytuj wzory matematyczne i naukowe używając programu Math.
+Comment[bg]=С Math можете да създавате и редактирате математически формули и уравнения.
+Comment[tn]=Create and edit scientific formulas and equations by using Math.
+Comment[dz]=ཨང་རྩིས་ལག་ལེན་འཐབ་ཐོག་ལས་ ཚན་རིག་དང་འབྲེལ་བའི་མན་ངག་དང་ཨི་ཀུའེ་ཊེ་ཤཱན་བཟོ་ནི་དང་ཞུན་དག་རྐྱབ་ནི།
+Comment[ka]=ქმნის და ასწორებს სამეცნიერო ფორმულებს და განტოლებებს Math-ის გამოყენებით.
+Comment[lt]=Formulių rengyklė skirta formulėms ir lygtims rašyti.
+Comment[af]=Skep en redigeer wetenskaplike formules en vergelykings met Math.
+Comment[or]=ଗଣିତ ଉପୟୋଗକରି ବୌଜ୍ଞାନିକ ସୂତ୍ର ଏବଂ ସମିକରଣଗୁଡିକୁ   ସୃଷ୍ଟି ଏବଂ ସମ୍ପାଦନ କର ।
+Comment[kk]=Math көмегімен ғылыми формулаларды және теңдеулерді жасау және түзетуге болады.
+Comment[lv]=Veidot un rediģēt formulas un vienādojumus, lietojot Math.
+Comment[sl]=S programom Math ustvarjajte in urejajte znanstvene formule in enačbe.
+Comment[bn]=ম্যাথ ব্যবহার করে বৈজ্ঞানিক ফর্মূলা এবং সমীকরণ তৈরি এবং সম্পাদনা করুন। 
+Comment[tr]=Math kullanarak bilimsel formülleri ve eşitlikleri oluşturabilir ve düzenleyebilirsiniz.
+Comment[is]=Búa til og breyta vísindaformúlum og jöfnum með því að nota Math.
+Comment[it]=Math ti permette di creare e modificare formule scientifiche ed equazioni.
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Equation;OpenDocument Formula;Formula;odf;MathML;
+InitialPreference=5
+StartupWMClass=libreoffice-math
+X-KDE-Protocols=file,http,ftp,webdav
+NoDisplay=true
+
+Actions=NewDocument;
+[Desktop Action NewDocument]
+Name=New Formula
+Exec=libreoffice --math
