@@ -110,7 +110,7 @@ Name[zh_CN]=Tux Paint
 Name[zh_TW]=企鵝小畫家
 Name[zu]=i-Tux Paint
 Type=Application
-Exec=tuxpaint --fullscreen=y --native --noprint --savedir ~/Bilder/TuxPaint
+Exec=lernstick-tuxpaint
 Icon=tuxpaint
 Terminal=false
 Categories=Graphics;

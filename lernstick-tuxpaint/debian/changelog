@@ -1,3 +1,9 @@
+lernstick-tuxpaint (3) lernstick-8; urgency=medium
+
+  * use xdg pictures dir as save-dir
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 10 Dec 2015 12:04:16 +0100
+
 lernstick-tuxpaint (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

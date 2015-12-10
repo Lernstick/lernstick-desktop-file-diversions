@@ -11,6 +11,7 @@
 
 DESTDIR      = $(CURDIR)/debian/lernstick-tuxpaint
 APPDIR       = $(DESTDIR)/usr/share/applications/
+BINDIR       = $(DESTDIR)/usr/bin/
 
 configure: configure-stamp
 configure-stamp:
@@ -38,6 +39,8 @@ install: build
 
 	mkdir -p $(APPDIR)
 	cp tuxpaint.desktop $(APPDIR)
+	mkdir -p $(BINDIR)
+	cp lernstick-tuxpaint $(BINDIR)
 
 	# Build architecture-independent files here.
 binary-indep: build install
