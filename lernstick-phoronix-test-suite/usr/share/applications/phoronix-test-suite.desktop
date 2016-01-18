@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Phoronix Test Suite
+GenericName=Benchmarking Utility
+GenericName[de]=Benchmarks
+Comment=An Automated, Open-Source Testing Framework
+Comment[de]=Benchmark-Sammlung
+Comment[fr]=Outil pour étalonner les performances de votre ordinateur
+Exec=sudo phoronix-test-suite interactive
+StartupNotify=true
+Icon=phoronix-test-suite
+Terminal=true
+Type=Application
+Categories=System;Monitor;

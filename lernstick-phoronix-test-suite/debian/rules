@@ -9,9 +9,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-DESTDIR      = $(CURDIR)/debian/lernstick-tuxpaint
-APPDIR       = $(DESTDIR)/usr/share/applications/
-BINDIR       = $(DESTDIR)/usr/bin/
+DESTDIR      = $(CURDIR)/debian/lernstick-phoronix-test-suite
 
 configure: configure-stamp
 configure-stamp:
@@ -37,12 +35,9 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	mkdir -p $(APPDIR)
-	cp tuxpaint.desktop $(APPDIR)
-	mkdir -p $(BINDIR)
-	cp lernstick-tuxpaint $(BINDIR)
+	cp -r usr $(DESTDIR)
 
-	# Build architecture-independent files here.
+# Build architecture-independent files here.
 binary-indep: build install
 # We have nothing to do by default.
 

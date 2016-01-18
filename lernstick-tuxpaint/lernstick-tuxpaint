@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# gettext support
+. gettext.sh
+export TEXTDOMAIN=xdg-user-dirs
+
+# Per default TuxPaint saves its pictures in a hidden folder (~/.tuxpaint).
+# This makes it hard for users to access the TuxPaint pictures with other
+# graphics utilities. Therefore we use a non-default but easier to access
+# directory for the TuxPaint pictures.
+#
+# make sure that custom TuxPaint pictures directory exists
+PICTURES="$(gettext "Pictures")"
+TUXPAINT_PICTURES="${HOME}/${PICTURES}/TuxPaint"
+if [ ! -d "${TUXPAINT_PICTURES}" ]
+then
+	mkdir -p "${TUXPAINT_PICTURES}"
+fi
+
+# run tuxpaint fullscreen, without printing support and our custom directory
+tuxpaint --fullscreen=y --native --noprint --savedir "${TUXPAINT_PICTURES}"

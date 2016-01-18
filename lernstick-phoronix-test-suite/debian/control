@@ -1,0 +1,12 @@
+Source: lernstick-phoronix-test-suite
+Section: contrib/utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-phoronix-test-suite
+Architecture: all
+Depends: phoronix-test-suite
+Description: Changes the menu entry of phoronix-test-suite
+ We use kdesudo to start phoronix-test-suite.
