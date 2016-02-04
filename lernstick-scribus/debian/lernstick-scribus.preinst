@@ -17,11 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-scribus --rename --divert \
-            /usr/share/applications/scribus.desktop.orig \
-            /usr/share/applications/scribus.desktop
-        dpkg-divert --add --package lernstick-scribus --rename --divert \
-            /usr/share/mimelnk/application/vnd.scribus.desktop.orig \
-            /usr/share/mimelnk/application/vnd.scribus.desktop
+            /usr/share/applications/vnd.scribus.desktop.orig \
+            /usr/share/applications/vnd.scribus.desktop
     ;;
 
     abort-upgrade)

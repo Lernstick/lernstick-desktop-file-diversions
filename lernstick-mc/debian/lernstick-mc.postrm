@@ -27,6 +27,9 @@ case "$1" in
         dpkg-divert --remove --package lernstick-mc --rename --divert \
             /usr/share/applications/mc.desktop.orig \
             /usr/share/applications/mc.desktop
+        dpkg-divert --remove --package lernstick-mc --rename --divert \
+            /usr/share/applications/mcedit.desktop.orig \
+            /usr/share/applications/mcedit.desktop
     ;;
 
     *)
