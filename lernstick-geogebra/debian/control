@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-geogebra
 Architecture: all
-Depends: geogebra5
+Depends: geogebra5, openjfx
 Provides: geogebra
 Conflicts: lernstick-geogebra-exam
 Description: Changes the desktop file of geogebra
@@ -19,7 +19,7 @@ Description: Changes the desktop file of geogebra
 
 Package: lernstick-geogebra-exam
 Architecture: all
-Depends: geogebra5
+Depends: geogebra5, openjfx
 Provides: geogebra
 Conflicts: lernstick-geogebra
 Description: Allows installation of geogebra-kde and geogebra-gnome alongside geogebra5
