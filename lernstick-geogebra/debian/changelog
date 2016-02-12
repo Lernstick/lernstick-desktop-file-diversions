@@ -1,3 +1,9 @@
+lernstick-geogebra (7) lernstick-8; urgency=medium
+
+  * use system Java also in exam environment
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 12 Feb 2016 21:50:04 +0100
+
 lernstick-geogebra (6) lernstick-8; urgency=medium
 
   * use Java from Debian instead of buggy internal version
