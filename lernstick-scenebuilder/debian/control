@@ -1,0 +1,12 @@
+Source: lernstick-scenebuilder
+Section: devel
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-scenebuilder
+Architecture: all
+Depends: scenebuilder
+Description: Fixes the desktop file of scenebuilder
+ We fix the Categories in the scenebuilder desktop file.
