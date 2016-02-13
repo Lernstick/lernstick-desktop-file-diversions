@@ -10,3 +10,4 @@ Architecture: all
 Depends: scenebuilder
 Description: Fixes the desktop file of scenebuilder
  We fix the Categories in the scenebuilder desktop file.
+ See https://bitbucket.org/gluon-oss/scenebuilder/issues/58/categories-in-desktop-file
