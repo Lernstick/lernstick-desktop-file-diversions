@@ -1,3 +1,9 @@
+lernstick-scenebuilder (2) lernstick-8; urgency=medium
+
+  * also divert original desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 13 Feb 2016 16:08:53 +0100
+
 lernstick-scenebuilder (1) lernstick-8; urgency=low
 
   * Initial release

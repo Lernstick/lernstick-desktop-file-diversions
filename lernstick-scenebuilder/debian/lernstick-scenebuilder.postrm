@@ -27,6 +27,9 @@ case "$1" in
         dpkg-divert --remove --package lernstick-scenebuilder --rename --divert \
             /usr/share/applications/SceneBuilder.desktop.orig \
             /usr/share/applications/SceneBuilder.desktop
+        dpkg-divert --remove --package lernstick-scenebuilder --rename --divert \
+            /opt/SceneBuilder/SceneBuilder.desktop.orig \
+            /opt/SceneBuilder/SceneBuilder.desktop
     ;;
 
     *)
