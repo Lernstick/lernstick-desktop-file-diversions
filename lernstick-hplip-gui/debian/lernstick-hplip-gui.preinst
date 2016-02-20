@@ -23,11 +23,14 @@ case "$1" in
             /usr/share/applications/hp-fab.desktop.orig \
             /usr/share/applications/hp-fab.desktop
         dpkg-divert --add --package lernstick-hplip-gui --rename --divert \
-            /usr/share/applications/hplip-kubuntu.desktop.orig \
-            /usr/share/applications/hplip-kubuntu.desktop
-        dpkg-divert --add --package lernstick-hplip-gui --rename --divert \
             /usr/share/applications/hp-sendfax.desktop.orig \
             /usr/share/applications/hp-sendfax.desktop
+        dpkg-divert --add --package lernstick-hplip-gui --rename --divert \
+            /usr/share/applications/hplip.desktop.orig \
+            /usr/share/applications/hplip.desktop
+        dpkg-divert --add --package lernstick-hplip-gui --rename --divert \
+            /usr/share/applications/hplip-kubuntu.desktop.orig \
+            /usr/share/applications/hplip-kubuntu.desktop
     ;;
 
     abort-upgrade)
