@@ -1,0 +1,6 @@
+[Desktop Entry]
+Categories=Application;Development;Java;
+Exec=firefox /usr/share/doc/openjdk-8-jre-headless/api/index.html
+Icon=/usr/share/icons/java_api.png
+Name=Java-API
+Type=Application

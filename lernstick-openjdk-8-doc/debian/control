@@ -1,0 +1,12 @@
+Source: lernstick-openjdk-8-doc
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-openjdk-8-doc
+Architecture: all
+Depends: openjdk-8-doc
+Description: Adds a desktop file for the Javadoc
+ We add a desktop file for easy access to the Javadoc
