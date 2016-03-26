@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-geogebra
 Architecture: all
-Depends: geogebra5, openjfx
+Depends: geogebra5, openjfx, iceweasel | firefox
 Provides: geogebra
 Conflicts: lernstick-geogebra-exam
 Description: Some bug fixes for the geogebra5 package
