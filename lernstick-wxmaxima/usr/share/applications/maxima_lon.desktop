@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Application;Education;Math;
-Exec=iceweasel http://www.lehrer-online.de/maxima.php
+Exec=firefox http://www.lehrer-online.de/maxima.php
 Icon=konqueror
 Name=wxMaxima-Unterrichtsmaterial
 Type=Application
