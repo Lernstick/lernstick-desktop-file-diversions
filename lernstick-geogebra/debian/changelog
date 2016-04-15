@@ -1,3 +1,21 @@
+lernstick-geogebra (8) lernstick-8; urgency=medium
+
+  * switched from iceweasel to firefox
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 26 Mar 2016 16:36:43 +0100
+
+lernstick-geogebra (7) lernstick-8; urgency=medium
+
+  * use system Java also in exam environment
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 12 Feb 2016 21:50:04 +0100
+
+lernstick-geogebra (6) lernstick-8; urgency=medium
+
+  * use Java from Debian instead of buggy internal version
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 12 Feb 2016 21:32:53 +0100
+
 lernstick-geogebra (5) lernstick-8; urgency=medium
 
   * fixed package description and removed desktop file divertion from exam

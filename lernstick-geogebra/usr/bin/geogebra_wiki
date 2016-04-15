@@ -3,21 +3,21 @@ SHORT_LANG="$(echo $LANG | awk -F_ '{print $1}')"
 
 case "${SHORT_LANG}" in
 	de)
-		iceweasel http://wiki.geogebra.org/de/
+		firefox http://wiki.geogebra.org/de/
 		;;
 	es)
-		iceweasel http://wiki.geogebra.org/es/
+		firefox http://wiki.geogebra.org/es/
 		;;
 	fr)
-		iceweasel http://wiki.geogebra.org/fr/
+		firefox http://wiki.geogebra.org/fr/
 		;;
 	it)
-		iceweasel http://wiki.geogebra.org/it/
+		firefox http://wiki.geogebra.org/it/
 		;;
 	pt)
-		iceweasel http://wiki.geogebra.org/pt/
+		firefox http://wiki.geogebra.org/pt/
 		;;
 	*)
-		iceweasel http://wiki.geogebra.org/en/
+		firefox http://wiki.geogebra.org/en/
 		;;
 esac

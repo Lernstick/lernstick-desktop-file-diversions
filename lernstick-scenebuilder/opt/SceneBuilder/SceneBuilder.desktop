@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SceneBuilder
+Comment=SceneBuilder
+Exec=/opt/SceneBuilder/SceneBuilder
+Icon=/opt/SceneBuilder/SceneBuilder.png
+Terminal=false
+Type=Application
+Categories=Application;Development;Java;IDE
+

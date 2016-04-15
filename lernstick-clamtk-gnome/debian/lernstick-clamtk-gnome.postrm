@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for lernstick-geogebra
+# postrm script for lernstick-clamtk-gnome
 #
 # see: dh_installdeb(1)
 
@@ -24,12 +24,9 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package lernstick-geogebra --rename --divert \
-            /usr/share/applications/geogebra.desktop.orig \
-            /usr/share/applications/geogebra.desktop
-        dpkg-divert --remove --package lernstick-geogebra --rename --divert \
-            /usr/lib/jvm/java-geogebra/bin/java.orig \
-            /usr/lib/jvm/java-geogebra/bin/java
+        dpkg-divert --remove --package lernstick-clamtk-gnome --rename --divert \
+            /usr/share/applications/clamtk-gnome.desktop.orig \
+            /usr/share/applications/clamtk-gnome.desktop
     ;;
 
     *)

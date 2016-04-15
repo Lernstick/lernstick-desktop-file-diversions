@@ -1,3 +1,19 @@
+lernstick-hplip-gui (5) lernstick-8; urgency=medium
+
+  * use sudo (works) instead of kdesudo (doesn't work) for hp-setup
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 21 Feb 2016 13:44:41 +0100
+
+lernstick-hplip-gui (4) lernstick-8; urgency=medium
+
+  * show hplip-kubuntu on all desktops and hide hplip because the GNOME
+    maintainers were so brilliant that they thought that putting hplip into
+    their menu blacklist is a good idea... :-P
+  * show terminal for hp-setup to enable installation of plugins
+    (see https://bugs.launchpad.net/hplip/+bug/1547879)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 20 Feb 2016 16:04:17 +0100
+
 lernstick-hplip-gui (3) lernstick-8; urgency=medium
 
   * fixed architecture

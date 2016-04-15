@@ -1,3 +1,9 @@
+lernstick-wxmaxima (6) lernstick-8; urgency=medium
+
+  * switched from iceweasel to firefox
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 26 Mar 2016 16:32:10 +0100
+
 lernstick-wxmaxima (5) lernstick-8; urgency=medium
 
   * added preinst and postrm files for exam environment package

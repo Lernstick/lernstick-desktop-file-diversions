@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-stellarium
 Architecture: all
-Depends: stellarium
+Depends: stellarium, iceweasel | firefox
 Description: Changes the menu entry of stellarium
  We remove stellarium from the menu category "science". It is already available
  in the menu category "astronomy". We also add some scripts and links to course

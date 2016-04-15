@@ -1,0 +1,13 @@
+Source: lernstick-clamtk-gnome
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-clamtk-gnome
+Architecture: all
+Depends: clamtk-gnome
+Description: Hide a redundant desktop file of clamtk-gnome
+ We hide a redundant desktop file.
+ Details are here: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=814534.

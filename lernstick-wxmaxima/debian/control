@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-wxmaxima
 Architecture: all
-Depends: wxmaxima
+Depends: wxmaxima, iceweasel | firefox
 Conflicts: lernstick-wxmaxima-exam
 Description: Changes the menu entry of wxmaxima
  We fix http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=466997

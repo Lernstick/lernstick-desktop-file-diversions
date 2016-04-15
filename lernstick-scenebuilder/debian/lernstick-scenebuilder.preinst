@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-geogebra
+# preinst script for lernstick-scenebuilder
 #
 # see: dh_installdeb(1)
 
@@ -16,12 +16,12 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-geogebra --rename --divert \
-            /usr/share/applications/geogebra.desktop.orig \
-            /usr/share/applications/geogebra.desktop
-        dpkg-divert --add --package lernstick-geogebra --rename --divert \
-            /usr/lib/jvm/java-geogebra/bin/java.orig \
-            /usr/lib/jvm/java-geogebra/bin/java
+        dpkg-divert --add --package lernstick-scenebuilder --rename --divert \
+            /usr/share/applications/SceneBuilder.desktop.orig \
+            /usr/share/applications/SceneBuilder.desktop
+        dpkg-divert --add --package lernstick-scenebuilder --rename --divert \
+            /opt/SceneBuilder/SceneBuilder.desktop.orig \
+            /opt/SceneBuilder/SceneBuilder.desktop
     ;;
 
     abort-upgrade)

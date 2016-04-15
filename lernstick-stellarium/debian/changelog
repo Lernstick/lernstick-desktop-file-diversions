@@ -1,3 +1,9 @@
+lernstick-stellarium (3) lernstick-8; urgency=medium
+
+  * switched from iceweasel to firefox
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 26 Mar 2016 16:35:00 +0100
+
 lernstick-stellarium (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
