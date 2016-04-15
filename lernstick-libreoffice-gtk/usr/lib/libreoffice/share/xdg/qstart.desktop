@@ -20,7 +20,7 @@ Version=1.0
 Terminal=false
 Type=Application
 Categories=Office;
-Exec=env OOO_FORCE_DESKTOP=gnome SAL_USE_VCLPLUGIN=gtk libreoffice --quickstart --nologo --nodefault
+Exec=env OOO_FORCE_DESKTOP=gnome libreoffice --quickstart --nologo --nodefault
 NoDisplay=true
 Name=LibreOffice Quickstarter
 Comment=Hook for quickstarter startup

@@ -22,7 +22,7 @@ NoDisplay=false
 Icon=libreoffice-startcenter
 Type=Application
 Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other;
-Exec=env OOO_FORCE_DESKTOP=gnome SAL_USE_VCLPLUGIN=gtk libreoffice %U
+Exec=env OOO_FORCE_DESKTOP=gnome libreoffice %U
 MimeType=application/vnd.openofficeorg.extension;
 Name=LibreOffice
 GenericName=Office

@@ -2,7 +2,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Exec=env OOO_FORCE_DESKTOP=gnome SAL_USE_VCLPLUGIN=gtk libreoffice %U
+Exec=env OOO_FORCE_DESKTOP=gnome libreoffice %U
 MimeType=application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.graphics-flat-xml;application/vnd.oasis.opendocument.presentation-flat-xml;
 Name=LibreOffice XSLT based filters
 GenericName=XSLT based filters
