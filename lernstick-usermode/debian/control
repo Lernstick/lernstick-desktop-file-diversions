@@ -1,0 +1,13 @@
+Source: lernstick-usermode
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-usermode
+Architecture: all
+Depends: usermode
+Description: Show usermode only in LXDE
+ Because usermode is only recommended by LXDE we only show the desktop menu
+ entries there.
