@@ -1,0 +1,12 @@
+Source: lernstick-obconf
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-obconf
+Architecture: all
+Depends: obconf
+Description: Show obconf only in LXDE
+ Because obconf is specific to LXDE we only show the desktop menu entry there.
