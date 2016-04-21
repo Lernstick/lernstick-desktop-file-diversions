@@ -1,0 +1,13 @@
+Source: lernstick-eom
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-eom
+Architecture: all
+Depends: eom
+Description: Shows eom only in MATE
+ As eom is very specific to MATE we only show it in the desktop menu when
+ running MATE.
