@@ -1,0 +1,14 @@
+Source: lernstick-atril
+Section: x11
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-atril
+Architecture: all
+Depends: atril
+Description: Shows atril only in MATE
+ Every desktop environment has its own "native" document viewer. We show atril
+ only in the menus when running the MATE desktop to reduce redundand redundancy
+ in the desktop menus.
