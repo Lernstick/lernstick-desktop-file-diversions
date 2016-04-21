@@ -261,4 +261,4 @@ Keywords[vi]=Picture;Hình;ảnh;Hinh;Anh;Slideshow;Trình;diễn;Trinh;Dien;Gra
 Keywords[zh_CN]=Picture;Slideshow;Graphics;图片;幻灯片;图像;
 Keywords[zh_HK]=Picture;Slideshow;Graphics;照片;投影片;影像;
 Keywords[zh_TW]=Picture;Slideshow;Graphics;照片;投影片;影像;
-NotShowIn=KDE;
+NotShowIn=KDE;MATE;

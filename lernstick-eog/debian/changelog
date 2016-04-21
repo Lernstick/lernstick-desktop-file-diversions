@@ -1,3 +1,9 @@
+lernstick-eog (4) lernstick-8; urgency=medium
+
+  * don't show eog in MATE, they have eom instead
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 21 Apr 2016 23:09:40 +0200
+
 lernstick-eog (3) lernstick-8; urgency=medium
 
   * fixed architecture
