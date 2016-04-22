@@ -1,3 +1,9 @@
+lernstick-evince-common (3) lernstick-8; urgency=medium
+
+  * hide evince in MATE, they have atril instead
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 22 Apr 2016 11:14:03 +0200
+
 lernstick-evince-common (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

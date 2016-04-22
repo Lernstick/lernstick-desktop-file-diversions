@@ -8,5 +8,6 @@ Standards-Version: 3.7.3
 Package: lernstick-evince-common
 Architecture: all
 Depends: evince
-Description: Hides evince in KDE
- We hide the desktop entry of evince in KDE.
+Description: Hides evince in KDE and MATE
+ We hide the desktop entry of evince in KDE and MATE. Both desktop environments
+ have their own native document viewers (okular and atril).
