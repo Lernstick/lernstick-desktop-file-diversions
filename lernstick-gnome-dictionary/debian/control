@@ -1,0 +1,13 @@
+Source: lernstick-gnome-dictionary
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-dictionary
+Architecture: all
+Depends: gnome-dictionary
+Description: Hides gnome-dictionary in MATE
+ We hide gnome-dictionary when running a MATE session, they have
+ mate-dictionary instead.
