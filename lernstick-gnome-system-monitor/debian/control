@@ -8,5 +8,6 @@ Standards-Version: 3.7.3
 Package: lernstick-gnome-system-monitor
 Architecture: all
 Depends: gnome-system-monitor
-Description: Hide gnome-system-monitor in KDE
- This package hides the gnome-system-monitor in KDE.
+Description: Hide gnome-system-monitor in KDE, MATE and XFCE
+ This package hides the gnome-system-monitor menu entry in KDE, MATE and XFCE.
+ These desktop environments have their own system monitors.
