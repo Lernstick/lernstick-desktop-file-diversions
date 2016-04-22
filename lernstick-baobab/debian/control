@@ -1,0 +1,13 @@
+Source: lernstick-baobab
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-baobab
+Architecture: all
+Depends: baobab
+Description: Hides baobab in MATE
+ We hide baobab in MATE as they have mate-disk-usage-analyzer from the
+ mate-utils package there.
