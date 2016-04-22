@@ -1,0 +1,13 @@
+Source: lernstick-xfce4-notes
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xfce4-notes
+Architecture: all
+Depends: xfce4-notes
+Description: Hides xfce4-notes in GNOME and KDE.
+ We hide xfce4-notes from the desktop menu when running a GNOME or KDE session.
+ Both desktop environments have their own note taking applications.
