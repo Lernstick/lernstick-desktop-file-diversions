@@ -1,0 +1,13 @@
+Source: lernstick-pluma
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-pluma
+Architecture: all
+Depends: pluma
+Description: Shows pluma only in MATE
+ As pluma is very specific to MATE we only show it in the desktop menu when
+ running MATE.
