@@ -1,0 +1,12 @@
+Source: lernstick-file-roller
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-file-roller
+Architecture: all
+Depends: file-roller
+Description: Hides file-roller in MATE
+ We hide file-roller in MATE  as they have engrampa there.
