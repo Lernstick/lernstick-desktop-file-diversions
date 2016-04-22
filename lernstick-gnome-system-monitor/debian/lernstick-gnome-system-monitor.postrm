@@ -27,6 +27,10 @@ case "$1" in
         dpkg-divert --remove --package lernstick-gnome-system-monitor --rename --divert \
             /usr/share/applications/gnome-system-monitor-kde.desktop.orig \
             /usr/share/applications/gnome-system-monitor-kde.desktop
+
+        dpkg-divert --remove --package lernstick-gnome-system-monitor --rename --divert \
+            /usr/share/applications/gnome-system-monitor.desktop.orig \
+            /usr/share/applications/gnome-system-monitor.desktop
     ;;
 
     *)

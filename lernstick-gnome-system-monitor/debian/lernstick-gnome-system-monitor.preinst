@@ -19,6 +19,10 @@ case "$1" in
         dpkg-divert --add --package lernstick-gnome-system-monitor --rename --divert \
             /usr/share/applications/gnome-system-monitor-kde.desktop.orig \
             /usr/share/applications/gnome-system-monitor-kde.desktop
+
+        dpkg-divert --add --package lernstick-gnome-system-monitor --rename --divert \
+            /usr/share/applications/gnome-system-monitor.desktop.orig \
+            /usr/share/applications/gnome-system-monitor.desktop
     ;;
 
     abort-upgrade)
