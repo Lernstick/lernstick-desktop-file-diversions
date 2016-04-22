@@ -1,0 +1,13 @@
+Source: lernstick-gnome-screenshot
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-screenshot
+Architecture: all
+Depends: gnome-screenshot
+Description: Hides gnome-screenshot in MATE
+ We hide gnome-screenshot when running a MATE session, they have
+ mate-screenshot from the mate-utils package instead.
