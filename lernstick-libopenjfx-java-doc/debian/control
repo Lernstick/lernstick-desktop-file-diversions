@@ -1,0 +1,12 @@
+Source: lernstick-libopenjfx-java-doc
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-libopenjfx-java-doc
+Architecture: all
+Depends: libopenjfx-java-doc
+Description: Adds a desktop file for the JavaFX API
+ We add a desktop file for easy access to the JavaFX API
