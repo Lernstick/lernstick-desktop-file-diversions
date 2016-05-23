@@ -2,5 +2,5 @@
 Categories=Application;Development;Java;
 Exec=firefox /usr/share/doc/libopenjfx-java/api/index.html
 Icon=/usr/share/icons/javafx_api.png
-Name=Java-API
+Name=JavaFX-API
 Type=Application

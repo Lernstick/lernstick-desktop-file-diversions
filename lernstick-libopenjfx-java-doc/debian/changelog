@@ -1,3 +1,9 @@
+lernstick-libopenjfx-java-doc (2) lernstick-8; urgency=medium
+
+  * fixed name in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 24 May 2016 00:15:36 +0200
+
 lernstick-libopenjfx-java-doc (1) lernstick-8; urgency=low
 
   * Initial release
