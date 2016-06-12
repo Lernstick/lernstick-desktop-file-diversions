@@ -1,3 +1,9 @@
+lernstick-lshw-gtk (4) lernstick-8; urgency=medium
+
+  * use polkit instead of sudo
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 12 Jun 2016 13:56:13 +0200
+
 lernstick-lshw-gtk (3) lernstick-8; urgency=medium
 
   * fix icon path
