@@ -1,3 +1,9 @@
+lernstick-hplip-gui (6) lernstick-8; urgency=medium
+
+  * switched from sudo to polkit
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 11 Jul 2016 22:38:32 +0200
+
 lernstick-hplip-gui (5) lernstick-8; urgency=medium
 
   * use sudo (works) instead of kdesudo (doesn't work) for hp-setup
