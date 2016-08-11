@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-phoronix-test-suite
 Architecture: all
-Depends: phoronix-test-suite, php5-cli
-Provides: php-cli
+Depends: phoronix-test-suite, php5-cli, php5-gd, php5-xmlrpc
+Provides: php-cli, php-gd, php-xml, php-json
 Description: Changes the menu entry of phoronix-test-suite
  We use kdesudo to start phoronix-test-suite.

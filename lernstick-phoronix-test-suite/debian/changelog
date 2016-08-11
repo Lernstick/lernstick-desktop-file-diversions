@@ -1,3 +1,9 @@
+lernstick-phoronix-test-suite (4) lernstick-8; urgency=medium
+
+  * improved workaround
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Aug 2016 12:04:22 +0200
+
 lernstick-phoronix-test-suite (3) lernstick-8; urgency=medium
 
   * added workaround for broken upstream package dependencies, see
