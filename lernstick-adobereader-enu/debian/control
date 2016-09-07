@@ -1,0 +1,13 @@
+Source: lernstick-adobereader-enu
+Section: publishing
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-adobereader-enu
+Architecture: all
+Depends: adobereader-enu
+Description: Fixes the Adobe Reader desktop file
+ We fix the Adobe Reader destkop file, so that it appears in the "Open with..."
+ context menu.
