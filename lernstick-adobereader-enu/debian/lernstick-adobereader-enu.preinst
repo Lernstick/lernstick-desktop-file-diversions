@@ -17,9 +17,6 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-adobereader-enu --rename --divert \
-            /usr/share/applications/AdobeReader.desktop.orig \
-            /usr/share/applications/AdobeReader.desktop
-        dpkg-divert --add --package lernstick-adobereader-enu --rename --divert \
             /opt/Adobe/Reader9/Resource/Support/AdobeReader.desktop.orig \
             /opt/Adobe/Reader9/Resource/Support/AdobeReader.desktop
     ;;
