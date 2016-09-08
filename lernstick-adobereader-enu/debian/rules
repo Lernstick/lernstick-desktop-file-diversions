@@ -35,7 +35,7 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	cp -r usr $(DESTDIR)
+	cp -r opt usr $(DESTDIR)
 
 # Build architecture-independent files here.
 binary-indep: build install
