@@ -1,0 +1,12 @@
+Source: lernstick-mousepad
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-mousepad
+Architecture: all
+Depends: mousepad
+Description: Shows mousepad only when running Xfce
+ We show mousepad only when running an Xfce session.
