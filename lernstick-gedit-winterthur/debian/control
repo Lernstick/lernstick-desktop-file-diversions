@@ -1,0 +1,12 @@
+Source: lernstick-gedit-winterthur
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gedit-winterthur
+Architecture: all
+Depends: gedit
+Description: Changes the gedit desktop file
+ We do not show the gedit start menu entry.
