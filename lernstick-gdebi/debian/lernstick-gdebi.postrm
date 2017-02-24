@@ -25,8 +25,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-gdebi --rename --divert \
-            /usr/share/applications/kde4/gdebi-kde.desktop.orig \
-            /usr/share/applications/kde4/gdebi-kde.desktop
+            /usr/share/applications/gdebi.desktop.orig \
+            /usr/share/applications/gdebi.desktop
     ;;
 
     *)
