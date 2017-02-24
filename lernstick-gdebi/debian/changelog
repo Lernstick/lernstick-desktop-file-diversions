@@ -1,4 +1,10 @@
-lernstick-gdebi (1.0-1) lernstick-8; urgency=low
+lernstick-gdebi (2) lernstick-8; urgency=medium
+
+  * fixed preinst and postrm files
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Fri, 24 Feb 2017 18:03:44 +0100
+
+lernstick-gdebi (1) lernstick-8; urgency=low
 
   * Initial release
 
