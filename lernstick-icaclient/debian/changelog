@@ -1,3 +1,10 @@
+lernstick-icaclient (2) lernstick-8; urgency=medium
+
+  * moved selfservice desktop file into settings category
+    (as wanted by the Winterthur users)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 11 Mar 2017 13:41:24 +0100
+
 lernstick-icaclient (1) lernstick-8; urgency=low
 
   * Initial release
