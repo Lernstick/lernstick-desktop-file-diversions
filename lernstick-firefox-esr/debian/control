@@ -1,0 +1,14 @@
+Source: lernstick-firefox-esr
+Section: web
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-firefox-esr
+Architecture: all
+Depends: firefox-esr
+Description: Changes the name in the firefox-esr desktop file
+ We rename "Firefox ESR" back to just "Firefox". Our users do not care and are
+ confused by the "ESR" suffix. Honestly, the development branch of a software
+ should really not end up in its desktop file name entries...
