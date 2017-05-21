@@ -1,3 +1,9 @@
+lernstick-texlive-base (2) lernstick-9; urgency=medium
+
+  * fixed maintainer script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 21 May 2017 18:16:40 +0200
+
 lernstick-texlive-base (1) lernstick-9; urgency=low
 
   * Initial release
