@@ -1,3 +1,9 @@
+lernstick-konsole (3) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 21 May 2017 19:09:35 +0200
+
 lernstick-konsole (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

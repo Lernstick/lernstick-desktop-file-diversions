@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-konsole --rename --divert \
-            /usr/share/applications/kde4/konsole.desktop.orig \
-            /usr/share/applications/kde4/konsole.desktop
+            /usr/share/applications/org.kde.konsole.desktop.orig \
+            /usr/share/applications/org.kde.konsole.desktop
     ;;
 
     abort-upgrade)
