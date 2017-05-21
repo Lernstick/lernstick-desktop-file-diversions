@@ -17,11 +17,11 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-systemsettings --rename --divert \
-            /usr/share/applications/kde4/systemsettings.desktop.orig \
-            /usr/share/applications/kde4/systemsettings.desktop
+            /usr/share/applications/systemsettings.desktop.orig \
+            /usr/share/applications/systemsettings.desktop
         dpkg-divert --add --package lernstick-systemsettings --rename --divert \
-            /usr/share/applications/kde4/kdesystemsettings.desktop.orig \
-            /usr/share/applications/kde4/kdesystemsettings.desktop
+            /usr/share/applications/kdesystemsettings.desktop.orig \
+            /usr/share/applications/kdesystemsettings.desktop
     ;;
 
     abort-upgrade)
