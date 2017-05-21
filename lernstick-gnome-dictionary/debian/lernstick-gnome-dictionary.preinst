@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-gnome-dictionary --rename --divert \
-            /usr/share/applications/gnome-dictionary.desktop.orig \
-            /usr/share/applications/gnome-dictionary.desktop
+            /usr/share/applications/org.gnome.Dictionary.desktop.orig \
+            /usr/share/applications/org.gnome.Dictionary.desktop
     ;;
 
     abort-upgrade)

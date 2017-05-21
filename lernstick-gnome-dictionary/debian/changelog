@@ -1,3 +1,9 @@
+lernstick-gnome-dictionary (2) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 21 May 2017 17:34:15 +0200
+
 lernstick-gnome-dictionary (1) lernstick-8; urgency=low
 
   * Initial release
