@@ -25,8 +25,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-kalgebra --rename --divert \
-            /usr/share/applications/kde4/kalgebra.desktop.orig \
-            /usr/share/applications/kde4/kalgebra.desktop
+            /usr/share/applications/org.kde.kalgebra.desktop.orig \
+            /usr/share/applications/org.kde.kalgebra.desktop
     ;;
 
     *)

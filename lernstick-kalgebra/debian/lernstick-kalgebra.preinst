@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-kalgebra --rename --divert \
-            /usr/share/applications/kde4/kalgebra.desktop.orig \
-            /usr/share/applications/kde4/kalgebra.desktop
+            /usr/share/applications/org.kde.kalgebra.desktop.orig \
+            /usr/share/applications/org.kde.kalgebra.desktop
     ;;
 
     abort-upgrade)
