@@ -1,3 +1,9 @@
+lernstick-step (4) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 21 May 2017 17:26:35 +0200
+
 lernstick-step (3) lernstick-8; urgency=medium
 
   * fixed architecture 
