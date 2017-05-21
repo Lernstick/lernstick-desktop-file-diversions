@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-kgeography --rename --divert \
-            /usr/share/applications/kde4/kgeography.desktop.orig \
-            /usr/share/applications/kde4/kgeography.desktop
+            /usr/share/applications/org.kde.kgeography.desktop.orig \
+            /usr/share/applications/org.kde.kgeography.desktop \
     ;;
 
     abort-upgrade)
