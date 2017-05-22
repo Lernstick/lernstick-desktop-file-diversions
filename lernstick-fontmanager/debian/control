@@ -1,0 +1,13 @@
+Source: lernstick-fontmanager
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fontmanager
+Architecture: all
+Depends: kde-runtime
+Description: Adds a menu entry for the KDE font manager in other desktop environments
+ Other desktop environments lack a useful font manager. Therefore we add a menu
+ entry for the KDE font manager in all other desktop environments.
