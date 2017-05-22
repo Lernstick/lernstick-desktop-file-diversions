@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=GPaste daemon settings
+Name[de]=GPaste-Daemon-Einstellungen
+Name[es]=Ajustes del servicio GPaste
+Name[fi]=GPaste palvelun asetukset
+Name[fr]=Préférences du démon GPaste
+Name[pt_BR]=Configurações do daemon GPaste
+Comment=Manage the GPaste daemon settings
+Comment[de]=GPaste-Daemon-Einstellungen
+Comment[es]=Gestionar los ajustes del servicio GPaste
+Comment[fi]=Hallitse GPaste palvelun asetuksia
+Comment[fr]=Gérer les préférences du démon GPaste
+Comment[pt_BR]=Gerenciar as configurações do daemon GPaste
+Keywords=Clipboard;Manager;Settings;Preferences;Configuration;
+Keywords[fr]=Presse-Papier;Gestionnaire;Réglages;Préférences;Configuration;
+Icon=gtk-paste
+Exec=/usr/lib/gpaste/gpaste/gpaste-settings
+DBusActivatable=true
+Terminal=false
+Categories=GTK;GNOME;Settings;X-GNOME-PersonalSettings;
+StartupNotify=true
+NoDisplay=true
