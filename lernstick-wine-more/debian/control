@@ -1,0 +1,15 @@
+Source: lernstick-wine-more
+Section: otherosfs
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-wine-more
+Architecture: all
+Depends: wine
+Breaks: lernstick-wine
+Replaces: lernstick-wine
+Description: Adds more desktop files for wine
+ We add visible desktop files for wine configuration, registry editing and its
+ control center.

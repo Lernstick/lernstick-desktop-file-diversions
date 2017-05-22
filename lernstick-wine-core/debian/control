@@ -1,0 +1,16 @@
+Source: lernstick-wine-core
+Section: otherosfs
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-wine-core
+Architecture: all
+Depends: wine
+Breaks: lernstick-wine
+Replaces: lernstick-wine
+Description: Enables starting Windows programs directly
+ We add an invisible desktop file for wine with some mime types to be able to
+ start Windows programs directly from a file manager not just from the command
+ line.

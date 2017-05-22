@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=wine %u
+Icon=/usr/share/icons/oxygen/128x128/apps/wine.png
+MimeType=application/x-ms-dos-executable;
+Name=Wine
+NoDisplay=true
+Type=Application
