@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=X-lernstick;
+Comment=Install system to USB flash drives or to a DVD image
+Comment[de]=Das System auf USB-Sticks oder in ein DVD-Abbild installieren
+Exec=pkexec /usr/bin/dlcopy
+Icon=/usr/share/icons/dlcopy.png
+Name=Storage media management
+Name[de]=Speichermedienverwaltung
+StartupNotify=true
+StartupWMClass=ch-fhnw-dlcopy-DLCopy
+Type=Application
+NoDisplay=true

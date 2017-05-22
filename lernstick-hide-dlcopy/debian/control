@@ -1,0 +1,12 @@
+Source: lernstick-hide-dlcopy
+Section: misc
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hide-dlcopy
+Architecture: all
+Depends: dlcopy
+Description: Hides the dlcopy desktop file
+ This package hides the dlcopy desktop file.
