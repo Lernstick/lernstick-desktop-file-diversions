@@ -1,0 +1,12 @@
+Source: lernstick-hide-gcompris-admin
+Section: games
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hide-gcompris-admin
+Architecture: all
+Depends: gcompris
+Description: Hides the GCompris administration desktop file
+ This package hides the GCompris administration desktop file.
