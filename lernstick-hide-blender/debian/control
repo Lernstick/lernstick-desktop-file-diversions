@@ -1,0 +1,15 @@
+Source: lernstick-hide-blender
+Section: graphics
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hide-blender
+Architecture: all
+Depends: blender
+Description: Hides the blender desktop file
+ This package hides the blender desktop file. This is useful for users who want
+ to have the additional features in OpenShot provided by Blender but do not
+ intend to use Blender itself and "pollute" their appfolders with the Blender
+ desktop file.
