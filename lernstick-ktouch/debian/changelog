@@ -1,3 +1,9 @@
+lernstick-ktouch (4) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 26 May 2017 20:41:22 +0200
+
 lernstick-ktouch (3) lernstick-8; urgency=medium
 
   * fixed architecture
