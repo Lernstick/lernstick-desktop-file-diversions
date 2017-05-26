@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Xjadeo
+GenericName=X jack video monitor
+Comment=A simple video player that gets sync from jack transport.
+Keywords=video;sound;jackd;synchronization 
+Icon=qjadeo
+Exec=/usr/bin/xjadeo
+Terminal=false
+Categories=AudioVideo;Video;Player;
+NoDisplay=true

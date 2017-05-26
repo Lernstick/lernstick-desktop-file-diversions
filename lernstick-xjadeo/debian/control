@@ -1,0 +1,13 @@
+Source: lernstick-xjadeo
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xjadeo
+Architecture: all
+Depends: xjadeo
+Description: Hides the menu entry of xjadeo
+ We hide the menu entry of xjadeo. While it is a dependency of ardour it seems
+ useless as a standalone application.
