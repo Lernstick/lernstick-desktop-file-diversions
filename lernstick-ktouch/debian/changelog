@@ -1,3 +1,9 @@
+lernstick-ktouch (5) lernstick-9; urgency=medium
+
+  * fixed preinst and postrm scripts
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 26 May 2017 22:11:26 +0200
+
 lernstick-ktouch (4) lernstick-9; urgency=medium
 
   * adapted to Debian 9

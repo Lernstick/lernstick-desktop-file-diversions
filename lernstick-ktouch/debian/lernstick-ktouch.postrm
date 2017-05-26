@@ -25,8 +25,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-ktouch --rename --divert \
-            /usr/share/applications/kde4/ktouch.desktop.orig \
-            /usr/share/applications/kde4/ktouch.desktop
+            /usr/share/applications/kde4/org.kde.ktouch.desktop.orig \
+            /usr/share/applications/kde4/org.kde.ktouch.desktop
     ;;
 
     *)
