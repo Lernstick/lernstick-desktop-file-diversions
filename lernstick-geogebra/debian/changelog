@@ -1,3 +1,9 @@
+lernstick-geogebra (9) lernstick-8; urgency=medium
+
+  * added optional dependency to firefox-esr
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 26 May 2017 14:53:30 +0200
+
 lernstick-geogebra (8) lernstick-8; urgency=medium
 
   * switched from iceweasel to firefox
