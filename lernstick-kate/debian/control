@@ -1,0 +1,12 @@
+Source: lernstick-kate
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kate
+Architecture: all
+Depends: kate
+Description: Show kate only in menu if running KDE
+ We show kate only in the menu if KDE is running.
