@@ -1,0 +1,12 @@
+Source: lernstick-gwenview
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gwenview
+Architecture: all
+Depends: gwenview
+Description: Show gwenview only in menu if running KDE
+ We show gwenview only in the menu if KDE is running.
