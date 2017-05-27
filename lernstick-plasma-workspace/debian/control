@@ -1,0 +1,12 @@
+Source: lernstick-plasma-workspace
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-plasma-workspace
+Architecture: all
+Depends: plasma-workspace
+Description: Hides the klipper desktop entry
+ We hide the klipper desktop entry.
