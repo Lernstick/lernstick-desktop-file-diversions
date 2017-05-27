@@ -1,0 +1,12 @@
+Source: lernstick-kreversi
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kreversi
+Architecture: all
+Depends: kreversi
+Description: Show kreversi only in menu if running KDE
+ We show kreversi only in the menu if KDE is running.
