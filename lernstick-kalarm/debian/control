@@ -1,0 +1,12 @@
+Source: lernstick-kalarm
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kalarm
+Architecture: all
+Depends: kalarm
+Description: Show kalarm only in menu if running KDE
+ We show kalarm only in the menu if KDE is running.
