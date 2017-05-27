@@ -1,3 +1,9 @@
+lernstick-kdf (2) lernstick-9; urgency=medium
+
+  * added another divert for kwikdisk
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 28 May 2017 00:27:39 +0200
+
 lernstick-kdf (1) lernstick-9; urgency=low
 
   * Initial release

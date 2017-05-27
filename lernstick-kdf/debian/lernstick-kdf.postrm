@@ -27,6 +27,9 @@ case "$1" in
         dpkg-divert --remove --package lernstick-kdf --rename --divert \
             /usr/share/applications/org.kde.kdf.desktop.orig \
             /usr/share/applications/org.kde.kdf.desktop
+        dpkg-divert --remove --package lernstick-kdf --rename --divert \
+            /usr/share/applications/org.kde.kwikdisk.desktop.orig \
+            /usr/share/applications/org.kde.kwikdisk.desktop
     ;;
 
     *)
