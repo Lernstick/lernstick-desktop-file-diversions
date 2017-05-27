@@ -1,0 +1,12 @@
+Source: lernstick-knotes
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-knotes
+Architecture: all
+Depends: knotes
+Description: Show knotes only when running KDE
+ We show knotes only when running KDE.
