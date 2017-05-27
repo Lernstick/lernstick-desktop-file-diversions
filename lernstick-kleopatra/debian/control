@@ -1,0 +1,12 @@
+Source: lernstick-kleopatra
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kleopatra
+Architecture: all
+Depends: kleopatra
+Description: Show kleopatra only when running KDE
+ We show kleopatra only when running KDE.
