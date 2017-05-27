@@ -1,0 +1,12 @@
+Source: lernstick-kmahjongg
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kmahjongg
+Architecture: all
+Depends: kmahjongg
+Description: Show kmahjongg only in menu if running KDE
+ We show kmahjongg only in the menu if KDE is running.
