@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-gpaste --rename --divert \
-            /usr/share/applications/org.gnome.GPaste.Settings.desktop.orig \
-            /usr/share/applications/org.gnome.GPaste.Settings.desktop
+            /usr/share/applications/org.gnome.GPaste.Ui.desktop.orig \
+            /usr/share/applications/org.gnome.GPaste.Ui.desktop
     ;;
 
     abort-upgrade)

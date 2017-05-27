@@ -1,3 +1,9 @@
+lernstick-gpaste (2) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 27 May 2017 16:34:28 +0200
+
 lernstick-gpaste (1) lernstick-8; urgency=low
 
   * Initial release
