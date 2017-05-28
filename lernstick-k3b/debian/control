@@ -1,0 +1,12 @@
+Source: lernstick-k3b
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-k3b
+Architecture: all
+Depends: k3b
+Description: Show k3b only in menu if running KDE
+ We show k3b only in the menu if KDE is running.
