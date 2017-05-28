@@ -8,5 +8,5 @@ Standards-Version: 3.7.3
 Package: lernstick-dolphin
 Architecture: all
 Depends: dolphin
-Description: Adds a menu entry to start dolphin via kdesudo
- Adds a menu entry to start dolphin via kdesudo
+Description: Changes menu entries of dolphin
+ Adds a menu entry to start dolphin via kdesudo and shows dolphin only in KDE.
