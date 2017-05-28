@@ -1,3 +1,9 @@
+lernstick-phoronix-test-suite (5) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 28 May 2017 14:34:59 +0200
+
 lernstick-phoronix-test-suite (4) lernstick-8; urgency=medium
 
   * improved workaround
