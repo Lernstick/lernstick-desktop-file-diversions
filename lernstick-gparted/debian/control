@@ -1,0 +1,13 @@
+Source: lernstick-gparted
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gparted
+Architecture: all
+Depends: gparted
+Description: Remove gparted from the settings app folder
+ We remove gparted from the settings desktop category. It is already in the
+ system desktop category and this is enough.
