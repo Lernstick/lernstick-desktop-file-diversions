@@ -1,3 +1,9 @@
+lernstick-kalarm (2) lernstick-9; urgency=medium
+
+  * only autostart in KDE
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Jun 2017 10:04:11 +0200
+
 lernstick-kalarm (1) lernstick-9; urgency=low
 
   * Initial release

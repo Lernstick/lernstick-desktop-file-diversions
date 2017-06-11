@@ -2,11 +2,13 @@ Source: lernstick-kalarm
 Section: kde
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 9), config-package-dev
 Standards-Version: 3.7.3
 
 Package: lernstick-kalarm
 Architecture: all
 Depends: kalarm
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Show kalarm only in menu if running KDE
- We show kalarm only in the menu if KDE is running.
+ Only if KDE is running, we autostart kalarm and show it in the menu.
