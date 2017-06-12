@@ -1,0 +1,14 @@
+Source: lernstick-four-in-a-row
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-four-in-a-row
+Architecture: all
+Depends: four-in-a-row
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Hides four-in-a-row when running KDE
+ We hide four-in-a-row when running KDE as we already have kfourinline there.
