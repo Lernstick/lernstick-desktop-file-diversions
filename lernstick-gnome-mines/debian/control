@@ -1,0 +1,14 @@
+Source: lernstick-gnome-mines
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-mines
+Architecture: all
+Depends: gnome-mines
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Don't show gnome-mines when running KDE
+ We hide gnome-mines when running a KDE session. We already have kmines there.
