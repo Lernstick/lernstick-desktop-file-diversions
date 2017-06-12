@@ -177,3 +177,4 @@ Terminal=false
 Type=Application
 Categories=GNOME;GTK;Game;LogicGame;
 StartupNotify=true
+NotShowIn=KDE;
