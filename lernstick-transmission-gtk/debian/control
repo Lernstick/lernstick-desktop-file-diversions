@@ -1,0 +1,14 @@
+Source: lernstick-transmission-gtk
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-transmission-gtk
+Architecture: all
+Depends: transmission-gtk
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: We hide transmission-gtk when running KDE
+ We hide transmission-gtk when running KDE. We have ktorrent there.
