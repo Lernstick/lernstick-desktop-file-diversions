@@ -1,0 +1,14 @@
+Source: lernstick-swell-foop
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-swell-foop
+Architecture: all
+Depends: swell-foop
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Hides swell-foop when running KDE
+ We hide swell-foop when running KDE as we already have ksame there.
