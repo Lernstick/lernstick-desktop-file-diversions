@@ -2,12 +2,14 @@ Source: lernstick-dia-common
 Section: graphics
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 9), config-package-dev
 Standards-Version: 3.7.3
 
 Package: lernstick-dia-common
 Architecture: all
 Depends: dia-common
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Changes the menu entry of Dia
- We enforce the SVG icon because for some unknown reaseon
+ We enforce the SVG icon because for some unknown reason
  KDE otherwise uses the ugly low resolution png icons.
