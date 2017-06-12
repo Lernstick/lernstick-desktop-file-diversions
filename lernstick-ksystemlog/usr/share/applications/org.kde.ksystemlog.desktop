@@ -1,11 +1,10 @@
 [Desktop Entry]
 Type=Application
-Exec=ksystemlog -qwindowtitle %c
+Exec=kdesudo -c "ksystemlog -qwindowtitle %c"
 Icon=utilities-log-viewer
 Terminal=false
 Categories=Qt;KDE;System;Monitor;
 X-DocPath=ksystemlog/index.html
-X-KDE-SubstituteUID=true
 OnlyShowIn=KDE;
 
 Name=KSystemLog

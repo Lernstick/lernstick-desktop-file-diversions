@@ -1,3 +1,10 @@
+lernstick-ksystemlog (2) lernstick-9; urgency=medium
+
+  * don't ask for the root password
+  * start with kdesudo
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Jun 2017 11:52:42 +0200
+
 lernstick-ksystemlog (1) lernstick-9; urgency=low
 
   * Initial release
