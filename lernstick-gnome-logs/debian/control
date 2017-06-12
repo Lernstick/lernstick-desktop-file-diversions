@@ -1,0 +1,15 @@
+Source: lernstick-gnome-logs
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-logs
+Architecture: all
+Depends: gnome-logs
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Don't show gnome-logs when running KDE
+ We hide gnome-logs when running a KDE session. We already have ksystemlog
+ there.
