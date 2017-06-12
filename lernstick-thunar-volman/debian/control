@@ -1,0 +1,15 @@
+Source: lernstick-thunar-volman
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-thunar-volman
+Architecture: all
+Depends: thunar-volman
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: We show thunar-volman only in XFCE
+ We show thunar-volman only when running an XFCE session. Other desktop
+ environments have different file managers.
