@@ -2,7 +2,7 @@ Source: lernstick-geogebra
 Section: education
 Priority: extra
 Maintainer: Lernstick Team <lernstick.ph@fhnw.ch>
-Uploaders: Ronny Standtke <ronny.standtke@fhnw.ch>, Gaudenz Steinlin <gaudenz.steinlin@cirrax.com>
+Uploaders: Ronny Standtke <ronny.standtke@fhnw.ch>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
@@ -12,10 +12,8 @@ Depends: geogebra5, openjfx, iceweasel | firefox | firefox-esr
 Provides: geogebra
 Conflicts: lernstick-geogebra-exam
 Description: Some bug fixes for the geogebra5 package
- We add a desktop file for the Geogebra Wiki and remove the GenericDescription
- from the GeoGebra desktop file so that both desktop entries are below each
- other in the KDE menu. We also provide "geogebra" so that geogebra-kde and
- geogebra-gnome can be installed alongside geogebra5.
+ We add a desktop file for the Geogebra Wiki. We also provide "geogebra" so
+ that geogebra-kde and geogebra-gnome can be installed alongside geogebra5.
  We also make sure that the system Java version is used instead of the buggy
  internal one.
 
@@ -25,10 +23,9 @@ Depends: geogebra5, openjfx
 Provides: geogebra
 Conflicts: lernstick-geogebra
 Description: Some bug fixes for the geogebra5 package
- We provide "geogebra" so that geogebra-kde and geogebra-gnome can be installed alongside
- geogebra5.
- We also make sure that the system Java version is used instead of the buggy
- internal one.
+ We provide "geogebra" so that geogebra-kde and geogebra-gnome can be installed
+ alongside geogebra5. We also make sure that the system Java version is used
+ instead of the buggy internal one.
  .
  This version for the exam environment does not install a desktop file for the
  wiki.
