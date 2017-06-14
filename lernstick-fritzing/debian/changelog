@@ -1,3 +1,9 @@
+lernstick-fritzing (3) lernstick-9; urgency=medium
+
+  * fixed desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 14 Jun 2017 18:26:11 +0200
+
 lernstick-fritzing (2) lernstick-9; urgency=medium
 
   * synced with Debian 9
