@@ -258,3 +258,4 @@ Keywords[tr]=Bölüm;
 Keywords[uk]=Розділ;
 Keywords[zh_TW]=分割區：
 StartupNotify=true
+NotShowIn=KDE;

@@ -1,3 +1,10 @@
+lernstick-gparted (2) lernstick-9; urgency=medium
+
+  * hide gparted when running a KDE session as we have partitionmanager there
+  * use config-packge-dev
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 14 Jun 2017 17:40:12 +0200
+
 lernstick-gparted (1) lernstick-9; urgency=low
 
   * Initial release
