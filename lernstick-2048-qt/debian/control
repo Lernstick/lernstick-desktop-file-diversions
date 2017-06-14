@@ -1,0 +1,15 @@
+Source: lernstick-2048-qt
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-2048-qt
+Architecture: all
+Depends: 2048-qt
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Changes the desktop category of 2048-qt
+ We move 2018-qt from the "Math" to the "StrategyGame" category. Otherwise it
+ shows up under "Science" in the KDE menu and this is quite strange...
