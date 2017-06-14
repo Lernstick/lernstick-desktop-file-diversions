@@ -1,12 +1,16 @@
 Source: lernstick-arduino
-Section: video
+Section: electronics
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 9), config-package-dev
 Standards-Version: 3.7.3
 
 Package: lernstick-arduino
 Architecture: all
 Depends: arduino
-Description: Fixes the generic description of Arduino.
- We fix the desktop file of Arduino.
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Changes the arduino destkop file.
+ We add a German translation of the generic name. We also remove the category
+ "Electronics" because the KDE start menu is too short for another category and
+ unfortunately its size is hardcoded.

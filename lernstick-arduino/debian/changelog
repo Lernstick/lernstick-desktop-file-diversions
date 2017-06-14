@@ -1,3 +1,9 @@
+lernstick-arduino (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 14 Jun 2017 18:03:55 +0200
+
 lernstick-arduino (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
