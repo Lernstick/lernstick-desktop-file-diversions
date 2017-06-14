@@ -1,3 +1,9 @@
+lernstick-2048-qt (2) lernstick-9; urgency=medium
+
+  * updated name and comment
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 14 Jun 2017 21:44:58 +0200
+
 lernstick-2048-qt (1) lernstick-9; urgency=low
 
   * Initial release
