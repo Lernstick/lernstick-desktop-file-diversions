@@ -1,14 +1,15 @@
 [Desktop Entry]
-Version=1.0
-Comment=WYSIWYG Music score typesetter
-Comment[ru]=Визуальный редактор нотных партитур
-Exec=mscore
+Version=1.1
+Name=MuseScore
 GenericName=Music notation
 GenericName[de]=Notensatz
+GenericName[fr]=Notation musicale
+Comment=Create, play and print sheet music
+Comment[ru]=Визуальный редактор нотных партитур
+Comment[fr]=Gravure de partitions musicales
+Exec=mscore %F
 Icon=mscore
-Name=MuseScore
 StartupNotify=true
-StartupWMClass=mscore.real
 Terminal=false
 Type=Application
 Categories=Qt;Audio;Sequencer;Midi;AudioVideoEditing;AudioVideo;
