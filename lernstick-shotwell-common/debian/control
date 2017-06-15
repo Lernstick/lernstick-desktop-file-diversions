@@ -1,0 +1,14 @@
+Source: lernstick-shotwell-common
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-shotwell-common
+Architecture: all
+Depends: shotwell-common
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Hides shotwell when running KDE
+ We hide shotwell when running KDE as we already have digikam there.
