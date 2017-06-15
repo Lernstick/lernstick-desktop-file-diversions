@@ -2,12 +2,14 @@ Source: lernstick-gnome-software
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 9), config-package-dev
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-software
 Architecture: all
 Depends: gnome-software
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Changes the category of gnome-software
  We remove gnome-software from the system category, it is already in the
  packagemanager category and this should be sufficient.

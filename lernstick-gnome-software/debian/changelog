@@ -1,3 +1,9 @@
+lernstick-gnome-software (2) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 15 Jun 2017 11:19:34 +0200
+
 lernstick-gnome-software (1) lernstick-8; urgency=low
 
   * Initial release
