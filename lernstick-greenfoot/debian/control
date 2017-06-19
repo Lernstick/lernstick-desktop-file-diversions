@@ -1,0 +1,12 @@
+Source: lernstick-greenfoot
+Section: Programming
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-greenfoot
+Architecture: all
+Depends: greenfoot
+Description: Adds a German translation to the desktop file
+ We add a German translation to the Greenfoot desktop file.
