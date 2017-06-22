@@ -1,0 +1,12 @@
+Source: dlcopy-nollen
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: dlcopy-nollen
+Architecture: all
+Depends: dlcopy-common
+Description: A dlcopy quickinstall desktop file for Nollen
+ A dlcopy quickinstall desktop file for Nollen
