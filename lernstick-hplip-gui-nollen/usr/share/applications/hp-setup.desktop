@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=HP Setup
+GenericName=HP printer installation
+GenericName[de]=HP-Drucker-Installation
+Exec=pkexec hp-setup
+Icon=/usr/share/hplip/data/images/256x256/hp_logo.png
+Categories=Application;Settings;
+Terminal=true
+Type=Application
+StartupNotify=false

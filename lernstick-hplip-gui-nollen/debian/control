@@ -1,0 +1,17 @@
+Source: lernstick-hplip-gui-nollen
+Section: admin
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hplip-gui-nollen
+Architecture: all
+Depends: hplip-gui
+Conflicts: lernstick-hplip-gui
+Replaces: lernstick-hplip-gui
+Breaks: lernstick-hplip-gui
+Description: Removes some of the hplip-gui menu entries
+ We do not need all hplip-gui menu entries.
+ This package removes them.
+ Nollen only wants to see hp-setup...
