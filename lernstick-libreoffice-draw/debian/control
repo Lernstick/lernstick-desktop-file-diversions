@@ -11,8 +11,3 @@ Depends: libreoffice-draw
 Description: Removes the LibreOffice Draw menu entry
  We remove the LibreOffice Draw menu entry because we already have
  the LibreOffice menu entry for the whole office suite.
- We also enforce the GNOME user interface because the file dialog in the KDE
- user interface currently just sucks.
- See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=752230 for details.
- We also add a workaround for the following bug:
- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=798591
