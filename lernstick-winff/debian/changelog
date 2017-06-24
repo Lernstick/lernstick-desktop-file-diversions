@@ -1,3 +1,9 @@
+lernstick-winff (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+-- Thore Sommer <mail@thson.de> Sat, 24 Jun 2017 15:30:00 +0200
+
 lernstick-winff (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
