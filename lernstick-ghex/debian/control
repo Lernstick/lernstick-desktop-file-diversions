@@ -9,4 +9,4 @@ Package: lernstick-ghex
 Architecture: all
 Depends: ghex
 Description: Hides ghex in KDE
- We hide ghex in KDE as we have octeta there.
+ We hide ghex in KDE as we have okteta there.
