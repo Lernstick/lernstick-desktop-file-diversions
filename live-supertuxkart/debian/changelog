@@ -1,3 +1,9 @@
+live-supertuxkart (3) lernstick-9; urgency=medium
+
+  * fixed live_supertuxkart
+
+-- Thore Sommer <mail@thson.de> Sun, 25 Jun 2017 15:00:00 +0200
+
 live-supertuxkart (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
