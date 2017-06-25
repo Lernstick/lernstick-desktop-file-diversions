@@ -2,10 +2,5 @@
 
 . /usr/share/live-resolution/resolution.sh
 
-CONFIG_FILE=~/.supertux2/config
+supertux2 -g ${_RESOLUTION_X}x${_RESOLUTION_Y} -a ${_RESOLUTION_X}:${_RESOLUTION_Y}  ${@}
 
-Replace "(fullscreen .*)" "(fullscreen #t)" ${CONFIG_FILE}
-Replace "(fullscreen_width .*)" "(fullscreen_width ${_RESOLUTION_X})" ${CONFIG_FILE}
-Replace "(fullscreen_height .*)" "(fullscreen_height ${_RESOLUTION_Y})" ${CONFIG_FILE}
-
-supertux2 ${@}
