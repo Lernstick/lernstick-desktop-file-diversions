@@ -1,3 +1,9 @@
+lernstick-gnome-font-viewer (2) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Thore Sommer <mail@thson.de>  Mon, 26 Jun 2017 19:30:00 +0200
+
 lernstick-gnome-font-viewer (1) lernstick-8; urgency=low
 
   * Initial release
