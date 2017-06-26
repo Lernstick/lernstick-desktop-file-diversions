@@ -1,3 +1,9 @@
+lernstick-baobab (2) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+-- Thore Sommer <mail@thson.de> Mon, 26 Jun 2017 15:00:00 +0200
+
 lernstick-baobab (1) lernstick-8; urgency=medium
 
   * Initial release
