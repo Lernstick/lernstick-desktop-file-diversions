@@ -1,4 +1,3 @@
-
 [Desktop Entry]
 Name=Password
 Name[ar]=كلمة المرور
@@ -131,5 +130,5 @@ Terminal=false
 Type=Application
 Icon=password
 Categories=X-Red-Hat-Base;X-GNOME-PersonalSettings;Settings;
-X-Desktop-File-Install-Version=0.18
+X-Desktop-File-Install-Version=0.23
 OnlyShowIn=LXDE;
