@@ -3,7 +3,7 @@ lernstick-libreoffice-impress (4) lernstick-9; urgency=medium
   * synced with Debian 9
   * removed "OOO_FORCE_DESKTOP=gnome" because it's only needed when libreoffice-kde is installed
 
--- Thore Sommer <mail@thson.de> Mon, 26 Jun 2017 15:00:00 +0200
+ -- Thore Sommer <mail@thson.de>  Mon, 26 Jun 2017 15:00:00 +0200
 
 lernstick-libreoffice-impress (3) lernstick-8; urgency=medium
 

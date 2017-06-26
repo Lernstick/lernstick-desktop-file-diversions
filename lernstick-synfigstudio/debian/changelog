@@ -3,7 +3,7 @@ lernstick-synfigstudio (2) lernstick-9; urgency=medium
   * synced with Debian 9
   * updated to original translations in synfigstudio.desktop
 
--- Thore Sommer <mail@thson.de> Sat, 24 Jun 2017 15:30:00 +0200
+ -- Thore Sommer <mail@thson.de>  Sat, 24 Jun 2017 15:30:00 +0200
 
 lernstick-synfigstudio (1) lernstick-8; urgency=low
 
