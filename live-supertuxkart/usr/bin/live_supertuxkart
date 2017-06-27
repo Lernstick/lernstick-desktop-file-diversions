@@ -2,4 +2,4 @@
 
 . /usr/share/live-resolution/resolution.sh
 
-exec /usr/games/supertuxkart --fullscreen --screensize ${_RESOLUTION_X}x${_RESOLUTION_Y}
+exec /usr/games/supertuxkart --fullscreen --screensize=${_RESOLUTION_X}x${_RESOLUTION_Y}

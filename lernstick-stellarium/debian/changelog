@@ -1,3 +1,10 @@
+lernstick-stellarium (4) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+  * removed scripts (they don't work with the new script engine)
+
+ -- Thore Sommer <mail@thson.de>  Sun, 25 Jun 2017 15:00:00 +0200
+
 lernstick-stellarium (3) lernstick-8; urgency=medium
 
   * switched from iceweasel to firefox

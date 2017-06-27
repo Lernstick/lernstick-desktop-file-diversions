@@ -1,0 +1,13 @@
+Source: lernstick-freeplane
+Section: text
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-freeplane
+Architecture: all
+Depends: freeplane
+Description: Enforce the usage of antialiased fonts in Freeplane
+ We enforce the usage of antialiased fonts in Freeplane and fix the GenericName
+ in the desktop file.

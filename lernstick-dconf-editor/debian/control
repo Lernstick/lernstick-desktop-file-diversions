@@ -9,4 +9,4 @@ Package: lernstick-dconf-editor
 Architecture: all
 Depends: dconf-editor
 Description: Changes the menu entry of dconf-editor
- We show dconf-editor only in GNOME
+ We show dconf-editor only in GNOME, Cinnamon and MATE

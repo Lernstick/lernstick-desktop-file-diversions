@@ -1,3 +1,10 @@
+lernstick-libreoffice-base (4) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+  * removed "OOO_FORCE_DESKTOP=gnome" because it's only needed when libreoffice-kde is installed
+
+ -- Thore Sommer <mail@thson.de>  Mon, 26 Jun 2017 15:00:00 +0200
+
 lernstick-libreoffice-base (3) lernstick-8; urgency=medium
 
   * removed workaround for https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=798591

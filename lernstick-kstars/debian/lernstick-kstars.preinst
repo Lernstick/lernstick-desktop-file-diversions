@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-kstars --rename --divert \
-            /usr/share/applications/kde4/kstars.desktop.orig \
-            /usr/share/applications/kde4/kstars.desktop
+            /usr/share/applications/org.kde.kstars.desktop.orig \
+            /usr/share/applications/org.kde.kstars.desktop
     ;;
 
     abort-upgrade)

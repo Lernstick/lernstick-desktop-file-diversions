@@ -1,3 +1,9 @@
+lernstick-pdfshuffler (2) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Thore Sommer <mail@thson.de>  Sat, 24 Jun 2017 15:30:00 +0200
+
 lernstick-pdfshuffler (1) lernstick-8; urgency=low
 
   * Initial release

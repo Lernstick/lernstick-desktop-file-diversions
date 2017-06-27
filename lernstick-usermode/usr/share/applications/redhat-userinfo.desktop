@@ -129,5 +129,5 @@ Terminal=false
 Type=Application
 Icon=user_icon
 Categories=Settings;X-GNOME-PersonalSettings;
-X-Desktop-File-Install-Version=0.18
+X-Desktop-File-Install-Version=0.23
 OnlyShowIn=LXDE;

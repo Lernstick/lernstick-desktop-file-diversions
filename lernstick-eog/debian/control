@@ -8,5 +8,5 @@ Standards-Version: 3.7.3
 Package: lernstick-eog
 Architecture: all
 Depends: eog
-Description: Hides eog in KDE
+Description: Hides eog in KDE and MATE
  We hide eog in KDE as we have gwenview there.

@@ -1,4 +1,3 @@
-
 [Desktop Entry]
 Name=Disk Management
 Name[ar]=إدارة القرص
@@ -131,5 +130,5 @@ Terminal=false
 Type=Application
 Icon=disks
 Categories=X-Red-Hat-Base;System;
-X-Desktop-File-Install-Version=0.18
+X-Desktop-File-Install-Version=0.23
 OnlyShowIn=LXDE;

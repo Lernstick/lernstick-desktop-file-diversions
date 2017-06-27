@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for lernstick-freemind
+# postrm script for lernstick-freeplane
 #
 # see: dh_installdeb(1)
 
@@ -24,12 +24,12 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package lernstick-freemind --rename --divert \
-            /usr/share/freemind/freemind.sh.orig \
-            /usr/share/freemind/freemind.sh
-        dpkg-divert --remove --package lernstick-freemind --rename --divert \
-            /usr/share/applications/freemind.desktop.orig \
-            /usr/share/applications/freemind.desktop
+        dpkg-divert --remove --package lernstick-freeplane --rename --divert \
+            /usr/share/freeplane/freeplane.sh.orig \
+            /usr/share/freeplane/freeplane.sh
+        dpkg-divert --remove --package lernstick-freeplane --rename --divert \
+            /usr/share/applications/freeplane.desktop.orig \
+            /usr/share/applications/freeplane.desktop
     ;;
 
     *)
