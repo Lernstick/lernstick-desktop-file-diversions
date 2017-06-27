@@ -1,0 +1,12 @@
+Source: lernstick-sonic-pi
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-sonic-pi
+Architecture: all
+Depends: sonic-pi
+Description: Adds a German translation to the desktop file
+ We add a German translation to the Sonic-Pi desktop file.
