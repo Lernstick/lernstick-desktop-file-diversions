@@ -1,3 +1,9 @@
+lernstick-freeplane (2) lernstick-9; urgency=medium
+
+  * fixed name of desktop file
+
+ -- Ronny <ronny.standtke@gmx.net>  Tue, 27 Jun 2017 18:02:47 +0200
+
 lernstick-freeplane (1.0-1) unstable; urgency=low
 
   * Initial release
