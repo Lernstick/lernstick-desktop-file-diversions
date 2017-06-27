@@ -1,3 +1,9 @@
+lernstick-ghex (3) lernstick-8; urgency=medium
+
+  * fixed typo in description
+
+ -- Ronny <ronny.standtke@gmx.net>  Tue, 27 Jun 2017 18:12:48 +0200
+
 lernstick-ghex (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
