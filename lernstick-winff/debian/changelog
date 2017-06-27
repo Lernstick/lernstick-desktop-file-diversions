@@ -1,3 +1,9 @@
+lernstick-winff (4) lernstick-9; urgency=medium
+
+  * updated GenericName (its really a *media* converter, not only for video)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 27 Jun 2017 15:22:05 +0200
+
 lernstick-winff (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
