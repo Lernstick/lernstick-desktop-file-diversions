@@ -1,3 +1,9 @@
+lernstick-hplip-gui (7) lernstick-9; urgency=medium
+
+  * adapted desktop file for Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 03 Jul 2017 13:31:52 +0200
+
 lernstick-hplip-gui (6) lernstick-8; urgency=medium
 
   * switched from sudo to polkit

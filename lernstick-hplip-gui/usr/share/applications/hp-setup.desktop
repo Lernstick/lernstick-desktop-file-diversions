@@ -2,7 +2,7 @@
 Name=HP Setup
 GenericName=HP printer installation
 GenericName[de]=HP-Drucker-Installation
-Exec=pkexec hp-setup
+Exec=sh -c "pkexec hp-setup && true"
 Icon=/usr/share/hplip/data/images/256x256/hp_logo.png
 Categories=Application;Settings;
 Terminal=true
