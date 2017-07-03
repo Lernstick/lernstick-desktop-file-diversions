@@ -1,3 +1,9 @@
+lernstick-lshw-gtk (5) lernstick-9; urgency=medium
+
+  * adapted to Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 03 Jul 2017 13:13:51 +0200
+
 lernstick-lshw-gtk (4) lernstick-8; urgency=medium
 
   * use polkit instead of sudo
