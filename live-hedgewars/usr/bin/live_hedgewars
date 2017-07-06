@@ -1,0 +1,10 @@
+#!/bin/sh
+
+. /usr/share/live-resolution/resolution.sh
+
+HEDGEWARS_CONFIG=~/.hedgewars/settings.ini
+
+Replace "fullscreen=.*" "fullscreen=true" ${HEDGEWARS_CONFIG}
+Replace "fullscreenResolution=.*" "fullscreenResolution=${_RESOLUTION_X}x${_RESOLUTION_Y}" ${HEDGEWARS_CONFIG}
+
+exec /usr/games/hedgewars ${@}
