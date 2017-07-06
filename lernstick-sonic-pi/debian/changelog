@@ -1,3 +1,10 @@
+lernstick-sonic-pi (2) lernstick-9; urgency=medium
+
+  * added wrapper script to suspend pulseaudio and start jackd automatically
+    (thanks to Martin Stolle)
+
+ -- Ronny Standtke <ronny@debian>  Thu, 06 Jul 2017 12:03:28 +0200
+
 lernstick-sonic-pi (1) lernstick-9; urgency=low
 
   * Initial release

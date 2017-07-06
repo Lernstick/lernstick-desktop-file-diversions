@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=sonic-pi
+Exec=sonic-pi.lernstick
 Icon=/usr/share/pixmaps/sonic-pi.png
 Terminal=false
 Name=Sonic Pi

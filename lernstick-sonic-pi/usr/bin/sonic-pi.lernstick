@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pasuspender -- jackd -d alsa &
+sleep 1
+sonic-pi
+killall -9 jackd
