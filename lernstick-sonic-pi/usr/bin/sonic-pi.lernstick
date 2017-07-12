@@ -1,6 +1,9 @@
 #!/bin/sh
 
-pasuspender -- jackd -d alsa &
-sleep 1
+sudo modprobe snd-aloop index=10 pcm_substreams=1 || true
+jackd -d alsa -d hw:10 &
+sleep 3
+arecord -D plughw:10,1 -r 48000 -f FLOAT_LE -c 2  | aplay - &
 sonic-pi
 killall -9 jackd
+killall -9 arecord

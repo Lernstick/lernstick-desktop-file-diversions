@@ -1,3 +1,9 @@
+lernstick-sonic-pi (3) lernstick-9; urgency=medium
+
+  * changed the sonic-pi.lernstick to work with pulseaudio over a loop back interface
+
+ -- Thore Sommer <mail@thson.de>  Wed, 12 Jul 2017 20:00:00 +0200
+
 lernstick-sonic-pi (2) lernstick-9; urgency=medium
 
   * added wrapper script to suspend pulseaudio and start jackd automatically
