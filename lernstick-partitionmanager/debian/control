@@ -9,4 +9,4 @@ Package: lernstick-partitionmanager
 Architecture: all
 Depends: partitionmanager
 Description: Changes the menu entry of partitionmanager
- We start partitionmanager with sudo and show it only in KDE.
+ We always start partitionmanager with kdesudo.

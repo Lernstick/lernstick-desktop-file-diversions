@@ -1,14 +1,8 @@
-lernstick-partitionmanager (3) lernstick-9; urgency=medium
+lernstick-partitionmanager (2.deb8) lernstick-8; urgency=medium
 
-  * fixed desktop file
+  * start partitionmanager with kdesudo (so that it also works in KDE)
 
- -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 28 May 2017 18:07:48 +0200
-
-lernstick-partitionmanager (2) lernstick-9; urgency=medium
-
-  * adapted to Debian 9
-
- -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 28 May 2017 15:57:32 +0200
+ -- Ronny <ronny.standtke@gmx.net>  Sat, 29 Jul 2017 07:19:53 +0200
 
 lernstick-partitionmanager (1) lernstick-8; urgency=low
 
