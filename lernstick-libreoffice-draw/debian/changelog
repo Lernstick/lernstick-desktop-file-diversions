@@ -1,3 +1,9 @@
+lernstick-libreoffice-draw (5) lernstick-9; urgency=medium
+
+  * adapted to LibreOffice 5.4
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 14 Aug 2017 12:44:18 +0200
+
 lernstick-libreoffice-draw (4) lernstick-9; urgency=medium
 
   * synced with Debian 9

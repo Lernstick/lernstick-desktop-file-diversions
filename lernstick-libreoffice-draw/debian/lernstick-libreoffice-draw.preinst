@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-libreoffice-draw --rename --divert \
-            /usr/lib/libreoffice/share/xdg/draw.desktop.orig \
-            /usr/lib/libreoffice/share/xdg/draw.desktop
+            /usr/share/applications/libreoffice-draw.desktop.orig \
+            /usr/share/applications/libreoffice-draw.desktop
     ;;
 
     abort-upgrade)
