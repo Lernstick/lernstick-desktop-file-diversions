@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-libreoffice-math --rename --divert \
-            /usr/lib/libreoffice/share/xdg/math.desktop.orig \
-            /usr/lib/libreoffice/share/xdg/math.desktop
+            /usr/share/applications/libreoffice-math.desktop.orig \
+            /usr/share/applications/libreoffice-math.desktop
     ;;
 
     abort-upgrade)
