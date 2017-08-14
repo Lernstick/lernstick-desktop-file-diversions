@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-libreoffice-base --rename --divert \
-            /usr/lib/libreoffice/share/xdg/base.desktop.orig \
-            /usr/lib/libreoffice/share/xdg/base.desktop
+            /usr/share/applications/libreoffice-base.desktop.orig \
+            /usr/share/applications/libreoffice-base.desktop
     ;;
 
     abort-upgrade)
