@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-libreoffice-impress --rename --divert \
-            /usr/lib/libreoffice/share/xdg/impress.desktop.orig \
-            /usr/lib/libreoffice/share/xdg/impress.desktop
+            /usr/share/applications/libreoffice-impress.desktop.orig \
+            /usr/share/applications/libreoffice-impress.desktop
     ;;
 
     abort-upgrade)
