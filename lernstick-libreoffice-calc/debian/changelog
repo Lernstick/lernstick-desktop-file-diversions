@@ -1,3 +1,9 @@
+lernstick-libreoffice-calc (5) lernstick-9; urgency=medium
+
+  * adapted to LibreOffice 5.4
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 14 Aug 2017 12:35:56 +0200
+
 lernstick-libreoffice-calc (4) lernstick-9; urgency=medium
 
   * synced with Debian 9
