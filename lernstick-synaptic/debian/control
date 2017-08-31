@@ -7,7 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-synaptic
 Architecture: all
-Depends: synaptic
+Depends: synaptic, lernstick-package-management-wrapper
 Description: Changes the menu entry of synaptic
  We remove synaptic from the categories "System" and "Settings". It is already
- in the category "PackageManager" and this should be sufficient.
+ in the category "PackageManager" and this should be sufficient. We also use
+ our package management wrapper to start synaptic in a more user friendly way.

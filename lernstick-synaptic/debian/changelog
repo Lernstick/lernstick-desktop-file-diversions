@@ -1,3 +1,10 @@
+lernstick-synaptic (5) lernstick-8; urgency=medium
+
+  * use our package management wrapper to start synaptic in a more user
+    friendly way
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 31 Aug 2017 16:55:02 +0200
+
 lernstick-synaptic (4) lernstick-8; urgency=medium
 
   * synced with upstream version
