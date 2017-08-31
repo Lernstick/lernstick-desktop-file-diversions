@@ -1,0 +1,13 @@
+Source: lernstick-gnome-packagekit
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-packagekit
+Architecture: all
+Depends: gnome-packagekit, lernstick-package-management-wrapper
+Description: Changes the menu entry of gnome-packagekit
+ We use our package management wrapper to start gnome-packagekit in a more user
+ friendly way.

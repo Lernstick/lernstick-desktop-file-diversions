@@ -1,0 +1,11 @@
+lernstick-gnome-packagekit (2) lernstick-8; urgency=medium
+
+  * also start update viewer with package management wrapper script
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 31 Aug 2017 17:31:38 +0200
+
+lernstick-gnome-packagekit (1) lernstick-8; urgency=medium
+
+  * initial version
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 31 Aug 2017 17:11:07 +0200
