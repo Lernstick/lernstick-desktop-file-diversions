@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-adobereader-enu
 Architecture: all
-Depends: adobereader-enu
+Depends: adobereader-enu:i386
 Description: Fixes the Adobe Reader desktop file
  We fix the Adobe Reader destkop file, so that it appears in the "Open with..."
  context menu.
