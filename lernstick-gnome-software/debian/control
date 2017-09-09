@@ -7,9 +7,10 @@ Standards-Version: 3.7.3
 
 Package: lernstick-gnome-software
 Architecture: all
-Depends: gnome-software
+Depends: gnome-software, lernstick-package-management-wrapper
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Changes the category of gnome-software
  We remove gnome-software from the system category, it is already in the
- packagemanager category and this should be sufficient.
+ packagemanager category and this should be sufficient. We also use our package
+ management wrapper to start gnome-software in a more user friendly way.

@@ -1,3 +1,10 @@
+lernstick-gnome-software (3) lernstick-9; urgency=medium
+
+  * use our package management wrapper to start gnome-software in a more user
+    friendly way
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 09 Sep 2017 11:03:36 +0200
+
 lernstick-gnome-software (2) lernstick-9; urgency=medium
 
   * adapted to Debian 9
