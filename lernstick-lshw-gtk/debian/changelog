@@ -1,3 +1,9 @@
+lernstick-lshw-gtk (6) lernstick-8; urgency=medium
+
+  * fixed lang key in policy file
+
+ -- Ronny <ronny.standtke@gmx.net>  Tue, 19 Sep 2017 12:28:54 +0200
+
 lernstick-lshw-gtk (5) lernstick-9; urgency=medium
 
   * adapted to Debian 9

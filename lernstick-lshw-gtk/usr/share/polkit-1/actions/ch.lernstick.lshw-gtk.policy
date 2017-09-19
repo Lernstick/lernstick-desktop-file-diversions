@@ -6,7 +6,7 @@
 
   <action id="ch.lernstick.lshw-gtk">
     <message>Authentication is required to run the Hardware Lister</message>
-    <message xml:lang="bg">Um die Hardware-Übersicht zu starten, ist eine Anmeldung erforderlich</message>
+    <message xml:lang="de">Um die Hardware-Übersicht zu starten, ist eine Anmeldung erforderlich</message>
     <icon_name>lshw-gtk</icon_name>
     <defaults>
       <allow_any>yes</allow_any>
