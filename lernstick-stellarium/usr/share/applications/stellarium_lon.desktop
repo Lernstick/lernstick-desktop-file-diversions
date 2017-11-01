@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=X-lernstick-Astronomy;
-Exec=firefox http://www.lehrer-online.de/stellarium.php
+Exec=firefox https://www.lehrer-online.de/suche/?tx_losearch_search[query]=stellarium
 Icon=konqueror
 Name=Stellarium-Unterrichtsmaterial
 Type=Application
