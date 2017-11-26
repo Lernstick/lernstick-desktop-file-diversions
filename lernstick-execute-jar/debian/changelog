@@ -1,3 +1,9 @@
+lernstick-execute-jar (2) lernstick-9; urgency=medium
+
+  * changed dependency from unversioned "java-runtime" to versioned "java8-runtime"
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 26 Nov 2017 17:59:26 +0100
+
 lernstick-execute-jar (1) lernstick-8; urgency=low
 
   * Initial release
