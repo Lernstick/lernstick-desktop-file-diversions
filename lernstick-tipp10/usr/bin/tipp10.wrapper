@@ -1,0 +1,41 @@
+#!/bin/sh
+
+CONFIG_FILE="${HOME}/.config/Tom Thielicke IT Solutions/TIPP10.conf"
+
+# switch GUI and lesson language according to currently used language
+case $(echo "${LANG}" | awk -F_ '{ print $1 }') in
+	"de")
+		echo "switching GUI to German"
+		GUI_LANG="de"
+		LESSON_LANG="de_de_qwertz"
+		;;
+	*)
+		GUI_LANG="en"
+		LESSON_LANG="en_us_qwerty"
+		;;
+esac
+sed -i "s/language_gui=.*/language_gui=${GUI_LANG}/" "${CONFIG_FILE}"
+sed -i "s/language_lesson=.*/language_lesson=${LESSON_LANG}/" "${CONFIG_FILE}"
+
+# switch keyboard configuration according to currently used layout
+case $(xkb-switch) in
+	"ch")
+		echo "switching keyboard to German (Switzerland)"
+		LAYOUT="ch_qwertz_sg_win"
+		;;
+	"ch(fr)")
+		echo "switching keyboard to French (Switzerland)"
+		LAYOUT="ch_qwertz_sf_win"
+		;;
+	"de")
+		echo "switching keyboard to German (Germany)"
+		LAYOUT="de_qwertz_win"
+		;;
+	*)
+		echo "switching keyboard to English"
+		LAYOUT="us_qwerty_win"
+		;;
+esac
+sed -i "s/language_layout=.*/language_layout=${LAYOUT}/" "${CONFIG_FILE}"
+
+tipp10
