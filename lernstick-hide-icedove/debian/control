@@ -1,0 +1,13 @@
+Source: lernstick-hide-icedove
+Section: mail
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-hide-icedove
+Architecture: all
+Depends: icedove
+Description: Hides the icedove desktop file
+ This package hides the icedove desktop file. This package is used in schools
+ where the migration from icedove to thunderbird is already done.
