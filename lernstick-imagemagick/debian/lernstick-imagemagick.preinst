@@ -17,9 +17,6 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-imagemagick --rename --divert \
-            /usr/share/applications/display-im6.desktop.orig \
-            /usr/share/applications/display-im6.desktop
-        dpkg-divert --add --package lernstick-imagemagick --rename --divert \
             /usr/share/applications/display-im6.q16.desktop.orig \
             /usr/share/applications/display-im6.q16.desktop
     ;;
