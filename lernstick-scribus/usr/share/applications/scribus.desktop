@@ -106,3 +106,4 @@ X-KDE-Username=
 [X-Property::X-KDE-NativeExtension]
 Type=QString
 Value=.sla
+DocPath=scribus
