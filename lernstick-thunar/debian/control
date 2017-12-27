@@ -11,5 +11,4 @@ Depends: thunar
 Description: Changes the menu entries of thunar
  We show Thunar and its settings only in XFCE as we have different file
  managers in other desktop environments.
- We hide Thunar Bulk rename in KDE as we have Krename there.
- We fix the German translation of the bulk rename desktop file.
+ We hide Thunar Bulk rename in KDE as we have KRename there.
