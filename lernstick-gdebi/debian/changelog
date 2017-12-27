@@ -1,3 +1,9 @@
+lernstick-gdebi (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Dec 2017 19:38:44 +0100
+
 lernstick-gdebi (2) lernstick-8; urgency=medium
 
   * fixed preinst and postrm files
