@@ -1,3 +1,9 @@
+live-supertuxkart (4) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 10:21:21 +0100
+
 live-supertuxkart (3) lernstick-9; urgency=medium
 
   * fixed live_supertuxkart
