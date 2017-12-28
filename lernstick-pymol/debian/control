@@ -9,4 +9,4 @@ Package: lernstick-pymol
 Architecture: all
 Depends: pymol
 Description: Changes the menu entry of pymol
- We add some L10n to the pymol desktop file
+ We add a German GenericName and remove pymol from the Graphics category.

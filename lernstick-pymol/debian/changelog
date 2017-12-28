@@ -1,3 +1,9 @@
+lernstick-pymol (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 09:13:52 +0100
+
 lernstick-pymol (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
