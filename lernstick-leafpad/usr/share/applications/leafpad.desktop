@@ -1,5 +1,4 @@
 [Desktop Entry]
-Keywords=editor
 Name=Leafpad
 Comment=Simple text editor
 Comment[bg]=Опростен текстов редактор
@@ -46,4 +45,6 @@ Terminal=false
 Type=Application
 MimeType=text/plain
 Categories=GTK;Utility;TextEditor;
+Keywords=text;editor;
+InitialPreference=6
 OnlyShowIn=LXDE;
