@@ -1,3 +1,9 @@
+lernstick-playonlinux (2) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 12:42:35 +0100
+
 lernstick-playonlinux (1) lernstick-8; urgency=low
 
   * Initial release
