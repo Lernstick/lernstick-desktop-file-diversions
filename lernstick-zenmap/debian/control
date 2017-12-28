@@ -9,4 +9,6 @@ Package: lernstick-zenmap
 Architecture: all
 Depends: zenmap
 Description: Changes the menu entry of zenmap
- The desktop file of zenmap is completely foobar, we fix this.
+ We remove the unnecessary "GUI" prefix from the GenericName, add a German
+ translation of the GenericName, execute zenmap via su-to-root and hide the
+ redundand zenmap-root.desktop file.
