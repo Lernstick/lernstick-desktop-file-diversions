@@ -1,3 +1,9 @@
+lernstick-musescore (4) lernstick-9; urgency=medium
+
+  * synced with MuseScore 2.1
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 08:51:15 +0100
+
 lernstick-musescore (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
