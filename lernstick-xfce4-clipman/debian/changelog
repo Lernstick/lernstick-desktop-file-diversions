@@ -1,3 +1,9 @@
+lernstick-xfce4-clipman (2) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 09:38:41 +0100
+
 lernstick-xfce4-clipman (1) lernstick-8; urgency=low
 
   * Initial release
