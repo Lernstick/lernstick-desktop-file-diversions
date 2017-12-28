@@ -5,6 +5,7 @@ Name=LyX
 GenericName=Document Processor
 GenericName[de]=Dokumentenverarbeitung
 Comment=High level LaTeX frontend
+Keywords=WYSIWYG;WYSIWYM;TeX;LaTeX;GUI;frontend;editor;
 Exec=lyx %F
 TryExec=lyx
 Icon=lyx
