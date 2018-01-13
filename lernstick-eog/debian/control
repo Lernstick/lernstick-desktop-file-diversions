@@ -9,4 +9,4 @@ Package: lernstick-eog
 Architecture: all
 Depends: eog
 Description: Hides eog in KDE and MATE
- We hide eog in KDE as we have gwenview there.
+ We hide eog in KDE (has gwenview) and MATE (has eom).
