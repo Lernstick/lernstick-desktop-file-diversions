@@ -224,4 +224,4 @@ Icon=gnome-logs
 Terminal=false
 StartupNotify=true
 DBusActivatable=true
-NotShowIn=KDE;
+NotShowIn=KDE;MATE;
