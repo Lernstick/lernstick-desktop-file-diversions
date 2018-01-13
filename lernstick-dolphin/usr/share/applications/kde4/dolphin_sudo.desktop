@@ -30,4 +30,4 @@ GenericName=File Manager with administrative rights
 GenericName[de]=Dateimanager mit Administratorrechten
 Terminal=false
 StartupNotify=false
-NotShowIn=GNOME;
+NotShowIn=Cinnamon;GNOME;MATE;
