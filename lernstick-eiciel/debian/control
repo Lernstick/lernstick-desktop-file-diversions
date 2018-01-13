@@ -1,0 +1,14 @@
+Source: lernstick-eiciel
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-eiciel
+Architecture: all
+Depends: eiciel
+Description: Hides eiciel in GNOME, MATE and KDE
+ We hide eiciel in desktop environments where it is already integrated into the
+ respective file managers like GNOME (nautilus) and MATE (caja) or where
+ alternatives exist, like in KDE (dolphin).
