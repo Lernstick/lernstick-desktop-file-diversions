@@ -1,0 +1,13 @@
+Source: lernstick-compton
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-compton
+Architecture: all
+Depends: compton
+Description: Don't show compton in desktop menus
+ We don't show compton in the desktop menus as it doesn't seem to do anything
+ meaningful.
