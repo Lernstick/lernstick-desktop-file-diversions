@@ -1,3 +1,9 @@
+lernstick-ardour (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 14 Jan 2018 10:31:31 +0100
+
 lernstick-ardour3 (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
