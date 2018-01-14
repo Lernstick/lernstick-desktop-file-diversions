@@ -1,0 +1,13 @@
+Source: lernstick-menulibre
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-menulibre
+Architecture: all
+Depends: menulibre
+Description: Changes the desktop category of menulibre
+ We remove menulibre from the category "Utility". It is already in the category
+ "Settings" and this is enough.
