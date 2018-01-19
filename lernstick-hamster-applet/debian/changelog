@@ -1,3 +1,9 @@
+lernstick-hamster-applet (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 19 Jan 2018 17:07:33 +0100
+
 lernstick-hamster-applet (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
