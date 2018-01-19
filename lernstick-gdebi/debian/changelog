@@ -1,3 +1,9 @@
+lernstick-gdebi (6) lernstick-9; urgency=medium
+
+  * use pkexec in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 19 Jan 2018 21:16:51 +0100
+
 lernstick-gdebi (5) lernstick-9; urgency=medium
 
   * use package-management-wrapper
