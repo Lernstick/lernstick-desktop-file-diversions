@@ -1,3 +1,9 @@
+lernstick-gdebi (5) lernstick-9; urgency=medium
+
+  * use package-management-wrapper
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 19 Jan 2018 20:50:22 +0100
+
 lernstick-gdebi (4) lernstick-9; urgency=medium
 
   * use full path to icon so that it also shows up in KDE

@@ -7,6 +7,10 @@ Standards-Version: 3.7.3
 
 Package: lernstick-gdebi
 Architecture: all
-Depends: gdebi
-Description: Hides the menu entry of gdebi
- We hide the start menu entry of gdebi.
+Depends: gdebi, lernstick-package-management-wrapper
+Description: Changes the way gdebi is shown and started
+ We hide the start menu entry of gdebi. It is enough to have it in the
+ "Open with..." context menus. We use the full icon path so that the correct
+ icon is also shown in other desktop environments besides GNOME. We also use
+ the Lernstick package management wrapper to start synaptic in a more user
+ friendly way.
