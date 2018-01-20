@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-gdebi
 Architecture: all
-Depends: gdebi, lernstick-package-management-wrapper
+Depends: gdebi, lernstick-package-management-wrapper, tango-icon-theme
 Description: Changes the way gdebi is shown and started
  We hide the start menu entry of gdebi. It is enough to have it in the
  "Open with..." context menus. We use the full icon path so that the correct

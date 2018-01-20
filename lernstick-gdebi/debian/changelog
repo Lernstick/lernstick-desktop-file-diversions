@@ -1,3 +1,10 @@
+lernstick-gdebi (7) lernstick-9; urgency=medium
+
+  * improved polkit message
+  * add dependency to tango-icon-theme
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 20 Jan 2018 08:56:52 +0100
+
 lernstick-gdebi (6) lernstick-9; urgency=medium
 
   * use pkexec in desktop file
