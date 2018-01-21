@@ -222,7 +222,8 @@ Keywords[zh_HK]=folder;manager;explore;disk;filesystem;資料夾;管理程式;�
 Keywords[zh_TW]=folder;manager;explore;disk;filesystem;資料夾;管理員;磁碟;檔案系統;
 Keywords=folder;manager;explore;disk;filesystem;
 Exec=nautilus --new-window %U
-OnlyShowIn=GNOME;
+# OnlyShowIn=GNOME doesn't work with Cinnamon
+NotShowIn=KDE;X-Cinnamon;MATE;LXDE;XFCE;X-Enlightenment;
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon[ar]=org.gnome.Nautilus
 Icon[bg]=org.gnome.Nautilus
@@ -327,4 +328,5 @@ Name[zh_CN]=新建窗口
 Name[zh_TW]=新增視窗
 Name=New Window
 Exec=nautilus --new-window
-OnlyShowIn=GNOME;
+# OnlyShowIn=GNOME doesn't work with Cinnamon
+NotShowIn=KDE;X-Cinnamon;MATE;LXDE;XFCE;X-Enlightenment;
