@@ -15,22 +15,35 @@ set -e
 
 
 case "$1" in
-    install|upgrade)
-        dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
-            /usr/share/applications/hamster-time-tracker.desktop.orig \
-            /usr/share/applications/hamster-time-tracker.desktop
-        dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
-            /usr/share/applications/hamster-time-tracker-overview.desktop.orig \
-            /usr/share/applications/hamster-time-tracker-overview.desktop
-    ;;
+	install|upgrade)
+		# We first must remove the divert of the old version (actually from jessie not
+		# from wheezy like the name suggests). This can be removed if we switch to
+		# Debian 10.
+		if dpkg-divert --listpackage /usr/share/applications/hamster-time-tracker.desktop | grep -q wheezy
+		then
+			dpkg-divert --remove --package lernstick-hamster-applet-wheezy --rename --divert \
+				/usr/share/applications/hamster-time-tracker.desktop.orig \
+				/usr/share/applications/hamster-time-tracker.desktop
+			dpkg-divert --remove --package lernstick-hamster-applet-wheezy --rename --divert \
+				/usr/share/applications/hamster-time-tracker-overview.desktop.orig \
+				/usr/share/applications/hamster-time-tracker-overview.desktop
+		fi
 
-    abort-upgrade)
-    ;;
+		dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
+			/usr/share/applications/hamster-time-tracker.desktop.orig \
+			/usr/share/applications/hamster-time-tracker.desktop
+		dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
+			/usr/share/applications/hamster-time-tracker-overview.desktop.orig \
+			/usr/share/applications/hamster-time-tracker-overview.desktop
+	;;
 
-    *)
-        echo "preinst called with unknown argument \`$1'" >&2
-        exit 1
-    ;;
+	abort-upgrade)
+	;;
+
+	*)
+		echo "preinst called with unknown argument \`$1'" >&2
+		exit 1
+	;;
 esac
 
 # dh_installdeb will replace this with shell code automatically

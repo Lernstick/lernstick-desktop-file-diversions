@@ -1,3 +1,15 @@
+lernstick-hamster-applet (5) lernstick-9; urgency=medium
+
+  * added check in preinst script before removing old divert
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 20 Jan 2018 18:03:14 +0100
+
+lernstick-hamster-applet (4) lernstick-9; urgency=medium
+
+  * remove old divert during install
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 20 Jan 2018 17:37:35 +0100
+
 lernstick-hamster-applet (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
