@@ -1,3 +1,15 @@
+lernstick-thunar (4) lernstick-9; urgency=medium
+
+  * hide Thunar Bulk rename also in MATE (they have caja-rename)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 13 Jan 2018 10:09:45 +0100
+
+lernstick-thunar (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Dec 2017 18:21:04 +0100
+
 lernstick-thunar (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

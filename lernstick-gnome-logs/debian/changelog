@@ -1,3 +1,10 @@
+lernstick-gnome-logs (2) lernstick-9; urgency=medium
+
+  * hide gnome-logs also in MATE
+    (they have mate-system-log from the package mate-utils)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 13 Jan 2018 10:31:09 +0100
+
 lernstick-gnome-logs (1) lernstick-9; urgency=low
 
   * Initial release

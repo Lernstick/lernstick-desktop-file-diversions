@@ -11,4 +11,5 @@ Terminal=false
 StartupNotify=false
 Type=Application
 TryExec=/usr/games/trigger-rally
-Categories=Game;ArcadeGame
+Categories=Game;ArcadeGame;
+Keywords=rally;cars;racing;tracks;

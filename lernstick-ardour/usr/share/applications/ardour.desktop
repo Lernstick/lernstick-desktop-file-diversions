@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Ardour
+GenericName=Digital audio workstation
+GenericName[de]=Digital Audio Workstation
+GenericName[fr]=Station de travail audionumérique
+Comment=Record, mix and master multi-track audio
+Comment[fr]=Enregistrer, mixer et mastériser de l'audio multi-piste 
+Keywords=audio;sound;jackd,DAW,multitrack,ladspa,lv2,midi
+Exec=/usr/bin/ardour5
+Icon=ardour
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;

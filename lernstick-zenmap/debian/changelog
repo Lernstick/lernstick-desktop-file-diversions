@@ -1,3 +1,9 @@
+lernstick-zenmap (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 10:06:41 +0100
+
 lernstick-zenmap (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

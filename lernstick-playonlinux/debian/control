@@ -9,4 +9,5 @@ Package: lernstick-playonlinux
 Architecture: all
 Depends: playonlinux
 Description: Changes the menu entry of playonlinux
- We move PlayOnLinux to the compatibility section.
+ We remove PlayOnLinux from the Utility category, it is already in the category
+ Emulator and this should be enough.

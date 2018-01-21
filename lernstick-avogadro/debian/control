@@ -9,4 +9,5 @@ Package: lernstick-avogadro
 Architecture: all
 Depends: avogadro
 Description: Changes the menu entry of avogadro
- We add some L10n to the avogadro desktop file
+ We synchronize the GenericName in the avogadro desktop file with bkchem and
+ pymol.

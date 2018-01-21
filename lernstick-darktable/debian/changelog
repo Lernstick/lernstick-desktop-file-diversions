@@ -1,3 +1,9 @@
+lernstick-darktable (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Dec 2017 18:44:39 +0100
+
 lernstick-darktable (2) lernstick-8; urgency=medium
 
   * updated German translation

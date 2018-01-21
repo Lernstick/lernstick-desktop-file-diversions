@@ -1,8 +1,14 @@
+lernstick-atril (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Dec 2017 11:51:08 +0100
+
 lernstick-atril (2) lernstick-9; urgency=medium
 
   * synced with Debian 9
 
-  -- Thore Sommer <mail@thson.de>   Sat, 24 Jun 2017 22:00:00 +0200
+ -- Thore Sommer <mail@thson.de>  Sat, 24 Jun 2017 22:00:00 +0200
 
 lernstick-atril (1) lernstick-8; urgency=low
 

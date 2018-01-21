@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-execute-jar
 Architecture: all
-Depends: java-runtime
+Depends: java8-runtime
 Description: Adds a desktop file to execute JAR files
  Most JAR files aren't simple archives but executable Java programs. Therefore
  we add a desktop file to execute JAR files with the Java runtime.

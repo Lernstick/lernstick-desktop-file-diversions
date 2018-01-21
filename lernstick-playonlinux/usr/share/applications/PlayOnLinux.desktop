@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Name=PlayOnLinux
-Comment=PlayOnLinux
+Comment=Front-end application for the wine
 Type=Application
-Exec=playonlinux
+Exec=playonlinux %F
 Icon=playonlinux
 Categories=Emulator;

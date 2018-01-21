@@ -1,0 +1,12 @@
+Source: lernstick-filter-aseba
+Section: devel
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-filter-aseba
+Architecture: all
+Depends: aseba
+Description: Hides all aseba desktop files except Thymio VPL
+ This package hides all aseba desktop files except the Thymio VPL.

@@ -1,0 +1,11 @@
+lernstick-hide-icedove (2) lernstick-8; urgency=medium
+
+  * removed depencency on icedove
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 14 Dec 2017 18:29:54 +0100
+
+lernstick-hide-icedove (1) lernstick-8; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 14 Dec 2017 11:27:52 +0100

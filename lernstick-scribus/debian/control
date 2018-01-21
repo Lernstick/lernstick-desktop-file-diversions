@@ -8,5 +8,7 @@ Standards-Version: 3.7.3
 Package: lernstick-scribus
 Architecture: all
 Depends: scribus
-Description: Changes the menu entry of scribus
- We add a German translation of the GenericName in the desktop file of Scribus
+Description: Adds German translations to the scribus desktop file
+ We add German translations to the desktop file of Scribus.
+ This was reported upstream:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=885449

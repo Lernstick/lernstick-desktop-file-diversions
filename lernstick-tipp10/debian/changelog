@@ -1,3 +1,16 @@
+lernstick-tipp10 (4) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 09:34:23 +0100
+
+lernstick-tipp10 (3) lernstick-8; urgency=medium
+
+  * use a wrapper script to set the keyboard layout and lesson and ui language
+    to currently used values
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 07 Dec 2017 14:28:26 +0100
+
 lernstick-tipp10 (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

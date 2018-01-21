@@ -1,3 +1,9 @@
+lernstick-lyx (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 13:46:14 +0100
+
 lernstick-lyx (2) lernstick-8; urgency=medium
 
   * synced with Debian 8

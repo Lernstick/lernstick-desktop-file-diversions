@@ -1,0 +1,13 @@
+Source: lernstick-caja-eiciel
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-caja-eiciel
+Architecture: all
+Depends: caja-eiciel
+Description: Hides caja-eiciel in desktop menus
+ We don't show caja-eiciel in the desktop menus. It is perfectly integrated
+ into caja. Therefore we don't see the need for a separate menu entry.

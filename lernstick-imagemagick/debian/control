@@ -7,6 +7,6 @@ Standards-Version: 3.7.3
 
 Package: lernstick-imagemagick
 Architecture: all
-Depends: imagemagick
+Depends: imagemagick-6.q16
 Description: Changes the menu entry of imagemagick
- We hide the display.im6 desktop file.
+ We hide the display-im6.q16.desktop file.

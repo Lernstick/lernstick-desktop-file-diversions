@@ -1,0 +1,12 @@
+Source: lernstick-mate-calc
+Section: math
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-mate-calc
+Architecture: all
+Depends: mate-calc
+Description: Shows mate-calc only when running MATE
+ We show mate-calc only when running a MATE session.

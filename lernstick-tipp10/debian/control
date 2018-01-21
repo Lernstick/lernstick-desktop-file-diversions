@@ -7,6 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-tipp10
 Architecture: all
-Depends: tipp10
+Depends: tipp10, xkb-switch
 Description: Changes the menu entry of tipp10
- We move the tipp10 menu entry category to "typewriting".
+ We move the tipp10 menu entry category to "typewriting", change the German
+ Comment field so that it matches ktouch and use a wrapper script to set the
+ keyboard layout and lesson and ui language to currently used values.

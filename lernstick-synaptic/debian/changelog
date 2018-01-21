@@ -1,3 +1,21 @@
+lernstick-synaptic (8) lernstick-8; urgency=medium
+
+  * fixed pkexec call in desktop file
+
+ -- Ronny <ronny.standtke@gmx.net>  Tue, 26 Sep 2017 14:07:56 +0200
+
+lernstick-synaptic (7) lernstick-8; urgency=medium
+
+  * added polkit action to allow operation in GUI mode
+
+ -- Ronny <ronny.standtke@gmx.net>  Wed, 20 Sep 2017 11:40:37 +0200
+
+lernstick-synaptic (6) lernstick-8; urgency=medium
+
+  * use dedicated wrapper script to make hardening in the exam environment easier
+
+ -- Ronny <ronny.standtke@gmx.net>  Tue, 19 Sep 2017 12:45:13 +0200
+
 lernstick-synaptic (5) lernstick-8; urgency=medium
 
   * use our package management wrapper to start synaptic in a more user

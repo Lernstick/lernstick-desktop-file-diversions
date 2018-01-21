@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-hamster-applet-wheezy
+# preinst script for lernstick-hamster-applet
 #
 # see: dh_installdeb(1)
 
@@ -16,10 +16,10 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-hamster-applet-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
             /usr/share/applications/hamster-time-tracker.desktop.orig \
             /usr/share/applications/hamster-time-tracker.desktop
-        dpkg-divert --add --package lernstick-hamster-applet-wheezy --rename --divert \
+        dpkg-divert --add --package lernstick-hamster-applet --rename --divert \
             /usr/share/applications/hamster-time-tracker-overview.desktop.orig \
             /usr/share/applications/hamster-time-tracker-overview.desktop
     ;;

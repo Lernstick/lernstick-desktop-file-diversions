@@ -1,3 +1,34 @@
+lernstick-gdebi (7) lernstick-9; urgency=medium
+
+  * improved polkit message
+  * add dependency to tango-icon-theme
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 20 Jan 2018 08:56:52 +0100
+
+lernstick-gdebi (6) lernstick-9; urgency=medium
+
+  * use pkexec in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 19 Jan 2018 21:16:51 +0100
+
+lernstick-gdebi (5) lernstick-9; urgency=medium
+
+  * use package-management-wrapper
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 19 Jan 2018 20:50:22 +0100
+
+lernstick-gdebi (4) lernstick-9; urgency=medium
+
+  * use full path to icon so that it also shows up in KDE
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 10:17:05 +0100
+
+lernstick-gdebi (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Dec 2017 19:38:44 +0100
+
 lernstick-gdebi (2) lernstick-8; urgency=medium
 
   * fixed preinst and postrm files

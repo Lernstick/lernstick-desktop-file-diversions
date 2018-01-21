@@ -11,3 +11,5 @@ Depends: musescore
 Description: Changes the menu entry of Musescore
  We remove "Music" from the Categories. Otherwise it also ends up in the Music
  education category where we don't want to have it.
+ We also change the name from "MuseScore 2" to just "MuseScore" as we think
+ that version information doesn't belong into the application name.

@@ -1,3 +1,10 @@
+lernstick-dolphin (6) lernstick-9; urgency=medium
+
+  * hide dolphin_sudo also in Cinnamon and MATE (these desktop environments
+    have their own solution)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 13 Jan 2018 09:55:45 +0100
+
 lernstick-dolphin (5) lernstick-9; urgency=medium
 
   * adapted to Debian 9

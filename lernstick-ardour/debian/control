@@ -1,0 +1,12 @@
+Source: lernstick-ardour
+Section: sound
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-ardour
+Architecture: all
+Depends: ardour
+Description: Fixes the generic description and icon of Ardour
+ We fix the desktop file of Ardour and add a shiny icon.
