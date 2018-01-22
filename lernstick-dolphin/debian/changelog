@@ -1,3 +1,9 @@
+lernstick-dolphin (7) lernstick-9; urgency=medium
+
+  * fixed hiding in Cinnamon
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 22 Jan 2018 10:59:44 +0100
+
 lernstick-dolphin (6) lernstick-9; urgency=medium
 
   * hide dolphin_sudo also in Cinnamon and MATE (these desktop environments
