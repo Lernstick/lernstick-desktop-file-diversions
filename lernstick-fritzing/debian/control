@@ -14,3 +14,5 @@ Description: Changes the fritzing destkop file.
  We add a German translation of the generic name. We also remove the category
  "Electronics" because the KDE start menu is too short for another category and
  unfortunately its size is hardcoded.
+ We also set QT_AUTO_SCREEN_SCALE_FACTOR=0 in the startup script to fix
+ https://github.com/imedias/lernstick-desktop-file-diversions/issues/3

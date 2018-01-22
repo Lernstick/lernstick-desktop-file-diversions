@@ -1,3 +1,10 @@
+lernstick-fritzing (4) lernstick-9; urgency=medium
+
+  * set QT_AUTO_SCREEN_SCALE_FACTOR=0 in startup script
+    (fixes https://github.com/imedias/lernstick-desktop-file-diversions/issues/3)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 22 Jan 2018 10:47:36 +0100
+
 lernstick-fritzing (3) lernstick-9; urgency=medium
 
   * fixed desktop file
