@@ -7,7 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-gcompris
 Architecture: all
-Depends: gcompris
-Description: Changes the desktop file of gcompris
+Depends: gcompris, gnucap
+Description: Changes the desktop file and dependencies of gcompris
  We change the Name and sync the GenericName fields in the desktop file with
- childsplay.
+ childsplay. We also add a dependency on gnucap (needed for the electricity
+ activity).
