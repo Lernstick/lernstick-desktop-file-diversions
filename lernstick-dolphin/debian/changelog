@@ -1,3 +1,9 @@
+lernstick-dolphin (8) lernstick-9; urgency=medium
+
+  * use full path for icon so that it is also visible in XFCE
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 02 Feb 2018 21:10:53 +0100
+
 lernstick-dolphin (7) lernstick-9; urgency=medium
 
   * fixed hiding in Cinnamon
