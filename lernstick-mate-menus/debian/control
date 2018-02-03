@@ -1,0 +1,15 @@
+Source: lernstick-mate-menus
+Section: libs
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-mate-menus
+Architecture: all
+Depends: mate-menus
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Adds a German translation to the MATE graphics desktop directory
+ We add a German translation to the MATE graphics desktop directory. This fixes
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889299
