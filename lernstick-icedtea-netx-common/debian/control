@@ -1,0 +1,13 @@
+Source: lernstick-icedtea-netx-common
+Section: java
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-icedtea-netx-common
+Architecture: all
+Depends: icedtea-netx-common
+Description: Adds a German translation to the desktop file Comment field
+ We add a German translation to the Comment field of the desktop file. See
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889553
