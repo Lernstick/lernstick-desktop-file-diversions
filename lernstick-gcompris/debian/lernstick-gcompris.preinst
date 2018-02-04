@@ -19,6 +19,9 @@ case "$1" in
         dpkg-divert --add --package lernstick-gcompris --rename --divert \
             /usr/share/applications/gcompris.desktop.orig \
             /usr/share/applications/gcompris.desktop
+        dpkg-divert --add --package lernstick-gcompris --rename --divert \
+            /usr/share/applications/gcompris-edit.desktop.orig \
+            /usr/share/applications/gcompris-edit.desktop
     ;;
 
     abort-upgrade)

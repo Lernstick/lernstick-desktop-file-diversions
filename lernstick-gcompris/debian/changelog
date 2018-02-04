@@ -1,3 +1,11 @@
+lernstick-gcompris (5) lernstick-9; urgency=medium
+
+  * add a German translation of the GenericName field in the gcompris-edit
+    desktop file, see:
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889562
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 04 Feb 2018 16:19:56 +0100
+
 lernstick-gcompris (4) lernstick-9; urgency=medium
 
   * add a dependency on gnucap (needed for the electricity activity)
