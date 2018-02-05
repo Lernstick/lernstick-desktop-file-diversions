@@ -1,0 +1,13 @@
+Source: lernstick-nitroshare
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-nitroshare
+Architecture: all
+Depends: nitroshare
+Description: Updates the localization of the desktop file
+ We update the localization of the desktop file. See:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889641

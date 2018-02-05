@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NitroShare
+Comment=Network File Transfer Application
+Comment[de]=Dateiaustausch im lokalen Netzwerk
+Comment[fr]=Application de transfert de fichier
+Icon=nitroshare
+Exec=nitroshare
+Categories=Network;FileTransfer;
+Keywords=network;transfer;
