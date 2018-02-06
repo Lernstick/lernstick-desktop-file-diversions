@@ -1,0 +1,13 @@
+Source: lernstick-steam
+Section: non-free/games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-steam
+Architecture: all
+Depends: steam
+Description: Adds a German translation of the Comment field in the desktop file
+ We add a German translation of the Comment field in the desktop file. See:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889733
