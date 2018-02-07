@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=GNU Octave
+Comment=Scientific Computing
+Comment[de]=Wissenschaftliches Rechnen
+TryExec=/usr/bin/octave
+Exec=/usr/bin/octave --force-gui %f
+Icon=octave
+Terminal=false
+Type=Application
+Categories=Education;Science;Math;
+StartupNotify=false
+StartupWMClass=octave-gui
+MimeType=text/x-octave;text/x-matlab;
+Keywords=science;math;matrix;numerical computation;plotting;
+X-Desktop-File-Install-Version=0.23
