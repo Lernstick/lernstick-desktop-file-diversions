@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=colobot
+Icon=colobot
+Categories=Education;Robotics;Game;AdventureGame;StrategyGame;
+
+Name=Colobot
+GenericName=Game to learn programming
+GenericName[de]=Spiel zum Programmieren lernen
+GenericName[fr]=Apprentissage de la programmation par le jeu
+Comment=Colonize with bots
+Comment[de]=Planeten mit Robotern kolonialisieren
+Comment[fr]=Colonise avec des roBots
+Keywords=robots;3d;space;astronaut;java;c++
+Keywords[de]=Roboter;3D;Weltraum;Astronaut;Kosmonaut;Java;C++
+Keywords[fr]=robots;3d;espace;astronaute;cosmonaute;java;c++
