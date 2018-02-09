@@ -1,0 +1,13 @@
+Source: lernstick-devede
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-devede
+Architecture: all
+Depends: devede
+Description: Adds German translations to the desktop file
+ We add German translations to the desktop file. See:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=889834
