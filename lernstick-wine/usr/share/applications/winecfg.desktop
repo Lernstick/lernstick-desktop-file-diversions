@@ -2,6 +2,7 @@
 Name=Wine configuration
 Name[de]=Wine-Konfiguration
 Comment=Setup the compatibility layer for Windows programs
+Comment[de]=Konfiguration der Kompatibilitätsschicht für Windows-Programme
 Comment[ca]=Configura la capa de compatibilitat per a programes de Windows
 Exec=winecfg
 Icon=/usr/share/icons/oxygen/base/128x128/apps/wine.png

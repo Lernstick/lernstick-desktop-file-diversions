@@ -1,3 +1,10 @@
+lernstick-wine (5) lernstick-9; urgency=medium
+
+  * added a German translation for the Comment field of the winecfg desktop
+    file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 10 Feb 2018 16:56:32 +0100
+
 lernstick-wine (4) lernstick-9; urgency=medium
 
   * adapted to Debian 9
