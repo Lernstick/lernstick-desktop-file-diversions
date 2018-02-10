@@ -2,6 +2,7 @@
 Version=1.0
 Name=PlayOnLinux
 Comment=Front-end application for the wine
+Comment[de]=Grafische Oberfläche für Wine
 Type=Application
 Exec=playonlinux %F
 Icon=playonlinux

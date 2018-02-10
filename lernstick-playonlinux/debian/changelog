@@ -1,3 +1,9 @@
+lernstick-playonlinux (3) lernstick-9; urgency=medium
+
+  * added German translation of the Comment field in the desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 10 Feb 2018 16:50:48 +0100
+
 lernstick-playonlinux (2) lernstick-9; urgency=medium
 
   * synced with Debian 9
