@@ -1,6 +1,7 @@
 [Desktop Entry]
 Categories=Game;StrategyGame;
 Comment=Isola game with nice graphics
+Comment[de]=Isola-Spiel mit schöner Grafik
 Exec=dossizola -f
 Icon=dossizola
 Name=Do'SSi Zo'la

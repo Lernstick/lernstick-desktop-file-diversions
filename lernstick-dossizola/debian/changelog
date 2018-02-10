@@ -1,3 +1,9 @@
+lernstick-dossizola (3) lernstick-9; urgency=medium
+
+  * added German translation of desktop file Comment field
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 10 Feb 2018 16:37:22 +0100
+
 lernstick-dossizola (2) lernstick-8; urgency=medium
 
   * synced with Debian 8
