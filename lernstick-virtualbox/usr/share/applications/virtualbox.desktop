@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=VirtualBox
 GenericName=PC virtualization solution
+GenericName[de]=PC-Virtualisierungslösung
 
 Type=Application
 Exec=VirtualBox %U

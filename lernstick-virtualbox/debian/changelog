@@ -1,3 +1,9 @@
+lernstick-virtualbox (4) lernstick-9; urgency=medium
+
+  * added German translation of GenericName field in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 10 Feb 2018 16:44:47 +0100
+
 lernstick-virtualbox (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
