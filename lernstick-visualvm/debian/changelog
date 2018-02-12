@@ -1,3 +1,9 @@
+lernstick-visualvm (3) lernstick-9; urgency=medium
+
+  * added German translation of Comment field in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Feb 2018 15:15:39 +0100
+
 lernstick-visualvm (2) lernstick-8; urgency=low
 
   * sync with new upstream version

@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=VisualVM
 Comment=All-in-One Java Troubleshooting Tool
+Comment[de]=Komplettlösung zur Java-Fehlerdiagnose
 Keywords=java;jvm;profiler;monitoring
 Exec=/usr/bin/visualvm -J-Dawt.useSystemAAFontSettings=on
 Icon=visualvm.png
