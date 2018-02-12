@@ -4,6 +4,7 @@ Name=Hardware Lister
 Name[de]=Hardware-Übersicht
 Name[es]=Listar equipamiento
 Comment=Provides information on hardware
+Comment[de]=Stellt Informationen zur Hardware bereit
 Comment[ca]=Proveeix informació sobre el maquinari
 Comment[es]=Ofrece información sobre el equipamiento instalado
 Icon=lshw-gtk

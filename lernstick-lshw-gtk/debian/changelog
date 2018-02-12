@@ -1,3 +1,9 @@
+lernstick-lshw-gtk (7) lernstick-9; urgency=medium
+
+  * added German translation to desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Feb 2018 16:28:46 +0100
+
 lernstick-lshw-gtk (6) lernstick-8; urgency=medium
 
   * fixed lang key in policy file
