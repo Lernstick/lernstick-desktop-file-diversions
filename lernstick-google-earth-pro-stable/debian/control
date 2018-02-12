@@ -1,0 +1,12 @@
+Source: lernstick-google-earth-pro-stable
+Section: net
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-google-earth-pro-stable
+Architecture: all
+Depends: google-earth-pro-stable
+Description: Adds German translations to the desktop file
+ We add German translations to the desktop file.

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Earth
+GenericName=3D planet viewer
+GenericName[de]=3D-Planetenbetrachter
+Comment=Explore, search and discover the planet
+Comment[de]=Erkunde, durchsuche und entdecke den Planeten
+Exec=/opt/google/earth/pro/google-earth-pro %f
+Terminal=false
+MultipleArgs=false
+Icon=google-earth-pro
+Type=Application
+Categories=Application;Network
+MimeType=application/vnd.google-earth.kml+xml;application/vnd.google-earth.kmz;application/earthviewer;application/keyhole
