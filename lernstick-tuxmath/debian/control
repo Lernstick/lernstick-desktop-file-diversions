@@ -1,0 +1,13 @@
+Source: lernstick-tuxmath
+Section: games
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-tuxmath
+Architecture: all
+Depends: tuxmath
+Description: Fixes German translation of desktop file
+ We fix the German translation of the desktop file. See:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=641737

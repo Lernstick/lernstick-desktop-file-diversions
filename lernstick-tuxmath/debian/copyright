@@ -1,0 +1,19 @@
+This package was debianized by Ronny Standtke <ronny.standtke@fhnw.ch> on
+Sun, 05 Jul 2009 15:05:40 +0200.
+
+Upstream Author:
+    Ronny Standtke <ronny.standtke@fhnw.ch>
+
+Copyright:
+
+    Copyright (C) 2009 Ronny Standtke <ronny.standtke@fhnw.ch>
+
+License:
+
+    GPL
+
+The Debian packaging is (C) 2009, Ronny Standtke <ronny.standtke@fhnw.ch> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
