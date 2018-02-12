@@ -5,5 +5,7 @@ Icon=astromenace
 Type=Application
 Categories=Game;ArcadeGame;
 Comment=hardcore 3D space shooter with spaceship upgrade possibilities
+Comment[de]=3D-Weltraumshooter mit aufrüstbaren Raumschiffen
 Terminal=false
 Keywords=Game;Spaceship;Shooter;
+Keywords[de]=Spiel;Raumschiff;Shooter;
