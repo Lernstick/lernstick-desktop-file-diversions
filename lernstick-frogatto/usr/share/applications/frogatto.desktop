@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Frogatto
 Comment=Young frog's adventure
+Comment[de]=Abenteuer eines jungen Frosches
 Comment[ru]=Приключения лягушонка
 Comment[fr]=Les aventures d'une jeune grenouille
 Exec=frogatto --fullscreen --native
