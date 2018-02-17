@@ -1,0 +1,14 @@
+Source: lernstick-xfce4-power-manager
+Section: xfce
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xfce4-power-manager
+Architecture: all
+Depends: xfce4-power-manager
+Description: add MATE to NotShowIn= in desktop file
+ We fix the following bug:
+ https://bugzilla.xfce.org/show_bug.cgi?id=12506
+ Without this fix the screensaver in MATE just crashes.
