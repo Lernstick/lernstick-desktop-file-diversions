@@ -1,3 +1,9 @@
+lernstick-xfce4-power-manager (2) lernstick-9; urgency=medium
+
+  * show the desktop file only in XFCE
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 17 Feb 2018 23:29:31 +0100
+
 lernstick-xfce4-power-manager (1) lernstick-9; urgency=low
 
   * Initial release
