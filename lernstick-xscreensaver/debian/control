@@ -1,0 +1,13 @@
+Source: lernstick-xscreensaver
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-xscreensaver
+Architecture: all
+Depends: xscreensaver
+Description: Shows the xscreensaver menu entry only in LXDE and XFCE
+ We show the xscreensaver menu entry only in LXDE and XFCE as all other desktop
+ enviroments have their own native screensaver configuration tool.
