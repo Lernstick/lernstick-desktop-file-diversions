@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Application;Development;Java;
+Exec=firefox "file:///usr/share/doc/openjdk-9-jre-headless/api/index.html?overview-summary.html"
+Icon=/usr/share/icons/java_9_api.png
+Name=Java 9 API
+Name[de]=Java-9-API
+Type=Application
