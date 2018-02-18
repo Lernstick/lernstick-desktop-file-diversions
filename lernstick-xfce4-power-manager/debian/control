@@ -8,6 +8,8 @@ Standards-Version: 3.7.3
 Package: lernstick-xfce4-power-manager
 Architecture: all
 Depends: xfce4-power-manager
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: add MATE to NotShowIn= in desktop file
  We fix the following bug:
  https://bugzilla.xfce.org/show_bug.cgi?id=12506

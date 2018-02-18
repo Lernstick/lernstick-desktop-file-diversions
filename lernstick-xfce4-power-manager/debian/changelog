@@ -1,3 +1,9 @@
+lernstick-xfce4-power-manager (3) lernstick-9; urgency=medium
+
+  * also divert the autostart file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 18 Feb 2018 01:10:57 +0100
+
 lernstick-xfce4-power-manager (2) lernstick-9; urgency=medium
 
   * show the desktop file only in XFCE
