@@ -109,5 +109,5 @@ Icon=xfpm-ac-adapter
 Exec=xfce4-power-manager
 Terminal=false
 Type=Application
-OnlyShowIn=XFCE;
+OnlyShowIn=XFCE;LXDE;
 StartupNotify=false
