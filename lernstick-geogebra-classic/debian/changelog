@@ -1,3 +1,9 @@
+lernstick-geogebra-classic (3) lernstick-9; urgency=medium
+
+  * added mimetype information 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 04 Mar 2018 09:46:20 +0100
+
 lernstick-geogebra-classic (2) lernstick-9; urgency=medium
 
   * also provide "geogebra" so that geogebra-kde and geogebra-gnome can be
