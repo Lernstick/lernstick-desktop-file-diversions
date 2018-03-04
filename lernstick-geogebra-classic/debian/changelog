@@ -1,3 +1,10 @@
+lernstick-geogebra-classic (2) lernstick-9; urgency=medium
+
+  * also provide "geogebra" so that geogebra-kde and geogebra-gnome can be
+    installed alongside geogebra-classic
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 04 Mar 2018 08:40:30 +0100
+
 lernstick-geogebra-classic (1) lernstick-9; urgency=low
 
   * Initial release
