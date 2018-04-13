@@ -1,3 +1,9 @@
+lernstick-gnome-software (4) lernstick-9; urgency=medium
+
+  * use pkexec to start the package management wrapper
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 13 Apr 2018 14:17:25 +0200
+
 lernstick-gnome-software (3) lernstick-9; urgency=medium
 
   * use our package management wrapper to start gnome-software in a more user
