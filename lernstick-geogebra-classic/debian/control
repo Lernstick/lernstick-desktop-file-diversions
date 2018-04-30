@@ -9,7 +9,7 @@ Package: lernstick-geogebra-classic
 Architecture: all
 Depends: geogebra-classic
 Provides: geogebra, ${diverted-files}
-Conflicts: geogebra5, ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Some bug fixes for the geogebra-classic package
  We provide "geogebra" so that geogebra-kde and geogebra-gnome can be installed
  alongside geogebra-classic. We also include better icons for the

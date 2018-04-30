@@ -1,3 +1,10 @@
+lernstick-geogebra-classic (5) lernstick-9; urgency=medium
+
+  * no longer conflict with geogebra5
+  * added svg icon
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 30 Apr 2018 11:43:54 +0200
+
 lernstick-geogebra-classic (3) lernstick-9; urgency=medium
 
   * added mimetype information 
