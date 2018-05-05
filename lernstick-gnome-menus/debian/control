@@ -1,0 +1,15 @@
+Source: lernstick-gnome-menus
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-gnome-menus
+Architecture: all
+Depends: gnome-menus
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Do not blacklist konqueror in GNOME
+ We do not blacklist konqueror in GNOME as it has the greatest file size view
+ of all times. Baobab and friends don't even come close to konquerors fsview.
