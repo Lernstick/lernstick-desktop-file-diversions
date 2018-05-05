@@ -9,3 +9,4 @@ Categories=Application;Settings;
 Terminal=false
 Type=Application
 StartupNotify=false
+OnlyShowIn=KDE;

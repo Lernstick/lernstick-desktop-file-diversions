@@ -1,3 +1,9 @@
+lernstick-hplip-gui (8) lernstick-9; urgency=medium
+
+  * fixed visibility and icon path
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 05 May 2018 14:58:59 +0200
+
 lernstick-hplip-gui (7) lernstick-9; urgency=medium
 
   * adapted desktop file for Debian 9
