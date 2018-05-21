@@ -1,3 +1,10 @@
+lernstick-geogebra (11) lernstick-9; urgency=medium
+
+  * set Name in desktop file to "GeoGebra 5" to separate from a parallel
+    GeoGebra 6 installation
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 21 May 2018 10:55:20 +0200
+
 lernstick-geogebra (10) lernstick-9; urgency=medium
 
   * adapted to Debian 9
