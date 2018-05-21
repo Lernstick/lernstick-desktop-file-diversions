@@ -1,3 +1,10 @@
+lernstick-geogebra-classic (6) lernstick-9; urgency=medium
+
+  * set Name to "GeoGebra 6" to separate from a parallel installation of
+    GeoGebra 5 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 21 May 2018 10:59:57 +0200
+
 lernstick-geogebra-classic (5) lernstick-9; urgency=medium
 
   * no longer conflict with geogebra5
