@@ -1,3 +1,9 @@
+lernstick-geogebra (12) lernstick-9; urgency=medium
+
+  * simplified rules file, added correct install files
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 21 May 2018 13:55:36 +0200
+
 lernstick-geogebra (11) lernstick-9; urgency=medium
 
   * set Name in desktop file to "GeoGebra 5" to separate from a parallel
