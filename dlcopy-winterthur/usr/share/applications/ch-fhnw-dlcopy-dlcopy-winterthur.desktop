@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=X-lernstick;
-Exec=pkexec dlcopy --exchangePartitionSize 4096 --exchangePartitionFileSystem FAT32 --copyDataPartition true --instantInstallation true
+Exec=dlcopy.user --exchangePartitionSize 4096 --exchangePartitionFileSystem FAT32 --copyDataPartition true --instantInstallation true
 Icon=/usr/share/icons/dlcopy-quick.png
 Name=Quick installation
 Name[de]=Schnell-Installation
