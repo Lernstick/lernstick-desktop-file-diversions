@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jupyter
+Icon=jupyter
+Exec=jupyter-notebook %F
+Comment=Jupyter notebook
+MimeType=application/x-ipynb+json;
+Categories=Science;Education;
+Terminal=true

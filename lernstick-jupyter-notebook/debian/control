@@ -1,0 +1,11 @@
+Source: lernstick-jupyter-notebook
+Section: science
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-jupyter-notebook
+Architecture: all
+Depends: jupyter-notebook, python3-scipy, python3-numpy, python3-matplotlib, python3-pandas, python3-seaborn, python3-sklearn
+Description: User-friendly desktop setup for jupyter-notbook on Lernstick
