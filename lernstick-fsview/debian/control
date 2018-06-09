@@ -7,5 +7,5 @@ Standards-Version: 3.7.3
 
 Package: lernstick-fsview
 Architecture: all
-Depends: konq-plugins
+Depends: konq-plugins, xdotool
 Description: Adds a nice fsview startup

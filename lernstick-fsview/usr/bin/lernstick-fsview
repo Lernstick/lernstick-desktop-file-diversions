@@ -1,3 +1,4 @@
 #!/bin/sh
-read < <( fsview $HOME & echo $! )
-xdotool windowsize $(xdotool search --sync --all --pid $REPLY --onlyvisible --class "fsview") 100% 100%
+fsview $HOME &
+FSVIEW_PID=$(echo $!)
+xdotool windowsize $(xdotool search --sync --all --pid $FSVIEW_PID --onlyvisible --class "fsview") 100% 100%
