@@ -1,0 +1,11 @@
+Source: lernstick-fsview
+Section: sound
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-fsview
+Architecture: all
+Depends: konq-plugins
+Description: Adds a nice fsview startup
