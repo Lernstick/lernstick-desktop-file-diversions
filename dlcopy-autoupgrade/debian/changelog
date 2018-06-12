@@ -1,3 +1,9 @@
+dlcopy-autoupgrade (2) lernstick-9; urgency=medium
+
+  * added command line option --isolatedAutoUpgrade
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 12 Jun 2018 20:48:20 +0200
+
 dlcopy-autoupgrade (1) lernstick-9; urgency=low
 
   * Initial release
