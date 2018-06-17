@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=X-lernstick;
-Exec=dlcopy.user --autoUpgrade --isolatedAutoUpgrade
+Exec=dlcopy.user --autoUpgrade --isolatedAutoUpgrade --reactivateWelcome false
 Icon=dlcopy-autoupgrade
 Name=Lernstick autoupgrade
 Name[de]=Lernstick-Autoupgrade

@@ -1,3 +1,9 @@
+dlcopy-autoupgrade (3) lernstick-9; urgency=medium
+
+  * added command line option "--reactivateWelcome false"
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 17 Jun 2018 21:01:22 +0200
+
 dlcopy-autoupgrade (2) lernstick-9; urgency=medium
 
   * added command line option --isolatedAutoUpgrade
