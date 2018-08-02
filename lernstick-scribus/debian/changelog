@@ -1,3 +1,9 @@
+lernstick-scribus (7) lernstick-9; urgency=medium
+
+  * synced with version 1.4.7
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 02 Aug 2018 15:32:54 +0200
+
 lernstick-scribus (6) lernstick-9; urgency=medium
 
   * synced with Debian 9

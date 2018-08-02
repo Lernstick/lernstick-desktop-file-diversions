@@ -8,7 +8,6 @@ Standards-Version: 3.7.3
 Package: lernstick-scribus
 Architecture: all
 Depends: scribus
-Description: Adds German translations to the scribus desktop file
- We add German translations to the desktop file of Scribus.
- This was reported upstream:
- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=885449
+Description: Uncomment the MimeType key in the desktop file
+ We uncomment the MimeType key in the desktop file. Otherwise the "Open with..."
+ context menu in file managers doesn't work with Scribus documents.
