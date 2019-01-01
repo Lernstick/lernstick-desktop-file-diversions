@@ -1,0 +1,16 @@
+Source: lernstick-ranger
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-ranger
+Architecture: all
+Depends: ranger
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Changes the config and hides the ranger destkop file.
+ We change the default config of ranger (show hidden files and draw borders)
+ and hide the desktop file (it's a command line application and we don't want
+ to clutter the desktop with these applications).
