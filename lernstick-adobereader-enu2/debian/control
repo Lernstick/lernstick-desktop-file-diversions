@@ -1,0 +1,14 @@
+Source: lernstick-adobereader-enu2
+Section: publishing
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-adobereader-enu2
+Architecture: all
+Depends: lernstick-adobereader-enu
+Description: Workaround package for installing lernstick-adobereader-enu
+ This is just a workaround package to trigger the installation of lernstick-adobereader-enu
+ (This happened when lernstick-wintherthur was already installed but
+ lernstick-adobereader-enu was not because adobereader-enu gets installed later).
