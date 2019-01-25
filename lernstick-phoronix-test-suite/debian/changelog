@@ -1,3 +1,9 @@
+lernstick-phoronix-test-suite (6) lernstick-9; urgency=medium
+
+  * use lernstick-package-management-wrapper
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 25 Jan 2019 19:47:13 +0100
+
 lernstick-phoronix-test-suite (5) lernstick-9; urgency=medium
 
   * adapted to Debian 9

@@ -7,6 +7,6 @@ Standards-Version: 3.7.3
 
 Package: lernstick-phoronix-test-suite
 Architecture: all
-Depends: phoronix-test-suite
+Depends: phoronix-test-suite, lernstick-package-management-wrapper
 Description: Changes the menu entry of phoronix-test-suite
- We use sudo to start phoronix-test-suite.
+ We use sudo and our package management wrapper to start phoronix-test-suite.
