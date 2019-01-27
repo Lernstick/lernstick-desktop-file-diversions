@@ -1,0 +1,16 @@
+Source: lernstick-onboard
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-onboard
+Architecture: all
+Depends: onboard
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Hides the onboard settings desktop file.
+ There are multiple ways to launch the onboard settings from within onboard
+ itself. There is no need for another desktop file to clutter our start menus.
+ Therefore we hide the onboard settings desktop file.
