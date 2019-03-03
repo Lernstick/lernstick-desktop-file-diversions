@@ -1,3 +1,9 @@
+lernstick-phoronix-test-suite (7) lernstick-9; urgency=medium
+
+  * fixed copy&paste error in polkit action
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 03 Mar 2019 13:41:00 +0100
+
 lernstick-phoronix-test-suite (6) lernstick-9; urgency=medium
 
   * use lernstick-package-management-wrapper

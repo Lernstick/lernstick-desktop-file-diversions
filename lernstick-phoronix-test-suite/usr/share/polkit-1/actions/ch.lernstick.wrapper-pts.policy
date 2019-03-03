@@ -4,7 +4,7 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
-  <action id="ch.lernstick.wrapper-synaptic">
+  <action id="ch.lernstick.wrapper-pts">
     <message>Authentication is required to run Phoronix Test Suite</message>
     <message xml:lang="de">Um Phoronix Test Suite zu starten, ist eine Anmeldung erforderlich</message>
     <icon_name>synaptic</icon_name>
