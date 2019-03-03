@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Application;Development;Java;
+Exec=firefox /usr/share/doc/openjdk-11-jre-headless/api/index.html
+Icon=/usr/share/icons/java_11_api.png
+Name=Java 11 API
+Name[de]=Java-11-API
+Type=Application
