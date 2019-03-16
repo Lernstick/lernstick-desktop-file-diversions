@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Font Management
 Name[de]=Schriftarten-Verwaltung
-Icon=/usr/share/icons/oxygen/128x128/apps/preferences-desktop-font.png
-Exec=kcmshell4 fontinst
+Icon=/usr/share/icons/oxygen/base/128x128/apps/preferences-desktop-font.png
+Exec=kcmshell5 fontinst
 Type=Application
 StartupNotify=true
 Categories=GTK;GNOME;Utility;X-GNOME-Utilities;

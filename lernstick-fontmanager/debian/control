@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-fontmanager
 Architecture: all
-Depends: kde-runtime
+Depends: kde-cli-tools, oxygen-icon-theme
 Description: Adds a menu entry for the KDE font manager in other desktop environments
  Other desktop environments lack a useful font manager. Therefore we add a menu
  entry for the KDE font manager in all other desktop environments.

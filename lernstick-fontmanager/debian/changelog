@@ -1,3 +1,9 @@
+lernstick-fontmanager (2) lernstick-9; urgency=medium
+
+  * updated for Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 15 Mar 2019 17:32:01 +0100
+
 lernstick-fontmanager (1) lernstick-8; urgency=low
 
   * Initial release
