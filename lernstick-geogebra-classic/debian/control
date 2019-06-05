@@ -12,5 +12,4 @@ Provides: geogebra, ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Some bug fixes for the geogebra-classic package
  We provide "geogebra" so that geogebra-kde and geogebra-gnome can be installed
- alongside geogebra-classic. We also include better icons for the
- geogebra-classic desktop file and mimetype information.
+ alongside geogebra-classic. We also add mimetype information to the desktop file.
