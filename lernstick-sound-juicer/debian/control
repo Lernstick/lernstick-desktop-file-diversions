@@ -8,7 +8,5 @@ Standards-Version: 3.7.3
 Package: lernstick-sound-juicer
 Architecture: all
 Depends: sound-juicer
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Hides sound-juicer in KDE
  We hide sound-juicer when running a KDE session. We already have k3b there.
