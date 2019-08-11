@@ -1,3 +1,9 @@
+lernstick-xfce4-terminal (3) lernstick-10; urgency=medium
+
+  * synced with Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 21:28:37 +0200
+
 lernstick-xfce4-terminal (2) lernstick-9; urgency=medium
 
   * synced with Debian 9

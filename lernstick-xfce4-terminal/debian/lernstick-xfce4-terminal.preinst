@@ -19,6 +19,9 @@ case "$1" in
         dpkg-divert --add --package lernstick-xfce4-terminal --rename --divert \
             /usr/share/applications/xfce4-terminal.desktop.orig \
             /usr/share/applications/xfce4-terminal.desktop
+        dpkg-divert --add --package lernstick-xfce4-terminal --rename --divert \
+            /usr/share/applications/xfce4-terminal-settings.desktop.orig \
+            /usr/share/applications/xfce4-terminal-settings.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +39,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
