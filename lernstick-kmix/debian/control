@@ -1,0 +1,12 @@
+Source: lernstick-kmix
+Section: sound
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-kmix
+Architecture: all
+Depends: kmix
+Description: Show kmix desktop file only in KDE
+ We show the desktop file of kmix only in KDE because it is only used there.
