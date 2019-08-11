@@ -1,3 +1,9 @@
+lernstick-k3b (2) lernstick-10; urgency=medium
+
+  * adapted to Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 19:26:52 +0200
+
 lernstick-k3b (1) lernstick-9; urgency=low
 
   * Initial release
