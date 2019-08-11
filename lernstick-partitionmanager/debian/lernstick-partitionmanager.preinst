@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-partitionmanager --rename --divert \
-            /usr/share/applications/org.kde.PartitionManager.desktop.orig \
-            /usr/share/applications/org.kde.PartitionManager.desktop
+            /usr/share/applications/org.kde.partitionmanager.desktop.orig \
+            /usr/share/applications/org.kde.partitionmanager.desktop
     ;;
 
     abort-upgrade)
