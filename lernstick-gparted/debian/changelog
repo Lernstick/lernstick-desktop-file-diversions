@@ -1,3 +1,10 @@
+lernstick-gparted (3) lernstick-10; urgency=medium
+
+  * adapted to Debian 10
+  * no longer use config-packge-dev
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 19:16:34 +0200
+
 lernstick-gparted (2) lernstick-9; urgency=medium
 
   * hide gparted when running a KDE session as we have partitionmanager there
