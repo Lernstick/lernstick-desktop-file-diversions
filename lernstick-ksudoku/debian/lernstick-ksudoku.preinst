@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-ksudoku --rename --divert \
-            /usr/share/applications/kde4/org.kde.ksudoku.desktop.orig \
-            /usr/share/applications/kde4/org.kde.ksudoku.desktop
+            /usr/share/applications/org.kde.ksudoku.desktop.orig \
+            /usr/share/applications/org.kde.ksudoku.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +36,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
