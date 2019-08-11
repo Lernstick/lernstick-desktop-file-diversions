@@ -2,10 +2,10 @@
 Name=Master PDF Editor
 Comment=Edit PDF files
 Comment[de]=PDF-Dateien bearbeiten
-Exec=/opt/master-pdf-editor-4/masterpdfeditor4 %f
-Path=/opt/master-pdf-editor-4
+Exec=/opt/master-pdf-editor-5/masterpdfeditor5 %f
+Path=/opt/master-pdf-editor-5
 Terminal=false
-Icon=/opt/master-pdf-editor-4/masterpdfeditor4.png
+Icon=/opt/master-pdf-editor-5/masterpdfeditor5.png
 Type=Application
 Categories=Office;Graphics;
 MimeType=application/pdf;application/x-bzpdf;application/x-gzpdf;
