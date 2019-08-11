@@ -1,3 +1,9 @@
+lernstick-gnome-calculator (3) lernstick-10; urgency=medium
+
+  * synced with Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 22:18:18 +0200
+
 lernstick-gnome-calculator (2) lernstick-9; urgency=medium
 
   * synced with Debian 9

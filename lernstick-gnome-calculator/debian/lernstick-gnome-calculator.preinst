@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-gnome-calculator --rename --divert \
-            /usr/share/applications/gnome-calculator.desktop.orig \
-            /usr/share/applications/gnome-calculator.desktop
+            /usr/share/applications/org.gnome.Calculator.desktop.orig \
+            /usr/share/applications/org.gnome.Calculator.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +36,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
