@@ -2,8 +2,9 @@
 Type=Application
 Name=BlockOut II
 Comment=Play a 3D Tetris game
-Comment[de]=Ein 3D-Tetris-Spiel
-Icon=/usr/share/games/blockout2/icon.xpm
+Comment[de]=Spiele Tetris in 3D
+Icon=blockout2
 Exec=blockout2
 Terminal=false
 Categories=Game;ArcadeGame;
+Keywords=tetris;blocks;logic;
