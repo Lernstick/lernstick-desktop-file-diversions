@@ -1,3 +1,9 @@
+lernstick-master-pdf-editor (3) lernstick-9; urgency=medium
+
+  * fixed preinst and postrm scripts
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 17:30:20 +0200
+
 lernstick-master-pdf-editor (2) lernstick-9; urgency=medium
 
   * adapted to version 5
