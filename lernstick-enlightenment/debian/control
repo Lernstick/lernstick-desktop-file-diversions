@@ -1,0 +1,13 @@
+Source: lernstick-enlightenment
+Section: x11
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-enlightenment
+Architecture: all
+Depends: enlightenment
+Description: Show emixer only in Enlightenment
+ We show emixer only in Enlightemnent. All other desktop environments have
+ their own sound mixer application.
