@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-kreversi --rename --divert \
-            /usr/share/applications/kde4/kreversi.desktop.orig \
-            /usr/share/applications/kde4/kreversi.desktop
+            /usr/share/applications/org.kde.kreversi.desktop.orig \
+            /usr/share/applications/org.kde.kreversi.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +36,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
