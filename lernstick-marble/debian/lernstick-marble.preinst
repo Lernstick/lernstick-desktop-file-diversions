@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-marble --rename --divert \
-            /usr/share/applications/marble.desktop.orig \
-            /usr/share/applications/marble.desktop
+            /usr/share/applications/org.kde.marble.desktop.orig \
+            /usr/share/applications/org.kde.marble.desktop
     ;;
 
     abort-upgrade)
