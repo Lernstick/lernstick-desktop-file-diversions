@@ -1,3 +1,9 @@
+lernstick-okular (5) lernstick-10; urgency=medium
+
+  * synced with Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 21:12:03 +0200
+
 lernstick-okular (4) lernstick-9; urgency=medium
 
   * synced with Debian 9

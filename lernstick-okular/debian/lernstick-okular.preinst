@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-okular --rename --divert \
-            /usr/share/applications/kde4/okular.desktop.orig \
-            /usr/share/applications/kde4/okular.desktop
+            /usr/share/applications/org.kde.okular.desktop.orig \
+            /usr/share/applications/org.kde.okular.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +36,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
