@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-eiciel --rename --divert \
-            /usr/share/applications/eiciel.desktop.orig \
-            /usr/share/applications/eiciel.desktop
+            /usr/share/applications/org.roger-ferrer.Eiciel.desktop.orig \
+            /usr/share/applications/org.roger-ferrer.Eiciel.desktop
     ;;
 
     abort-upgrade)
