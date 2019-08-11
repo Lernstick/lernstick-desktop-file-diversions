@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-kcharselect --rename --divert \
-            /usr/share/applications/org.kde.KCharSelect.desktop.orig \
-            /usr/share/applications/org.kde.KCharSelect.desktop
+            /usr/share/applications/org.kde.kcharselect.desktop.orig \
+            /usr/share/applications/org.kde.kcharselect.desktop
     ;;
 
     abort-upgrade)

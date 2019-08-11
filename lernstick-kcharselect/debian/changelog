@@ -1,3 +1,9 @@
+lernstick-kcharselect (2) lernstick-10; urgency=medium
+
+  * adapted to Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 15:26:36 +0200
+
 lernstick-kcharselect (1) lernstick-9; urgency=low
 
   * Initial release
