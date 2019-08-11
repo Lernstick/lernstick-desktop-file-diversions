@@ -25,8 +25,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-handbrake-gtk --rename --divert \
-            /usr/share/applications/ghb.desktop.orig \
-            /usr/share/applications/ghb.desktop
+            /usr/share/applications/fr.handbrake.ghb.desktop.orig \
+            /usr/share/applications/fr.handbrake.ghb.desktop
     ;;
 
     *)
@@ -41,5 +41,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-

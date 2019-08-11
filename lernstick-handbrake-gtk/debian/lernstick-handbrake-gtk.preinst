@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-handbrake-gtk --rename --divert \
-            /usr/share/applications/ghb.desktop.orig \
-            /usr/share/applications/ghb.desktop
+            /usr/share/applications/fr.handbrake.ghb.desktop.orig \
+            /usr/share/applications/fr.handbrake.ghb.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +36,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
