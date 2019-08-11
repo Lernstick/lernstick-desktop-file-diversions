@@ -20,8 +20,8 @@ case "$1" in
             /usr/share/applications/avidemux_jobs.desktop.orig \
             /usr/share/applications/avidemux_jobs.desktop
         dpkg-divert --add --package lernstick-avidemux-qt --rename --divert \
-            /usr/share/applications/avidemux-qt.desktop.orig \
-            /usr/share/applications/avidemux-qt.desktop
+            /usr/share/applications/org.avidemux.Avidemux.desktop.orig \
+            /usr/share/applications/org.avidemux.Avidemux.desktop
     ;;
 
     abort-upgrade)
