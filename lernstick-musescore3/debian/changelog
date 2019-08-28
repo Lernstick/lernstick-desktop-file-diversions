@@ -1,0 +1,42 @@
+lernstick-musescore3 (5) lernstick-10; urgency=medium
+
+  * synced with MuseScore 3 (Debian 10 backports)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 28 Aug 2019 09:53:56 +0200
+
+lernstick-musescore (4) lernstick-9; urgency=medium
+
+  * synced with MuseScore 2.1
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 28 Dec 2017 08:51:15 +0100
+
+lernstick-musescore (3) lernstick-9; urgency=medium
+
+  * synced with Debian 9
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 15 Jun 2017 13:41:58 +0200
+
+lernstick-musescore (2) lernstick-8; urgency=medium
+
+  * synced with Debian 8
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 11 Jun 2015 18:55:48 +0200
+
+lernstick-musescore (1.2-1) unstable; urgency=low
+
+  * removed Comments from desktop file
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Wed, 04 Apr 2012 22:57:31 +0200
+
+lernstick-musescore (1.1-1) unstable; urgency=low
+
+  * changed GenericName desktop file entries to match GNU denemo
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Thu, 15 Sep 2011 17:55:20 +0200
+
+lernstick-musescore (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Ronny Standtke <ronny.standtke@fhnw.ch>  Sun, 05 Jul 2009 15:05:40 +0200
+
