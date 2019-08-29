@@ -1,16 +1,24 @@
 [Desktop Entry]
 Type=Application
 Name[fr]=GPaste
+Name[nl_NL]=GPaste
+Name[sv]=GPaste
 Name=GPaste
 Comment[fr]=Gérez l'historique de votre presse-papier
+Comment[nl_NL]=Beheer uw klembordgeschiedenis
 Comment[pt_BR]=Gerencie seu histórico da área de transferência
+Comment[sv]=Hantera din urklippshistorik
 Comment=Manage your clipboard history
 Keywords[fr]=Presse-Papier;Gestionnaire;Réglages;Préférences;Configuration;
+Keywords[nl_NL]=Klembord;Beheer;Instellingen;Voorkeuren;Configuratie;
 Keywords[pt_BR]=Clipboard;Manager;Settings;Preferences;Configuration;
+Keywords[sv]=Urklipp;Hanterare;Inställningar;Inställningar;Konfiguration;
 Keywords=Clipboard;Manager;Settings;Preferences;Configuration;
 Icon[fr]=edit-paste
+Icon[nl_NL]=bewerken-plakken
+Icon[sv]=Redigera-Klistra in
 Icon=edit-paste
-Exec=/usr/lib/gpaste/gpaste/gpaste-ui
+Exec=/usr/lib/x86_64-linux-gnu/gpaste/gpaste-ui
 DBusActivatable=true
 Terminal=false
 Categories=GTK;GNOME;Settings;X-GNOME-PersonalSettings;
