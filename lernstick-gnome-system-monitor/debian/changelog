@@ -1,3 +1,9 @@
+lernstick-gnome-system-monitor (6) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 17:45:01 +0200
+
 lernstick-gnome-system-monitor (5) lernstick-9; urgency=medium
 
   * synced with Debian 9
