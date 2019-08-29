@@ -2,13 +2,11 @@ Source: lernstick-brasero
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-brasero
 Architecture: all
 Depends: brasero
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Hides brasero when running KDE
  We hide brasero when running KDE as we already have k3b there.
