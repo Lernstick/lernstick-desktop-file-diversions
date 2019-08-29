@@ -8,6 +8,6 @@ Standards-Version: 3.7.3
 Package: lernstick-systemsettings
 Architecture: all
 Depends: systemsettings
-Description: Hides the menu entry of systemsettings
- We hide the menu entry of systemsettings. It is available
- in the system tab of the kickoff menu.
+Description: Shows systemsettings only in KDE
+ We show the menu entry of systemsettings only in KDE. Other desktop
+ environments have their own programs for system settings.
