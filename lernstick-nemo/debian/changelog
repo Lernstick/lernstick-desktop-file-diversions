@@ -1,3 +1,9 @@
+lernstick-nemo (4) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 19:38:47 +0200
+
 lernstick-nemo (3) lernstick-9; urgency=medium
 
   * Fixed OnlyShowIn for Cinnamon
