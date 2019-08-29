@@ -27,9 +27,6 @@ case "$1" in
         dpkg-divert --remove --package lernstick-zenmap --rename --divert \
             /usr/share/applications/zenmap.desktop.orig \
             /usr/share/applications/zenmap.desktop
-        dpkg-divert --remove --package lernstick-zenmap --rename --divert \
-            /usr/share/applications/zenmap-root.desktop.orig \
-            /usr/share/applications/zenmap-root.desktop
     ;;
 
     *)
