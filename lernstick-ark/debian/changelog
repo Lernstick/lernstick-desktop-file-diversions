@@ -1,3 +1,9 @@
+lernstick-ark (2) lernstick-10; urgency=medium
+
+  * updated to Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 20:53:16 +0200
+
 lernstick-ark (1) lernstick-9; urgency=low
 
   * Initial release
