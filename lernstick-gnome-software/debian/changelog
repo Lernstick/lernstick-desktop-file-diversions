@@ -1,3 +1,9 @@
+lernstick-gnome-software (5) lernstick-10; urgency=medium
+
+  * updated to Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 20:39:41 +0200
+
 lernstick-gnome-software (4) lernstick-9; urgency=medium
 
   * use pkexec to start the package management wrapper
