@@ -2,14 +2,12 @@ Source: lernstick-gnome-characters
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-characters
 Architecture: all
 Depends: gnome-characters
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Don't show gnome-characters when running KDE
  We hide gnome-characters when running a KDE session. We already have
  kcharselect there.
