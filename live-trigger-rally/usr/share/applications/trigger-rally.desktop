@@ -1,9 +1,8 @@
 [Desktop Entry]
-Name=Trigger
-GenericName=Trigger
+Name=Trigger Rally
 Icon=trigger-rally
 Comment=3D rally racing car game
-Comment[de_DE]=3D Rally-Autorennen
+Comment[de]=3D Rally-Autorennen
 Comment[fr_FR]=un jeu de rally en 3D
 Comment[ro_RO]=Un joc în 3D cu curse de raliu
 Exec=live_trigger-rally
@@ -12,4 +11,5 @@ StartupNotify=false
 Type=Application
 TryExec=/usr/games/trigger-rally
 Categories=Game;ArcadeGame;
-Keywords=rally;cars;racing;tracks;
+Keywords=racing;tracks;
+Keywords[de]=Rennstrecke;
