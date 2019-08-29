@@ -1,3 +1,9 @@
+lernstick-xterm (2) lernstick-10; urgency=medium
+
+  * update for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 14:27:27 +0200
+
 lernstick-xterm (1) lernstick-9; urgency=low
 
   * Initial release

@@ -2,14 +2,12 @@ Source: lernstick-xterm
 Section: x11
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-xterm
 Architecture: all
 Depends: xterm
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: We hide the xterm desktop files
  We hide the xterm deskop files. Every desktop environment has its own "native"
  terminal application.
