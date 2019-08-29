@@ -1,3 +1,9 @@
+lernstick-rawtherapee (4) lernstick-10; urgency=medium
+
+  * updated to Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 21:32:02 +0200
+
 lernstick-rawtherapee (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
