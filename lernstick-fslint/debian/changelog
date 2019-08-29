@@ -1,3 +1,9 @@
+lernstick-fslint (3) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 17:20:23 +0200
+
 lernstick-fslint (2) lernstick-8; urgency=medium
 
   * removed fslint from system category (it is already in the utility category)

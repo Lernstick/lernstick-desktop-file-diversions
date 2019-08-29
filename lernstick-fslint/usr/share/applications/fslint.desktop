@@ -1,12 +1,14 @@
 [Desktop Entry]
 Name=FSlint
-GenericName=File system clean-up toolkit
-GenericName[de]=Werkzeuge zum Aufräumen des Dateisystems
-Comment=File system clean-up toolkit
+Comment=File System Lint detector and cleaner
 Comment[de]=Werkzeuge zum Aufräumen des Dateisystems
+Comment[zh_CN]=文件系统文件问题探测与清理工具
 Exec=fslint-gui
 Terminal=false
 Type=Application
 Icon=fslint_icon
 Categories=Filesystem;GTK;Utility;
 X-Ubuntu-Gettext-Domain=fslint
+Keywords=duplicate;redundant;file;
+Keywords[de]=Duplikat;redundant;Datei
+Keywords[zh_CN]=duplicate;redundant;file;清理;重复;
