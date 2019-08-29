@@ -10,4 +10,4 @@ Architecture: all
 Depends: zenmap
 Description: Changes the menu entry of zenmap
  We remove the unnecessary "GUI" prefix from the GenericName, add a German
- translation of the GenericName and execute zenmap via sudo.
+ translation of the GenericName and execute zenmap via pkexec.

@@ -1,3 +1,9 @@
+lernstick-zenmap (5) lernstick-10; urgency=medium
+
+  * synced again with current version
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 23:42:45 +0200
+
 lernstick-zenmap (4) lernstick-10; urgency=medium
 
   * updated to Debian 10

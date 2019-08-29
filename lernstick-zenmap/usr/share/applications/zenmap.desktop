@@ -2,8 +2,8 @@
 Name=Zenmap
 GenericName=Port Scanner
 GenericName[de]=Portscanner
-TryExec=zenmap
-Exec=sudo zenmap %F
+TryExec=pkexec
+Exec=pkexec /usr/bin/zenmap %F
 Terminal=false
 Icon=/usr/share/zenmap/pixmaps/zenmap.png
 Type=Application
