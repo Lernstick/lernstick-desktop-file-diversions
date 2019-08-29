@@ -1,3 +1,9 @@
+lernstick-libreoffice-base (6) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 18:42:04 +0200
+
 lernstick-libreoffice-base (5) lernstick-9; urgency=medium
 
   * adapted to LibreOffice 5.4
