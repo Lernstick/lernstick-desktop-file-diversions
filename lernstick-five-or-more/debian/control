@@ -2,13 +2,11 @@ Source: lernstick-five-or-more
 Section: games
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-five-or-more
 Architecture: all
 Depends: five-or-more
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Hides five-or-more when running KDE
  We hide five-or-more when running KDE as we already have klines there.
