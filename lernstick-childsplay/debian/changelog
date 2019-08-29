@@ -1,3 +1,9 @@
+lernstick-childsplay (5) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 29 Aug 2019 11:48:34 +0200
+
 lernstick-childsplay (4) lernstick-9; urgency=medium
 
   * synced with Debian 8
