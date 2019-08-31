@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-ktouch --rename --divert \
-            /usr/share/applications/kde4/org.kde.ktouch.desktop.orig \
-            /usr/share/applications/kde4/org.kde.ktouch.desktop
+            /usr/share/applications/org.kde.ktouch.desktop.orig \
+            /usr/share/applications/org.kde.ktouch.desktop
     ;;
 
     abort-upgrade)
