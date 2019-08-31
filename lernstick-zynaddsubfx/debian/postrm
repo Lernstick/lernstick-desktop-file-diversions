@@ -30,6 +30,9 @@ case "$1" in
 		dpkg-divert --remove --package lernstick-zynaddsubfx --rename --divert \
 			/usr/share/applications/zynaddsubfx-jack.desktop.orig \
 			/usr/share/applications/zynaddsubfx-jack.desktop
+		dpkg-divert --remove --package lernstick-zynaddsubfx --rename --divert \
+			/usr/share/applications/zynaddsubfx-oss.desktop.orig \
+			/usr/share/applications/zynaddsubfx-oss.desktop
 	;;
 
 	*)

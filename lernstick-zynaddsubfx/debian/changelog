@@ -1,3 +1,16 @@
+lernstick-zynaddsubfx (3) lernstick-10; urgency=medium
+
+  * fixed maintainer script
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 31 Aug 2019 16:49:07 +0200
+
+lernstick-zynaddsubfx (2) lernstick-10; urgency=medium
+
+  * hide the oss version (nobody uses oss anymore!)
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 31 Aug 2019 16:42:00 +0200
+
 lernstick-zynaddsubfx (1) lernstick-9; urgency=low
 
   * Initial release
