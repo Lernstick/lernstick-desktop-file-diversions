@@ -1,3 +1,21 @@
+lernstick-ktorrent (4) lernstick-10; urgency=medium
+
+  * another maintainer script fix 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 31 Aug 2019 23:56:52 +0200
+
+lernstick-ktorrent (3) lernstick-10; urgency=medium
+
+  * fixed maintainer scripts
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 31 Aug 2019 23:53:14 +0200
+
+lernstick-ktorrent (2) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 31 Aug 2019 23:49:18 +0200
+
 lernstick-ktorrent (1) lernstick-9; urgency=low
 
   * Initial release
