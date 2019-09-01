@@ -1,3 +1,9 @@
+lernstick-fritzing (5) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 01 Sep 2019 10:47:00 +0200
+
 lernstick-fritzing (4) lernstick-9; urgency=medium
 
   * set QT_AUTO_SCREEN_SCALE_FACTOR=0 in startup script
