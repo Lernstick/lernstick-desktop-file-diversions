@@ -2,13 +2,11 @@ Source: lernstick-seahorse
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-seahorse
 Architecture: all
 Depends: seahorse
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: We hide seahorse when running KDE
  We hide the seahorse when running KDE. We have kleopatra there.
