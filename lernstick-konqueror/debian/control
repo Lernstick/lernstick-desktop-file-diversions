@@ -1,0 +1,13 @@
+Source: lernstick-konqueror
+Section: kde
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-konqueror
+Architecture: all
+Depends: konqueror
+Description: Hides konqueror
+ We hide konqueror as it is only needed for lernstick-fsview.
+ There are better file managers (dolphin) and better web browsers (firefox).
