@@ -2,13 +2,11 @@ Source: lernstick-quadrapassel
 Section: games
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-quadrapassel
 Architecture: all
 Depends: quadrapassel
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Hides quadrapassel when running KDE
  We hide quadrapassel when running KDE as we already have kblocks there.
