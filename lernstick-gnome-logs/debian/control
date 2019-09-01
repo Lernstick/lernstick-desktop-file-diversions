@@ -2,14 +2,12 @@ Source: lernstick-gnome-logs
 Section: gnome
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-logs
 Architecture: all
 Depends: gnome-logs
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Don't show gnome-logs when running KDE or MATE
  We hide gnome-logs in desktop environments with their own solution, like KDE
  (ksystemlog) and MATE (mate-system-log from the mate-utils package).
