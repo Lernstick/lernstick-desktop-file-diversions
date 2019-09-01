@@ -1,3 +1,9 @@
+lernstick-2048-qt (3) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 01 Sep 2019 10:28:04 +0200
+
 lernstick-2048-qt (2) lernstick-9; urgency=medium
 
   * updated name and comment
