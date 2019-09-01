@@ -1,14 +1,12 @@
 Source: lernstick-gnome-sudoku
 Section: games
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-sudoku
 Architecture: all
 Depends: gnome-sudoku
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Don't show gnome-sudoku when running KDE
  We hide gnome-sudoku when running a KDE session. We already have ksudoku there.
