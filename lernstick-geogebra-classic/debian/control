@@ -1,7 +1,7 @@
 Source: lernstick-geogebra-classic
 Section: education
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 9), config-package-dev
 Standards-Version: 3.7.3
 
@@ -11,5 +11,5 @@ Depends: geogebra-classic
 Provides: geogebra, ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Some bug fixes for the geogebra-classic package
- We provide "geogebra" so that geogebra-kde and geogebra-gnome can be installed
- alongside geogebra-classic. We also add mimetype information to the desktop file.
+ We provide "geogebra" so that geogebra-gnome can be installed alongside
+ geogebra-classic. We also add mimetype information to the desktop file.
