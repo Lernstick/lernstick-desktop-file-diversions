@@ -2,14 +2,12 @@ Source: lernstick-qstopmotion
 Section: video
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-qstopmotion
 Architecture: all
 Depends: qstopmotion
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Adds a German translation to the qstopmotion desktop file
  We add a German translation to the comment field in the qstopmotion desktop
  file.

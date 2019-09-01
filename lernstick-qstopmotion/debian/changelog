@@ -1,3 +1,9 @@
+lernstick-qstopmotion (2) lernstick-10; urgency=medium
+
+  * updated for Debian 10
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 01 Sep 2019 13:49:53 +0200
+
 lernstick-qstopmotion (1) lernstick-9; urgency=low
 
   * Initial release
