@@ -1,14 +1,12 @@
 Source: lernstick-iagno
 Section: games
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-iagno
 Architecture: all
 Depends: iagno
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
 Description: Hides iagno when running KDE
  We hide iagno when running KDE as we already have kreversi there.
