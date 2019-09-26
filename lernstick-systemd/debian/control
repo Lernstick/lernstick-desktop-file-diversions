@@ -1,0 +1,16 @@
+Source: lernstick-systemd
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-systemd
+Architecture: all
+Depends: systemd
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Enable time synchronization with virtualbox-guest-utils
+ In the upstream Debian version time synchronization is disabled when
+ the package virtualbox-guest-utils is installed.
+ We see no reason for that and revert this setting.
