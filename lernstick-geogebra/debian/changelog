@@ -1,3 +1,9 @@
+lernstick-geogebra (13) lernstick-10; urgency=medium
+
+  * autoscale on hidpi displays
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 17 Nov 2019 20:13:09 +0100
+
 lernstick-geogebra (12) lernstick-9; urgency=medium
 
   * simplified rules file, added correct install files
