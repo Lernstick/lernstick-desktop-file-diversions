@@ -1,3 +1,9 @@
+lernstick-vokoscreen-ng (2) lernstick-10; urgency=medium
+
+  * fixed dependency
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 06 Feb 2020 11:57:05 +0100
+
 lernstick-vokoscreen-ng (1) lernstick-10; urgency=low
 
   * Initial release
