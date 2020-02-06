@@ -7,6 +7,6 @@ Standards-Version: 3.7.3
 
 Package: lernstick-vokoscreen-ng
 Architecture: all
-Depends: vokoscreen
+Depends: vokoscreen-ng
 Description: Add GenericName to desktop file
  We add a GenericName to the desktop file
