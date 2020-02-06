@@ -1,0 +1,12 @@
+Source: lernstick-vokoscreen-ng
+Section: video
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-vokoscreen-ng
+Architecture: all
+Depends: vokoscreen
+Description: Add GenericName to desktop file
+ We add a GenericName to the desktop file

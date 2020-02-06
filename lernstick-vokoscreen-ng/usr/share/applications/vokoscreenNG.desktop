@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=vokoscreenNG
+GenericName=Screencast Creator
+GenericName[de]=Screencast-Erstellung
+Comment=Easy to use desktop recorder
+Exec=/usr/bin/vokoscreenNG
+Icon=/usr/share/pixmap/vokoscreenNG.xpm
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Recorder;
+Keywords=Player;Capture;Audio;Video;Screencast;GStreamer;
