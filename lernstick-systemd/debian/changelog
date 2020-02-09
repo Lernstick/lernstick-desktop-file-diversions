@@ -1,3 +1,9 @@
+lernstick-systemd (2) lernstick-10; urgency=medium
+
+  * don't run in VirtualBox (conflicts with virtualbox-guest-utils)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 09 Feb 2020 22:29:04 +0100
+
 lernstick-systemd (1) lernstick-10; urgency=low
 
   * Initial release
