@@ -1,0 +1,22 @@
+[Unit]
+Description=Virtualbox guest utils
+# Unfortunately, it is currently not possible to override "Conflicts" with a
+# drop-in file. Therefore we have to use this full override file to disable the
+# next line...
+#Conflicts=systemd-timesyncd.service
+ConditionVirtualization=oracle
+
+[Service]
+Type=forking
+Restart=no
+TimeoutSec=5min
+IgnoreSIGPIPE=no
+KillMode=process
+GuessMainPID=no
+RemainAfterExit=yes
+ExecStart=/etc/init.d/virtualbox-guest-utils start
+ExecStop=/etc/init.d/virtualbox-guest-utils stop
+
+[Install]
+WantedBy=multi-user.target
+

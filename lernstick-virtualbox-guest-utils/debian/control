@@ -1,0 +1,14 @@
+Source: lernstick-virtualbox-guest-utils
+Section: contrib/misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-virtualbox-guest-utils
+Architecture: all
+Depends: virtualbox-guest-utils
+Description: Removes the conflict with systemd-timesyncd
+ We remove the conflict with systemd-timesyncd. Otherwise time synchronization
+ is not started when running outside of VirtualBox. We instead added a
+ condition to systemd-timesyncd to not start in VirtualBox.
