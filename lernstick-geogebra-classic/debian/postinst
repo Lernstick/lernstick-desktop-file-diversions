@@ -20,7 +20,10 @@ set -e
 
 case "$1" in
     configure)
-        chmod 4755 /usr/share/geogebra-classic/chrome-sandbox
+        if [ -e /usr/share/geogebra-classic/chrome-sandbox ]
+        then
+            chmod 4755 /usr/share/geogebra-classic/chrome-sandbox
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
