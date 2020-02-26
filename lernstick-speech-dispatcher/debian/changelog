@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (2) lernstick-10; urgency=medium
+
+  * improved output quality with the help of sox filtering
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 26 Feb 2020 15:22:21 +0100
+
 lernstick-speech-dispatcher (1) lernstick-10; urgency=low
 
   * Initial release
