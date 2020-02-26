@@ -17,8 +17,7 @@
 # which will be substituted for the appropriate value (you
 # can modify this value, see other parameters).
 # The command can be split into more lines, if necessary, using '\'.
-GenericExecuteSynth \
-"pico2wave -w $TMPDIR/pico.wav -l $VOICE \"<volume level='50'>$DATA\" && play $TMPDIR/pico.wav treble 20 gain -l 6"
+GenericExecuteSynth "lernstick-say $VOICE $DATA"
 
 GenericCmdDependency "pico2wave"
 

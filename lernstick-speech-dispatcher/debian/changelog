@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (4) lernstick-10; urgency=medium
+
+  * auto-detect text to speak with the help of Apache Tika App
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 26 Feb 2020 23:35:22 +0100
+
 lernstick-speech-dispatcher (3) lernstick-10; urgency=medium
 
   * lowered volume to prevent clipping

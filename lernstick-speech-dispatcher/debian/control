@@ -7,10 +7,12 @@ Standards-Version: 3.7.3
 
 Package: lernstick-speech-dispatcher
 Architecture: all
-Depends: libttspico-utils, orca, sox, speech-dispatcher-pico
+Depends: lernstick-tika-app, libttspico-utils, orca, sox, speech-dispatcher-pico
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: reconfigures speech-dispatcher to use pico as default
  The default tts engine of speech-dispatcher (espeak) sounds really terrible.
  Therefore we change the default to pico. We also use the play command of sox
  to improve the dull output quality of pico.
+ We also use the Apache Tika app to auto-detect the language of the text to
+ speak.
