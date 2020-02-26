@@ -1,0 +1,15 @@
+Source: lernstick-speech-dispatcher
+Section: sound
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-speech-dispatcher
+Architecture: all
+Depends: orca, speech-dispatcher-pico, libttspico-utils
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: reconfigures speech-dispatcher to use pico as default
+ The default tts engine (espeak) sounds really terrible.
+ Therefore we change the default to pico.
