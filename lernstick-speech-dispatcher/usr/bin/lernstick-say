@@ -19,6 +19,15 @@ case $DETECTED_LANGUAGE in
 	en)
 		VOICE="en-US"
 		;;
+	es)
+		VOICE="es-ES"
+		;;
+	fr)
+		VOICE="fr-FR"
+		;;
+	it)
+		VOICE="it-IT"
+		;;
 esac
 
 WAV_FILE=$(mktemp --suffix .wav)
