@@ -1,36 +1,55 @@
-#!/bin/sh
+#!/bin/bash
+
+TIKA_PORT=9998
+
+# start tika
+if ! pgrep -f tika-server >/dev/null
+then
+	java -jar /usr/share/java/tika-server.jar&
+	while ! ss -l | grep ":$TIKA_PORT "
+	do
+		sleep 0.1
+	done
+fi
 
 # get the voice parameter (default voice for the current user)
 VOICE=$1
 shift
 
-# save text in temporary file
-TEXT_FILE=$(mktemp)
-echo "$*" > $TEXT_FILE
+# don't run language detection on single letters as it significantly slows down typing
+TEXT="$*"
+if [ ! ${#TEXT} -eq 1 ]
+then
 
-# try to auto-detect the language of the text to speak
-DETECTED_LANGUAGE="$(java -jar /usr/share/java/tika-app.jar -l $TEXT_FILE 2>/dev/null)"
-rm $TEXT_FILE
-echo "detected language: \"$DETECTED_LANGUAGE\""
-case $DETECTED_LANGUAGE in
-	de)
-		VOICE="de-DE"
-		;;
-	en)
-		VOICE="en-US"
-		;;
-	es)
-		VOICE="es-ES"
-		;;
-	fr)
-		VOICE="fr-FR"
-		;;
-	it)
-		VOICE="it-IT"
-		;;
-esac
+	# save text in temporary file
+	TEXT_FILE=/tmp/lernstick-say.txt
+	echo "$TEXT" > $TEXT_FILE
 
-WAV_FILE=$(mktemp --suffix .wav)
-pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$*"
+	# try to auto-detect the language of the text to speak
+	DETECTED_LANGUAGE="$(curl -X PUT --data-binary @$TEXT_FILE http://localhost:$TIKA_PORT/language/stream)"
+	rm $TEXT_FILE
+
+	echo "detected language: \"$DETECTED_LANGUAGE\""
+	case $DETECTED_LANGUAGE in
+		de)
+			VOICE="de-DE"
+			;;
+		en)
+			VOICE="en-US"
+			;;
+		es)
+			VOICE="es-ES"
+			;;
+		fr)
+			VOICE="fr-FR"
+			;;
+		it)
+			VOICE="it-IT"
+			;;
+	esac
+fi
+
+WAV_FILE=/tmp/lernstick-say.wav
+pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$TEXT"
 play -q $WAV_FILE treble 20 gain -l 6 2>/dev/null
 rm $WAV_FILE

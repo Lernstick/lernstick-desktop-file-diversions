@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (7) lernstick-10; urgency=medium
+
+  * use tika-server instead of tika-app for much better performance
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 28 Feb 2020 11:46:27 +0100
+
 lernstick-speech-dispatcher (6) lernstick-10; urgency=medium
 
   * removed spurious symlink

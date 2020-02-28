@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-speech-dispatcher
 Architecture: all
-Depends: lernstick-tika-app, libttspico-utils, orca, sox, speech-dispatcher-pico
+Depends: lernstick-tika-server, libttspico-utils, orca, sox, speech-dispatcher-pico
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: reconfigures speech-dispatcher to use pico as default
