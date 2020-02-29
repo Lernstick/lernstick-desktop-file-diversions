@@ -1,0 +1,66 @@
+a con diéresis
+A CON DIÉRESIS
+a grave
+A GRAVE
+abre paréntesis
+Accesibilidad menú.
+Alt Gr
+ampersand
+apóstrofo
+asterisco
+avance de página
+barra
+barra invertida
+bloqueo desplazamiento
+bloqueo mayúsculas desactivado
+c cedilla
+cierra corchete
+cierra llave
+cierra paréntesis
+circunflejo
+coma
+comillas
+contraído
+control derecha
+control izquierdo
+dólar
+dos puntos
+e con tilde
+E CON TILDE
+e grave
+E GRAVE
+en blanco
+escape
+espacio
+euro
+exclamación
+expandido
+grados
+grave
+guión
+igual
+insertar
+interrogación
+Lector de pantalla activado.
+Lector de pantalla desactivado.
+libras
+línea nueva
+más
+mayor
+mayúsculas derecha
+mayúsculas izquierda
+menor
+o con diéresis
+O CON DIÉRESIS
+porciento
+punto y coma
+retroceso de página
+sección
+subrayado
+suprimir
+tab
+texto.
+u con diéresis
+U CON DIÉRESIS
+ventana
+virgulilla

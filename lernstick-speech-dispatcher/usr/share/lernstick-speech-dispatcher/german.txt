@@ -1,15 +1,66 @@
+Abschnitt
+Alt Gr
+Alt links
+Anführungszeichen
+Apostroph
+a Umlaut
+A Umlaut
+ausgeklappt
 ausgewählt
+Ausrufezeichen
 Auswahl gelöscht
+Bild ab
+Bild auf
+Bildlauf
+Bildschirmleser an.
+Bildschirmleser aus.
+Bindestrich
+Dollar
+Doppelpunkt
+eckige Klammer auf
+eckige Klammer zu
+Einfügen
+eingeklappt
 Enter
+Eszett
+Euro
+Fenster
 Fragezeichen
+geschweifte Klammer auf
+geschweifte Klammer zu
+gleich
+Grad
+größer als
+hoch
+kleiner als
 Komma
+leer
 Leerzeichen
 Löschen
 nicht ausgewählt
+Nummer
+Nummernblock an
+o Umlaut
+O Umlaut
+Pfund
+Plus
+Prozent
 Punkt
+runde Klammer auf
+runde Klammer zu
+Schrägstrich
+Semikolon
+Stern
 Steuerung links
 Steuerung rechts
+Text.
+Tilde
+umgekehrter Schrägstrich
 Umschalt links
 Umschalt rechts
+und
+Unterstrich
+U Umlaut
+Vertikale Linie
 Videos
 Videos.

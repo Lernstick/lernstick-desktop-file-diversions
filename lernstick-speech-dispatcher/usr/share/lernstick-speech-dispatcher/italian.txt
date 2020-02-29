@@ -1,0 +1,65 @@
+accento grave
+A latina maiuscola con accento grave
+A latina maiuscola con dieresi
+a latina minuscola con accento grave
+a latina minuscola con dieresi
+Alt Gr
+apostrofo
+asterisco
+blocca maiuscole non attivo
+blocca num attivo
+blocca scorrimento
+canc
+c latina minuscola con cediglia
+contratto
+control destro
+control sinistro
+dollaro
+due punti
+e commerciale
+E latina maiuscola con accento acuto
+E latina maiuscola con accento grave
+e latina minuscola con accento acuto
+e latina minuscola con accento grave
+espanso
+euro
+finestra
+gradi
+ins
+Lettore schermo attivo.
+Lettore schermo disattivato.
+maggiore
+maiuscolo destro
+maiuscolo sinistro
+minore
+O latina maiuscola con dieresi
+o latina minuscola con dieresi
+pagina giù
+pagina su
+parentesi destra
+parentesi graffa destra
+parentesi quadra destra
+parentesi sinistra
+percentuale
+più
+punto esclamativo
+punto e virgola
+punto interrogativo
+segno di omissione
+selezionato
+Selezione eliminata.
+sezione
+slash
+slash inversa
+sottolineatura
+spazio
+sterline
+tabulazione
+testo.
+tilde
+trattino
+uguale
+U latina maiuscola con dieresi
+u latina minuscola con dieresi
+virgolette
+vuota

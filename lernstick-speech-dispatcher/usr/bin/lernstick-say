@@ -1,9 +1,9 @@
 #!/bin/bash
 
+TIKA_PORT=9998
+
 LOG_FILE=/tmp/lernstick-say.log
 echo "" >>$LOG_FILE
-
-TIKA_PORT=9998
 
 # start tika
 if ! pgrep -f tika-server >/dev/null
@@ -31,11 +31,28 @@ case $VOICE in
 	en-US)
 		FREQUENT_WORDS="english"
 		;;
+	es-ES)
+		FREQUENT_WORDS="spanish"
+		;;
+	fr-FR)
+		FREQUENT_WORDS="french"
+		;;
+	it-IT)
+		FREQUENT_WORDS="italian"
+		;;
 esac
 RUN_LANGUAGE_DETECTION="true"
 if grep -q -s "$TEXT" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}.txt
 then
 	RUN_LANGUAGE_DETECTION="false"
+else
+	FOREIGN=$(grep -s "$TEXT" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}_foreign.txt | awk '{ print $NF }')
+	if [ -n "$FOREIGN" ]
+	then
+		echo "detected foreign language: \"$FOREIGN\"" | tee -a $LOG_FILE
+		VOICE=$FOREIGN
+		RUN_LANGUAGE_DETECTION="false"
+	fi
 fi
 echo "run language detection: $RUN_LANGUAGE_DETECTION" | tee -a $LOG_FILE
 

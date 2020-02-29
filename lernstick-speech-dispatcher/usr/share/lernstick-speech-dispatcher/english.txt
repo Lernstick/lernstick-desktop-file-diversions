@@ -1,26 +1,66 @@
 Alt Gr
+and
+apostrophe
+at
+backslash
 backspace
+blank
+caps lock off
+caret
+c cedilla
 collapsed.
+colon
 comma
+dash
+degrees
+dollar
 dot
 entire document selected
+equals
+escape
+euro
 exclaim
+grave
+greater
 Large Text check menu item not checked.
 left alt
+left brace
+left bracket
 left control
+left paren
 left shift
+less
+number
+num lock on
+page down
+page up
+percent
+plus
+pounds
 question
 Question alert.
+quote
 return
+right brace
+right bracket
 right control
+right paren
 right shift
 Screen Reader check menu item checked.
 Screen reader off.
 Screen reader on.
+section
 selected
 Selection deleted.
+semicolon
+slash
 space
+s sharp
+star
 tab
 text.
+tilde
+underline
 unselected
+vertical bar
 window

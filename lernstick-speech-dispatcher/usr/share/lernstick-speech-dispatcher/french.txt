@@ -1,0 +1,68 @@
+a accent grave
+A ACCENT GRAVE
+accolade fermante
+Alt Gr
+apostrophe
+arobase
+arrêt défil.
+astérisque
+a tréma
+A TRÉMA
+barre oblique
+barre oblique inverse
+barre verticale
+c cédille
+cents
+circonflexe
+contrôle droit
+contrôle gauche
+crochet fermant
+degrés
+deux-points
+dièse
+dollar
+e accent aigu
+E ACCENT AIGU
+e accent grave
+E ACCENT GRAVE
+échap
+égal à
+espace
+euro
+fenêtre
+guillemet
+inférieur à
+insert
+Lecteur d’écran activé.
+Lecteur d’écran désactivé.
+livre
+maj.
+maj droit
+maj gauche
+négation logique
+num.
+o tréma
+O TRÉMA
+page préc.
+page suiv.
+paragraphe
+parenthèse fermante
+parenthèse ouvrante
+plus
+point d’exclamation
+point d’interrogation
+point-virgule
+pour cent
+retour arrière
+soulignement
+supérieur à
+supprimer
+tabulation
+texte.
+tilde
+tiret
+u tréma
+U TRÉMA
+verr.
+vide
+virgule
