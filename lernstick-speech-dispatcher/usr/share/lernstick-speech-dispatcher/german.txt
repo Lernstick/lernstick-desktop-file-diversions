@@ -1,0 +1,15 @@
+ausgewählt
+Auswahl gelöscht
+Enter
+Fragezeichen
+Komma
+Leerzeichen
+Löschen
+nicht ausgewählt
+Punkt
+Steuerung links
+Steuerung rechts
+Umschalt links
+Umschalt rechts
+Videos
+Videos.

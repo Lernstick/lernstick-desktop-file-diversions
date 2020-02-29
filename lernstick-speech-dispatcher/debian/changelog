@@ -1,3 +1,10 @@
+lernstick-speech-dispatcher (8) lernstick-10; urgency=medium
+
+  * improved logging
+  * added frequent word lists for better performance
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 29 Feb 2020 01:07:34 +0100
+
 lernstick-speech-dispatcher (7) lernstick-10; urgency=medium
 
   * use tika-server instead of tika-app for much better performance

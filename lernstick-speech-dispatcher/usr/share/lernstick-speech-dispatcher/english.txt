@@ -1,0 +1,26 @@
+Alt Gr
+backspace
+collapsed.
+comma
+dot
+entire document selected
+exclaim
+Large Text check menu item not checked.
+left alt
+left control
+left shift
+question
+Question alert.
+return
+right control
+right shift
+Screen Reader check menu item checked.
+Screen reader off.
+Screen reader on.
+selected
+Selection deleted.
+space
+tab
+text.
+unselected
+window
