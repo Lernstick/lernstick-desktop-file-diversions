@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (10) lernstick-10; urgency=medium
+
+  * fixed frequent word and foreign language detection
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 03 Mar 2020 19:42:22 +0100
+
 lernstick-speech-dispatcher (9) lernstick-10; urgency=medium
 
   * updated German and English frequent word list

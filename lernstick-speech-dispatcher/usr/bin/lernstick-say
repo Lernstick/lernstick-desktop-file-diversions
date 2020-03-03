@@ -16,7 +16,7 @@ then
 	done
 fi
 
-# get the voice parameter (default voice for the current user)
+# get the parameters for voice (default voice for the current user) and the text itself
 VOICE=$1
 echo "voice: $VOICE" | tee -a $LOG_FILE
 shift
@@ -42,11 +42,11 @@ case $VOICE in
 		;;
 esac
 RUN_LANGUAGE_DETECTION="true"
-if grep -q -s "$TEXT" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}.txt
+if grep -q -s "^$TEXT$" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}.txt
 then
 	RUN_LANGUAGE_DETECTION="false"
 else
-	FOREIGN=$(grep -s "$TEXT" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}_foreign.txt | awk '{ print $NF }')
+	FOREIGN=$(grep -s "^$TEXT " /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}_foreign.txt | awk '{ print $NF }')
 	if [ -n "$FOREIGN" ]
 	then
 		echo "detected foreign language: \"$FOREIGN\"" | tee -a $LOG_FILE
@@ -54,19 +54,25 @@ else
 		RUN_LANGUAGE_DETECTION="false"
 	fi
 fi
+
+# TODO:
+# For some unknown reason fast typing becomes laggy if we skip frequent word and foreign language detection.
+# Therefore the single letter test is not done as first (where we would do it otherwise).
+if [ ${#TEXT} -eq 1 ]
+then
+	RUN_LANGUAGE_DETECTION="false"
+fi
 echo "run language detection: $RUN_LANGUAGE_DETECTION" | tee -a $LOG_FILE
 
-# don't run language detection on single letters as it significantly slows down typing
-if [ "$RUN_LANGUAGE_DETECTION" == "true" ] && [ ! ${#TEXT} -eq 1 ]
+if [ "$RUN_LANGUAGE_DETECTION" == "true" ]
 then
-
 	# save text in temporary file
 	TEXT_FILE=/tmp/lernstick-say.txt
 	echo "$TEXT" > $TEXT_FILE
 
 	# try to auto-detect the language of the text to speak
 	DETECTED_LANGUAGE="$(curl -X PUT --data-binary @$TEXT_FILE http://localhost:$TIKA_PORT/language/stream)"
-	#rm $TEXT_FILE
+	rm $TEXT_FILE
 
 	echo "detected language: \"$DETECTED_LANGUAGE\"" | tee -a $LOG_FILE
 	case $DETECTED_LANGUAGE in
