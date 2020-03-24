@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=FSView
+Name=FSView (home)
 GenericName=File System Viewer
 GenericName[de]=Dateisystem-Betrachter
 Comment=Displays file system usage in a nice graphical way
 Comment[de]=Zeigt den belegten Platz im Filesystem grafisch an
 Keywords=Filesystem,Free space,occupied space,filesystem overview
-Exec=/usr/bin/lernstick-fsview
+Exec=/usr/bin/lernstick-fsview $HOME
 Icon=fsview
 Type=Application
 Categories=Utility;

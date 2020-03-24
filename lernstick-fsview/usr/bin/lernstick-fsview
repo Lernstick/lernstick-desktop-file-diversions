@@ -1,4 +1,4 @@
 #!/bin/sh
-fsview $HOME &
+fsview "$1" &
 FSVIEW_PID=$(echo $!)
 xdotool windowsize $(xdotool search --sync --all --pid $FSVIEW_PID --onlyvisible --class "fsview") 100% 100%
