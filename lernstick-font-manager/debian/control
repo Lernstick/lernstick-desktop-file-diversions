@@ -1,0 +1,12 @@
+Source: lernstick-font-manager
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-font-manager
+Architecture: all
+Depends: font-manager
+Description: Hides font-manager in KDE
+ We hide font-manager in KDE as it has its own native font manager.
