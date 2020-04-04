@@ -1,0 +1,12 @@
+Source: lernstick-font-viewer
+Section: graphics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-font-viewer
+Architecture: all
+Depends: font-viewer
+Description: Shows font-viewer only when running GNOME
+ We show font-viewer only when running a GNOME session.

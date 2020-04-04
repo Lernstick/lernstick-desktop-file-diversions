@@ -1,0 +1,47 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name[ar]=عارض الخطوط
+Name[ca]=Visualitzador de tipus de lletra
+Name[de]=Schriften-Betrachter
+Name[es]=Visor tipográfico
+Name[hr]=Preglednik fontova
+Name[pl]=Przeglądarka czcionek
+Name[ru]=Программа просмотра шрифтов
+Name[sv]=Teckensnittsvisare
+Name=Font Viewer
+GenericName[ar]=عارض الخطوط
+GenericName[ca]=Visualitzador de tipus de lletra
+GenericName[de]=Schriften-Betrachter
+GenericName[es]=Visor tipográfico
+GenericName[hr]=Preglednik fontova
+GenericName[pl]=Przeglądarka czcionek
+GenericName[ru]=Программа просмотра шрифтов
+GenericName[sv]=Teckensnittsvisare
+GenericName=Font Viewer
+Comment[de]=Voll funktionsfähige Anwendung zur Vorschau von Schriftdateien
+Comment[es]=Aplicación para la vista previa de archivos de tipos de letra con muchas funciones
+Comment[hr]=Program za pregled fontova s mnogim funkcijama
+Comment[ru]=Полнофункциональная программа просмотра шрифтов
+Comment[sv]=Program för förhandsvisning av teckensnitt
+Comment=Full featured font file preview application
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon[de]=preferences-desktop-font
+Icon[es]=preferences-desktop-font
+Icon[hr]=preferences-desktop-font
+Icon[sv]=preferences-desktop-font
+Icon=preferences-desktop-font
+DBusActivatable=true
+Exec=/usr/libexec/font-manager/font-viewer %u
+Terminal=false
+MimeType=font/ttf;font/ttc;font/otf;font/type1;application/x-font-ttf;application/x-font-type1;application/x-font-otf;
+Categories=Utility;GTK;GNOME;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords[de]=Grafik;Betrachter;GNOME;GTK;Publizieren;
+Keywords[es]=Gráficos;Visor;GNOME;GTK;Publicación;
+Keywords[hr]=Grafike;Preglednik;GNOME;GTK;Publiciranje;
+Keywords[ru]=Графика;Просмотр;GNOME;GTK;Издательство;
+Keywords[sv]=Grafik;Visare;GNOME;GTK;Publicering;
+Keywords=Graphics;Viewer;GNOME;GTK;Publishing;
+StartupNotify=true
+NotShowIn=KDE;
