@@ -1,3 +1,9 @@
+lernstick-vokoscreen-ng (3) lernstick-10; urgency=medium
+
+  * synced with latest backport
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 14 Apr 2020 19:08:01 +0200
+
 lernstick-vokoscreen-ng (2) lernstick-10; urgency=medium
 
   * fixed dependency
