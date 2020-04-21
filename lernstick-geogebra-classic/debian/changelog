@@ -1,3 +1,10 @@
+lernstick-geogebra-classic (12) lernstick-10; urgency=medium
+
+  * added --no-sandbox option in desktop file instead of postinst fix because
+    the latter gets overwritten by upgrading geogebra-classic
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 21 Apr 2020 13:49:33 +0200
+
 lernstick-geogebra-classic (11) lernstick-10; urgency=medium
 
   * made postinst script more robust
