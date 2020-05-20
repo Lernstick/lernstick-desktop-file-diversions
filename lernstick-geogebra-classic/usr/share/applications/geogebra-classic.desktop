@@ -26,5 +26,6 @@ Icon=geogebra-classic
 Terminal=false
 Type=Application
 StartupNotify=true
+StartupWMClass=geogebra
 Categories=Education;Math;
 MimeType=application/vnd.geogebra-classic.file;

@@ -1,3 +1,9 @@
+lernstick-geogebra-classic (13) lernstick-10; urgency=medium
+
+  * added StartupWMClass
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 May 2020 16:22:22 +0200
+
 lernstick-geogebra-classic (12) lernstick-10; urgency=medium
 
   * added --no-sandbox option in desktop file instead of postinst fix because
