@@ -1,3 +1,9 @@
+lernstick-geogebra (14) lernstick-10; urgency=medium
+
+  * updated StartupWMClass in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 May 2020 16:17:04 +0200
+
 lernstick-geogebra (13) lernstick-10; urgency=medium
 
   * autoscale on hidpi displays

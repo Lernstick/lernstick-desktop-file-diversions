@@ -26,6 +26,6 @@ Icon=geogebra
 Terminal=false
 Type=Application
 StartupNotify=true
-StartupWMClass=geogebra-GeoGebra
+StartupWMClass=org-geogebra-desktop-GeoGebra3D
 Categories=Education;Math;
 MimeType=application/vnd.geogebra.file;application/vnd.geogebra.tool;
