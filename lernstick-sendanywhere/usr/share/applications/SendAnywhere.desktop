@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SendAnywhere
+Exec=/opt/SendAnywhere/SendAnywhere --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=SendAnywhere
+StartupWMClass=SendAnywhere
+Comment=Send Anywhere is a multi-platform file sharing service where users can directly share digital content in real time.
+MimeType=x-scheme-handler/sndany;
+Categories=Utility;

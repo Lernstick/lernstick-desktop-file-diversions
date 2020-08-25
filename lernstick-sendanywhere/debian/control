@@ -1,0 +1,14 @@
+Source: lernstick-sendanywhere
+Section: default
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-sendanywhere
+Depends: sendanywhere
+Architecture: all
+Description: Bug fix for the sendanywhere package
+ Newer versions of sendanywhere need the "--no-sandbox" option to start on
+ Debian. We fix this issue by diverting the sendanywhere desktop file in this
+ package.
