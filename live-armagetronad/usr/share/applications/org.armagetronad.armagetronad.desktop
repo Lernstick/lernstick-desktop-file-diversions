@@ -1,12 +1,11 @@
 [Desktop Entry]
 Type=Application
 Name=Armagetron Advanced
-Exec=live_armagetronad
+Exec=live_armagetronad %f
 Comment=3d light cycle game
 Comment[de]=dreidimensionales Lichtradspiel
 Icon=armagetronad
 Terminal=false
-Path=/usr/bin
 Categories=Game;ArcadeGame;
 StartupNotify=false
 MimeType=application/x-armagetronad;
