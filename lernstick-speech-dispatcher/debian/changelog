@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (11) lernstick-10; urgency=medium
+
+  * added dependency to curl
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 16 Dec 2020 15:58:52 +0100
+
 lernstick-speech-dispatcher (10) lernstick-10; urgency=medium
 
   * fixed frequent word and foreign language detection
