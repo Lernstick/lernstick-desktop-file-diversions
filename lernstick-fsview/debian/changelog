@@ -1,3 +1,9 @@
+lernstick-fsview (4) lernstick-10; urgency=medium
+
+  * use sudo for fsview-system
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 Jan 2021 18:14:14 +0100
+
 lernstick-fsview (3) lernstick-10; urgency=medium
 
   * added desktop file for "system view" (complete persistence partition)
