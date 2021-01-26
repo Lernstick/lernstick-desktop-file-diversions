@@ -1,0 +1,6 @@
+#!/bin/sh
+
+systemctl stop systemd-timesyncd
+systemctl disable systemd-timesyncd
+timedatectl --adjust-system-clock set-local-rtc 0
+rm -f /var/lib/systemd/timesync/clock

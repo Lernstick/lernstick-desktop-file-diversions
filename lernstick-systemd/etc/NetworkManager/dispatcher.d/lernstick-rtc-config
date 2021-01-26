@@ -1,0 +1,47 @@
+#!/bin/sh
+
+case $2	in
+	up)
+		LOCK_FILE="/var/lock/lernstick-rtc-config"
+		TIMESYNCD_CONFIG="/etc/systemd/timesyncd.conf"
+		THRESHOLD=1200
+
+		if [ -e "$LOCK_FILE" ]
+		then
+			logger -t lernstick-rtc-config "lock file $LOCK_FILE already exists, exiting..."
+			exit 0
+		fi
+
+		# get NTP server from timesyncd config
+		for i in "NTP" "FallbackNTP" "#NTP" "#FallbackNTP"
+		do
+			NTP_SERVER="$(grep "^$i" "$TIMESYNCD_CONFIG" | sed "s/$i=//" | awk '{ print $1 }')"
+			[ -z "$NTP_SERVER" ] || break
+		done
+		logger -t lernstick-rtc-config "NTP server : $NTP_SERVER"
+
+		# configure RTC
+		DEVIATION="$(sntp "$NTP_SERVER" | grep "$NTP_SERVER" | awk '{ print $4 }' | awk -F. '{ print $1 }')"
+		if [ -z "$DEVIATION" ]
+		then
+			logger -t lernstick-rtc-config "getting the clock deviation failed"
+			exit 1
+		fi
+		logger -t lernstick-rtc-config "Deviation: $DEVIATION"
+		if [ "$DEVIATION" -lt "$THRESHOLD" ] && [ "$DEVIATION" -gt "-$THRESHOLD" ]
+		then
+			logger -t lernstick-rtc-config "hardware clock seems to be in UTC"
+		else
+			logger -t lernstick-rtc-config "hardware clock seems to be in local time"
+			timedatectl --adjust-system-clock set-local-rtc 1
+		fi
+		touch $LOCK_FILE
+
+		# When moving from a system with the RTC in local time to a system with the RTC in UTC
+		# systemd-timesyncd messes up the RTC by setting it to system time. No idea why...
+		# Therefore, instead of calling
+		#systemctl start systemd-timesyncd
+		# we just run sntp once and hope that the drift of the RTC is not going to be noticed.
+		sntp -S "$NTP_SERVER"
+		;;
+esac
