@@ -9,4 +9,4 @@ Type=oneshot
 ExecStart=/usr/lib/systemd/lernstick-rtc-init
 
 [Install]
-WantedBy=default.target
+WantedBy=sysinit.target

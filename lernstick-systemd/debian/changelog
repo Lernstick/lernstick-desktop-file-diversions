@@ -1,3 +1,9 @@
+lernstick-systemd (4) lernstick-10; urgency=medium
+
+  * fixed install target of lernstick-rtc-init.service file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 27 Jan 2021 15:53:54 +0100
+
 lernstick-systemd (3) lernstick-10; urgency=medium
 
   * use sntp instead of systemd-timesyncd
