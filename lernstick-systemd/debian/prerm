@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+if [ "$1" = "remove" ]; then
+	systemctl unmask systemd-timesyncd
+fi
+
+exit 0
