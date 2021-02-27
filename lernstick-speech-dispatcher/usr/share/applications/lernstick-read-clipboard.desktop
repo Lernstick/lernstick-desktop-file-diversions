@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Read clipboard
+Name[de]=Zwischenablage vorlesen
+Exec=lernstick-read-clipboard
+Icon=lernstick-read-clipboard
+Categories=Utility;Accessibility;
+Type=Application

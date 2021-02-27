@@ -1,0 +1,21 @@
+#!/bin/bash
+
+case $LANG in
+        de*)
+                VOICE="de-DE"
+                ;;
+        en*)
+                VOICE="en-US"
+                ;;
+        es*)
+                VOICE="es-ES"
+                ;;
+        fr*)
+                VOICE="fr-FR"
+                ;;
+        it*)
+                VOICE="it-IT"
+                ;;
+esac
+
+lernstick-say "$VOICE" "$(xsel -b)"

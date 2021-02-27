@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (12) lernstick-10; urgency=medium
+
+  * added script to read clipboard
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 27 Feb 2021 17:19:38 +0100
+
 lernstick-speech-dispatcher (11) lernstick-10; urgency=medium
 
   * added dependency to curl
