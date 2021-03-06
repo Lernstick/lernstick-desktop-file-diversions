@@ -1,0 +1,13 @@
+# The default playback tempo for all voices is 1.
+# If you want to change the tempo for a certain language, either change the
+# values in this file directly or create a copy with another name in
+# /etc/lernstick-say.d/
+# adjust and uncomment the values below as needed.
+# The config files in /etc/lernstick-say.d/ are read in alphabetical order
+# and values in later config files overwrite values from earlier config files.
+
+# TEMPO_DE=1
+# TEMPO_EN=1
+# TEMPO_ES=1
+# TEMPO_FR=1
+# TEMPO_IT=1

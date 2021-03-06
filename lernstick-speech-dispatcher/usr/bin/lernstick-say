@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# source config files
+# (bash pathname expansion is alphabetically sorded)
+for i in /etc/lernstick-say.d/*
+do
+	. "$i"
+done
+
 TIKA_PORT=9998
 
 LOG_FILE=/tmp/lernstick-say.log
@@ -94,7 +101,32 @@ then
 	esac
 fi
 
+# tempo adjustments
+TEMPO=1
+case $VOICE in
+	de-DE)
+		TEMPO="${TEMPO_DE:-1}"
+		;;
+	en-US)
+		TEMPO="${TEMPO_EN:-1}"
+		;;
+	es-ES)
+		TEMPO="${TEMPO_ES:-1}"
+		;;
+	fr-FR)
+		TEMPO="${TEMPO_FR:-1}"
+		;;
+	it-IT)
+		TEMPO="${TEMPO_IT:-1}"
+		;;
+esac
+echo "tempo: $TEMPO" | tee -a $LOG_FILE
+
 WAV_FILE=/tmp/lernstick-say.wav
 pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$TEXT"
-play -q $WAV_FILE treble 20 gain -l 6 2>/dev/null
+play -q $WAV_FILE \
+	treble 20 \
+	gain -l 6 \
+	tempo -s "$TEMPO" \
+	2>/dev/null
 rm $WAV_FILE

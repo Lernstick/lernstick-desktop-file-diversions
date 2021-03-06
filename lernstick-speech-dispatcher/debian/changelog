@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (13) lernstick-10; urgency=medium
+
+  * made tempo of lernstick-say adjustable
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 06 Mar 2021 17:32:57 +0100
+
 lernstick-speech-dispatcher (12) lernstick-10; urgency=medium
 
   * added script to read clipboard
