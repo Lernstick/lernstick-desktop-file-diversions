@@ -113,44 +113,54 @@ fi
 
 # synthesize voice
 case $VOICE in
-#	en-US)
-#		if systemctl is-active --quiet mozilla-tts-en
-#		then
-#			curl -G --output $WAV_FILE --data-urlencode "text=$TEXT" 'http://localhost:5002/api/tts'
-#		else
-#			pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$TEXT"
-#			PLAY_OPTIONS="treble 20 gain -l 6"
-#		fi
-#		;;
 	de-DE)
+		SYNTHESIZER="pico"
 		VOLUME="55"
 		SPEED="${SPEED_DE:-100}"
 		PITCH="${PITCH_DE:-100}"
 		;;
 	en-US)
-		VOLUME="65"
-		SPEED="${SPEED_EN:-100}"
-		PITCH="${PITCH_EN:-100}"
+		if systemctl is-active --quiet mozilla-tts-en
+		then
+			SYNTHESIZER="mozilla"
+			MOZILLA_TTS_PORT=5002
+		else
+			SYNTHESIZER="pico"
+			VOLUME="65"
+			SPEED="${SPEED_EN:-100}"
+			PITCH="${PITCH_EN:-100}"
+		fi
 		;;
 	es-ES)
+		SYNTHESIZER="pico"
 		VOLUME="60"
 		SPEED="${SPEED_ES:-100}"
 		PITCH="${PITCH_ES:-100}"
 		;;
 	fr-FR)
+		SYNTHESIZER="pico"
 		VOLUME="95"
 		SPEED="${SPEED_FR:-100}"
 		PITCH="${PITCH_FR:-100}"
 		;;
 	it-IT)
+		SYNTHESIZER="pico"
 		VOLUME="75"
 		SPEED="${SPEED_IT:-100}"
 		PITCH="${PITCH_IT:-100}"
 		;;
 esac
 WAV_FILE=/tmp/lernstick-say.wav
-pico2wave -w $WAV_FILE -l $VOICE "<volume level='$VOLUME'><speed level='$SPEED'><pitch level='$PITCH'>$TEXT</pitch></speed></volume>"
-play -q $WAV_FILE treble 20 bass -20 2>/dev/null
+case $SYNTHESIZER in
+	pico)
+		pico2wave -w "$WAV_FILE" -l $VOICE "<volume level='$VOLUME'><speed level='$SPEED'><pitch level='$PITCH'>$TEXT</pitch></speed></volume>"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+	mozilla)
+		curl -G --output "$WAV_FILE" --data-urlencode "text=$TEXT" "http://localhost:${MOZILLA_TTS_PORT}/api/tts"
+		;;
+esac
+play -q $WAV_FILE $PLAY_OPTIONS 2>/dev/null
 
 # cleanup
 rm $WAV_FILE

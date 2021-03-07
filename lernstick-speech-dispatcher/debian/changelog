@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (16) lernstick-10; urgency=medium
+
+  * added initial (experimental) support for mozilla-tts docker version
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 07 Mar 2021 15:11:47 +0100
+
 lernstick-speech-dispatcher (15) lernstick-10; urgency=medium
 
   * use SVOX Pico Markup Language for changing speed and pitch
