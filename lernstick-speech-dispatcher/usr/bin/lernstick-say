@@ -111,30 +111,7 @@ then
 	esac
 fi
 
-# tempo adjustments
-TEMPO=1
-case $VOICE in
-	de-DE)
-		TEMPO="${TEMPO_DE:-1}"
-		;;
-	en-US)
-		TEMPO="${TEMPO_EN:-1}"
-		;;
-	es-ES)
-		TEMPO="${TEMPO_ES:-1}"
-		;;
-	fr-FR)
-		TEMPO="${TEMPO_FR:-1}"
-		;;
-	it-IT)
-		TEMPO="${TEMPO_IT:-1}"
-		;;
-esac
-echo "tempo: $TEMPO" | tee -a $LOG_FILE
-
-# synthesize wav file
-WAV_FILE=/tmp/lernstick-say.wav
-PLAY_OPTIONS=""
+# synthesize voice
 case $VOICE in
 #	en-US)
 #		if systemctl is-active --quiet mozilla-tts-en
@@ -146,29 +123,34 @@ case $VOICE in
 #		fi
 #		;;
 	de-DE)
-		pico2wave -w $WAV_FILE -l $VOICE "<volume level='55'>$TEXT"
-		PLAY_OPTIONS="treble 20 bass -20"
+		VOLUME="55"
+		SPEED="${SPEED_DE:-100}"
+		PITCH="${PITCH_DE:-100}"
 		;;
 	en-US)
-		pico2wave -w $WAV_FILE -l $VOICE "<volume level='65'>$TEXT"
-		PLAY_OPTIONS="treble 20 bass -20"
+		VOLUME="65"
+		SPEED="${SPEED_EN:-100}"
+		PITCH="${PITCH_EN:-100}"
 		;;
 	es-ES)
-		pico2wave -w $WAV_FILE -l $VOICE "<volume level='60'>$TEXT"
-		PLAY_OPTIONS="treble 20 bass -20"
+		VOLUME="60"
+		SPEED="${SPEED_ES:-100}"
+		PITCH="${PITCH_ES:-100}"
 		;;
 	fr-FR)
-		pico2wave -w $WAV_FILE -l $VOICE "<volume level='95'>$TEXT"
-		PLAY_OPTIONS="treble 20 bass -20"
+		VOLUME="95"
+		SPEED="${SPEED_FR:-100}"
+		PITCH="${PITCH_FR:-100}"
 		;;
 	it-IT)
-		pico2wave -w $WAV_FILE -l $VOICE "<volume level='75'>$TEXT"
-		PLAY_OPTIONS="treble 20 bass -20"
+		VOLUME="75"
+		SPEED="${SPEED_IT:-100}"
+		PITCH="${PITCH_IT:-100}"
 		;;
 esac
-
-# play wav file
-play -q $WAV_FILE $PLAY_OPTIONS tempo -s "$TEMPO" 2>/dev/null
+WAV_FILE=/tmp/lernstick-say.wav
+pico2wave -w $WAV_FILE -l $VOICE "<volume level='$VOLUME'><speed level='$SPEED'><pitch level='$PITCH'>$TEXT</pitch></speed></volume>"
+play -q $WAV_FILE treble 20 bass -20 2>/dev/null
 
 # cleanup
 rm $WAV_FILE

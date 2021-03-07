@@ -6,8 +6,14 @@
 # The config files in /etc/lernstick-say.d/ are read in alphabetical order
 # and values in later config files overwrite values from earlier config files.
 
-# TEMPO_DE=1
-# TEMPO_EN=1
-# TEMPO_ES=1
-# TEMPO_FR=1
-# TEMPO_IT=1
+# SPEED_DE=100
+# SPEED_EN=100
+# SPEED_ES=100
+# SPEED_FR=100
+# SPEED_IT=100
+
+# PITCH_DE=100
+# PITCH_EN=100
+# PITCH_ES=100
+# PITCH_FR=100
+# PITCH_IT=100

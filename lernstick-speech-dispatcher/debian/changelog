@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (15) lernstick-10; urgency=medium
+
+  * use SVOX Pico Markup Language for changing speed and pitch
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 07 Mar 2021 12:28:34 +0100
+
 lernstick-speech-dispatcher (14) lernstick-10; urgency=medium
 
   * fixed support for texts with empty lines
