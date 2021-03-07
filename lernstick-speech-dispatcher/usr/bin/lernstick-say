@@ -23,12 +23,15 @@ then
 	done
 fi
 
+echo "===============================" | tee -a $LOG_FILE
 # get the parameters for voice (default voice for the current user) and the text itself
 VOICE=$1
 echo "voice: $VOICE" | tee -a $LOG_FILE
 shift
 TEXT="$*"
-echo "text: $TEXT" | tee -a $LOG_FILE
+echo "text:" | tee -a $LOG_FILE
+echo "$TEXT" | tee -a $LOG_FILE
+echo "-------------------------------" | tee -a $LOG_FILE
 
 # special handling of frequent words (for improving performance while typing)
 case $VOICE in
@@ -49,16 +52,23 @@ case $VOICE in
 		;;
 esac
 RUN_LANGUAGE_DETECTION="true"
-if grep -q -s "^$TEXT$" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}.txt
+# only search frequent words if text is on one single line
+if [ $(echo "$TEXT" | grep -c '$') -eq 1 ]
 then
-	RUN_LANGUAGE_DETECTION="false"
-else
-	FOREIGN=$(grep -s "^$TEXT " /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}_foreign.txt | awk '{ print $NF }')
-	if [ -n "$FOREIGN" ]
+	echo "searching frequent words" | tee -a $LOG_FILE
+	if grep -q -s "^$TEXT$" /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}.txt
 	then
-		echo "detected foreign language: \"$FOREIGN\"" | tee -a $LOG_FILE
-		VOICE=$FOREIGN
 		RUN_LANGUAGE_DETECTION="false"
+		echo "is a frequent word" | tee -a $LOG_FILE
+	else
+		echo "searching foreign words" | tee -a $LOG_FILE
+		FOREIGN=$(grep -s "^$TEXT " /usr/share/lernstick-speech-dispatcher/${FREQUENT_WORDS}_foreign.txt | awk '{ print $NF }')
+		if [ -n "$FOREIGN" ]
+		then
+			echo "detected foreign language: \"$FOREIGN\"" | tee -a $LOG_FILE
+			VOICE=$FOREIGN
+			RUN_LANGUAGE_DETECTION="false"
+		fi
 	fi
 fi
 
@@ -122,11 +132,43 @@ case $VOICE in
 esac
 echo "tempo: $TEMPO" | tee -a $LOG_FILE
 
+# synthesize wav file
 WAV_FILE=/tmp/lernstick-say.wav
-pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$TEXT"
-play -q $WAV_FILE \
-	treble 20 \
-	gain -l 6 \
-	tempo -s "$TEMPO" \
-	2>/dev/null
+PLAY_OPTIONS=""
+case $VOICE in
+#	en-US)
+#		if systemctl is-active --quiet mozilla-tts-en
+#		then
+#			curl -G --output $WAV_FILE --data-urlencode "text=$TEXT" 'http://localhost:5002/api/tts'
+#		else
+#			pico2wave -w $WAV_FILE -l $VOICE "<volume level='50'>$TEXT"
+#			PLAY_OPTIONS="treble 20 gain -l 6"
+#		fi
+#		;;
+	de-DE)
+		pico2wave -w $WAV_FILE -l $VOICE "<volume level='55'>$TEXT"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+	en-US)
+		pico2wave -w $WAV_FILE -l $VOICE "<volume level='65'>$TEXT"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+	es-ES)
+		pico2wave -w $WAV_FILE -l $VOICE "<volume level='60'>$TEXT"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+	fr-FR)
+		pico2wave -w $WAV_FILE -l $VOICE "<volume level='95'>$TEXT"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+	it-IT)
+		pico2wave -w $WAV_FILE -l $VOICE "<volume level='75'>$TEXT"
+		PLAY_OPTIONS="treble 20 bass -20"
+		;;
+esac
+
+# play wav file
+play -q $WAV_FILE $PLAY_OPTIONS tempo -s "$TEMPO" 2>/dev/null
+
+# cleanup
 rm $WAV_FILE

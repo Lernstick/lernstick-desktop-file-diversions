@@ -1,3 +1,11 @@
+lernstick-speech-dispatcher (14) lernstick-10; urgency=medium
+
+  * fixed support for texts with empty lines
+  * improved sound quality
+  * improved logging
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 07 Mar 2021 02:58:50 +0100
+
 lernstick-speech-dispatcher (13) lernstick-10; urgency=medium
 
   * made tempo of lernstick-say adjustable
