@@ -1,3 +1,9 @@
+lernstick-avogadro (5) lernstick-11; urgency=medium
+
+  * packaging fixes
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 04 Apr 2021 20:46:39 +0200
+
 lernstick-avogadro (4) lernstick-11; urgency=medium
 
   * updated for Debian 11
