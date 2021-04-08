@@ -1,18 +1,18 @@
-This package was debianized by Ronny Standtke <ronny.standtke@fhnw.ch> on
+This package was debianized by Ronny Standtke <ronny.standtke@gmx.net> on
 Sun, 05 Jul 2009 15:05:40 +0200.
 
 Upstream Author:
-    Ronny Standtke <ronny.standtke@fhnw.ch>
+    Ronny Standtke <ronny.standtke@gmx.net>
 
 Copyright:
 
-    Copyright (C) 2009 Ronny Standtke <ronny.standtke@fhnw.ch>
+    Copyright (C) 2009 Ronny Standtke <ronny.standtke@gmx.net>
 
 License:
 
     GPL
 
-The Debian packaging is (C) 2009, Ronny Standtke <ronny.standtke@fhnw.ch> and
+The Debian packaging is (C) 2009, Ronny Standtke <ronny.standtke@gmx.net> and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
 
 # Please also look if there are files or directories which have a
