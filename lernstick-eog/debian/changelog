@@ -1,3 +1,9 @@
+lernstick-eog (7) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 08 Apr 2021 19:03:01 +0200
+
 lernstick-eog (6) lernstick-10; urgency=medium
 
   * updated for Debian 10
