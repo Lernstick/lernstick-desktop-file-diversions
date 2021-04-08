@@ -18,15 +18,14 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
 case "$1" in
     purge|upgrade|failed-upgrade|abort-upgrade)
     ;;
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-swell-foop --rename --divert \
-            /usr/share/applications/swell-foop.desktop.orig \
-            /usr/share/applications/swell-foop.desktop
+            /usr/share/applications/org.gnome.SwellFoop.desktop.orig \
+            /usr/share/applications/org.gnome.SwellFoop.desktop
     ;;
 
     *)
@@ -41,5 +40,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
