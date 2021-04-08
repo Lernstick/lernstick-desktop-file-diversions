@@ -1,3 +1,9 @@
+lernstick-gnome-system-tools (4) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 08 Apr 2021 18:02:16 +0200
+
 lernstick-gnome-system-tools (3) lernstick-8; urgency=medium
 
   * fixed architecture

@@ -1,12 +1,13 @@
 Source: lernstick-gnome-system-tools
 Section: gnome
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-gnome-system-tools
 Architecture: all
 Depends: gnome-system-tools
-Description: Changes the visibility of some GNOME system tools
- We only show the network tool in KDE.
+Description: Show GNOME system tools only in LXDE
+ We show the GNOME system tools only in LXDE, see:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=888670

@@ -180,4 +180,4 @@ X-GNOME-Bugzilla-Product=gnome-system-tools
 X-GNOME-Bugzilla-Component=users-admin
 X-GNOME-Bugzilla-Version=3.0.0
 StartupNotify=true
-NotShowIn=KDE;
+OnlyShowIn=LXDE;
