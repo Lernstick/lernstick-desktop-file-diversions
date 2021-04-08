@@ -18,15 +18,14 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
 case "$1" in
     purge|upgrade|failed-upgrade|abort-upgrade)
     ;;
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-gnome-mines --rename --divert \
-            /usr/share/applications/gnome-mines.desktop.orig \
-            /usr/share/applications/gnome-mines.desktop
+            /usr/share/applications/org.gnome.Mines.desktop.orig \
+            /usr/share/applications/org.gnome.Mines.desktop
     ;;
 
     *)
@@ -41,5 +40,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
