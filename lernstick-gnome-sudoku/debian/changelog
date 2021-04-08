@@ -1,3 +1,9 @@
+lernstick-gnome-sudoku (3) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 08 Apr 2021 22:18:10 +0200
+
 lernstick-gnome-sudoku (2) lernstick-10; urgency=medium
 
   * updated for Debian 10
