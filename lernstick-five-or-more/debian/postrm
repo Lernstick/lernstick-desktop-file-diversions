@@ -18,15 +18,14 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
 case "$1" in
     purge|upgrade|failed-upgrade|abort-upgrade)
     ;;
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-five-or-more --rename --divert \
-            /usr/share/applications/five-or-more.desktop.orig \
-            /usr/share/applications/five-or-more.desktop
+            /usr/share/applications/org.gnome.five-or-more.desktop.orig \
+            /usr/share/applications/org.gnome.five-or-more.desktop
     ;;
 
     *)
@@ -41,5 +40,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-

@@ -13,12 +13,11 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-five-or-more --rename --divert \
-            /usr/share/applications/five-or-more.desktop.orig \
-            /usr/share/applications/five-or-more.desktop
+            /usr/share/applications/org.gnome.five-or-more.desktop.orig \
+            /usr/share/applications/org.gnome.five-or-more.desktop
     ;;
 
     abort-upgrade)
@@ -36,5 +35,3 @@ esac
 #DEBHELPER#
 
 exit 0
-
-
