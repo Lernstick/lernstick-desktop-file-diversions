@@ -1,0 +1,15 @@
+Source: lernstick-parcellite
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-parcellite
+Architecture: all
+Depends: parcellite
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Show and autostart parcellite only in LXDE.
+ Parcellite is only recommended for LXDE. Therefore we show the desktop file
+ only in LXDE and autostart parcellite only when running LXDE.
