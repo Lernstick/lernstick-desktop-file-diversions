@@ -1,0 +1,12 @@
+Source: lernstick-libelementary-bin
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-libelementary-bin
+Architecture: all
+Depends: libelementary-bin
+Description: Shows the desktop files of libelementary-bin only in Enlightenment
+ We show the desktop files of libelementary-bin only in Enlightenment.
