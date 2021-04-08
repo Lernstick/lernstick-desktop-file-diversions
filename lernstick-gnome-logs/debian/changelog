@@ -1,3 +1,9 @@
+lernstick-gnome-logs (4) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 08 Apr 2021 21:00:18 +0200
+
 lernstick-gnome-logs (3) lernstick-10; urgency=medium
 
   * updated for Debian 10
