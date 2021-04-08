@@ -9,4 +9,4 @@ Package: lernstick-file-roller
 Architecture: all
 Depends: file-roller
 Description: Hides file-roller in MATE
- We hide file-roller in MATE  as they have engrampa there.
+ We hide file-roller in MATE as they have engrampa there.
