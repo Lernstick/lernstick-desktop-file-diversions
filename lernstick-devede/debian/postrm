@@ -18,15 +18,14 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
 case "$1" in
 	purge|upgrade|failed-upgrade|abort-upgrade)
 	;;
 
 	remove|abort-install|disappear)
 		dpkg-divert --remove --package lernstick-devede --rename --divert \
-			/usr/share/applications/devedeng.desktop.orig \
-			/usr/share/applications/devedeng.desktop
+			/usr/share/applications/devede_ng.py.desktop.orig \
+			/usr/share/applications/devede_ng.py.desktop
 	;;
 
 	*)

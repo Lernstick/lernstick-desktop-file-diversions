@@ -1,3 +1,9 @@
+lernstick-devede (2) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 09 Apr 2021 20:51:39 +0200
+
 lernstick-devede (1) lernstick-9; urgency=low
 
   * Initial release
