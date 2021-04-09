@@ -1,3 +1,9 @@
+lernstick-pspp (2) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 09 Apr 2021 22:20:05 +0200
+
 lernstick-pspp (1) lernstick-8; urgency=low
 
   * Initial release
