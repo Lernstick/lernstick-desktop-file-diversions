@@ -1,0 +1,13 @@
+Source: lernstick-info
+Section: doc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-info
+Architecture: all
+Depends: info
+Description: Hide the desktop entry of info
+ info is a command line application. We don't want to show it in the desktop
+ menus.
