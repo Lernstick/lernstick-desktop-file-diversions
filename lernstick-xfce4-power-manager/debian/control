@@ -1,7 +1,7 @@
 Source: lernstick-xfce4-power-manager
 Section: xfce
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
@@ -10,7 +10,5 @@ Architecture: all
 Depends: xfce4-power-manager
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: add MATE to NotShowIn= in desktop file
- We fix the following bug:
- https://bugzilla.xfce.org/show_bug.cgi?id=12506
- Without this fix the screensaver in MATE just crashes.
+Description: Show Xfce power manager only in Xfce and LXDE
+ We start and show the Xfce power manager only in Xfce and LXDE
