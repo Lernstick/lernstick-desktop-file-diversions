@@ -4,6 +4,6 @@ Encoding=UTF-8
 Name=Wine Registry Editor
 Name[de]=Wine-Registry-Editor
 Exec=wine regedit
-Icon=/usr/share/icons/oxygen/base/128x128/apps/wine.png
+Icon=/usr/share/icons/gnome-colors-common/scalable/apps/wine.svg
 Terminal=false
 Categories=Emulator;

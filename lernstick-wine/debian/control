@@ -1,13 +1,13 @@
 Source: lernstick-wine
 Section: otherosfs
 Priority: extra
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: lernstick-wine
 Architecture: all
-Depends: wine
+Depends: wine, gnome-colors-common
 Description: Adds menu entries for wine
  We add menu entries for wine configuration and uninstalling applications in
  wine. We also correct the mime types and add an icon to the existing wine
