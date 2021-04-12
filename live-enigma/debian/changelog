@@ -1,3 +1,9 @@
+live-enigma (4) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 18:15:58 +0200
+
 live-enigma (3) lernstick-8; urgency=medium
 
   * fixed start script

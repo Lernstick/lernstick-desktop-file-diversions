@@ -14,4 +14,5 @@ Icon=enigma
 StartupNotify=false
 
 Type=Application
-Categories=Application;Game;LogicGame;
+Categories=Game;LogicGame;
+Keywords=marble;puzzle;logic;level;
