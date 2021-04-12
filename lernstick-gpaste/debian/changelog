@@ -1,3 +1,9 @@
+lernstick-gpaste (4) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 19:55:42 +0200
+
 lernstick-gpaste (3) lernstick-10; urgency=medium
 
   * updated to Debian 10
