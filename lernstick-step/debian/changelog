@@ -1,3 +1,9 @@
+lernstick-step (6) lernstick-11; urgency=medium
+
+  * updated to Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 23:13:58 +0200
+
 lernstick-step (5) lernstick-10; urgency=medium
 
   * updated to Debian 10
