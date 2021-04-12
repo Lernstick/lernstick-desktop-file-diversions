@@ -1,3 +1,9 @@
+lernstick-thunar (6) lernstick-11; urgency=medium
+
+  * updated thunar-settings.desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 23:45:48 +0200
+
 lernstick-thunar (5) lernstick-11; urgency=medium
 
   * updated for Debian 11
