@@ -11,5 +11,5 @@ StartupNotify=false
 Terminal=false
 Type=Application
 Name[en_AU]=Hugin Calibrate Lens
-Name[cs]=Hugin kalibrace objetivů
+Name[cs]=Hugin kalibrace objektivů
 GenericName[cs]=Kalibrace objektivů
