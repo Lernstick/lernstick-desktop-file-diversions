@@ -1,11 +1,13 @@
 [Desktop Entry]
-Type=Application
 Name=Arduino IDE
+Comment=Open-source electronics prototyping platform
 GenericName=Create physical computing projects
 GenericName[de]=Entwicklungsumgebung für Physical Computing
-Exec=arduino
+Exec=/usr/bin/arduino %f
 Icon=arduino
+Type=Application
 Terminal=false
-Categories=Development;Engineering;
+Categories=Development;Engineering;IDE;
 MimeType=text/x-arduino
 Keywords=embedded electronics;electronics;avr;microcontroller;
+StartupWMClass=processing-app-Base
