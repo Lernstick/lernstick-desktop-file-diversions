@@ -1,3 +1,9 @@
+live-supertux (4) lernstick-11; urgency=medium
+
+  * updated to Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 23:32:42 +0200
+
 live-supertux (3) lernstick-9; urgency=medium
 
   * fixed live_supertux2
