@@ -1,3 +1,9 @@
+lernstick-mate-control-center (2) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 18:49:03 +0200
+
 lernstick-mate-control-center (1) lernstick-9; urgency=low
 
   * Initial release
