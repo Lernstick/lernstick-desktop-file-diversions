@@ -1,7 +1,7 @@
 Source: lernstick-calibre
 Section: text
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 

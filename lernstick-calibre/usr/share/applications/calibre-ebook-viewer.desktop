@@ -1,12 +1,12 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=E-book Viewer
+Name=E-book viewer
 GenericName=Viewer for E-books
 Comment=Viewer for E-books in all the major formats
 TryExec=ebook-viewer
 Exec=ebook-viewer %f
 Icon=calibre-viewer
 Categories=Graphics;Viewer;
-MimeType=text/plain;application/x-mobipocket-subscription;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/html;application/x-cbc;application/ereader;application/oebps-package+xml;image/vnd.djvu;application/x-sony-bbeb;application/vnd.ms-word.document.macroenabled.12;text/rtf;text/x-markdown;application/pdf;application/x-cbz;application/x-cbr;application/x-mobi8-ebook;text/fb2+xml;application/vnd.oasis.opendocument.text;application/epub+zip;application/x-mobipocket-ebook;application/xhtml+xml;
+MimeType=application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/x-mobipocket-ebook;application/x-ruby;application/vnd.ms-word.document.macroenabled.12;application/xhtml+xml;application/ereader;application/x-mobipocket-subscription;application/x-cbc;image/vnd.djvu;text/fb2+xml;application/oebps-package+xml;application/x-cbr;text/html;application/x-cbz;application/x-mobi8-ebook;text/x-markdown;application/epub+zip;text/rtf;application/x-cb7;text/plain;application/x-sony-bbeb;application/vnd.oasis.opendocument.text;application/pdf;
 NoDisplay=true
