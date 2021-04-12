@@ -1,6 +1,12 @@
+lernstick-dconf-editor (6) lernstick-11; urgency=medium
+
+  * updated for Debian 11
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Mon, 12 Apr 2021 17:35:23 +0200
+
 lernstick-dconf-editor (5) lernstick-10; urgency=medium
 
-  * synced with Debian 9
+  * synced with Debian 10
 
  -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 11 Aug 2019 16:59:21 +0200
 
