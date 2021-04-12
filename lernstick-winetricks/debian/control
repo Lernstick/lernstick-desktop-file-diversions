@@ -1,0 +1,12 @@
+Source: lernstick-winetricks
+Section: contrib/otherosfs
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-winetricks
+Architecture: all
+Depends: winetricks
+Description: Put winetricks into our desktop category for emulators
+ We have a dedicated desktop category for emulators and add winetricks there.
