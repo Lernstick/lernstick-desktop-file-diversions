@@ -1,3 +1,9 @@
+lernstick-xfce4-terminal (5) lernstick-11; urgency=medium
+
+  * moved custom config entry to correct place in desktop file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 01 May 2021 14:41:59 +0200
+
 lernstick-xfce4-terminal (4) lernstick-11; urgency=medium
 
   * updated to Debian 11

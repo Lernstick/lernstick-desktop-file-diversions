@@ -177,6 +177,7 @@ Type=Application
 Categories=GTK;System;TerminalEmulator;
 StartupNotify=true
 Actions=preferences;
+OnlyShowIn=XFCE;
 
 [Desktop Action preferences]
 Name=Terminal Preferences
@@ -239,4 +240,3 @@ Name[vi]=Tùy chỉnh Terminal
 Name[zh_CN]=终端首选项
 Name[zh_TW]=終端機偏好設定
 Exec=xfce4-terminal --preferences
-OnlyShowIn=XFCE;
