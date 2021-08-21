@@ -1,0 +1,19 @@
+This package was debianized by Thore Sommer <mail@thson.de> on
+Sat, 21 Aug 2021 09:00:00 +0200.
+
+Upstream Author:
+    Ronny Standtke <ronny.standtke@gmx.net>
+
+Copyright:
+
+    Copyright (C) 2021 Thore Sommer <mail@thson.de>
+
+License:
+
+    GPL
+
+The Debian packaging is (C) 2009, Thore Sommer <mail@thson.de> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
