@@ -1,0 +1,9 @@
+PRETTY_NAME="Lernstick 11 (bullseye)"
+NAME="Lernstick"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=lernstick
+HOME_URL="https://lernstick.ch"
+SUPPORT_URL="https://lernstick.ch"
+BUG_REPORT_URL="https://https://github.com/Lernstick/lernstickAdvanced/issues"

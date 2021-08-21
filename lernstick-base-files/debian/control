@@ -1,0 +1,13 @@
+Source: lernstick-base-files
+Priority: optional
+Maintainer: Thore Sommer <mail@thson.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-base-files
+Architecture: all
+Depends: base-files
+Description: Override Debian specific identifiers with Lernstick
+ Some Debian packages detect on what platform they are running using 
+ dpkg-vendor or lsb_release, so we specify the correct Lernstick
+ configuration for that. 
