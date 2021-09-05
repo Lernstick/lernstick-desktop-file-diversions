@@ -1,3 +1,9 @@
+lernstick-gimp (4) lernstick-11; urgency=medium
+
+  * updated for Debian 11 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 05 Sep 2021 13:45:11 +0200
+
 lernstick-gimp (3) lernstick-9; urgency=medium
 
   * synced with GIMP 2.8.20

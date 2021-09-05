@@ -8,6 +8,8 @@ Standards-Version: 3.7.3
 Package: lernstick-gimp
 Architecture: all
 Depends: gimp
-Description: Change German translation of GenericName desktop file field
- We change the German translation of the GenericName desktop file field
- to match it with Pinta.
+Description: Adds a workaround to enable screenshots when using KDE
+ We add a workaround the following bug:
+ https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=915110
+ The idea was taken from here:
+ https://www.linuxquestions.org/questions/slackware-14/gimp-file-screenshot-4175668453/
