@@ -1,0 +1,12 @@
+Source: lernstick-wiredpanda
+Section: electronics
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-wiredpanda
+Architecture: all
+Depends: wiredpanda
+Description: Changes the menu entry of wiredpanda
+ We move wiredpanda from the menu category "Utility" to "Education". 
