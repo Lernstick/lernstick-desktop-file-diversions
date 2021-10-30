@@ -1,0 +1,13 @@
+Source: lernstick-filius
+Section: misc
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-filius
+Architecture: all
+Depends: filius
+Description: Changes the menu entry of filius
+ We use auto-gdk-scale to support HiDPI monitors and fix the Exec command line issue:
+ https://gitlab.com/filius1/filius/-/merge_requests/6
