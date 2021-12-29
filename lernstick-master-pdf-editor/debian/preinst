@@ -16,8 +16,8 @@ set -e
 case "$1" in
 	install|upgrade)
 		dpkg-divert --add --package lernstick-master-pdf-editor --rename --divert \
-			/usr/share/applications/net.code-industry.masterpdfeditor5.desktop.orig \
-			/usr/share/applications/net.code-industry.masterpdfeditor5.desktop
+			/usr/share/applications/masterpdfeditor5.desktop.orig \
+			/usr/share/applications/masterpdfeditor5.desktop
 	;;
 
 	abort-upgrade)
