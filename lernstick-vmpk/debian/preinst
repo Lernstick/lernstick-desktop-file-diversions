@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-vmpk --rename --divert \
-            /usr/share/applications/vmpk.desktop.orig \
-            /usr/share/applications/vmpk.desktop
+            /usr/share/applications/net.sourceforge.VMPK.desktop.orig \
+            /usr/share/applications/net.sourceforge.VMPK.desktop
     ;;
 
     abort-upgrade)

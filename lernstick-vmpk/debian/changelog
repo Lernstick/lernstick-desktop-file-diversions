@@ -1,3 +1,9 @@
+lernstick-vmpk (5) lernstick-11; urgency=medium
+
+  * update for v0.8.6
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 08 Feb 2022 16:08:27 +0100
+
 lernstick-vmpk (4) lernstick-8; urgency=medium
 
   * removed from the category "Music"
