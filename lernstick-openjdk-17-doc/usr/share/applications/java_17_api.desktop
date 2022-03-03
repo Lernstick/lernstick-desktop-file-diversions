@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Application;Development;Java;
+Exec=firefox /usr/share/doc/openjdk-17-jre-headless/api/index.html
+Icon=/usr/share/icons/java_17_api.png
+Name=Java 17 API
+Name[de]=Java-17-API
+Type=Application
