@@ -1,3 +1,10 @@
+lernstick-geogebra (15) lernstick-11; urgency=medium
+
+  * no longer divert the java binary, use custom internal Java 8 version
+    (GeoGebra is not yet compatible with the default Java 11) 
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 17 Mar 2022 17:02:15 +0100
+
 lernstick-geogebra (14) lernstick-10; urgency=medium
 
   * updated StartupWMClass in desktop file

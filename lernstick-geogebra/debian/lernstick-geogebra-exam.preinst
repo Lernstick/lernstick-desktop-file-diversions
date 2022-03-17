@@ -17,10 +17,6 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-geogebra-exam --rename --divert \
-            /usr/lib/jvm/java-geogebra/bin/java.orig \
-            /usr/lib/jvm/java-geogebra/bin/java
-
-        dpkg-divert --add --package lernstick-geogebra-exam --rename --divert \
             /usr/share/applications/geogebra.desktop.orig \
             /usr/share/applications/geogebra.desktop
     ;;
