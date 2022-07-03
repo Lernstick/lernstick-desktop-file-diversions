@@ -1,4 +1,6 @@
 Source: lernstick-base-files
+Section: admin
+Essential: yes
 Priority: optional
 Maintainer: Thore Sommer <mail@thson.de>
 Build-Depends: debhelper (>= 9)
