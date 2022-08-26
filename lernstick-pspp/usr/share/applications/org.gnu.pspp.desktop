@@ -1,10 +1,14 @@
 
-# org.fsf.pspp.desktop file is generated with gettext to add
-# translations. Edit org.fsf.pspp.desktop.in instead
+# org.gnu.pspp.desktop file is generated with gettext to add
+# translations. Edit org.gnu.pspp.desktop.in instead
 [Desktop Entry]
 # TRANSLATORS: This is the application name in the desktop file
+Name[ca]=GNU PSPP
 Name[de]=GNU PSPP
 Name[el]=GNU PSPP
+Name[es]=GNU PSPP
+Name[fr]=GNU PSPP
+Name[hu]=GNU PSPP
 Name[lt]=GNU PSPP
 Name[nl]=GNU PSPP
 Name[uk]=GNU PSPP
@@ -47,18 +51,17 @@ Comment[zh_CN]=替代SPSS的免费数据统计分析软件
 Comment=Analyze statistical data with a free alternative to SPSS
 Exec=psppire %F
 # TRANSLATORS: Do not translate this string. Keep it as is, verbatim.
-Icon[de]=pspp
-Icon[el]=pspp
-Icon[lt]=pspp
-Icon[nl]=pspp
-Icon[uk]=pspp
-Icon=pspp
+Icon=org.gnu.pspp
 Terminal=false
 Type=Application
 Categories=GTK;Science;Math;Education;
 # TRANSLATORS: You must keep all ";" - also at the end of line.
+Keywords[ca]=statistics;analysis;spss;
 Keywords[de]=Statistik;Analyse;spss;
 Keywords[el]=στατιστικές;ανάλυση;spss;
+Keywords[es]=statistics;analysis;spss;
+Keywords[fr]=statistics;analysis;spss;
+Keywords[hu]=statisztika;elemzés;spss;
 Keywords[lt]=statistika;analizė;spss;
 Keywords[nl]=statistieken;analyse;spss;
 Keywords[uk]=statistics;analysis;spss;статистика;аналіз;спсс;

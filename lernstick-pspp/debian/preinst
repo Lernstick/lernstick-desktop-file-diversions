@@ -16,8 +16,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-pspp --rename --divert \
-            /usr/share/applications/org.fsf.pspp.desktop.orig \
-            /usr/share/applications/org.fsf.pspp.desktop
+            /usr/share/applications/org.gnu.pspp.desktop.orig \
+            /usr/share/applications/org.gnu.pspp.desktop
     ;;
 
     abort-upgrade)
