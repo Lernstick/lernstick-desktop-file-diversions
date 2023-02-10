@@ -1,3 +1,10 @@
+lernstick-firefox-esr (2) lernstic-11; urgency=medium
+
+  * added PDF mimetypes to desktop file
+    (fixes https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1031041)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 10 Feb 2023 20:00:30 +0100
+
 lernstick-firefox-esr (1) lernstick-8; urgency=low
 
   * Initial release
