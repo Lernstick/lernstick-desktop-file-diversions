@@ -1,4 +1,4 @@
-lernstick-firefox-esr (2) lernstic-11; urgency=medium
+lernstick-firefox-esr (2) lernstick-11; urgency=medium
 
   * added PDF mimetypes to desktop file
     (fixes https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1031041)
