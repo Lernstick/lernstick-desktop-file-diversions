@@ -1,3 +1,9 @@
+lernstick-systemd (7) lernstick-11; urgency=medium
+
+  * use all available NTP servers in lernstick-rtc-config
+
+ -- Thore Sommer <mail@thson.de>  Sat, 18 Mar 2023 15:06:41 +0200
+
 lernstick-systemd (6) lernstick-10; urgency=medium
 
   * added postinst/prerm scripts to mask/unmask systemd-timesyncd

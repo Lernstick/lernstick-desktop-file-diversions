@@ -12,16 +12,16 @@ case $2	in
 			exit 0
 		fi
 
-		# get NTP server from timesyncd config
+		# get NTP servers from timesyncd config
+		NTP_SERVERS=""
 		for i in "NTP" "FallbackNTP" "#NTP" "#FallbackNTP"
 		do
-			NTP_SERVER="$(grep "^$i" "$TIMESYNCD_CONFIG" | sed "s/$i=//" | awk '{ print $1 }')"
-			[ -z "$NTP_SERVER" ] || break
+			NTP_SERVERS="$NTP_SERVERS $(grep "^$i" "$TIMESYNCD_CONFIG" | sed "s/$i=//")"
 		done
-		logger -t lernstick-rtc-config "NTP server : $NTP_SERVER"
+		logger -t lernstick-rtc-config "NTP servers : $NTP_SERVERS"
 
 		# configure RTC
-		DEVIATION="$(sntp "$NTP_SERVER" | grep "$NTP_SERVER" | awk '{ print $4 }' | awk -F. '{ print $1 }')"
+		DEVIATION="$(sntp "$NTP_SERVERS" | tail -n 1 | awk '{ print $4 }' | awk -F. '{ print $1 }')"
 		if [ -z "$DEVIATION" ]
 		then
 			logger -t lernstick-rtc-config "getting the clock deviation failed"
@@ -42,6 +42,6 @@ case $2	in
 		# Therefore, instead of calling
 		#systemctl start systemd-timesyncd
 		# we just run sntp once and hope that the drift of the RTC is not going to be noticed.
-		sntp -S "$NTP_SERVER"
+		sntp -S "$NTP_SERVERS"
 		;;
 esac
