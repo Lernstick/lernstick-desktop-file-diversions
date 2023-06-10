@@ -1,0 +1,12 @@
+Source: lernstick-libinput-quirks
+Section: misc
+Priority: optional
+Maintainer: Thore Sommer <mail@thson.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+
+Package: lernstick-libinput-quirks
+Architecture: all
+Depends: ${misc:Depends}
+Description: Quirks for libinput (Surface Laptop Studio).
