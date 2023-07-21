@@ -1,0 +1,4 @@
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/lernstick/simple.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/lernstick/simple.jpg'

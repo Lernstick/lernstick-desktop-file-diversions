@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Plymouth Theme for Lernstick based on the Debian 11 homeworld Theme
+Description=A theme inspired by the Bauhaus movement
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/homeworld-lernstick
+ScriptFile=/usr/share/plymouth/themes/homeworld-lernstick/homeworld-lernstick.script
