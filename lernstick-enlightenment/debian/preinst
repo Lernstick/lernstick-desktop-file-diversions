@@ -19,7 +19,10 @@ case "$1" in
         dpkg-divert --add --package lernstick-enlightenment --rename --divert \
             /usr/share/applications/emixer.desktop.orig \
             /usr/share/applications/emixer.desktop
-    ;;
+        dpkg-divert --add --package lernstick-enlightenment --rename --divert \
+            /usr/share/applications/enlightenment_paledit.desktop.orig \
+            /usr/share/applications/enlightenment_paledit.desktop
+   ;;
 
     abort-upgrade)
     ;;

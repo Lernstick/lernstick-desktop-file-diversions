@@ -1,3 +1,9 @@
+lernstick-enlightenment (2) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 01 Aug 2023 19:11:16 +0200
+
 lernstick-enlightenment (1) lernstick-10; urgency=medium
 
   * Initial release
