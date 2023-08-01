@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-ristretto --rename --divert \
-            /usr/share/applications/ristretto.desktop.orig \
-            /usr/share/applications/ristretto.desktop
+            /usr/share/applications/org.xfce.ristretto.desktop.orig \
+            /usr/share/applications/org.xfce.ristretto.desktop
     ;;
 
     abort-upgrade)
