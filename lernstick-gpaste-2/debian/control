@@ -1,0 +1,13 @@
+Source: lernstick-gpaste-2
+Section: gnome
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-gpaste-2
+Architecture: all
+Depends: gpaste-2
+Description: Hides the desktop entries for GPaste
+ The GPaste UI and settings are already easily accessible via its status icon.
+ Therefore these desktop entries are redundant and we just hide them.

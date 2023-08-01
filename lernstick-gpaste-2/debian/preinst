@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for lernstick-gpaste
+# preinst script for lernstick-gpaste-2
 #
 # see: dh_installdeb(1)
 
@@ -15,7 +15,10 @@ set -e
 
 case "$1" in
     install|upgrade)
-        dpkg-divert --add --package lernstick-gpaste --rename --divert \
+        dpkg-divert --add --package lernstick-gpaste-2 --rename --divert \
+            /usr/share/applications/org.gnome.GPaste.Preferences.desktop.orig \
+            /usr/share/applications/org.gnome.GPaste.Preferences.desktop
+        dpkg-divert --add --package lernstick-gpaste-2 --rename --divert \
             /usr/share/applications/org.gnome.GPaste.Ui.desktop.orig \
             /usr/share/applications/org.gnome.GPaste.Ui.desktop
     ;;

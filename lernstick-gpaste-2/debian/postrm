@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for lernstick-gpaste
+# postrm script for lernstick-gpaste-2
 #
 # see: dh_installdeb(1)
 
@@ -23,7 +23,10 @@ case "$1" in
     ;;
 
     remove|abort-install|disappear)
-        dpkg-divert --remove --package lernstick-gpaste --rename --divert \
+         dpkg-divert --remove --package lernstick-gpaste-2 --rename --divert \
+            /usr/share/applications/org.gnome.GPaste.Preferences.desktop.orig \
+            /usr/share/applications/org.gnome.GPaste.Preferences.desktop
+        dpkg-divert --remove --package lernstick-gpaste-2 --rename --divert \
             /usr/share/applications/org.gnome.GPaste.Ui.desktop.orig \
             /usr/share/applications/org.gnome.GPaste.Ui.desktop
     ;;
