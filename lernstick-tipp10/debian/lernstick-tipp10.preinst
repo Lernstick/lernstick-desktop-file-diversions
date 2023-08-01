@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-tipp10 --rename --divert \
-            /usr/share/applications/tipp10.desktop.orig \
-            /usr/share/applications/tipp10.desktop
+            /usr/share/applications/com.gitlab.tipp10.tipp10.desktop.orig \
+            /usr/share/applications/com.gitlab.tipp10.tipp10.desktop
     ;;
 
     abort-upgrade)
