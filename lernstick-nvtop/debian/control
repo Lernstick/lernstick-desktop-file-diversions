@@ -1,0 +1,15 @@
+Source: lernstick-nvtop
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper, config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-nvtop
+Architecture: all
+Depends: nvtop
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Hides the nvtop destkop file.
+ nvtop is a console only application. We don't want to have a desktop entry for
+ such applications.
