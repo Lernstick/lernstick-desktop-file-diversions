@@ -114,40 +114,44 @@ fi
 # synthesize voice
 case $VOICE in
 	de-DE)
-		SYNTHESIZER="pico"
-		VOLUME="55"
-		SPEED="${SPEED_DE:-100}"
-		PITCH="${PITCH_DE:-100}"
+		SYNTHESIZER="mimic3"
+		MIMIC3_VOICE="de_DE/thorsten_low"
+		#SYNTHESIZER="pico"
+		#VOLUME="55"
+		#SPEED="${SPEED_DE:-100}"
+		#PITCH="${PITCH_DE:-100}"
 		;;
 	en-US)
-		if systemctl is-active --quiet mozilla-tts-en
-		then
-			SYNTHESIZER="mozilla"
-			MOZILLA_TTS_PORT=5002
-		else
-			SYNTHESIZER="pico"
-			VOLUME="65"
-			SPEED="${SPEED_EN:-100}"
-			PITCH="${PITCH_EN:-100}"
-		fi
+		SYNTHESIZER="mimic3"
+		MIMIC3_VOICE="en_UK/apope_low"
+		#SYNTHESIZER="pico"
+		#VOLUME="65"
+		#SPEED="${SPEED_EN:-100}"
+		#PITCH="${PITCH_EN:-100}"
 		;;
 	es-ES)
-		SYNTHESIZER="pico"
-		VOLUME="60"
-		SPEED="${SPEED_ES:-100}"
-		PITCH="${PITCH_ES:-100}"
+		SYNTHESIZER="mimic3"
+		MIMIC3_VOICE="es_ES/m-ailabs_low"
+		#SYNTHESIZER="pico"
+		#VOLUME="60"
+		#SPEED="${SPEED_ES:-100}"
+		#PITCH="${PITCH_ES:-100}"
 		;;
 	fr-FR)
-		SYNTHESIZER="pico"
-		VOLUME="95"
-		SPEED="${SPEED_FR:-100}"
-		PITCH="${PITCH_FR:-100}"
+		SYNTHESIZER="mimic3"
+		MIMIC3_VOICE="fr_FR/siwis_low"
+		#SYNTHESIZER="pico"
+		#VOLUME="95"
+		#SPEED="${SPEED_FR:-100}"
+		#PITCH="${PITCH_FR:-100}"
 		;;
 	it-IT)
-		SYNTHESIZER="pico"
-		VOLUME="75"
-		SPEED="${SPEED_IT:-100}"
-		PITCH="${PITCH_IT:-100}"
+		SYNTHESIZER="mimic3"
+		MIMIC3_VOICE="it_IT/mls_low"
+		#SYNTHESIZER="pico"
+		#VOLUME="75"
+		#SPEED="${SPEED_IT:-100}"
+		#PITCH="${PITCH_IT:-100}"
 		;;
 esac
 WAV_FILE=/tmp/lernstick-say.wav
@@ -156,8 +160,8 @@ case $SYNTHESIZER in
 		pico2wave -w "$WAV_FILE" -l $VOICE "<volume level='$VOLUME'><speed level='$SPEED'><pitch level='$PITCH'>$TEXT</pitch></speed></volume>"
 		PLAY_OPTIONS="treble 20 bass -20"
 		;;
-	mozilla)
-		curl -G --output "$WAV_FILE" --data-urlencode "text=$TEXT" "http://localhost:${MOZILLA_TTS_PORT}/api/tts"
+	mimic3)
+		curl -G --output "$WAV_FILE" --data-urlencode "text=$TEXT" --data-urlencode "voice=$MIMIC3_VOICE" "http://localhost:59125/api/tts"
 		;;
 esac
 play -q $WAV_FILE $PLAY_OPTIONS 2>/dev/null

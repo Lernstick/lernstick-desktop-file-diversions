@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (17) lernstick-12; urgency=medium
+
+  * default to mimic3 voices
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 01 Aug 2023 15:28:06 +0200
+
 lernstick-speech-dispatcher (16) lernstick-10; urgency=medium
 
   * added initial (experimental) support for mozilla-tts docker version
