@@ -1,3 +1,9 @@
+lernstick-file-roller (5) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 01 Aug 2023 20:35:42 +0200
+
 lernstick-file-roller (4) lernstick-11; urgency=medium
 
   * updated for Debian 11
