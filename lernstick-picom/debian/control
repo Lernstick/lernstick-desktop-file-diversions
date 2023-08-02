@@ -1,0 +1,12 @@
+Source: lernstick-picom
+Section: x11
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-picom
+Architecture: all
+Depends: picom
+Description: Shows picom only when running MATE
+ We show picom only when running a MATE session.
