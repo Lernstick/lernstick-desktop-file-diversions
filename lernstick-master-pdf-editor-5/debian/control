@@ -1,0 +1,13 @@
+Source: lernstick-master-pdf-editor-5
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-master-pdf-editor-5
+Architecture: all
+Depends: master-pdf-editor-5
+Description: Changes the menu entry of master-pdf-editor-5
+ We remove the version number from the Name field and add a German translation
+ of the Comment field.

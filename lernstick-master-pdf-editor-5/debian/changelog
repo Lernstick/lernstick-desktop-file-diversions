@@ -1,3 +1,9 @@
+lernstick-master-pdf-editor-5 (6) lernstick-12; urgency=medium
+
+  * updated to new package name in Master PDF Editor v5.9.x
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 02 Aug 2023 16:11:43 +0200
+
 lernstick-master-pdf-editor (5) lernstick-11; urgency=medium
 
   * updated to newer desktop file name in Master PDF Editor v5.8.x
