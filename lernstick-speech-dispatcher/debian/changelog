@@ -1,3 +1,9 @@
+lernstick-speech-dispatcher (18) lernstick-12; urgency=medium
+
+  * default to piper
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 05 Aug 2023 19:15:11 +0200
+
 lernstick-speech-dispatcher (17) lernstick-12; urgency=medium
 
   * default to mimic3 voices

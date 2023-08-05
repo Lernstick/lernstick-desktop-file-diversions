@@ -1,8 +1,0 @@
-[Unit]
-Description=Run Mimic 3 web server
-
-[Service]
-ExecStart=/usr/bin/mimic3-server
-
-[Install]
-WantedBy=default.target

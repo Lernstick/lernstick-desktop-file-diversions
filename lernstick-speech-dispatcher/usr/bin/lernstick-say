@@ -114,40 +114,46 @@ fi
 # synthesize voice
 case $VOICE in
 	de-DE)
-		SYNTHESIZER="mimic3"
-		MIMIC3_VOICE="de_DE/thorsten_low"
+		SYNTHESIZER="piper"
+		PIPER_MODEL="de_DE-thorsten-medium"
+		PIPER_RATE=22050
 		#SYNTHESIZER="pico"
 		#VOLUME="55"
 		#SPEED="${SPEED_DE:-100}"
 		#PITCH="${PITCH_DE:-100}"
 		;;
 	en-US)
-		SYNTHESIZER="mimic3"
-		MIMIC3_VOICE="en_UK/apope_low"
+		SYNTHESIZER="piper"
+		PIPER_MODEL="en_GB-alba-medium"
+		#PIPER_MODEL="en_US-amy-medium"
+		PIPER_RATE=22050
 		#SYNTHESIZER="pico"
 		#VOLUME="65"
 		#SPEED="${SPEED_EN:-100}"
 		#PITCH="${PITCH_EN:-100}"
 		;;
 	es-ES)
-		SYNTHESIZER="mimic3"
-		MIMIC3_VOICE="es_ES/m-ailabs_low"
+		SYNTHESIZER="piper"
+		PIPER_MODEL="es_ES-sharvard-medium"
+		PIPER_RATE=22050
 		#SYNTHESIZER="pico"
 		#VOLUME="60"
 		#SPEED="${SPEED_ES:-100}"
 		#PITCH="${PITCH_ES:-100}"
 		;;
 	fr-FR)
-		SYNTHESIZER="mimic3"
-		MIMIC3_VOICE="fr_FR/siwis_low"
+		SYNTHESIZER="piper"
+		PIPER_MODEL="fr_FR-siwis-medium"
+		PIPER_RATE=22050
 		#SYNTHESIZER="pico"
 		#VOLUME="95"
 		#SPEED="${SPEED_FR:-100}"
 		#PITCH="${PITCH_FR:-100}"
 		;;
 	it-IT)
-		SYNTHESIZER="mimic3"
-		MIMIC3_VOICE="it_IT/mls_low"
+		SYNTHESIZER="piper"
+		PIPER_MODEL="it_IT-riccardo-x_low"
+		PIPER_RATE=16000
 		#SYNTHESIZER="pico"
 		#VOLUME="75"
 		#SPEED="${SPEED_IT:-100}"
@@ -158,13 +164,12 @@ WAV_FILE=/tmp/lernstick-say.wav
 case $SYNTHESIZER in
 	pico)
 		pico2wave -w "$WAV_FILE" -l $VOICE "<volume level='$VOLUME'><speed level='$SPEED'><pitch level='$PITCH'>$TEXT</pitch></speed></volume>"
-		PLAY_OPTIONS="treble 20 bass -20"
+		play -q $WAV_FILE treble 20 bass -20 2>/dev/null
+		rm $WAV_FILE
 		;;
-	mimic3)
-		curl -G --output "$WAV_FILE" --data-urlencode "text=$TEXT" --data-urlencode "voice=$MIMIC3_VOICE" "http://localhost:59125/api/tts"
+	piper)
+		echo "$TEXT" | /usr/lib/piper/piper -m /usr/share/piper-voices/${PIPER_MODEL}.onnx --output-raw | aplay -r $PIPER_RATE -f S16_LE -t raw -
 		;;
 esac
-play -q $WAV_FILE $PLAY_OPTIONS 2>/dev/null
 
-# cleanup
-rm $WAV_FILE
+

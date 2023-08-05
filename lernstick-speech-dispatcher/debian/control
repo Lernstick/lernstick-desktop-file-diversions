@@ -7,12 +7,12 @@ Standards-Version: 3.7.3
 
 Package: lernstick-speech-dispatcher
 Architecture: all
-Depends: lernstick-tika-server, curl, libttspico-utils, orca, sox, speech-dispatcher-pico, xsel, mycroft-mimic3-tts
+Depends: lernstick-tika-server, curl, libttspico-utils, orca, sox, speech-dispatcher-pico, xsel, lernstick-piper
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: reconfigures speech-dispatcher to use pico as default
+Description: reconfigures speech-dispatcher to use piper as default
  The default tts engine of speech-dispatcher (espeak) sounds really terrible.
- Therefore we change the default to mimic3 and keep pico as a fallback if
+ Therefore we change the default to piper and keep pico as a fallback if
  better normalization is needed. We also use the play command of sox to improve
  the dull output quality of pico. We also use the Apache Tika app to
  auto-detect the language of the text to speak.
