@@ -239,8 +239,8 @@ fun StringToInteger (str) {
 
 #-----------------------------------------------------------------------------
 
-Window.SetBackgroundTopColor (1, 1, 1);    
-Window.SetBackgroundBottomColor (1, 1, 1);
+Window.SetBackgroundTopColor (0.82, 0.88, 0.91);    
+Window.SetBackgroundBottomColor (0.82, 0.88, 0.91);
 
 bits_per_pixel = Window.GetBitsPerPixel ();
 password_dot_filename = "password_dot.png";
