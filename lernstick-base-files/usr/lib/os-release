@@ -1,8 +1,8 @@
-PRETTY_NAME="Lernstick 11 (bullseye)"
+PRETTY_NAME="Lernstick 12 (bookworm)"
 NAME="Lernstick"
-VERSION_ID="11"
-VERSION="11 (bullseye)"
-VERSION_CODENAME=bullseye
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
 ID=lernstick
 HOME_URL="https://lernstick.ch"
 SUPPORT_URL="https://lernstick.ch"
