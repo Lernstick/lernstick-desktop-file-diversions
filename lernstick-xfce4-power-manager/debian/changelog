@@ -1,3 +1,9 @@
+lernstick-xfce4-power-manager (7) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 19 Aug 2023 14:30:10 +0200
+
 lernstick-xfce4-power-manager (6) lernstick-11; urgency=medium
 
   * updated for Debian 11
