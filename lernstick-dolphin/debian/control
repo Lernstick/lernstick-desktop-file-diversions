@@ -9,6 +9,4 @@ Package: lernstick-dolphin
 Architecture: all
 Depends: dolphin
 Description: Changes menu entries of dolphin
- Adds a menu entry to start dolphin via kdesudo (not shown in desktop
- environments that have their own solution like GNOME, Cinnamon and MATE) and
- shows dolphin only in KDE.
+ Shows dolphin only in KDE.
