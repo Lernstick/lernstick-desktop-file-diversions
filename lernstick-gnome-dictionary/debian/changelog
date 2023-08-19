@@ -1,3 +1,9 @@
+lernstick-gnome-dictionary (3) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 19 Aug 2023 23:18:26 +0200
+
 lernstick-gnome-dictionary (2) lernstick-9; urgency=medium
 
   * adapted to Debian 9
