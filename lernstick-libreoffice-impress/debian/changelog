@@ -1,3 +1,9 @@
+lernstick-libreoffice-impress (7) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 19 Aug 2023 22:23:22 +0200
+
 lernstick-libreoffice-impress (6) lernstick-10; urgency=medium
 
   * updated to Debian 10
