@@ -1,3 +1,9 @@
+lernstick-xarchiver (4) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 20:04:58 +0200
+
 lernstick-xarchiver (3) lernstick-10; urgency=medium
 
   * updated for Debian 10
