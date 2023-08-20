@@ -1,3 +1,9 @@
+lernstick-kmines (2) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 13:44:02 +0200
+
 lernstick-kmines (1) lernstick-9; urgency=low
 
   * Initial release
