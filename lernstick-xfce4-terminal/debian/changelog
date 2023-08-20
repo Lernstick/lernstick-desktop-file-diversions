@@ -1,3 +1,9 @@
+lernstick-xfce4-terminal (6) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 20:32:19 +0200
+
 lernstick-xfce4-terminal (5) lernstick-11; urgency=medium
 
   * moved custom config entry to correct place in desktop file
