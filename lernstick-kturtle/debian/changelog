@@ -1,3 +1,9 @@
+lernstick-kturtle (5) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 14:24:37 +0200
+
 lernstick-kturtle (4) lernstick-9; urgency=medium
 
   * adapted to Debian 9
