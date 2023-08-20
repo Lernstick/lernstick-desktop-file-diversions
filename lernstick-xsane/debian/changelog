@@ -1,3 +1,9 @@
+lernstick-xsane (4) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 20:42:54 +0200
+
 lernstick-xsane (3) lernstick-9; urgency=medium
 
   * synced with Debian 9

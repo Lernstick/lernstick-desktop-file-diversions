@@ -1,21 +1,23 @@
 [Desktop Entry]
+Type=Application
 Name=XSane
 GenericName=Image scanning program
 GenericName[ca]=Programa d'escaneig d'imatges
 GenericName[de]=Scan-Programm
 GenericName[es]=Programa de escaneo de imágenes
 GenericName[fr]=Programme d'acquisition d'images
+GenericName[pt_BR]=Programa de Digitalização de Imagens XSane
 GenericName[ru]=Программа для сканирования изображений
 Comment=A program to work with scanner. Can be used as a scanning, copier, OCR, fax tools.
 Comment[ca]=Un programa per a treballar amb escànners. Es pot utilitzar com una eina d'escanejat, copiat, OCR i fax.
 Comment[de]=Ein Programm zum Arbeiten mit einem Scanner. Kann zum Scannen, Kopieren, Faxen oder zur Texterkennung verwendet werden.
 Comment[es]=Un programa para trabajar con escáners. Se puede utilizar como una herramienta para escanear, copiar, OCR y fax.
 Comment[fr]=Un programme d'acquisition d'images pour votre scanner. Peut également photocopier, faxer ou faire de la reconnaissance de caractères.
+Comment[pt_BR]=Um programa para trabalhar com digitalizadores de imagens (scanners). Pode ser utilizado para digitalizar, como ferramenta fax, e para fazer reconhecimento de texto.
 Comment[ru]=Программа для работы со сканером. Может быть использована в качестве копировального аппарата, факса, и др.
 Exec=xsane
 Icon=xsane
 Terminal=false
-Type=Application
 Categories=Application;Graphics;GTK;RasterGraphics;Scanning;OCR;2DGraphics;
 Keywords=scannerfrontend
 StartupNotify=true
