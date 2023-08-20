@@ -1,3 +1,9 @@
+lernstick-kpat (2) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 13:54:50 +0200
+
 lernstick-kpat (1) lernstick-9; urgency=low
 
   * Initial release
