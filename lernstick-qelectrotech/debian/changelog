@@ -1,3 +1,9 @@
+lernstick-qelectrotech (5) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 15:12:20 +0200
+
 lernstick-qelectrotech (4) lernstick-9; urgency=medium
 
   * synced with Debian 9
