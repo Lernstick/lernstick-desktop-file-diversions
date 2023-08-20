@@ -1,3 +1,9 @@
+lernstick-system-config-printer (4) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 18:41:40 +0200
+
 lernstick-system-config-printer (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
