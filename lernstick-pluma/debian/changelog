@@ -1,3 +1,9 @@
+lernstick-pluma (4) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 15:07:23 +0200
+
 lernstick-pluma (3) lernstick-9; urgency=medium
 
   * synced with pluma version 1.18.3
