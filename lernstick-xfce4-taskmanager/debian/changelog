@@ -1,3 +1,9 @@
+lernstick-xfce4-taskmanager (5) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 20:27:31 +0200
+
 lernstick-xfce4-taskmanager (4) lernstick-11; urgency=medium
 
   * updated to Debian 11
