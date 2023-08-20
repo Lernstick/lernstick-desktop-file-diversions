@@ -1,3 +1,9 @@
+lernstick-ktouch (8) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 14:19:44 +0200
+
 lernstick-ktouch (7) lernstick-10; urgency=medium
 
   * fixed maintainer scripts
