@@ -1,3 +1,9 @@
+lernstick-thunar (7) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 19:47:59 +0200
+
 lernstick-thunar (6) lernstick-11; urgency=medium
 
   * updated thunar-settings.desktop file
