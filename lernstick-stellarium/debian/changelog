@@ -1,3 +1,9 @@
+lernstick-stellarium (9) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 14:57:31 +0200
+
 lernstick-stellarium (8) lernstick-11; urgency=medium
 
   * updated to Debian 11
