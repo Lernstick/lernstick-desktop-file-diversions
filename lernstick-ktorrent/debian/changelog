@@ -1,3 +1,9 @@
+lernstick-ktorrent (5) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 14:12:03 +0200
+
 lernstick-ktorrent (4) lernstick-10; urgency=medium
 
   * another maintainer script fix 
