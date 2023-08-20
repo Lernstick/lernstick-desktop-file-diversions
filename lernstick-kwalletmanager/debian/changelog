@@ -1,3 +1,9 @@
+lernstick-kwalletmanager (2) lernstick-12; urgency=medium
+
+  * updated to Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 14:29:02 +0200
+
 lernstick-kwalletmanager (1) lernstick-9; urgency=low
 
   * Initial release
