@@ -1,3 +1,9 @@
+lernstick-shotwell (3) lernstick-12; urgency=medium
+
+  * updated for Debian 12
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 20 Aug 2023 18:07:51 +0200
+
 lernstick-shotwell (2) lernstick-10; urgency=medium
 
   * updated for Debian 10
