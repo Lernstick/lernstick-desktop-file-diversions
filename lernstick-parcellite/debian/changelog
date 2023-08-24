@@ -1,3 +1,12 @@
+lernstick-parcellite (2) lernstick-12; urgency=medium
+
+  * hide xdg autostart file instead of displacing it
+    the displaced .desktop.lernstick-orig file is also evaluated by the new
+    systemd-xdg-autostart-generator, defeating the purpose of displacing it
+    in the first place, thank you systemd :-(
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 22 Aug 2023 08:44:57 +0200
+
 lernstick-parcellite (1) lernstick-11; urgency=low
 
   * Initial release
