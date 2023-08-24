@@ -1,4 +1,4 @@
-lernstick-systemd (8) lersntick-12; urgency=medium
+lernstick-systemd (8) lernstick-12; urgency=medium
 
   * fix bug with multiple NTP servers
 
