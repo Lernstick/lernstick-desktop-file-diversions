@@ -1,3 +1,9 @@
+lernstick-filius (2) lernstick-12; urgency=medium
+
+  * divert against Debian package instead of upstream package
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 08 Sep 2023 19:55:05 +0200
+
 lernstick-filius (1) lernstick-11; urgency=low
 
   * Initial release
