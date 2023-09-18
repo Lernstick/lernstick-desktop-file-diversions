@@ -1,0 +1,15 @@
+Source: lernstick-cinnamon-screensaver
+Section: x11
+Priority: optional
+Maintainer: Thore Sommer <mail@thson.de>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-cinnamon-screensaver
+Architecture: all
+Depends: cinnamon-screensaver (= 5.6.3-1)
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Enable password on lock screen in live session
+ The Cinnamon screensaver disables the password check if running
+ in a live session. We revert that change.
