@@ -16,8 +16,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-mousepad --rename --divert \
-            /usr/share/applications/mousepad.desktop.orig \
-            /usr/share/applications/mousepad.desktop
+            /usr/share/applications/org.xfce.mousepad.desktop.orig \
+            /usr/share/applications/org.xfce.mousepad.desktop
     ;;
 
     abort-upgrade)
