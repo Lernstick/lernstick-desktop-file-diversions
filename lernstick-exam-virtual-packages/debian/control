@@ -1,0 +1,17 @@
+Source: lernstick-exam-virtual-packages
+Section: misc
+Priority: optional
+Maintainer: Thore Sommer <mail@thson.de>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.8.1
+
+Package: lernstick-dictionary
+Architecture: all
+Provides: hunspell-dictionary, myspell-dictionary, aspell-dictionary, ispell-dictionary
+Description: provides package for virtual dictionary packages
+
+Package: lernstick-x-terminal-emulator
+Architecture: all
+Provides: x-terminal-emulator, gnome-console (= 42~beta)
+Conflicts: gnome-terminal, gnome-console
+Description: provides package dummy package for terminal dependencies
