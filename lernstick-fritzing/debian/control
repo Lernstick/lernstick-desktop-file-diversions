@@ -2,17 +2,14 @@ Source: lernstick-fritzing
 Section: electronics
 Priority: optional
 Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
-Build-Depends: debhelper (>= 9), config-package-dev
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
 Package: lernstick-fritzing
 Architecture: all
-Depends: fritzing
-Provides: ${diverted-files}
-Conflicts: ${diverted-files}
+Depends: fritzing, libngspice0-dev
 Description: Changes the fritzing destkop file.
  We add a German translation of the generic name. We also remove the category
  "Electronics" because the KDE start menu is too short for another category and
- unfortunately its size is hardcoded.
- We also set QT_AUTO_SCREEN_SCALE_FACTOR=0 in the startup script to fix
- https://github.com/imedias/lernstick-desktop-file-diversions/issues/3
+ unfortunately its size is hardcoded. We also add a dependency to
+ libngspice0-dev so that the simulation doesn't crash.

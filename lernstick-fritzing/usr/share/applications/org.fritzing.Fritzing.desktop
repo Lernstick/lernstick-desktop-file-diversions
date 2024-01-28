@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Fritzing
+GenericName=Electronic Design Automation software
+GenericName[de]=Entwurfsautomatisierung elektronischer Systeme
+GenericName[fi]=Elektroniikan suunnitteluohjelma
+GenericName[ru]=Программа проектирования электроники
+Comment=Create circuits and lay out printed circuit boards
+Comment[de]=Schaltungen erstellen und Leiterplatten entwerfen
+Comment[fi]=Suunnittele elektronisia kytkentöjä ja piirilevyjä
+Comment[ru]=Создавайте схемы и выкладывайте печатные платы
+Exec=fritzing %F
+Icon=fritzing
+Terminal=false
+Type=Application
+Categories=Development;IDE;
+Keywords=EDA;PCB;prototype;circuit;schematic;
+StartupNotify=true
+MimeType=application/x-fritzing-fz;application/x-fritzing-fzz;application/x-fritzing-fzp;application/x-fritzing-fzpz;application/x-fritzing-fzb;application/x-fritzing-fzbz;application/x-fritzing-fzm;

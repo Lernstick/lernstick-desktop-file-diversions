@@ -25,8 +25,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-fritzing --rename --divert \
-            /usr/share/applications/fritzing.desktop.orig \
-            /usr/share/applications/fritzing.desktop
+            /usr/share/applications/org.fritzing.Fritzing.desktop.orig \
+            /usr/share/applications/org.fritzing.Fritzing.desktop
     ;;
 
     *)

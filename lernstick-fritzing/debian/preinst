@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-fritzing --rename --divert \
-            /usr/share/applications/fritzing.desktop.orig \
-            /usr/share/applications/fritzing.desktop
+            /usr/share/applications/org.fritzing.Fritzing.desktop.orig \
+            /usr/share/applications/org.fritzing.Fritzing.desktop
     ;;
 
     abort-upgrade)
