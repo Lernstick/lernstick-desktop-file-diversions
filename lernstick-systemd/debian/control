@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-systemd
 Architecture: all
-Depends: awk, network-manager, sntp, systemd
+Depends: awk, network-manager, sntp, systemd, systemd-timesyncd
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Fixes time synchronization for Live systems

@@ -1,3 +1,10 @@
+lernstick-systemd (9) lernstick-12; urgency=medium
+
+  * added a dependency to systemd-timesyncd because we parse its config file
+    /etc/systemd/timesyncd.conf for the available NTP servers
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 19 Mar 2024 14:07:55 +0100
+
 lernstick-systemd (8) lernstick-12; urgency=medium
 
   * fix bug with multiple NTP servers
