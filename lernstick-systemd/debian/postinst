@@ -32,7 +32,7 @@ case "$1" in
 		# don't use systemctl mask systemd-timesyncd.service here because
 		# packages are installed in live-build's chroot where dbus and systemctl
 		# are not working...
-		ln -s /dev/null /etc/systemd/system/systemd-timesyncd.service
+		ln -sf /dev/null /etc/systemd/system/systemd-timesyncd.service
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)

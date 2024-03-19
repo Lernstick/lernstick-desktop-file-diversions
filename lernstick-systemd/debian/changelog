@@ -1,3 +1,9 @@
+lernstick-systemd (10) lernstick-12; urgency=medium
+
+  * don't fail in postinst script when symlink already exists
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Tue, 19 Mar 2024 14:16:37 +0100
+
 lernstick-systemd (9) lernstick-12; urgency=medium
 
   * added a dependency to systemd-timesyncd because we parse its config file
