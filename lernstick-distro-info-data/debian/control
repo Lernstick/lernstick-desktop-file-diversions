@@ -1,0 +1,13 @@
+Source: lernstick-distro-info-data
+Section: admin
+Essential: yes
+Priority: optional
+Maintainer: Thore Sommer <mail@thson.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.3
+
+Package: lernstick-distro-info-data
+Architecture: all
+Depends: distro-info-data
+Description: Add Lernstick information to distro-info
+ This mirrrors the current Debian information
