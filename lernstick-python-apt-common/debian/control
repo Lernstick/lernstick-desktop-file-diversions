@@ -1,6 +1,5 @@
 Source: lernstick-python-apt-common
 Section: admin
-Essential: yes
 Priority: optional
 Maintainer: Thore Sommer <mail@thson.de>
 Build-Depends: debhelper (>= 9)
@@ -8,6 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-python-apt-common
 Architecture: all
+Essential: yes
 Depends: python-apt-common
 Description: Add Lernstick configuration to python-apt
  This mirrrors the current Debian configuration
