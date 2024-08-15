@@ -1,8 +1,8 @@
-PRETTY_NAME="Lernstick 12 (bookworm)"
+PRETTY_NAME="Lernstick 13 (trixie)"
 NAME="Lernstick"
-VERSION_ID="12"
-VERSION="12 (bookworm)"
-VERSION_CODENAME=bookworm
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
 ID=lernstick
 HOME_URL="https://lernstick.ch"
 SUPPORT_URL="https://lernstick.ch"
