@@ -7,7 +7,8 @@ Standards-Version: 3.8.1
 
 Package: lernstick-dictionary
 Architecture: all
-Provides: hunspell-dictionary, myspell-dictionary, aspell-dictionary, ispell-dictionary
+Provides: hunspell-dictionary, myspell-dictionary, aspell-dictionary, ispell-dictionary, hunspell-en-gb
+Conflicts: hunspell-en-gb
 Description: provides package for virtual dictionary packages
 
 Package: lernstick-x-terminal-emulator

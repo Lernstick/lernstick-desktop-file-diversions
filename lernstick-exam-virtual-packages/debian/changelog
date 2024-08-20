@@ -1,3 +1,9 @@
+lernstick-exam-virtual-packages (2) lernstick-12; urgency=low
+
+  * Also make sure that hunspell-en-gb is not installed
+
+ -- Thore Sommer <mail@thson.de>  Thu, 15 Aug 2024 08:30:00 +0200
+
 lernstick-exam-virtual-packages (1) lernstick-12; urgency=low
 
   * Initial package version.
