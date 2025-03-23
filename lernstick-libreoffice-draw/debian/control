@@ -7,7 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-libreoffice-draw
 Architecture: all
-Depends: libreoffice-draw
+Depends: lernstick-libreoffice, libreoffice-draw
 Description: Removes the LibreOffice Draw menu entry
  We remove the LibreOffice Draw menu entry because we already have
  the LibreOffice menu entry for the whole office suite.
+ We use a wrapper script to prevent timeouts with LanguageTool server.
