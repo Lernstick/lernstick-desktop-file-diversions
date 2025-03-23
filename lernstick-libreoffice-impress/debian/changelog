@@ -1,3 +1,10 @@
+lernstick-libreoffice-impress (8) lernstick-12; urgency=medium
+
+  * use lernstick-libreoffice wrapper script to prevent timeouts with
+    LanguageTool server
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sun, 23 Mar 2025 14:05:20 +0100
+
 lernstick-libreoffice-impress (7) lernstick-12; urgency=medium
 
   * updated to Debian 12
