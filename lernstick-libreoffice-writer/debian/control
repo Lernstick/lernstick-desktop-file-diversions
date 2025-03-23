@@ -7,7 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-libreoffice-writer
 Architecture: all
-Depends: libreoffice-writer
+Depends: lernstick-libreoffice, libreoffice-writer
 Description: Removes the LibreOffice Writer menu entry
  We remove the LibreOffice Writer menu entry because we already have
  the LibreOffice menu entry for the whole office suite.
+ We use a wrapper script to prevent timeouts with LanguageTool server.
