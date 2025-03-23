@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# The LanguageTool server is automatically started by socket activation to save system ressources if it is not needed.
+# Unfortunately, it takes some time to start up and LibreOffice has a timeout of only 10 seconds when talking to the
+# LanguageTool server, see:
+# https://forum.languagetool.org/t/lt-premium-libreoffice-does-not-work/10732/17
+# https://github.com/LibreOffice/core/blob/master/lingucomponent/source/spellcheck/languagetool/languagetoolimp.cxx#L148
+# This leads to an ugly error message when we start typing the first letters in any LibreOffice document.
+#
+# Therefore, we kickstart the socket activation here with a simple curl command before starting LibreOffice itself
+# and hope that this gives the LanguageTool a long enough head start so that we no longer run into the timeout
+# in LibreOffice.
+
+if ! systemctl is-active --quiet lernstick-languagetool-server
+then
+	curl -s -d "language=en-US" -d "text=a simple test" http://localhost:8081/v2/check >/dev/null
+fi
+
+libreoffice "$@"

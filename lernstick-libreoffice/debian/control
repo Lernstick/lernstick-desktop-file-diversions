@@ -1,0 +1,19 @@
+Source: lernstick-libreoffice
+Section: editors
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-libreoffice
+Architecture: all
+Description: Adds a wrapper script for LanguageTool server
+ The LanguageTool server is automatically started by socket activation to save
+ system ressources if it is not needed. Unfortunately, it takes some time to
+ start up and LibreOffice has a timeout of only 10 seconds when talking to the
+ LanguageTool server. This leads to an ugly error message when we start typing
+ the first letters in any LibreOffice document.
+ Therefore, we kickstart the socket activation here with a simple curl command
+ before starting LibreOffice itself and hope that this gives the LanguageTool a
+ long enough head start so that we no longer run into the timeout in
+ LibreOffice.
