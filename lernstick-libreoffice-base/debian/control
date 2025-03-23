@@ -7,7 +7,8 @@ Standards-Version: 3.7.3
 
 Package: lernstick-libreoffice-base
 Architecture: all
-Depends: libreoffice-base
+Depends: lernstick-libreoffice, libreoffice-base
 Description: Removes the LibreOffice Base menu entry
  We remove the LibreOffice Base menu entry because we already have
  the LibreOffice menu entry for the whole office suite.
+ We use a wrapper script to prevent timeouts with LanguageTool server.
