@@ -7,10 +7,6 @@ Standards-Version: 3.7.3
 
 Package: lernstick-libreoffice-common
 Architecture: all
-Depends: libreoffice-common
-Description: Enforce GNOME user interface
- We enforce the GNOME user interface because the file dialog in the KDE
- user interface currently just sucks.
- See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=752230 for details.
- We also add a workaround for the following bug:
- https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=798591
+Depends: lernstick-libreoffice, libreoffice-common
+Description: Adds a wrapper srcipt to prevent timeouts with LanguageTool server
+ We use a wrapper script to prevent timeouts with LanguageTool server.
