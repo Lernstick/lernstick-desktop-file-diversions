@@ -42,7 +42,7 @@ case $2	in
 		# systemd-timesyncd messes up the RTC by setting it to system time. No idea why...
 		# Therefore, instead of calling
 		#systemctl start systemd-timesyncd
-		# we just run sntp once and hope that the drift of the RTC is not going to be noticed.
-		sntp -S $NTP_SERVERS
+		# we just run ntpdate once and hope that the drift of the RTC is not going to be noticed.
+		ntpdate $NTP_SERVERS
 		;;
 esac
