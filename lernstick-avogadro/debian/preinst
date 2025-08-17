@@ -16,8 +16,8 @@ set -e
 case "$1" in
 	install|upgrade)
 		dpkg-divert --add --package lernstick-avogadro --rename --divert \
-			/usr/share/applications/avogadro2.desktop.orig \
-			/usr/share/applications/avogadro2.desktop
+			/usr/share/applications/org.openchemistry.Avogadro2.desktop.orig \
+			/usr/share/applications/org.openchemistry.Avogadro2.desktop
 	;;
 
 	abort-upgrade)
