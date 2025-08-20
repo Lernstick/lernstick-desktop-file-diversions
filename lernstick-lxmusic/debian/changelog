@@ -1,3 +1,9 @@
+lernstick-lxmusic (2) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 Aug 2025 12:21:28 +0200
+
 lernstick-lxmusic (1) lernstick-8; urgency=medium
 
   * Initial release
