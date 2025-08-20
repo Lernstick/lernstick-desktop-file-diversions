@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-pavucontrol --rename --divert \
-            /usr/share/applications/pavucontrol.desktop.orig \
-            /usr/share/applications/pavucontrol.desktop
+            /usr/share/applications/org.pulseaudio.pavucontrol.desktop.orig \
+            /usr/share/applications/org.pulseaudio.pavucontrol.desktop
     ;;
 
     abort-upgrade)

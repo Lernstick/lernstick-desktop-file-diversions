@@ -1,3 +1,9 @@
+lernstick-pavucontrol (2) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 Aug 2025 12:59:30 +0200
+
 lernstick-pavucontrol (1) lernstick-8; urgency=low
 
   * Initial release
