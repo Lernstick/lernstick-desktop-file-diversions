@@ -17,8 +17,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-shotwell --rename --divert \
-            /usr/share/applications/shotwell.desktop.orig \
-            /usr/share/applications/shotwell.desktop
+            /usr/share/applications/org.gnome.Shotwell.desktop.orig \
+            /usr/share/applications/org.gnome.Shotwell.desktop
     ;;
 
     abort-upgrade)
