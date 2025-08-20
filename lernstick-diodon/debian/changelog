@@ -1,3 +1,9 @@
+lernstick-diodon (2) lernstick-13; urgency=medium
+
+  * also install customized autostart file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 Aug 2025 19:56:25 +0200
+
 lernstick-diodon (1) lernstick-13; urgency=low
 
   * Initial release
