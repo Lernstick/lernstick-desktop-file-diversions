@@ -1,0 +1,13 @@
+Source: lernstick-diodon
+Section: utils
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: lernstick-diodon
+Architecture: all
+Depends: diodon
+Description: Shows diodon only in LXDE
+ This package shows and autostarts diodon only in LXDE.
+ Other desktop environments have their own clipboard manager.
