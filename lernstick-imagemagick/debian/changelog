@@ -1,3 +1,9 @@
+lernstick-imagemagick (5) lernstick-13; urgency=medium
+
+  * fixed dependency
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 20 Aug 2025 12:47:01 +0200
+
 lernstick-imagemagick (4) lernstick-13; urgency=medium
 
   * update for Debian 13
