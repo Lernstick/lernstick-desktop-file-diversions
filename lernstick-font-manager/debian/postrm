@@ -24,8 +24,8 @@ case "$1" in
 
     remove|abort-install|disappear)
         dpkg-divert --remove --package lernstick-font-manager --rename --divert \
-            /usr/share/applications/org.gnome.FontManager.desktop.orig \
-            /usr/share/applications/org.gnome.FontManager.desktop
+            /usr/share/applications/com.github.FontManager.FontManager.desktop.orig \
+            /usr/share/applications/com.github.FontManager.FontManager.desktop
     ;;
 
     *)

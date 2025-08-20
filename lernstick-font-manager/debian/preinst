@@ -16,8 +16,8 @@ set -e
 case "$1" in
     install|upgrade)
         dpkg-divert --add --package lernstick-font-manager --rename --divert \
-            /usr/share/applications/org.gnome.FontManager.desktop.orig \
-            /usr/share/applications/org.gnome.FontManager.desktop
+            /usr/share/applications/com.github.FontManager.FontManager.desktop.orig \
+            /usr/share/applications/com.github.FontManager.FontManager.desktop
     ;;
 
     abort-upgrade)
