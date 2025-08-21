@@ -13,9 +13,9 @@
     <message>Authentication is required to run the Setup Utility for HP Printers</message>
     <message xml:lang="de">Um das Einrichtungswerkzeug für HP-Drucker zu starten, ist eine Anmeldung erforderlich</message>
     <defaults>
-      <allow_any>no</allow_any>
-      <allow_inactive>no</allow_inactive>
-      <allow_active>auth_admin</allow_active>
+      <allow_any>yes</allow_any>
+      <allow_inactive>yes</allow_inactive>
+      <allow_active>yes</allow_active>
     </defaults>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/hp-setup</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
