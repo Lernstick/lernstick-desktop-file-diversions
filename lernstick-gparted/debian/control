@@ -1,7 +1,7 @@
 Source: lernstick-gparted
 Section: gnome
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.3
 
@@ -9,6 +9,5 @@ Package: lernstick-gparted
 Architecture: all
 Depends: gparted
 Description: Changes the gparted desktop file
- We remove gparted from the settings desktop category. It is already in the
- system desktop category and this is enough. We also hide it when running a KDE
- session as we have partitionmanager there.
+ We hide gparted when running a KDE session as we have partitionmanager there.
+ We also add a polkit rule to be able to run it without a root password.

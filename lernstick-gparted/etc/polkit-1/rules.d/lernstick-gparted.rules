@@ -1,0 +1,5 @@
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.gnome.gparted") {
+        return polkit.Result.YES;
+    }
+});

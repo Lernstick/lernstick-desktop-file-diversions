@@ -1,3 +1,9 @@
+lernstick-gparted (4) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 21 Aug 2025 21:47:58 +0200
+
 lernstick-gparted (3) lernstick-10; urgency=medium
 
   * adapted to Debian 10
