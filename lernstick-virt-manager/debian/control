@@ -1,0 +1,13 @@
+Source: lernstick-virt-manager
+Section: admin
+Priority: optional
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 13)
+Standards-Version: 3.7.3
+
+Package: lernstick-virt-manager
+Architecture: all
+Depends: virt-manager
+Description: Enables managing of local virtualized systems
+ We add a polkit rule to enable managing of local virtualized systems without a
+ root passwort.
