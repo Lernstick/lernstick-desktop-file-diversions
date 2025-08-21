@@ -1,3 +1,9 @@
+lernstick-theme (3) lernstick-13; urgency=medium
+
+  * made wallpaper selectable in GNOME and KDE Plasma
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 21 Aug 2025 11:39:12 +0200
+
 lernstick-theme (2) lernstick-12; urgency=medium
 
   * Less bright background colors

@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "info@lernstick.ch",
+                "Name": "Lernstick team",
+                "Name[de]": "Lernstick-Team"
+            }
+        ],
+        "Id": "Lernstick",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Lernstick"
+    }
+}
