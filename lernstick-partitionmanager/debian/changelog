@@ -1,3 +1,9 @@
+lernstick-partitionmanager (7) lernstick-13; urgency=medium
+
+  * updated to Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 21 Aug 2025 22:16:26 +0200
+
 lernstick-partitionmanager (6) lernstick-12; urgency=medium
 
   * updated to Debian 12

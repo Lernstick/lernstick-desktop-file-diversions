@@ -1,7 +1,7 @@
 Source: lernstick-partitionmanager
 Section: admin
 Priority: optional
-Maintainer: Ronny Standtke <ronny.standtke@fhnw.ch>
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
@@ -9,4 +9,5 @@ Package: lernstick-partitionmanager
 Architecture: all
 Depends: partitionmanager
 Description: Changes the menu entry of partitionmanager
- We show partitionmanager only in KDE.
+ We show partitionmanager only in KDE and add a polkit rule to be able to use
+ it without a root password.
