@@ -1,3 +1,9 @@
+lernstick-theme (4) lernstick-13; urgency=medium
+
+  * removed deprecated compat file
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Thu, 21 Aug 2025 11:44:07 +0200
+
 lernstick-theme (3) lernstick-13; urgency=medium
 
   * made wallpaper selectable in GNOME and KDE Plasma
