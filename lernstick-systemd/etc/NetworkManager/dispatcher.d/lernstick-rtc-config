@@ -22,7 +22,7 @@ case $2	in
 
 
 		# configure RTC
-		DEVIATION="$(sntp $NTP_SERVERS | tail -n 1 | awk '{ print $4 }' | awk -F. '{ print $1 }')"
+		DEVIATION="$(ntpdig $NTP_SERVERS | tail -n 1 | awk '{ print $4 }' | awk -F. '{ print $1 }')"
 		if [ -z "$DEVIATION" ]
 		then
 			logger -t lernstick-rtc-config "getting the clock deviation failed"
@@ -42,7 +42,7 @@ case $2	in
 		# systemd-timesyncd messes up the RTC by setting it to system time. No idea why...
 		# Therefore, instead of calling
 		#systemctl start systemd-timesyncd
-		# we just run sntp once and hope that the drift of the RTC is not going to be noticed.
-		sntp -S $NTP_SERVERS
+		# we just run ntpdig once and hope that the drift of the RTC is not going to be noticed.
+		ntpdig -S $NTP_SERVERS
 		;;
 esac

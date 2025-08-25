@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-systemd
 Architecture: all
-Depends: awk, network-manager, sntp, systemd, systemd-timesyncd
+Depends: awk, network-manager, ntpsec-ntpdig, systemd, systemd-timesyncd
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Fixes time synchronization for Live systems
@@ -15,4 +15,4 @@ Description: Fixes time synchronization for Live systems
  package virtualbox-guest-utils is installed.
  We change this setting so that time synchronization is only disabled when
  running inside VirtualBox.
- For now we disable systemd-timesyncd and instead run sntp when needed.
+ For now we disable systemd-timesyncd and instead run ntpdig when needed.
