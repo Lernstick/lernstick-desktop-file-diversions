@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: lernstick-speech-dispatcher
 Architecture: all
-Depends: lernstick-tika-server, curl, libttspico-utils, orca, sox, speech-dispatcher-pico, xsel, lernstick-piper
+Depends: alsa-utils, lernstick-tika-server, curl, libttspico-utils, orca, sox, speech-dispatcher-pico, xsel, lernstick-piper
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: reconfigures speech-dispatcher to use piper as default
