@@ -23,4 +23,4 @@ Exec=terminology
 Icon=terminology
 Categories=System;TerminalEmulator;
 StartupWMClass=terminology
-NotShowIn=KDE;GNOME;Cinnamon;MATE;LXDE;XFCE;
+NotShowIn=KDE;GNOME;X-Cinnamon;MATE;LXDE;XFCE;

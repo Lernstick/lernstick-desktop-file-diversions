@@ -1,3 +1,9 @@
+lernstick-terminology (5) lernstick-13; urgency=medium
+
+  * updated to Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 08 Apr 2026 10:21:52 +0200
+
 lernstick-terminology (4) lernstick-12; urgency=medium
 
   * updated to Debian 12
