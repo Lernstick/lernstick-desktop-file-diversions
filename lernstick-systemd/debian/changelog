@@ -1,3 +1,9 @@
+lernstick-systemd (12) lernstick-13; urgency=medium
+
+  * replaced "sntp" with "ntpdate" in descriptions
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Wed, 08 Apr 2026 10:05:14 +0200
+
 lernstick-systemd (11) lernstick-13; urgency=medium
 
   * Update control

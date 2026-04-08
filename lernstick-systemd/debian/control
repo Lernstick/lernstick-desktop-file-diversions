@@ -15,4 +15,4 @@ Description: Fixes time synchronization for Live systems
  package virtualbox-guest-utils is installed.
  We change this setting so that time synchronization is only disabled when
  running inside VirtualBox.
- For now we disable systemd-timesyncd and instead run sntp when needed.
+ For now we disable systemd-timesyncd and instead run ntpdate when needed.
