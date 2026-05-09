@@ -1,3 +1,9 @@
+lernstick-xfce4-appfinder (6) lernstick-13; urgency=medium
+
+  * updated to Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 09 May 2026 19:46:43 +0200
+
 lernstick-xfce4-appfinder (5) lernstick-12; urgency=medium
 
   * updated to Debian 12
