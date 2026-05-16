@@ -11,4 +11,5 @@ Exec=calibre %U
 Icon=calibre-gui
 Categories=Office;
 X-GNOME-UsesNotifications=true
-MimeType=application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/x-mobipocket-ebook;application/x-ruby;application/vnd.ms-word.document.macroenabled.12;application/xhtml+xml;application/ereader;application/x-mobipocket-subscription;application/x-cbc;image/vnd.djvu;text/fb2+xml;application/oebps-package+xml;application/x-cbr;text/html;application/x-cbz;application/x-mobi8-ebook;text/x-markdown;application/epub+zip;text/rtf;application/x-cb7;text/plain;application/x-sony-bbeb;application/vnd.oasis.opendocument.text;application/pdf;x-scheme-handler/calibre;
+Keywords=epub;ebook;manager;
+MimeType=application/epub+zip;application/ereader;application/oebps-package+xml;application/pdf;application/vnd.ms-word.document.macroenabled.12;application/vnd.oasis.opendocument.text;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/x-cb7;application/x-cbc;application/x-cbr;application/x-cbz;application/x-mobi8-ebook;application/x-mobipocket-ebook;application/x-mobipocket-subscription;application/x-ruby;application/x-sony-bbeb;application/xhtml+xml;image/vnd.djvu;text/fb2+xml;text/html;text/plain;text/rtf;text/x-markdown;x-scheme-handler/calibre;

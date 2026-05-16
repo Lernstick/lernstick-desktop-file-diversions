@@ -1,3 +1,9 @@
+lernstick-calibre (7) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 19:57:58 +0200
+
 lernstick-calibre (6) lernstick-11; urgency=medium
 
   * updated for Debian 11
