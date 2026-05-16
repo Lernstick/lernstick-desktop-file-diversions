@@ -1,3 +1,9 @@
+lernstick-gnugo (2) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 17:03:54 +0200
+
 lernstick-gnugo (1) lernstick-8; urgency=low
 
   * Initial release

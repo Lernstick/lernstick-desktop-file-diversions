@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=GnuGo
-Exec=/usr/games/gnugo
+Exec=/usr/bin/gnugo
 Terminal=true
 Comment=Play Go against computer opponent
 Categories=Game;BoardGame;
