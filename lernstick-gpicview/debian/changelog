@@ -1,3 +1,9 @@
+lernstick-gpicview (4) lernstick-13; urgency=medium
+
+  * synced with Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 20:21:11 +0200
+
 lernstick-gpicview (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
