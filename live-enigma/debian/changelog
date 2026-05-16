@@ -1,3 +1,9 @@
+live-enigma (5) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 20:14:11 +0200
+
 live-enigma (4) lernstick-11; urgency=medium
 
   * updated for Debian 11
