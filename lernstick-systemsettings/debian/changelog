@@ -1,3 +1,9 @@
+lernstick-systemsettings (6) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 17:19:32 +0200
+
 lernstick-systemsettings (5) lernstick-10; urgency=medium
 
   * keep systemsettings desktop file visible in KDE
