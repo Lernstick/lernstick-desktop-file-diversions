@@ -1,3 +1,9 @@
+lernstick-klavaro (4) lernstick-13; urgency=medium
+
+  * synced with Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 20:28:53 +0200
+
 lernstick-klavaro (3) lernstick-9; urgency=medium
 
   * synced with Debian 9
