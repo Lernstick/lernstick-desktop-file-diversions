@@ -1,3 +1,9 @@
+lernstick-libreoffice-base (9) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 20:39:56 +0200
+
 lernstick-libreoffice-base (8) lernstick-12; urgency=medium
 
   * use lernstick-libreoffice wrapper script to prevent timeouts with
