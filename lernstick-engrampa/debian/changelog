@@ -1,3 +1,9 @@
+lernstick-engrampa (6) lernstick-13; urgency=medium
+
+  * updated for Debian 13
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 16 May 2026 20:07:57 +0200
+
 lernstick-engrampa (5) lernstick-12; urgency=medium
 
   * updated for Debian 12
