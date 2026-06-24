@@ -22,7 +22,7 @@ case $2	in
 
 
 		# configure RTC
-		DEVIATION="$(ntpdate -q $(cat $NTP_SERVERS) | awk '{print $4}' | awk -F. '{print $1}')"
+		DEVIATION="$(ntpdate -q $NTP_SERVERS | awk '{print $4}' | awk -F. '{print $1}')"
 		if [ -z "$DEVIATION" ]
 		then
 			logger -t lernstick-rtc-config "getting the clock deviation failed"
@@ -43,6 +43,6 @@ case $2	in
 		# Therefore, instead of calling
 		#systemctl start systemd-timesyncd
 		# we just run ntpdate once and hope that the drift of the RTC is not going to be noticed.
-		/usr/bin/ntpdate -b -u $NTP_SERVERS
+		/usr/sbin/ntpdate -b -u $NTP_SERVERS
 		;;
 esac
