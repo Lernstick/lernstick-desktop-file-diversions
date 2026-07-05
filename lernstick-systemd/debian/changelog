@@ -4,7 +4,7 @@ lernstick-systemd (13) lernstick-13; urgency=medium
 
  -- Jörg Berkel <joerg.berkel@bfh.ch>  Wed, 24 Jun 2026 15:37:33 +0200
  
- lernstick-systemd (12) lernstick-13; urgency=medium
+lernstick-systemd (12) lernstick-13; urgency=medium
 
   * replaced "sntp" with "ntpdate" in descriptions
 
