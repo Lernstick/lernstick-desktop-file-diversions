@@ -9,5 +9,4 @@ Package: lernstick-ksystemlog
 Architecture: all
 Depends: ksystemlog
 Description: Changes the desktop file of ksystemlog
- We show ksystemlog only in the menu if KDE is running, start it with kdesudo
- and don't ask for the root password.
+ We show ksystemlog only in the menu if KDE is running.
